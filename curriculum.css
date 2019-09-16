@@ -48,7 +48,7 @@ p{
 #menu li, 
 #toggle-menu, 
 #menu .sub-menu {
-  border-style: solid;
+  border-style: none;
   border-color: rgba(0, 0, 0, .05);
 }
 
@@ -155,7 +155,7 @@ p{
   }
 
   #menu li {
-    float: right;
+    float: left;
     border-width: 0 1px 0 0;
   }
 
@@ -191,7 +191,16 @@ p{
     display: block;
   }
 }
-
+.logo{
+	float: left; 
+	margin-top: 0px; 
+	margin-bottom: 5px; 
+}
+.logo:hover{
+	text-decoration: none; 
+	background-color: white;
+  	color: white;
+}
 /*Sidebar*/
 .button{
   border-radius: 8px;
@@ -367,9 +376,9 @@ th, td {
 }
 
 .button5 {
-	background-color: #48457A;
-	border: none;
-    color: white;
+	background-color: white;
+	border: 2px solid #48457A;
+    color: #48457A;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -377,7 +386,11 @@ th, td {
     font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
-	border-radius: 8px; 
+	border-radius: 3px; 
+}
+.button5:hover {
+  background-color: #48457A;
+  color: white;
 }
 
 .buttonNew {

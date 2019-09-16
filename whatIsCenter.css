@@ -56,7 +56,7 @@ p{
 #menu li, 
 #toggle-menu, 
 #menu .sub-menu {
-  border-style: solid;
+  border-style: none;
   border-color: rgba(0, 0, 0, .05);
 }
 
@@ -163,7 +163,7 @@ p{
   }
 
   #menu li {
-    float: right;
+    float: left;
     border-width: 0 1px 0 0;
   }
 
@@ -198,6 +198,16 @@ p{
   #menu li:hover > input[type="checkbox"] + .sub-menu {
     display: block;
   }
+}
+.logo{
+	float: left; 
+	margin-top: 0px; 
+	margin-bottom: 5px; 
+}
+.logo:hover{
+	text-decoration: none; 
+	background-color: white;
+  	color: white;
 }
 
 /*Sidebar*/
