@@ -6,10 +6,22 @@ h3{
 p{
 	color: #434648; 
 }
+
 .title{
 	color: #48457A;
 	margin-top: 100px; 
 	font-size: 40px; 
+}
+
+.subtitle{
+	color: #434648;
+	font-size: 25px; 
+}
+
+.description{
+	color: #48457A;
+	margin-top: 100px; 
+	font-size: 20px; 
 }
 /* Navigation */
 #menu ul {
