@@ -19,7 +19,7 @@ p{
 }
 .text{
 	color: #434648;
-	font-size: 20px; 
+	font-size: 16px; 
 	font-weight: 700; 
 }
 
@@ -369,7 +369,7 @@ table {
 }
 
 th, td {
-  padding: 40px;
+  padding: 20px;
   text-align: left;
   border-bottom: 1px solid #ddd;
   box-shadow: 0px 5px 5px #f2f2f2;
