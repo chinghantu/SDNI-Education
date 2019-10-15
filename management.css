@@ -1,5 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
+.center {
+	display: block;
+	margin-top: 100px; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 .person{
 	margin-top: 100px; 
     display: block;
