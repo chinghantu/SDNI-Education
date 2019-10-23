@@ -412,3 +412,9 @@ th, td {
 .text:hover{
 	color: #48457A;
 }
+
+/*Footer*/
+.maxWidth{
+	width: 100%;
+}
+

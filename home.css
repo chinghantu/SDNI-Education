@@ -4,9 +4,12 @@ body, html {
   height: 100%;
   margin: 0;
 }
+.margin{
+	margin-top: 300px; 
+}
 h1{
 	font-size: 100px; 
-	margin-top: 100px; 
+	margin-top: 300px; 
 	margin-left: 100px; 
 	color: #6D7BBC; 
 }
@@ -214,7 +217,7 @@ p{
 }
 .bg {
   /* The image used */
-  background-image: url("Image/homeBackground3.png");
+  background-image: url("Image/homeBackground1.png");
 
   /* Full height */
   height: 100%; 
@@ -235,4 +238,9 @@ p{
     font-size: 10px;
     cursor: pointer;
 	border-radius: 3px; 
+}
+
+/*Footer*/
+.maxWidth{
+	width: 100%;
 }

@@ -382,3 +382,8 @@ p{
   background-color: #48457A;
   color: white;
 }
+
+/*Footer*/
+.maxWidth{
+	width: 100%;
+}
