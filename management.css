@@ -292,3 +292,7 @@ hr.line1{
   opacity: 1;
   right: 0;
 }
+/*Footer*/
+.maxWidth{
+	width: 100%;
+}
