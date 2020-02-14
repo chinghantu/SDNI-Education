@@ -90,7 +90,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'nt2025')} href="">NanoTech 2025 Project</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', '2dt')} href="">2-Day Training</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'r-sem')} href="">Remote SEM</a></li>
-                                    <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'oi')} href="">Outreach Impact</a></li>
+                                    <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'oi')} href="">Seed Grants</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Events
