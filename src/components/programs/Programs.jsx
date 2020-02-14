@@ -359,7 +359,6 @@ const R_SEM = (
 )
 
 const SG = (
-    // <p className="description"><b>THIS SECTION IS UNDER CONSTRUCTION.</b></p>
     <div>
         <p className="title"><b>Seed Grants</b></p>
         <p>
@@ -398,8 +397,9 @@ const SG = (
 class Programs extends Component {
     constructor(props) {
         super(props)
+        const { title } = this.props.location.state;
         this.state = {
-            title: props.title == null ? 'k12' : props.title,
+            title: title == null ? 'k12' : title,
             renderHtml: K12
         }
     }

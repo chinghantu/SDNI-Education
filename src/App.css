@@ -391,6 +391,14 @@ h3 {
   right: 0;
 }
 
+.staff-name, .staff-title {
+  text-align: center;
+}
+
+.staff-title {
+  color: #9FA3A7;
+}
+
 .center {
   display: block;
   margin-top: 100px;

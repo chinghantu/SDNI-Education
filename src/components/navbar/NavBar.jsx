@@ -4,7 +4,7 @@ import { Redirect } from 'react-router-dom';
 import sdniLogo from '../../assets/Image/sdniLogo.jpg'
 import logo from '../../assets/Image/logo.png'
 
-const allRoutes = ['/about', '/programs', '/events', '/news', '/donate', '/seed_grants', '/networking'];
+const allRoutes = ['/about', '/programs', '/events', '/news', '/donate', '/outreach', '/networking'];
 
 class NavBar extends Component {
 
@@ -116,7 +116,7 @@ class NavBar extends Component {
                                 </ul>
                             </li>
                             <li><a onClick={(e) => this.handleRedirect(e, '/donate', '')} href="">Donate</a></li>
-                            <li><a onClick={(e) => this.handleRedirect(e, '/seed_grants', '')} href="">Seed Grants</a></li>
+                            <li><a onClick={(e) => this.handleRedirect(e, '/outreach', '')} href="">Outreach Impact</a></li>
                             <li><a onClick={(e) => this.handleRedirect(e, '/networking', '')} href="">Networking</a></li>
                             <li><a href="#">Get Involved
                         <span className="drop-icon">▾</span>

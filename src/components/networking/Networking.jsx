@@ -27,51 +27,53 @@ class Networking extends Component {
                                 <br /><br />
                             </p>
                             <table>
-                                <tr>
-                                    <td width="100%" className="text"><a href="https://www.nnci.net/sites/cns">Center for Nanoscale Systems (CNS)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/cnf">Cornell Nanoscale Science and Technology Facility (CNF)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/view-all">Kentucky Multi-Scale Manufacturing and Nano Integration Node (KY MMNIN)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/manth">Mid-Atlantic Nanotechnology Hub (MANTH)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/minic">Mid-West Nanotechnology Infrastructure Corridor (MINIC) </a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/mont">Montana Nanotechnology Facility (MONT)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/nanostanford">Nano@Stanford</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/nci-sw">Nanotechnology Collaborative Infrastructure Southwest (NCI-SW)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/nnf">Nebraska Nanoscale Facility (NNF)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/nni">Northwest Nanotechnology Infrastructure (NNI)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/rtnn">Research Triangle Nanotechnology Network (RTNN)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/shyne-resource">Soft and Hybrid Nanotechnology Experimental (SHyNE) Resource</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/senic">Southeastern Nanotechnology Infrastructure Corridor (SENIC)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href="https://www.nnci.net/sites/tnf">Texas Nanofabrication Facility (TNF)</a></td>
-                                </tr>
-                                <tr>
-                                    <td className="text"><a href=" https://www.nnci.net/sites/nanoearth">Virginia Tech National Center for Earth and Environmental Nanotechnology Infrastructure (NanoEarth)</a></td>
-                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td width="100%" className="text"><a href="https://www.nnci.net/sites/cns">Center for Nanoscale Systems (CNS)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/cnf">Cornell Nanoscale Science and Technology Facility (CNF)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/view-all">Kentucky Multi-Scale Manufacturing and Nano Integration Node (KY MMNIN)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/manth">Mid-Atlantic Nanotechnology Hub (MANTH)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/minic">Mid-West Nanotechnology Infrastructure Corridor (MINIC) </a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/mont">Montana Nanotechnology Facility (MONT)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/nanostanford">Nano@Stanford</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/nci-sw">Nanotechnology Collaborative Infrastructure Southwest (NCI-SW)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/nnf">Nebraska Nanoscale Facility (NNF)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/nni">Northwest Nanotechnology Infrastructure (NNI)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/rtnn">Research Triangle Nanotechnology Network (RTNN)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/shyne-resource">Soft and Hybrid Nanotechnology Experimental (SHyNE) Resource</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/senic">Southeastern Nanotechnology Infrastructure Corridor (SENIC)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href="https://www.nnci.net/sites/tnf">Texas Nanofabrication Facility (TNF)</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td className="text"><a href=" https://www.nnci.net/sites/nanoearth">Virginia Tech National Center for Earth and Environmental Nanotechnology Infrastructure (NanoEarth)</a></td>
+                                    </tr>
+                                </tbody>
                             </table>
                             <p>
                                 <br /><br />

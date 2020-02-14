@@ -208,8 +208,9 @@ class Event extends Component {
     constructor(props) {
         super(props)
         this.path = '/events'
+        const { title } = this.props.location.state;
         this.state = {
-            title: props.title == null ? 'ca' : props.title,
+            title: title == null ? 'ca' : title,
             data: []
         }
     }
