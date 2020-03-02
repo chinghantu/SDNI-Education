@@ -12,6 +12,8 @@ import Donate from './components/donate/Donate';
 import Networking from './components/networking/Networking';
 import Outreach from './components/outreach/Outreach';
 
+import Error404 from './components/404/404';
+
 function App() {
   return (
     <Router history={history}>
@@ -23,6 +25,7 @@ function App() {
       <Route exact path='/donate' render={(props) => <Donate {...props} />} />
       <Route exact path='/networking' render={(props) => <Networking {...props} />} />
       <Route exact path='/outreach' render={(props) => <Outreach {...props} />} />
+      <Route path='/*' render={(props) => <Error404 {...props} />}  />
     </Router>
 
   );

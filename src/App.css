@@ -643,3 +643,21 @@ td {
 /* Networking page */
 
 /* Seed Grants page */
+
+
+/* 404 page */
+.container404 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.errMsg404 {
+  color: black;
+  font-weight: bold;
+}
+
+.link404 {
+  text-align: center;
+}

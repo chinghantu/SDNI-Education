@@ -452,7 +452,7 @@ class Programs extends Component {
                 <div className="container1">
                     <div className="row">
                         <div className="col-sm-3 sidebar">
-                            <button onClick={() => this.handleChangeTab('2dt')} className={this.state.title == 'k12' ? "button1" : "button"}><span>K-12 Curriculum</span></button>
+                            <button onClick={() => this.handleChangeTab('k12')} className={this.state.title == 'k12' ? "button1" : "button"}><span>K-12 Curriculum</span></button>
                             <button onClick={() => this.handleChangeTab('cc')} className={this.state.title == 'cc' ? "button1" : "button"}><span>College Curriculum</span></button>
                             <button onClick={() => this.handleChangeTab('ret')} className={this.state.title == 'ret' ? "button1" : "button"}><span>RET</span></button>
                             <button onClick={() => this.handleChangeTab('reu')} className={this.state.title == 'reu' ? "button1" : "button"}><span>REU</span></button>
