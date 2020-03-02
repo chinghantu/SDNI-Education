@@ -21,17 +21,18 @@ class NavBar extends Component {
     }
 
     componentDidMount() {
-        
     }
 
     handleRedirect = (e, path, param) => {
+        console.log(path, this.path)
         e.preventDefault()
         if (!allRoutes.includes(path)) {
             console.log('Invalid route');
             return;
         }
         if (path == this.path) {
-            this.props.handler(param);
+            let { handler } = this.props;
+            if (handler) { handler(param); }
             return;
         }
         this.setState({
@@ -90,7 +91,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'nt2025')} href="">NanoTech 2025 Project</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', '2dt')} href="">2-Day Training</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'r-sem')} href="">Remote SEM</a></li>
-                                    <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'oi')} href="">Seed Grants</a></li>
+                                    <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'sg')} href="">Seed Grants</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Events
@@ -116,7 +117,7 @@ class NavBar extends Component {
                                 </ul>
                             </li>
                             <li><a onClick={(e) => this.handleRedirect(e, '/donate', '')} href="">Donate</a></li>
-                            <li><a onClick={(e) => this.handleRedirect(e, '/outreach', '')} href="">Outreach Impact</a></li>
+                            <li><a onClick={(e) => this.handleRedirect(e, '/outreach', '')} href="">Outreach</a></li>
                             <li><a onClick={(e) => this.handleRedirect(e, '/networking', '')} href="">Networking</a></li>
                             <li><a href="#">Get Involved
                         <span className="drop-icon">▾</span>

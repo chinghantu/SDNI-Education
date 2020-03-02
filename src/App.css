@@ -14,6 +14,7 @@ h1 {
 
 h3 {
   color: grey;
+  font-weight: bold;
 }
 
 /* Navigation */
@@ -286,12 +287,53 @@ h3 {
 }
 
 .bg-content > div {
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
 #home-wrapper {
   height: 100vh;
 }
+
+.banner-item {
+  position: relative
+}
+
+.banner1-img-inner-container {
+  position: absolute;
+  width: 100%;
+  bottom: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner1-btn, .banner2-btn {
+  background-color: #ff914d;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.banner1-btn {
+  margin-left: 30%;
+}
+
+.banner2-img-inner-container {
+  position: absolute;
+  width: 100%;
+  bottom: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-btn-text {
+  color: white;
+  font-weight: 800;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
 
 /*Footer*/
 .maxWidth {
@@ -574,6 +616,10 @@ td {
 
 
 /* News page */
+
+.hidden {
+  display: none;
+}
 
 .read-more-button {
   background-color: #3b74ec;

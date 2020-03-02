@@ -397,7 +397,11 @@ const SG = (
 class Programs extends Component {
     constructor(props) {
         super(props)
-        const { title } = this.props.location.state;
+        let { state } = this.props.location;
+        let title = null;
+        if (state) {
+            title = state.title
+        }
         this.state = {
             title: title == null ? 'k12' : title,
             renderHtml: K12
