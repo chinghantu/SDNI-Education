@@ -404,7 +404,7 @@ class Programs extends Component {
         }
         this.state = {
             title: title == null ? 'k12' : title,
-            renderHtml: K12
+            renderHtml: title == null ? K12 : this.handleChangeRenderHtml(title),
         }
     }
 
