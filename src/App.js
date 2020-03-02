@@ -17,6 +17,7 @@ import Error404 from './components/404/404';
 function App() {
   return (
     <Router history={history}>
+      <Switch>
       <Route exact path='/' render={(props) => <Home {...props} />} />
       <Route exact path='/about' render={(props) => <About {...props} />} />
       <Route exact path='/programs' render={(props) => <Programs {...props} />} />
@@ -25,7 +26,8 @@ function App() {
       <Route exact path='/donate' render={(props) => <Donate {...props} />} />
       <Route exact path='/networking' render={(props) => <Networking {...props} />} />
       <Route exact path='/outreach' render={(props) => <Outreach {...props} />} />
-      <Route path='/*' render={(props) => <Error404 {...props} />}  />
+      <Route path='*' exact={true} component={Error404} />
+      </Switch>
     </Router>
 
   );
