@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import history from './history';
 
 import Home from './components/home/Home'
 import About from './components/about/About'
@@ -13,7 +14,7 @@ import Outreach from './components/outreach/Outreach';
 
 function App() {
   return (
-    <Router>
+    <Router history={history}>
       <Route exact path='/' render={(props) => <Home {...props} />} />
       <Route exact path='/about' render={(props) => <About {...props} />} />
       <Route exact path='/programs' render={(props) => <Programs {...props} />} />

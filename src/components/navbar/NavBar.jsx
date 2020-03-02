@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
-
+import history from '../../history'
 import sdniLogo from '../../assets/Image/sdniLogo.jpg'
 import logo from '../../assets/Image/logo.png'
 
@@ -46,6 +46,7 @@ class NavBar extends Component {
 
     render() {
         if (this.state.doRedirect) {
+            history.push(this.state.redirect.pathname);
             return (
                 <Redirect to={
                     {
@@ -66,7 +67,7 @@ class NavBar extends Component {
                             <a href="/"><img src={logo} height="40" id="logo" /></a>
                         </div>
                         <div className="tabs">
-                            <li><a href="">About
+                            <li><a onClick={(e) => {e.preventDefault()}} href="">About
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>
@@ -76,7 +77,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/about', 'management')} href="">Management</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Programs
+                            <li><a onClick={(e) => {e.preventDefault()}} href="#">Programs
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>
@@ -94,7 +95,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'sg')} href="">Seed Grants</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Events
+                            <li><a onClick={(e) => {e.preventDefault()}} href="#">Events
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>
@@ -105,7 +106,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/events', 'global')} href="">International</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">News
+                            <li><a onClick={(e) => {e.preventDefault()}} href="#">News
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>
@@ -119,7 +120,7 @@ class NavBar extends Component {
                             <li><a onClick={(e) => this.handleRedirect(e, '/donate', '')} href="">Donate</a></li>
                             <li><a onClick={(e) => this.handleRedirect(e, '/outreach', '')} href="">Outreach</a></li>
                             <li><a onClick={(e) => this.handleRedirect(e, '/networking', '')} href="">Networking</a></li>
-                            <li><a href="#">Get Involved
+                            <li><a onClick={(e) => {e.preventDefault()}} href="#">Get Involved
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>

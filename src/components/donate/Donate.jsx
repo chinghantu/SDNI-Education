@@ -6,12 +6,13 @@ import Footer from "../footer/Footer"
 class Donate extends Component {
     constructor(props) {
         super(props)
+        this.path = '/donate';
     }
 
     render() {
         return (
             <div>
-                <NavBar />
+                <NavBar path={this.path} />
                 <div className="container1">
                     <div className="row">
                         <div className="col-sm-3 sidebar">
