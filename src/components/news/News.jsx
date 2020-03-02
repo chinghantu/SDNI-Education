@@ -3202,9 +3202,13 @@ class News extends Component {
         this.setState({
             data: CAL_NEWS
         });
+        this.scrollToTop();
+    }
+
+    scrollToTop = (e) => {
         window.scrollTo({
             top: 0,
-            behavior: "smooth"
+            behavior: 'smooth'
         });
     }
 
@@ -3234,14 +3238,14 @@ class News extends Component {
                 <NavBar path={this.path} handler={this.handleChangeTab}/>
                 <div className="container1">
                     <div className="row">
-                        <div className="col-sm-3">
+                        <div className="col-sm-3 submenu-tabs">
                             <button onClick={() => this.handleChangeTab('ca')} className={title == 'ca' ? "news-active-tab first-tab" : "news-tab first-tab"}><span>California News </span></button>
                             <button onClick={() => this.handleChangeTab('us')} className={title == 'us' ? "news-active-tab mt-3" : "news-tab mt-3"}><span>USA News </span></button>
                             <button onClick={() => this.handleChangeTab('global')} className={title == 'global' ? "news-active-tab mt-3" : "news-tab mt-3"}><span>International News </span></button>
                         </div>
                         <div className="col-sm-6">
                             <div className="typing">
-                                <h5><br/><br/><br/><br/><br/><br/>See what's happening in Nanotechnology...</h5>
+                                <h5><br/><br/><br/><br/><br/><br/>See what's happening in Nanotech...</h5>
                             </div>
                         </div>
                         <div className="col-sm-3">
@@ -3316,7 +3320,7 @@ class News extends Component {
                         })
                     }
                 
-                    <a href="#" className="text-center"><p><span className="event-back-to-top">Back to Top</span><br/><br/><br/></p></a>
+                    <a onClick={(e) => {this.scrollToTop(e)}} href="" className="text-center"><p><span className="news-back-to-top">Back to Top</span><br/><br/><br/></p></a>
                 </div> 
                 <Footer/>
             </div>

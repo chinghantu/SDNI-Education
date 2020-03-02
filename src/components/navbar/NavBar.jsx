@@ -53,21 +53,36 @@ class NavBar extends Component {
                         pathname: this.state.redirect.pathname,
                         state: this.state.redirect.redirectProps
                     }
-                }/>
+                } />
             )
         }
         return (
             <div>
                 <nav className="menu">
-                    <label id="toggle-menu">Menu <span className="drop-icon">▾</span></label>
                     <input type="checkbox" id="tm" />
                     <ul className="main-menu clearfix">
                         <div className="logos">
                             <a href="http://sdni.ucsd.edu/"><img src={sdniLogo} height="40" id="logo" /></a>
                             <a href="/"><img src={logo} height="40" id="logo" /></a>
                         </div>
+                        <div id='toggle-menu' className="dropdown">
+                            <button className="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Menu
+                            </button>
+                            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a className="dropdown-item" href="/about">About</a>
+                                <a className="dropdown-item" href="/programs">Programs</a>
+                                <a className="dropdown-item" href="/events">Events</a>
+                                <a className="dropdown-item" href="/news">News</a>
+                                <a className="dropdown-item" href="/donate">Donate</a>
+                                <a className="dropdown-item" href="/outreach">Outreach</a>
+                                <a className="dropdown-item" href="/networking">Networking</a>
+                                <a className="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdFkcfMdw7jGtqX0GvhnyyZIizD4-m7Dt9v9iby7xYzMYPYTw/viewform?usp=sf_link">Get Involved</a>
+                                <a className="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSe-ir9pHppIFmwUNMSIHg2_nOEOm4GCw2QCOSsKYt_YbblvbA/viewform?usp=sf_link">Contact Us</a>
+                            </div>
+                        </div>
                         <div className="tabs">
-                            <li><a onClick={(e) => {e.preventDefault()}} href="">About
+                            <li><a onClick={(e) => { e.preventDefault() }} href="">About
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>
@@ -77,7 +92,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/about', 'management')} href="">Management</a></li>
                                 </ul>
                             </li>
-                            <li><a onClick={(e) => {e.preventDefault()}} href="#">Programs
+                            <li><a onClick={(e) => { e.preventDefault() }} href="#">Programs
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>
@@ -95,7 +110,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'sg')} href="">Seed Grants</a></li>
                                 </ul>
                             </li>
-                            <li><a onClick={(e) => {e.preventDefault()}} href="#">Events
+                            <li><a onClick={(e) => { e.preventDefault() }} href="#">Events
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>
@@ -106,7 +121,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/events', 'global')} href="">International</a></li>
                                 </ul>
                             </li>
-                            <li><a onClick={(e) => {e.preventDefault()}} href="#">News
+                            <li><a onClick={(e) => { e.preventDefault() }} href="#">News
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>
@@ -120,7 +135,7 @@ class NavBar extends Component {
                             <li><a onClick={(e) => this.handleRedirect(e, '/donate', '')} href="">Donate</a></li>
                             <li><a onClick={(e) => this.handleRedirect(e, '/outreach', '')} href="">Outreach</a></li>
                             <li><a onClick={(e) => this.handleRedirect(e, '/networking', '')} href="">Networking</a></li>
-                            <li><a onClick={(e) => {e.preventDefault()}} href="#">Get Involved
+                            <li><a onClick={(e) => { e.preventDefault() }} href="#">Get Involved
                         <span className="drop-icon">▾</span>
                                 <label title="Toggle Drop-down" className="drop-icon" >▾</label>
                             </a>
