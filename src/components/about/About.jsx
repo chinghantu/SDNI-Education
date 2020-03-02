@@ -36,7 +36,7 @@ class About extends Component {
                 <NavBar path='/about' handler={this.handleChangeTab} />
                 <div className="container1">
                     <div className="row">
-                        <div className="col-sm-3 sidebar">
+                        <div className="col-sm-3 sidebar submenu-tabs">
                             <button onClick={() => this.handleChangeTab('introduction')} className={this.state.title == 'introduction' ? "button1" : "button"}><span>What is CENTER </span></button>
                             <button onClick={() => this.handleChangeTab('management')} className={this.state.title == 'introduction' ? "button mt-3" : "button1 mt-3"}><span>Management</span></button>
                         </div>

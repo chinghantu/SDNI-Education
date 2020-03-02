@@ -60,7 +60,9 @@ class Home extends Component {
                             <div className="banner-item">
                                 <img className="d-block w-100" src={banner1} alt="" />
                                 <div className="banner1-img-inner-container">
-                                    <button onClick={() => { window.location.href = 'https://www.eventbrite.com/e/sdni-nnci-educational-symposium-2020-tickets-94687786719' }} className="banner1-btn"><span className="banner-btn-text">Registration</span></button>
+                                    <button onClick={() => { window.location.href = 'https://www.eventbrite.com/e/sdni-nnci-educational-symposium-2020-tickets-94687786719' }} className="banner1-btn btn btn-sm btn-primary">
+                                        <span className="banner-btn-text">Registration</span>
+                                        </button>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +70,7 @@ class Home extends Component {
                             <div className="banner-item">
                                 <img className="d-block w-100" src={banner2} alt="" />
                                 <div className="banner2-img-inner-container">
-                                    <button onClick={(e) => this.handleRedirect(e, '/news', 'ca')} className="banner2-btn"><span className="banner-btn-text">See "News" Section</span></button>
+                                    <button onClick={(e) => this.handleRedirect(e, '/news', 'ca')} className="banner2-btn btn btn-sm btn-primary"><span className="banner-btn-text">See "News" Section</span></button>
                                 </div>
                             </div>
                         </div>

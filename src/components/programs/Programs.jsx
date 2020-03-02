@@ -404,7 +404,7 @@ class Programs extends Component {
         }
         this.state = {
             title: title == null ? 'k12' : title,
-            renderHtml: K12
+            renderHtml: title == null ? K12 : this.handleChangeRenderHtml(title),
         }
     }
 
@@ -451,7 +451,7 @@ class Programs extends Component {
                 <NavBar path='/programs' handler={this.handleChangeTab}></NavBar>
                 <div className="container1">
                     <div className="row">
-                        <div className="col-sm-3 sidebar">
+                        <div className="col-sm-3 submenu-tabs sidebar">
                             <button onClick={() => this.handleChangeTab('k12')} className={this.state.title == 'k12' ? "button1" : "button"}><span>K-12 Curriculum</span></button>
                             <button onClick={() => this.handleChangeTab('cc')} className={this.state.title == 'cc' ? "button1" : "button"}><span>College Curriculum</span></button>
                             <button onClick={() => this.handleChangeTab('ret')} className={this.state.title == 'ret' ? "button1" : "button"}><span>RET</span></button>
