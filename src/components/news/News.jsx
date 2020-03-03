@@ -7,6 +7,13 @@ import CalBlue from '../../assets/Image/CaliforniaBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "2/25",
+            "name": "Light-Shrinking Device Enables Detection of Ultra-Tiny Substances",
+            "place": "University of California - San Diego",
+            "description": "Engineers at the University of California San Diego and the University of California Berkeley have created light-based technology that can detect biological substances with a molecular mass more than two orders of magnitude smaller than previously possible. The advance was made possible by building a device that shrinks light while exploiting mathematical singularities known as exceptional points (EPs).",
+            "link": "https://ucsdnews.ucsd.edu/pressrelease/light-shrinking-device-enables-detection-of-ultra-tiny-substances"
+        },
+        {
             "year": 2020,
             "date": "Jan 17",
             "name": "UCI chemists find fungal shrapnel in the air",
@@ -164,6 +171,62 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "2/27",
+            "name": "Physicists may have accidentally discovered a new state of matter. The Possibles are endless. ",
+            "place": "Northeastern University",
+            "description": "Humans have been studying electric charge for thousands of years, and the results have shaped modern civilization. Our daily lives depend on electric lighting, smartphones, cars, and computers, in ways that the first individuals to take note of a static shock or a bolt of lightning could never have imagined. ",
+            "link": "https://news.northeastern.edu/2020/02/26/physicists-may-have-accidentally-discovered-a-new-state-of-matter-the-possibilities-are-endless/"
+        },
+        {
+            "date": "2/26",
+            "name": "Nanosize Device ‘Uncloaks’ Cancer Cells in Mice And Reveals Them to The Immune System",
+            "place": "Johns Hopkins Medicine",
+            "description": "Scientists at Johns Hopkins report they have designed and successfully tested an experimental, super small package able to deliver molecular signals that tag implanted human cancer cells in mice and make them visible for destruction by the animals' immune systems. The new method was developed, say the researchers, to deliver an immune system \"uncloaking\" device directly to cancer cells.",
+            "link": "https://www.hopkinsmedicine.org/news/newsroom/news-releases/nanosize-device-uncloaks-cancer-cells-in-mice-and-reveals-them-to-the-immune-system"
+        },
+        {
+            "date": "2/26",
+            "name": "How Low Can You Go? Lower Than Ever Before",
+            "place": "National Institute of Standards and Technology (NIST)",
+            "description": "NIST scientists make most sensitive measurements to date of silicon’s conductivity for future solar cell, semiconductor applications.",
+            "link": "https://www.nist.gov/news-events/news/2020/02/how-low-can-you-go-lower-ever"
+        },
+        {
+            "date": "2/26",
+            "name": "UCF’s New Technique to Create Nanomaterials May Help Detect Cancer Earlier",
+            "place": "University of Central Florida",
+            "description": "For the first time, a team of scientists at the University of Central Florida has created functional nanomaterials with hollow interiors that can be used to create highly sensitive biosensors for early cancer detection.",
+            "link": "https://www.ucf.edu/news/ucf-technique-may-help-detect-cancer-earlier/"
+        },
+        {
+            "date": "2/25",
+            "name": "Breaking the temperature barrier in small-scale materials testing",
+            "place": "University of Illinois at Urbana-Champaign",
+            "description": "Researchers have demonstrated a new method for testing microscopic aeronautical materials at ultra-high temperatures. By combining electron microscopy and laser heating, scientists can evaluate these materials much more quickly and inexpensively than with traditional testing.",
+            "link": "https://news.illinois.edu/view/6367/806618"
+        },
+        {
+            "date": "2/25",
+            "name": "When bonding noble metals to 2D materials, interfaces matter",
+            "place": "Pennsylvania State University",
+            "description": "UNIVERISTY PARK, Pa. — Researchers at Penn State and Purdue University have developed new materials for improved single-atom catalysis and future electronics.",
+            "link": "https://news.psu.edu/story/609816/2020/02/25/research/when-bonding-noble-metals-2d-materials-interfaces-matter"
+        },
+        {
+            "date": "2/25",
+            "name": "Forces of Attraction",
+            "place": "Pacific Northwest National Laboratory",
+            "description": "A PNNL research team has discovered that atomic forces thought to be “weak” can actually exert more control than has been understood. And that new discovery, published February 25 in the journal Nature Communications, could help better predict and eventually control manufacturing of semiconductor materials used in electronics and other industrial applications.",
+            "link": "https://www.pnnl.gov/news-media/forces-attraction"
+        },
+        {
+            "date": "2/24",
+            "name": "Mirrored chip could enable handheld dark-field microscopes",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Do a Google search for dark-field images, and you’ll discover a beautifully detailed world of microscopic organisms set in bright contrast to their midnight-black backdrops. Dark-field microscopy can reveal intricate details of translucent cells and aquatic organisms, as well as faceted diamonds and other precious stones that would otherwise appear very faint or even invisible under a typical bright-field microscope.",
+            "link": "http://news.mit.edu/2020/mirrored-chip-could-enable-handheld-dark-field-microscopes-0224"
+        },
         {
             "date": "2/24",
             "name": "Columbia Team Discovers New Way to Control the Phase of Light Using 2D Materials",
@@ -552,7 +615,7 @@ const US_NEWS = {
         {
             "year": 2019,
             "date": "Dec 02",
-            "name": "Missing Link between Soft Surface Adhesion and Surface Roughness",
+            "name": "Missing link between Soft Surface Adhesion and Surface Roughness",
             "place": "University of Pittsburgh",
             "description": "New research finds the missing link between soft surface adhesion and the roughness of the hard surface it touches.",
             "link": "https://www.engineering.pitt.edu/News/2019/PNAS-Paper-Soft-Adhesion/"
@@ -1626,6 +1689,34 @@ const US_NEWS = {
 const GLOBAL_NEWS = {
     '2020': [
         {
+            "date": "3/2",
+            "name": "Carbon chains can adopt fusilli or spaghetti type shapes depending if they have odd or even numbers of atoms",
+            "place": "University of Bristol",
+            "description": "Scientists at the University of Bristol have now found that carbon chains can also adopt helical shapes, but, unlike DNA, the shape is dependent on how many atoms there are in the chain, with chains having even numbers of carbon atoms adopting helical, fusilli-like shapes and chains with odd numbers of carbon atoms adopting floppy, spaghetti-like shapes.",
+            "link": "http://www.bristol.ac.uk/news/2020/march/carbon-chains-helical-shapes-.html"
+        },
+        {
+            "date": "2/27",
+            "name": "A new template for nonspherical viral nanocages",
+            "place": "University of Twente",
+            "description": "In nature, viruses use nanocages to protect their genome. Some of these viruses can be disassembled into protein units to remove their genome. These protein units can then be reassembled into nanocages by other templates, the so-called virus-like particles. For her PhD thesis, University of Twente candidate Shuqin Cao worked on a new template for these virus-like particles to use them in several different biomedical applications.",
+            "link": "https://www.utwente.nl/en/news/2020/2/519973/a-new-template-for-non-spherical-viral-nanocages"
+        },
+        {
+            "date": "2/27",
+            "name": "Oil separation made easier with 2D material membrane",
+            "place": "University of Manchester",
+            "description": "University of Manchester researchers have made a leap forward in overcoming one of the biggest problems in membrane technology- membrane fouling.",
+            "link": "https://www.manchester.ac.uk/discover/news/oil-separation-made-easier-with-2d-material-membrane/"
+        },
+        {
+            "date": "2/24",
+            "name": "Regioselective Magnetization Enables Chiral Semiconducting Heteronanorods",
+            "place": "University of Science and Technology of China",
+            "description": "The USTC team of Chinese Academy of Science (CAS) led by Prof. YU Shuhong (USTC), collaborating with Prof. TANG Zhiyong (National Center for Nanoscience and Technology, China) and Prof. Edward H. Sargent (University of Toronto), has shed new lights on the topic of chiral inorganic nanomaterials.  Researchers demonstrated a regioselective magnetization strategy, achieving a library of semiconducting heteronanorods with chiroptical activities. The research article entitled “Regioselective magnetization in semiconducting nanorods” was published in Nature Nanotechnology (Nat. Nanotechnol. 2020, 10.1038/s41565-019-0606-8) on Jan 20th.",
+            "link": "https://en.ustc.edu.cn/2020/0221/c15527a413615/page.htm"
+        },
+        {
             "date": "2/24",
             "name": "Watching magnetic nano ‘tornadoes’ in 3D",
             "place": "University of Cambridge",
@@ -2100,7 +2191,7 @@ const GLOBAL_NEWS = {
             "year": 2020,
             "date": "Jan 07",
             "name": "New method gives robust transistors",
-            "place": "Linköping University",
+            "place": "linköping University",
             "description": "A new method to fit together layers of semiconductors as thin as a few nanometres has resulted in not only a scientific discovery but also a new type of transistor for high-power electronic devices. The result, published in Applied Physics Letters, has aroused huge interest.",
             "link": "https://liu.se/en/news-item/nyupptackt-metod-ger-supertaliga-transistorer"
         },
@@ -2159,7 +2250,7 @@ const GLOBAL_NEWS = {
             "date": "Dec 17",
             "name": "Improved 3D Nanoprinting Technique to Build Nanoskyscrapers",
             "place": "Institute for Basic Science, Korea",
-            "description": "Nanowalls, nanobridges, nano “jungle gyms”: it could seem the description of a Lilliputian village, but these are actual 3D-printed components with tremendous potential applications in nanoelectronics, smart materials and biomedical devices. Researchers at the Center for Soft and Living Matter (CSLM), within the Institute for Basic Science (IBS, South Korea) have improved the 3D nanoprinting process that enables to build precise, self-stacked, tall-and-narrow nanostructures. As shown in their latest publication in Nano Letters, the team also used this technique to produce transparent nanoelectrodes with high optical transmission and controllable conductivity.",
+            "description": "Nanowalls, nanobridges, nano “jungle gyms”: it could seem the descriptionof a Lilliputian village, but these are actual 3D-printed components with tremendous potential applications in nanoelectronics, smart materials and biomedical devices. Researchers at the Center for Soft and Living Matter (CSLM), within the Institute for Basic Science (IBS, South Korea) have improved the 3D nanoprinting process that enables to build precise, self-stacked, tall-and-narrow nanostructures. As shown in their latest publication in Nano Letters, the team also used this technique to produce transparent nanoelectrodes with high optical transmission and controllable conductivity.",
             "link": "https://www.ibs.re.kr/cop/bbs/BBSMSTR_000000000738/selectBoardArticle.do?nttId=17962"
         },
         {
@@ -2238,7 +2329,7 @@ const GLOBAL_NEWS = {
             "year": 2019,
             "date": "Dec 09",
             "name": "Creating switchable plasmons in plastics",
-            "place": "Linköping University",
+            "place": "linköping University",
             "description": "Researchers have developed optical nanoantennas made from a conducting polymer.",
             "link": "https://liu.se/en/news-item/de-skapar-styrbara-plasmoner-i-plast"
         },
@@ -3199,9 +3290,7 @@ class News extends Component {
     componentWillMount() {}
 
     componentDidMount() {
-        this.setState({
-            data: CAL_NEWS
-        });
+        this.handleChangeTab(this.state.title)
         this.scrollToTop();
     }
 
@@ -3252,19 +3341,23 @@ class News extends Component {
                             <img className="img-fluid mx-auto d-block news-image" src={CalBlue} alt="Image"/>
                         </div>
                     </div>
-                    <table className="mt-5">
-                        <thead>
-                            <tr>
-                                <th width="10%">Date</th>
-                                <th width="25%">Title</th>
-                                <th width="10%">Place</th>
-                                <th width="45%">Description</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td>Feb 10</td><td>SDNI And OmniNano Initiate a Collaboration For Nanotechnology Curriculum Development</td><td>SDNI – UC San Diego</td><td><p>UC San Diego-based SDNI and OmniNano have initiated a collaboration for the development of Nanotechnology curriculum and focused courses targeting K-12 schools as well as community colleges. Courses developed for K-12 education will align with the California Next Generation Science Standards (NGSS). </p><p> “This collaboration, enabling the combination of the rich science and engineering potential of SDNI-UCSD with the high quality OmniNano digital platform, will accelerate SDNI outreach goals and will be a catalyst in the execution of its California NanoTech 2025 Project. OmniNano will benefit of multidisciplinary expertise in nanotechnology contents as well as substantial exposure by becoming a part of the aggressive SDNI outreach program” said Dr. Yves Theriault, SDNI’s Executive Director of Education Programs and Outreach.</p></td></tr>
-                        </tbody>
-                    </table>
+                    {
+                        this.state.title == 'ca' ? (
+                            <table className="mt-5">
+                                <thead>
+                                    <tr>
+                                        <th width="10%">date</th>
+                                        <th width="25%">Title</th>
+                                        <th width="10%">place</th>
+                                        <th width="45%">description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>Feb 10</td><td>SDNI And OmniNano Initiate a Collaboration For Nanotechnology Curriculum Development</td><td>SDNI – UC San Diego</td><td><p>UC San Diego-based SDNI and OmniNano have initiated a collaboration for the development of Nanotechnology curriculum and focused courses targeting K-12 schools as well as community colleges. Courses developed for K-12 education will align with the California Next Generation Science Standards (NGSS). </p><p> “This collaboration, enabling the combination of the rich science and engineering potential of SDNI-UCSD with the high quality OmniNano digital platform, will accelerate SDNI outreach goals and will be a catalyst in the execution of its California NanoTech 2025 Project. OmniNano will benefit of multidisciplinary expertise in nanotechnology contents as well as substantial exposure by becoming a part of the aggressive SDNI outreach program” said Dr. Yves Theriault, SDNI’s Executive Director of Education Programs and Outreach.</p></td></tr>
+                                </tbody>
+                            </table>
+                        ) : (<div></div>)
+                    }
                     {
                         Object.keys(data).sort().reverse().map((year, i) => {
                             const currentYear = data[year];
@@ -3274,11 +3367,11 @@ class News extends Component {
                                     <table className="mb-5">
                                         <thead>
                                         <tr>
-                                            <th width="10%">Date</th>
+                                            <th width="10%">date</th>
                                             <th width="25%">Title</th>
-                                            <th width="10%">Place</th>
-                                            <th width="35%">Description</th>
-                                            <th width="10%">Link</th>
+                                            <th width="10%">place</th>
+                                            <th width="35%">description</th>
+                                            <th width="10%">link</th>
                                         </tr>
                                         </thead>
                                         <tbody>

@@ -220,10 +220,7 @@ class Event extends Component {
     }
 
     componentDidMount() {
-        // TODO: Update data through request
-        this.setState({
-            data: CAL_EVENTS
-        })
+        this.handleChangeTab(this.state.title)
         this.scrollToTop()
     }
 
