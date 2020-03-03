@@ -90,8 +90,8 @@ class Home extends Component {
                             <h1><b>Welcome to the Education Arm of the </b></h1>
                             <h1><b>San Diego Nanotechnology Infrastructure</b></h1>
                             <br />
-                            <h3>A Center of Excellence in NanoTechnology Educational Resources</h3>
-                            <h3>C.E.N.T.E.R.</h3>
+                            <h3>A <b>C</b>enter of <b>E</b>xcellence in <b>N</b>ano<b>T</b>echnology <b>E</b>ducational <b>R</b>esources</h3>
+                            <h3><b>C.E.N.T.E.R.</b></h3>
                         </div>
                     </div>
 
