@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+import history from './history';
 
 import Home from './components/home/Home'
 import About from './components/about/About'
@@ -9,36 +10,23 @@ import Programs from './components/programs/Programs'
 import News from './components/news/News'
 import Donate from './components/donate/Donate';
 import Networking from './components/networking/Networking';
-import SeedGrants from './components/seed/SeedGrants';
+import Outreach from './components/outreach/Outreach';
+
+import Error404 from './components/404/404';
 
 function App() {
   return (
-    <Router>
+    <Router history={history}>
       <Switch>
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route exact path='/about'>
-          <About />
-        </Route>
-        <Route exact path='/events'>
-          <Event />
-        </Route>
-        <Route exact path='/programs'>
-          <Programs />
-        </Route>
-        <Route exact path='/news'>
-          <News />
-        </Route>
-        <Route exact path='/donate'>
-          <Donate />
-        </Route>
-        <Route exact path='/networking'>
-          <Networking />
-        </Route>
-        <Route exact path='/seed_grants'>
-          <SeedGrants />
-        </Route>
+      <Route exact path='/' render={(props) => <Home {...props} />} />
+      <Route exact path='/about' render={(props) => <About {...props} />} />
+      <Route exact path='/programs' render={(props) => <Programs {...props} />} />
+      <Route exact path='/events' render={(props) => <Event {...props} />} />
+      <Route exact path='/news' render={(props) => <News {...props} />} />
+      <Route exact path='/donate' render={(props) => <Donate {...props} />} />
+      <Route exact path='/networking' render={(props) => <Networking {...props} />} />
+      <Route exact path='/outreach' render={(props) => <Outreach {...props} />} />
+      <Route path='*' exact={true} component={Error404} />
       </Switch>
     </Router>
 

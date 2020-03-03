@@ -14,8 +14,13 @@ import Footer from "../footer/Footer"
 class About extends Component {
     constructor(props) {
         super(props)
+        let { state } = this.props.location;
+        let title = null;
+        if (state) {
+            title = state.title
+        }
         this.state = {
-            title: props.title == null ? 'introduction' : props.title
+            title: title == null ? 'introduction' : title
         }
     }
 
@@ -31,7 +36,7 @@ class About extends Component {
                 <NavBar path='/about' handler={this.handleChangeTab} />
                 <div className="container1">
                     <div className="row">
-                        <div className="col-sm-3 sidebar">
+                        <div className="col-sm-3 sidebar submenu-tabs">
                             <button onClick={() => this.handleChangeTab('introduction')} className={this.state.title == 'introduction' ? "button1" : "button"}><span>What is CENTER </span></button>
                             <button onClick={() => this.handleChangeTab('management')} className={this.state.title == 'introduction' ? "button mt-3" : "button1 mt-3"}><span>Management</span></button>
                         </div>
@@ -86,18 +91,18 @@ class About extends Component {
                                             <div className="row">
                                                 <div className="col-sm-4">
                                                     <img src={YvesTheriault} className="center" alt="Image" />
-                                                    <h4><br /><br /><b>Yves Theriault</b></h4>
-                                                    <h6><b>Executive Director <br /> Education Programs and Outreach</b></h6>
+                                                    <h4 className="staff-name"><br /><br /><b>Yves Theriault</b></h4>
+                                                    <h6 className="staff-title"><b>Executive Director <br /> Education Programs and Outreach</b></h6>
                                                 </div>
                                                 <div className="col-sm-4">
                                                     <img src={AlbertoVasquez} className="center" alt="Image" />
-                                                    <h4><br /><br /><b>Oscar Vazquez Mena</b></h4>
-                                                    <h6><b>Faculty Director <br /> Education & Outreach</b></h6>
+                                                    <h4 className="staff-name"><br /><br /><b>Oscar Vazquez Mena</b></h4>
+                                                    <h6 className="staff-title"><b>Faculty Director <br /> Education & Outreach</b></h6>
                                                 </div>
                                                 <div className="col-sm-4">
                                                     <img src={OscarVazquezMena} className="center" alt="Image" />
-                                                    <h4><br /><br /><b>Alberto "Beto" Vasquez</b></h4>
-                                                    <h6><b>Associate Director <br /> Educational Equity</b></h6>
+                                                    <h4 className="staff-name"><br /><br /><b>Alberto "Beto" Vasquez</b></h4>
+                                                    <h6 className="staff-title"><b>Associate Director <br /> Educational Equity</b></h6>
                                                 </div>
                                             </div>
                                         </div>

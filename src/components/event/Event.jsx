@@ -208,17 +208,27 @@ class Event extends Component {
     constructor(props) {
         super(props)
         this.path = '/events'
+        let { state } = this.props.location;
+        let title = null;
+        if (state) {
+            title = state.title
+        }
         this.state = {
-            title: props.title == null ? 'ca' : props.title,
+            title: title == null ? 'ca' : title,
             data: []
         }
     }
 
     componentDidMount() {
-        // TODO: Update data through request
-        this.setState({
-            data: CAL_EVENTS
-        })
+        this.handleChangeTab(this.state.title)
+        this.scrollToTop()
+    }
+
+    scrollToTop = (e) => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
     }
 
     handleChangeTab = (param) => {
@@ -250,7 +260,7 @@ class Event extends Component {
                 <NavBar path={this.path} handler={this.handleChangeTab}/>
                 <div className="container1">
                     <div className="row">
-                        <div className="col-sm-3">
+                        <div className="col-sm-3 submenu-tabs">
                             <button onClick={() => this.handleChangeTab('ca')} className={title == 'ca' ? "event-active-tab first-tab" : "event-tab first-tab"}><span>California Events </span></button>
                             <button onClick={() => this.handleChangeTab('us')} className={title == 'us' ? "event-active-tab mt-3" : "event-tab mt-3"}><span>USA Events</span></button>
                             <button onClick={() => this.handleChangeTab('global')} className={title == 'global' ? "event-active-tab mt-3" : "event-tab mt-3"}><span>International Events</span></button>
@@ -307,7 +317,7 @@ class Event extends Component {
                         })
                     }
                 
-                    <a href="#" className="text-center"><p><span className="event-back-to-top">Back to Top</span><br/><br/><br/></p></a>
+                    <a onClick={(e) => this.scrollToTop(e)} href="" className="text-center"><p><span className="event-back-to-top">Back to Top</span><br/><br/><br/></p></a>
                 </div> 
                 <Footer/>
             </div>

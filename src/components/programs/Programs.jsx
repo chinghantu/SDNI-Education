@@ -15,7 +15,7 @@ const K12 = (
 					<br /><br />
             <a href="https://www.nano.gov/education-training"><button className="programs-button">Nano Education Traning</button></a>
             <br /><br />
-            The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jointly with such school/college partners.
+            The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jsgntly with such school/college partners.
 					<br /><br />
         </p>
         <table>
@@ -42,7 +42,7 @@ const CC = (
 					<br /><br />
             <a href="https://www.nano.gov/education-training"><button className="programs-button">Nano Education Traning</button></a>
             <br /><br />
-            The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jointly with such school/college partners.
+            The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jsgntly with such school/college partners.
 				</p>
         <h4><br />Integrated Photonics Education Kit<br /><br /></h4>
         <a href="https://drive.google.com/file/d/0B-PWal97iJz6RmluUDVRM1J2b19sUDhKTVM0b2F6Vlc2b1V3/view?usp=sharing"><button className="programs-button">Learn More</button></a>
@@ -101,7 +101,7 @@ const RET = (
             <br /><br />
             <b>2020 – SDNI Nano Summer Institute for Teachers (Nano-SUIT) & Research Education for Teachers (RET)</b>
             <br /><br />
-            The Nano-SUIT program combines the classic RET hands-on research experience for teachers with a comprehensive series of seminars in the broad field of nanotechnology. At the end of the program, participants produce a lesson plan, based on their research experience or another nanotechnology topic of their choice, that they must bring back to their respective schools/colleges for implementation in their class as well as sharing with their peers. This program hence acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current school and college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 6 weeks of the program, and the seminars will be provided by Dr. Yves Theriault, SDNI Director of Education Programs and Outreach as well as Dr. Ryan Nicholl, Microfabrication Engineer and SEM manager.
+            The Nano-SUIT program combines the classic RET hands-on research experience for teachers with a comprehensive series of seminars in the broad field of nanotechnology. At the end of the program, participants produce a lesson plan, based on their research experience or another nanotechnology topic of their chsgce, that they must bring back to their respective schools/colleges for implementation in their class as well as sharing with their peers. This program hence acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current school and college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 6 weeks of the program, and the seminars will be provided by Dr. Yves Theriault, SDNI Director of Education Programs and Outreach as well as Dr. Ryan Nicholl, Microfabrication Engineer and SEM manager.
 					<br /><br /><br />
             <b>Dates:</b> June 15, 2020 - July 24, 2020 with Final Presentations on July 31, 2020.
 					<br /><br />
@@ -140,7 +140,7 @@ const RET_A = (
     <div>
         <p className="title"><b>RET 2019 Alumni</b></p>
         <img className="img-fluid" src={RETAlumni} alt="Image" />
-				<p>
+        <p>
             <span className="programs-span">
                 <b>Back: </b>Lesli Horowitz<br />
                 <b>Left to right: </b>Angela Tsang, Patricia Beller, Lilia Ornelas, Gabriela Mansfield, Kerson Perez
@@ -148,7 +148,7 @@ const RET_A = (
             <br /><br />
             During the RET 2019 program teacher students received a solid series of lessons covering the fundamentals of nanotechnology as well as life sciences-focused nanotechnology seminars.
 					<br /><br />
-            At the end of the program, each RET student produce a lesson plan that they brought to their respective colleges/schools for implementation. In doing so SDNI hopes that the respective nanotechnology lessons will plant the seed for a growing nanotechnology program at each respective institution.
+            At the end of the program, each RET student produce a lesson plan that they brought to their respective colleges/schools for implementation. In dsgng so SDNI hopes that the respective nanotechnology lessons will plant the seed for a growing nanotechnology program at each respective institution.
 					<br /><br />
             <b>The lessons developed by the 2019 RET can be found in the section:</b>
             <br /><br />
@@ -240,7 +240,7 @@ const REU_A = (
     <div>
         <p className="title"><b>REU 2019 Alumni</b></p>
         <img className="img-fluid" src={REUAlumni} alt="Image" />
-				<p>
+        <p>
             <span className="programs-span">
                 <b>Top Row: </b>(Left to right) Jason (Tyler) Arias, John Conan Minihan, Ismael Chavez<br />
                 <b>Mid Row: </b>(Left to Right) Leilani Kwe, Flavia DePlachett, Amaris Paramo, Daniel Heredia<br />
@@ -249,7 +249,7 @@ const REU_A = (
             <br /><br />
             At the end of the program, each REU student made a presentation at the 2019 UC San Diego Summer Research Conference, summarizing their respective research projects and accomplishments to include lessons learned.
 					<br /><br />
-            SDNI anticipates that all participants will share their unique and exciting hands-on research experience and other components of the program to include presentation skills and the writing of a personal statement with several students at their respective colleges, and by doing so will promote STEM and more specifically nanotechnology education. This type of impact is in line with The California NanoTech 2025 Project general mission.
+            SDNI anticipates that all participants will share their unique and exciting hands-on research experience and other components of the program to include presentation skills and the writing of a personal statement with several students at their respective colleges, and by dsgng so will promote STEM and more specifically nanotechnology education. This type of impact is in line with The California NanoTech 2025 Project general mission.
 					<br /><br />
             <b>The participants’ final presentations can be found below.</b>
             <br /><br />
@@ -277,9 +277,9 @@ const NT2025 = (
             <br /><br />
             Creating awareness about nanotechnology at all level of the education system, from administrators and science specialists of offices of education and school districts, school principals, teachers and TOSAs, and ultimately reach the students. This awareness will be realized via presentations, seminars, in-person meeting, web meetings, webinars to the parties to be reached. One of the great engagement tools that SDNI has used so far consists of remote access to its high-end Scanning Electron Microscope whereby students and teachers can remotely control SDNI SEM (with Focus and Zoom functions) and observe specimen at the micro and nano scale.
 					<br /><br />
-            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career choice.
+            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career chsgce.
 					<br /><br />
-            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career choice.
+            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career chsgce.
 					<br /><br />
         </p>
         <h4>2. California Community College System</h4>
@@ -358,16 +358,53 @@ const R_SEM = (
     </div>
 )
 
-const OI = (
-    <p className="description"><b>THIS SECTION IS UNDER CONSTRUCTION.</b></p>
+const SG = (
+    <div>
+        <p className="title"><b>Seed Grants</b></p>
+        <p>
+            <b className="subtitle">Academic Seed Grant:</b>
+            <br /><br />
+            SDNI has established a Seed Grant program to provide access to nanofabrication facilities, equipment, and expertise for educators and researchers. The Seed Grant will provide access to SDNI at no charge up to the value of the award. SDNI will accept and review all Seed Grant applications as they arrive. SDNI encourages applications from the following:
+                                <br /><br />
+            • High school science and engineering educators and students<br />
+            • Community college science and engineering educators and students<br />
+            • Researchers from academic institutes having limited facilities and/or research funding<br />
+            <br /><br />
+            All student applications must include a teacher or faculty member who will guide and supervise the student's project. Additionally, only adults will be allowed to perform work in SDNI laboratory facilities.
+                                <br /><br />
+            For more information or to apply for the SDNI Academic Seed Grant, click below:
+                                <br /><br />
+            <a href="https://docs.google.com/forms/d/1Si_2MGoNhshbYIAZooO-Wivf1qDf1Xs_EIuOG_W-RLU/viewform?ts=5d09087a&edit_requested=true"><button className="programs-button">SDNI Seed Grant - Academic</button></a>
+            <br /><br /><br />
+            <b className="subtitle">Commercial Seed Grant:</b>
+            <br /><br />
+            SDNI has established a Seed Grant program to provide access to nanofabrication facilities, equipment, and expertise for small businesses, startups, or other enterprises that lack sufficient funds for a traditional SDNI relationship. The Seed Grant will provide access to SDNI at no charge up to the value of the award.
+                                <br /><br />
+            • High school science and engineering educators and students<br />
+            • Community college science and engineering educators and students<br />
+            • Researchers from academic institutes having limited facilities and/or research funding<br />
+            <br /><br />
+            SDNI will accept and review all Seed Grant applications.
+                                <br /><br />
+            For more information or to apply for the SDNI Commercial Seed Grant, click below:
+                                <br /><br />
+            <a href="https://docs.google.com/forms/d/1UrEailWvk1Bkt-9L1aXLZfBiUF2kgmCN12EQqfJbqVQ/viewform?ts=5d09081f&edit_requested=true"><button className="programs-button">SDNI Seed Grant - Commercial</button></a>
+            <br /><br /><br /><br /><br />
+        </p>
+    </div>
 )
 
 class Programs extends Component {
     constructor(props) {
         super(props)
+        let { state } = this.props.location;
+        let title = null;
+        if (state) {
+            title = state.title
+        }
         this.state = {
-            title: props.title == null ? 'k12' : props.title,
-            renderHtml: K12
+            title: title == null ? 'k12' : title,
+            renderHtml: title == null ? K12 : this.handleChangeRenderHtml(title),
         }
     }
 
@@ -402,8 +439,8 @@ class Programs extends Component {
                 return DT2;
             case 'r-sem':
                 return R_SEM;
-            case 'oi':
-                return OI;
+            case 'sg':
+                return SG;
         }
     }
 
@@ -414,8 +451,8 @@ class Programs extends Component {
                 <NavBar path='/programs' handler={this.handleChangeTab}></NavBar>
                 <div className="container1">
                     <div className="row">
-                        <div className="col-sm-3 sidebar">
-                            <button onClick={() => this.handleChangeTab('2dt')} className={this.state.title == 'k12' ? "button1" : "button"}><span>K-12 Curriculum</span></button>
+                        <div className="col-sm-3 submenu-tabs sidebar">
+                            <button onClick={() => this.handleChangeTab('k12')} className={this.state.title == 'k12' ? "button1" : "button"}><span>K-12 Curriculum</span></button>
                             <button onClick={() => this.handleChangeTab('cc')} className={this.state.title == 'cc' ? "button1" : "button"}><span>College Curriculum</span></button>
                             <button onClick={() => this.handleChangeTab('ret')} className={this.state.title == 'ret' ? "button1" : "button"}><span>RET</span></button>
                             <button onClick={() => this.handleChangeTab('reu')} className={this.state.title == 'reu' ? "button1" : "button"}><span>REU</span></button>
@@ -424,7 +461,7 @@ class Programs extends Component {
                             <button onClick={() => this.handleChangeTab('nt2025')} className={this.state.title == 'nt2025' ? "button1" : "button"}><span>NanoTech 2025 Project</span></button>
                             <button onClick={() => this.handleChangeTab('2dt')} className={this.state.title == '2dt' ? "button1" : "button"}><span>2-Day Training</span></button>
                             <button onClick={() => this.handleChangeTab('r-sem')} className={this.state.title == 'r-sem' ? "button1" : "button"}><span>Remote SEM</span></button>
-                            <button onClick={() => this.handleChangeTab('oi')} className={this.state.title == 'oi' ? "button1" : "button"}><span>Outreach Impact</span></button>
+                            <button onClick={() => this.handleChangeTab('sg')} className={this.state.title == 'sg' ? "button1" : "button"}><span>Seed Grants</span></button>
                         </div>
                         <div className="col-sm-7 main-content">
                             {renderHtml}

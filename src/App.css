@@ -3,7 +3,13 @@
 body,
 html {
   height: 100%;
+  width: 100%;
   margin: 0;
+  overflow-x: hidden;
+}
+
+label {
+  margin-bottom: 0 !important;
 }
 /*.margin{
 	margin-top: 300px; 
@@ -14,6 +20,7 @@ h1 {
 
 h3 {
   color: grey;
+  font-weight: bold;
 }
 
 /* Navigation */
@@ -254,6 +261,43 @@ h3 {
 .tabs > li {
   margin: auto;
 }
+@media only screen and (max-width: 82.1875rem) {
+  .tabs {
+    display: none;
+  }
+  .logos > a {
+    padding: 1rem;
+  }
+  #toggle-menu {
+    display: flex;
+    align-items: stretch;
+    margin-left: auto;
+    margin-right: 5rem;
+    order: 2;
+  }
+}
+@media only screen and (max-width: 52em) {
+  h1 {
+    font-size: xx-large;
+  }
+  h3 {
+    font-size: x-large;
+  }
+  .bg-content > div {
+    margin: 20rem auto !important;
+  }
+}
+
+.btn-primary {
+  background-color: #48457a;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #48457a;
+  border: none;
+}
+
 
 .bg {
   /* The image used */
@@ -286,11 +330,65 @@ h3 {
 }
 
 .bg-content > div {
-  margin-top: 30%;
+  margin-top: 15%;
 }
 
 #home-wrapper {
   height: 100vh;
+}
+
+.banner-item {
+  position: relative
+}
+
+.banner1-img-inner-container, .banner2-img-inner-container {
+  position: absolute;
+  width: 100%;
+  bottom: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner1-btn, .banner2-btn {
+  background-color: #ff914d;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+
+.banner1-btn {
+  margin-left: 30%;
+}
+
+.banner-btn-text {
+  color: white;
+  font-weight: 800;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+
+@media only screen and (max-width: 52em) {
+  .banner-btn-text {
+    font-size: xx-small;
+    font-weight: 300;
+    letter-spacing: .5px;
+  }
+  .banner1-img-inner-container, .banner2-img-inner-container  {
+    bottom: 15%;
+  }
+
+  .banner1-btn, .banner2-btn {
+    background-color: #ff914d;
+    border: none;
+    padding: 0 0.5rem !important;
+    border-radius: 5px;
+  }
+
+  #home-wrapper {
+    height: 100%;
+  }
 }
 
 /*Footer*/
@@ -391,6 +489,14 @@ h3 {
   right: 0;
 }
 
+.staff-name, .staff-title {
+  text-align: center;
+}
+
+.staff-title {
+  color: #9FA3A7;
+}
+
 .center {
   display: block;
   margin-top: 100px;
@@ -475,6 +581,23 @@ td {
   box-shadow: 0px 5px 5px #f2f2f2;
 }
 
+@media only screen and (max-width: 52em) {
+  /* .container1, .container2, .container3 {
+    margin: auto 0;
+  } */
+  th, td {
+    padding: 1.5rem 0.5rem;
+    font-size: x-small;
+  }
+  #toggle-menu {
+    /* padding-right: 0 !important; */
+    margin-right: 0 !important;
+  }
+  .row {
+    margin: auto 0;
+  }
+}
+
 .button5 {
   background-color: #f34d7c;
   border: none;
@@ -501,6 +624,10 @@ td {
 
 .event-back-to-top {
   color: #f34d7c;
+}
+
+.news-back-to-top {
+  color: #2d96ff;
 }
 
 /* Programs page */
@@ -566,6 +693,13 @@ td {
 
 
 /* News page */
+.submenu-tabs {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
 
 .read-more-button {
   background-color: #3b74ec;
@@ -589,3 +723,21 @@ td {
 /* Networking page */
 
 /* Seed Grants page */
+
+
+/* 404 page */
+.container404 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.errMsg404 {
+  color: black;
+  font-weight: bold;
+}
+
+.link404 {
+  text-align: center;
+}
