@@ -7,7 +7,7 @@ import CalBlue from '../../assets/Image/CaliforniaBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
-            "date": "2/25",
+            "date": "Feb 25",
             "name": "Light-Shrinking Device Enables Detection of Ultra-Tiny Substances",
             "place": "University of California - San Diego",
             "description": "Engineers at the University of California San Diego and the University of California Berkeley have created light-based technology that can detect biological substances with a molecular mass more than two orders of magnitude smaller than previously possible. The advance was made possible by building a device that shrinks light while exploiting mathematical singularities known as exceptional points (EPs).",
