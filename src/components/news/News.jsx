@@ -1889,7 +1889,7 @@ const GLOBAL_NEWS = {
             "date": "Mar 05",
             "name": "Water splitting observed on the nanometer scale",
             "place": "Max Planck Institute for Polymer Research",
-            "description": "Whether as a fuel or in energy storage: hydrogen is being traded as the energy carrier of the future. To date, existing methodologies have not been able to elucidate how exactly the electrochemical process of water splitting into hydrogen and oxygen takes place at the molecular scale on a catalyst surface. Scientists at the Max Planck Institute for Polymer Research (MPI-P) in Mainz have now developed a new method to investigate such processes "live" on the nanometer scale. The new detailed insights into the splitting of water on gold surfaces could aid the design of energy-efficient electro-catalysts.",
+            "description": "Whether as a fuel or in energy storage: hydrogen is being traded as the energy carrier of the future. To date, existing methodologies have not been able to elucidate how exactly the electrochemical process of water splitting into hydrogen and oxygen takes place at the molecular scale on a catalyst surface. Scientists at the Max Planck Institute for Polymer Research (MPI-P) in Mainz have now developed a new method to investigate such processes 'live' on the nanometer scale. The new detailed insights into the splitting of water on gold surfaces could aid the design of energy-efficient electro-catalysts.",
             "link": "https://www.mpip-mainz.mpg.de/en/press/pr-2020-03"
         },
         {
@@ -1917,7 +1917,7 @@ const GLOBAL_NEWS = {
             "date": "Mar 04",
             "name": "Magnetic whirls in future data storage devices",
             "place": "Martin-Luther-Universität Halle-Wittenberg",
-            "description": "Magnetic (anti)skyrmions are microscopically small whirls that are found in special classes of magnetic materials. These nano-objects could be used to host digital data by their presence or absence in a sequence along a magnetic stripe. A team of scientists from the Max Planck institutes (MPI) of Microstructure Physics in Halle and for Chemical Physics of Solids in Dresden and the Martin Luther University Halle-Wittenberg (MLU) has now made the observation that skyrmions and antiskyrmions can coexist bringing about the possibility to expand their capabilities in storage devices. The results were published in the scientific journal "Nature Communications".",
+            "description": "Magnetic (anti)skyrmions are microscopically small whirls that are found in special classes of magnetic materials. These nano-objects could be used to host digital data by their presence or absence in a sequence along a magnetic stripe. A team of scientists from the Max Planck institutes (MPI) of Microstructure Physics in Halle and for Chemical Physics of Solids in Dresden and the Martin Luther University Halle-Wittenberg (MLU) has now made the observation that skyrmions and antiskyrmions can coexist bringing about the possibility to expand their capabilities in storage devices. The results were published in the scientific journal 'Nature Communications'.",
             "link": "https://pressemitteilungen.pr.uni-halle.de/index.php?modus=pmanzeige&pm_id=3241"
         },
         {
