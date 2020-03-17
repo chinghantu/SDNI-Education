@@ -59,6 +59,12 @@ class Home extends Component {
                         <div className="carousel-item active">
                             <div className="banner-item">
                                 <img className="d-block w-100" src={banner1} alt="" />
+                                <div className="banner1-corona-alert-container">
+                                    <h1 className="corona-alert text-uppercase">Due to the Corona Virus Situation this Event is Postponed Until August</h1>
+                                </div>
+                                {/* <div className="img-gray-cover">
+
+                                </div> */}
                                 <div className="banner1-img-inner-container">
                                     <button onClick={() => { window.location.href = 'https://www.eventbrite.com/e/sdni-nnci-educational-symposium-2020-tickets-94687786719' }} className="banner1-btn btn btn-sm btn-primary">
                                         <span className="banner-btn-text">Registration</span>
@@ -90,7 +96,7 @@ class Home extends Component {
                             <h1><b>Welcome to the Education Arm of the </b></h1>
                             <h1><b>San Diego Nanotechnology Infrastructure</b></h1>
                             <br />
-                            <h3>A <b>C</b>enter of <b>E</b>xcellence in <b>N</b>ano<b>T</b>echnology <b>E</b>ducational <b>R</b>esources</h3>
+                            <h3 className="homepage-intro">A <b>C</b>enter of <b>E</b>xcellence in <b>N</b>ano<b>T</b>echnology <b>E</b>ducational <b>R</b>esources</h3>
                             <h3><b>C.E.N.T.E.R.</b></h3>
                         </div>
                     </div>
