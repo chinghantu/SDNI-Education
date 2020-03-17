@@ -36,6 +36,10 @@ h3 {
   display: flex;
 }
 
+.dropdown-menu, .sub-menu {
+  z-index: 99999 !important;
+}
+
 #tm:checked + .main-menu {
   display: block;
 }
@@ -339,6 +343,41 @@ h3 {
 
 .banner-item {
   position: relative
+}
+
+.banner1-corona-alert-container {
+  position: absolute;
+  width: 100%;
+  bottom: 50%;
+  top:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.corona-alert {
+  font-weight: bolder;
+  background-color: black;
+  color: red;
+  z-index: 9999;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+@media only screen and (max-width: 52em) {
+  .corona-alert {
+    font-size: small;
+  }
+}
+
+.img-gray-cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 999;
 }
 
 .banner1-img-inner-container, .banner2-img-inner-container {
