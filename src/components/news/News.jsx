@@ -3518,6 +3518,8 @@ const GLOBAL_NEWS = {
     ]
 }
 
+const EXPAND_SCALER = 7;
+
 class News extends Component {
     constructor(props) {
         super(props)
@@ -3529,7 +3531,19 @@ class News extends Component {
         }
         this.state = {
             title: title == null ? 'ca' : title,
-            data: []
+            data: {},
+            renderData: [],
+            /**
+             * 
+             * The expanded object stores the current expand index for each year
+             * e.g. { '2020': 3, '2019': 1 }
+             * 
+             * The value of each key has the following values:
+             * n (n >= 1) stands for normal unit expand scale
+             * 0 means the current data length is less than the ${EXPAND_SCALER}
+             * -1 means the current data is fully expanded
+             */
+            expanded: {}
         }
     }
 
@@ -3540,7 +3554,7 @@ class News extends Component {
         this.scrollToTop();
     }
 
-    scrollToTop = (e) => {
+    scrollToTop = () => {
         window.scrollTo({
             top: 0,
             behavior: 'smooth'
@@ -3549,6 +3563,8 @@ class News extends Component {
 
     handleChangeTab = (param) => {
         let data = CAL_NEWS;
+        let expanded = {};
+        let renderData = {};
         switch(param) {
             case 'ca':
                 data = CAL_NEWS;
@@ -3560,14 +3576,89 @@ class News extends Component {
                 data = GLOBAL_NEWS;
                 break;
         }
+        // Initialize the expand-data
+        Object.keys(data).forEach(element => {
+            expanded[element] = data[element].length > EXPAND_SCALER;
+            renderData[element] = data[element].slice(0, 1 * EXPAND_SCALER);
+        });
+        
         this.setState({
             title: param,
-            data: data
+            data: data,
+            expanded: expanded,
+            renderData: renderData
         });
     }
 
+    /**
+     * Expand the news one time, appending {EXPAND_SCALER} news to the end
+     */
+    handleExpandContent = (year) => {
+        if (this.state.expanded[year] < 0) {
+            return;
+        }
+        const { data } = this.state;
+        // Process expand operation
+        this.setState((prevState) => {
+            let expanded = Object.assign({}, prevState.expanded);
+            let renderData = Object.assign({}, prevState.renderData);
+
+            expanded[year] += 1;
+            let newData = data[year].slice((expanded[year] - 1) * EXPAND_SCALER, (expanded[year]) * EXPAND_SCALER);
+            console.log(newData)
+            renderData[year] = [...renderData[year], ...newData];
+            console.log(renderData)
+            if (newData.length < EXPAND_SCALER) {
+                expanded[year] = -1;
+            }
+            return {
+                expanded: expanded,
+                renderData: renderData
+            }
+        })
+    }
+
+    /**
+     * Expand all the news
+     */
+    handleExpandAllContent = (year) => {
+        if (this.state.expanded[year] < 0) {
+            return;
+        }
+        const { data } = this.state;
+        // Process expand-all operation
+        this.setState((prevState) => {
+            let expanded = Object.assign({}, prevState.expanded);
+            let renderData = Object.assign({}, prevState.renderData);
+            expanded[year] = -1;
+            renderData[year] = data[year];
+            return {
+                expanded: expanded,
+                renderData: renderData
+            }
+        })
+    }
+
+    /**
+     * Collapse all the news
+     */
+    handleCollapseAllContent = (year) => {
+        const { data } = this.state;
+        // Process collapse-all operation
+        this.setState((prevState) => {
+            let expanded = Object.assign({}, prevState.expanded);
+            let renderData = Object.assign({}, prevState.renderData);
+            expanded[year] = data[year].length > EXPAND_SCALER;
+            renderData[year] = data[year].slice(0, 1 * EXPAND_SCALER);
+            return {
+                expanded: expanded,
+                renderData: renderData
+            }
+        })
+    }
+
     render() {
-        const { title, data } = this.state;
+        const { title, renderData, expanded } = this.state;
         return (
             <div>
                 <NavBar path={this.path} handler={this.handleChangeTab}/>
@@ -3605,11 +3696,23 @@ class News extends Component {
                         ) : (<div></div>)
                     }
                     {
-                        Object.keys(data).sort().reverse().map((year, i) => {
-                            const currentYear = data[year];
+                        Object.keys(renderData).sort().reverse().map((year, i) => {
+                            const currentYear = renderData[year];
+                            let showAll = expanded[year] == 1;                          
                             return (
                                 <div key={i}>
-                                    <h4 className="mt-5 mb-5">{year}</h4>
+                                    <div className="mt-5 mb-5 row">
+                                        <h4 className="news-title">{year}</h4>
+                                        {
+                                            expanded[year] ? (
+                                                <button onClick={() => showAll ? this.handleExpandAllContent(year) : this.handleCollapseAllContent(year)} 
+                                                        type="button" 
+                                                        className="btn btn-link">
+                                                    { showAll ? 'Show All' : 'Collapse All' }
+                                                </button>
+                                            ) : (<span></span>)
+                                        }
+                                    </div>
                                     <table className="mb-5">
                                         <thead>
                                         <tr>
@@ -3654,12 +3757,23 @@ class News extends Component {
                                         </tbody>
 
                                     </table>
+                                    {
+                                        expanded[year] > 0 ?
+                                        (<div className="load-container mt-5 mb-5">
+                                            <button onClick={() => this.handleExpandContent(year)} 
+                                                    type="button" 
+                                                    className="btn btn-primary">
+                                                    Load More
+                                            </button>
+                                        </div>) :
+                                        (<div></div>)
+                                    }
                                 </div>
                             )
                         })
                     }
                 
-                    <a onClick={(e) => {this.scrollToTop(e)}} href="" className="text-center"><p><span className="news-back-to-top">Back to Top</span><br/><br/><br/></p></a>
+                    <a onClick={() => {this.scrollToTop()}} href="" className="text-center"><p><span className="news-back-to-top">Back to Top</span><br/><br/><br/></p></a>
                 </div> 
                 <Footer/>
             </div>
