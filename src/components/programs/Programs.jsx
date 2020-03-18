@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import NavBar from '../navbar/NavBar';
 import Footer from '../footer/Footer';
 
@@ -131,30 +130,6 @@ const RET = (
             When you create an online application to the SDNI RET program, you will be required to enter recommenders’ information. Reminders are not sent to recommenders on our behalf. Therefore, please submit your application with enough time remaining for you to follow up with your recommenders and have your letters submitted on time. Should they have any questions, they can contact <b>ytheriault@ucsd.edu</b>.
 					<br /><br />
             Submit inquiries and any supporting documents to: <b>ytheriault@ucsd.edu</b>
-            <br /><br /><br /><br /><br />
-        </p>
-    </div>
-)
-
-const RET_A = (
-    <div>
-        <p className="title"><b>RET 2019 Alumni</b></p>
-        <img className="img-fluid" src={RETAlumni} alt="Image" />
-        <p>
-            <span className="programs-span">
-                <b>Back: </b>Lesli Horowitz<br />
-                <b>Left to right: </b>Angela Tsang, Patricia Beller, Lilia Ornelas, Gabriela Mansfield, Kerson Perez
-					</span>
-            <br /><br />
-            During the RET 2019 program teacher students received a solid series of lessons covering the fundamentals of nanotechnology as well as life sciences-focused nanotechnology seminars.
-					<br /><br />
-            At the end of the program, each RET student produce a lesson plan that they brought to their respective colleges/schools for implementation. In dsgng so SDNI hopes that the respective nanotechnology lessons will plant the seed for a growing nanotechnology program at each respective institution.
-					<br /><br />
-            <b>The lessons developed by the 2019 RET can be found in the section:</b>
-            <br /><br />
-            <a href="k12Curriculum.html"><button className="programs-button">K-12 Curriculum</button></a>
-            <br /><br />
-            <a href="collegeCurriculum.html"><button className="programs-button">College Curriculum</button></a>
             <br /><br /><br /><br /><br />
         </p>
     </div>
@@ -430,7 +405,29 @@ class Programs extends Component {
             case 'reu':
                 return REU;
             case 'ret-a':
-                return RET_A;
+                return (
+                    <div>
+                        <p className="title"><b>RET 2019 Alumni</b></p>
+                        <img className="img-fluid" src={RETAlumni} alt="Image" />
+                        <p>
+                            <span className="programs-span">
+                                <b>Back: </b>Lesli Horowitz<br />
+                                <b>Left to right: </b>Angela Tsang, Patricia Beller, Lilia Ornelas, Gabriela Mansfield, Kerson Perez
+                                    </span>
+                            <br /><br />
+                            During the RET 2019 program teacher students received a solid series of lessons covering the fundamentals of nanotechnology as well as life sciences-focused nanotechnology seminars.
+                                    <br /><br />
+                            At the end of the program, each RET student produce a lesson plan that they brought to their respective colleges/schools for implementation. In dsgng so SDNI hopes that the respective nanotechnology lessons will plant the seed for a growing nanotechnology program at each respective institution.
+                                    <br /><br />
+                            <b>The lessons developed by the 2019 RET can be found in the section:</b>
+                            <br /><br />
+                            <button onClick={() => this.handleChangeTab('k12')} className="programs-button">K-12 Curriculum</button>
+                            <br /><br />
+                            <button onClick={() => this.handleChangeTab('cc')} className="programs-button">College Curriculum</button>
+                            <br /><br /><br /><br /><br />
+                        </p>
+                    </div>
+                );
             case 'reu-a':
                 return REU_A;
             case 'nt2025':
