@@ -7,6 +7,13 @@ import CalBlue from '../../assets/Image/CaliforniaBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Mar 19",
+            "name": "Nature-Inspired Green Energy Technology Clears Major Development Hurdle",
+            "place": "Lawrence Berkeley National Laboratory",
+            "description": "A new design has put the long-sought idea of artificial photosynthesis within reach.",
+            "link": "https://newscenter.lbl.gov/2020/03/19/green-energy-clears-hurdle/"
+        },
+        {
             "date": "Mar 13",
             "name": "Pathways Toward Realizing the Promise of All-Solid-State Batteries",
             "place": "University of California - San Diego",
@@ -199,6 +206,48 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Mar 24",
+            "name": "Crumpled graphene makes ultra-sensitive cancer DNA detector",
+            "place": "University of Illinois at Urbana-Champaign",
+            "description": "Graphene-based biosensors could usher in an era of liquid biopsy, detecting DNA cancer markers circulating in a patient’s blood or serum. But current designs need a lot of DNA. In a new study, crumpling graphene makes it more than ten thousand times more sensitive to DNA by creating electrical “hot spots,” researchers at the University of Illinois at Urbana-Champaign found.",
+            "link": "https://news.illinois.edu/view/6367/807413"
+        }, 
+        {
+            "date": "Mar 19",
+            "name": "Stretchable Supercapacitors to Power Tomorrow’s Wearable Devices",
+            "place": "Duke University",
+            "description": "Researchers demonstrate robust supercapacitors that still work when stretched to eight times their original size.",
+            "link": "https://pratt.duke.edu/about/news/stretchable-supercapacitors"
+        }, 
+        {
+            "date": "Mar 18",
+            "name": "Model simulator helps researchers map complex physics phenomena",
+            "place": "Cornell University",
+            "description": "To understand the behavior of quantum particles, imagine a pinball game – but rather than one metal ball, there are billions or more, all ricocheting off each other and their surroundings. Physicists have long tried to study this interactive system of strongly correlated particles, which could help illuminate elusive physics phenomena like high-temperature superconductivity and magnetism.",
+            "link": "https://news.cornell.edu/stories/2020/03/model-simulator-helps-researchers-map-complex-physics-phenomena"
+        }, 
+        {
+            "date": "Mar 18",
+            "name": "Fish scales could make wearable electronics more sustainable",
+            "place": "American Chemical Society",
+            "description": "Flexible temporary electronic displays may one day make it possible to sport a glowing tattoo or check a reading, like that of a stopwatch, directly on the skin. In its current form, however, this technology generally depends on plastic. New research in ACS Nano describes a way to make these displays, which would likely be discarded after a single use, more environmentally friendly using a plentiful and biodegradable resource: fish scales.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-march-18-2020/fish-scales-could-make-wearable-electronics-more-sustainable.html"
+        }, 
+        {
+            "date": "Mar 13",
+            "name": "Invisible plastics in water",
+            "place": "Washington State University",
+            "description": "A Washington State University research team has found that nanoscale particles of the most commonly used plastics tend to move through the water supply, especially in fresh water, or settle out in wastewater treatment plants, where they end up as sludge, in landfills, and often as fertilizer.",
+            "link": "https://news.wsu.edu/2020/03/13/invisible-plastics-water/"
+        }, 
+        {
+            "date": "Mar 12",
+            "name": "Heat and Light Create Never-Before-Seen Biocompatible Microparticles",
+            "place": "Duke University",
+            "description": "Innovative manufacturing technique can create new types of microparticles for applications such as drug delivery, diagnostics and tissue engineering.",
+            "link": "https://pratt.duke.edu/about/news/microparticle-shapes"
+        }, 
         {
             "date": "Mar 12",
             "name": "New nano strategy fights superbugs",
@@ -1801,6 +1850,62 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Mar 23",
+            "name": "Graphite nanoplatelets prevent infections",
+            "place": "Chalmers University of Technology",
+            "description": "Graphite nanoplatelets integrated into plastic medical surfaces can prevent infections, killing 99.99 per cent of bacteria which try to attach – a cheap and viable potential solution to a problem which affects millions, costs huge amounts of time and money, and accelerates antibiotic resistance. This is according to research from Chalmers University of Technology, Sweden, in the journal Small.​",
+            "link": "https://www.chalmers.se/en/departments/bio/news/Pages/Graphite-nanoplatelets-on-medical-devices-prevent-infections-.aspx"
+        }, 
+        {
+            "date": "Mar 23",
+            "name": "New material developed could help clean energy revolution",
+            "place": "Aalto University",
+            "description": "Researchers developed a promising graphene–carbon nanotube catalyst, giving them better control over hugely important chemical reactions for producing hydrogen fuel.",
+            "link": "https://www.aalto.fi/en/news/new-material-developed-could-help-clean-energy-revolution"
+        }, 
+        {
+            "date": "Mar 23",
+            "name": "Researchers observe ultrafast processes of single molecules in liquid helium for the first time",
+            "place": "Graz University of Technology",
+            "description": "Graz University of Technology researchers describe in Physical Review Letters how a molecule moves in the protective environment of a quantum fluid.",
+            "link": "https://www.tugraz.at/en/tu-graz/services/news-stories/tu-graz-news/singleview/article/forschende-beobachten-erstmals-ultraschnelle-prozesse-einzelner-molekuele-in-fluessigem-helium0/"
+        }, 
+        {
+            "date": "Mar 20",
+            "name": "A pigment from ancient Egypt to modern microscopy",
+            "place": "University of Göttingen",
+            "description": "University of Göttingen has produced a new nanomaterial based on the Egyptian blue pigment, which is ideally suited for applications in imaging using near infrared spectroscopy and microscopy. The results have been published in the journal Nature Communications.",
+            "link": "https://goettingen-campus.de/news/view?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=316&cHash=b1fb2ec38b21e16550c95fd1be5fb15f"
+        }, 
+        {
+            "date": "Mar 19",
+            "name": "How molecules self-assemble into superstructures",
+            "place": "Kiel University",
+            "description": "Most technical functional units are built bit by bit according to a well-designed construction plan. The components are sequentially put in place by humans or machines. Life, however, is based on a different principle. It starts bottom-up with molecular self-assembly. The crystallization of sugar or salt are simple examples of self-assembly processes, where almost perfect crystals form from molecules that randomly move in a solution. To better understand the growth of macroscopic structures from molecules, a research team of physicists and chemists of Kiel University has mimicked such processes with custom-made molecules. As recently reported in the journal Angewandte Chemie they fabricated a variety of patterns over a wide range of sizes including the largest structures reported so far.",
+            "link": "https://www.uni-kiel.de/en/university/details/news/075-superstrukturen"
+        }, 
+        {
+            "date": "Mar 17",
+            "name": "Semiconductors can behave like metals and superconductors",
+            "place": "Swansea University",
+            "description": "The crystal structure at the surface of semiconductor materials can make them behave like metals and even like superconductors, a joint Swansea/Rostock research team has shown. The discovery potentially opens the door to advances like more energy-efficient electronic devices.",
+            "link": "https://www.swansea.ac.uk/press-office/news-events/news/2020/03/semiconductors-can-behave-like-metals-and-superconductors.php"
+        }, 
+        {
+            "date": "Mar 17",
+            "name": "Nanostructured rubber-like material could replace human tissue",
+            "place": "Chalmers University of Technology",
+            "description": "Researchers from Chalmers University of Technology, Sweden, have created a new, rubber-like material with a unique set of properties, which could act as a replacement for human tissue in medical procedures. The material has the potential to make a big difference to many people's lives. The research was recently published in the highly regarded scientific journal ACS Nano.",
+            "link": "https://www.chalmers.se/en/departments/chem/news/Pages/Nanostructured-rubber-like.aspx"
+        }, 
+        {
+            "date": "Mar 16",
+            "name": "Machine learning technique sharpens prediction of material's mechanical properties",
+            "place": "Nanyang Technological University",
+            "description": "Scientists at Nanyang Technological University, Singapore (NTU Singapore), Massachusetts Institute of Technology (MIT), and Brown University have developed new approaches that significantly improve the accuracy of an important material testing technique by harnessing the power of machine learning. ",
+            "link": "http://news.ntu.edu.sg/pages/newsdetail.aspx?URL=http://news.ntu.edu.sg/news/Pages/NR2020_Mar17.aspx&Guid=eda98e23-2b42-4913-ab8d-901270564089&Category=News+Releases"
+        }, 
         {
             "date": "Mar 13",
             "name": "Graphene solar heating film offers new opportunity for efficient thermal energy harvesting",
