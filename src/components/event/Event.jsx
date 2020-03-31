@@ -7,78 +7,15 @@ import CalPink from '../../assets/Image/CaliforniaPink.png'
 
 const CAL_EVENTS = [
     {
-        year: 2019,
-        date: 'Sept 18 - 19',
-        name: 'Advanced & Nanomaterials Conference',
+        year: 2020,
+        date: 'Sept 27 - 30',
+        name: 'IEEE-NEMS 2020 (15th IEEE international Conference on Nano/Micro Engineered and Molecular Systems) ',
         place: 'San Diego, CA',
-        link: 'https://www.meetingsint.com/nanotechnology-conferences/nanomaterials'
+        link: 'https://ieee-nems.org/2020/'
     },
-    {
-        year: 2019,
-        date: 'Nov 14 - 15',
-        name: 'Annual Conference on Nanotechnology and Advanced Materials',
-        place: 'San Francisco, CA',
-        link: 'https://biomat.net/site2/events/annual-conference-on-nanotechnology-and-advanced-materials-2/'
-    },
-    {
-        year: 2019,
-        date: 'Nov 20 - 21',
-        name: 'IDTechEx Graphene & 2D Materials 2019',
-        place: 'Santa Clara, CA',
-        link: 'https://www.idtechex.com/graphene-2d-materials-usa/show/en/'
-    },
-    {
-        year: 2019,
-        date: 'Dec 20 - 21',
-        name: 'International Conference on Nanoscience, Nanotechnology and Advanced Materials (IC2NM)',
-        place: 'San Diego, CA',
-        link: 'http://www.academicsworld.org/Conference2019/USA/18/IC2NM/'
-    }
 ]
 
 const US_EVENTS = [
-    {
-        year: 2019,
-        date: 'Sept 23',
-        name: 'International Technology and Nanoscience Conference',
-        place: 'Chicago, IL',
-        link: 'https://www.evensi.us/international-nanotechnology-nanoscience-conference-chicago/283561197'
-    },
-    {
-        year: 2019,
-        date: 'Oct 8 - 9',
-        name: 'Nanomanufacturing Conference',
-        place: 'Greensboro, NC',
-        link: 'https://10times.com/nano-manufacturing-conference'
-    },
-    {
-        year: 2019,
-        date: 'Oct 14 - 16',
-        name: 'Nanoimprint and Nanoprint Technologies',
-        place: 'Boston, MA',
-        link: 'https://nnt2019.org/'
-    },
-    {
-        year: 2019,
-        date: 'Oct 21 - 22',
-        name: '691st International Conference on Nanoscience, Nanotechnology andAdvanced Materials',
-        place: 'Washington, DC',
-        link: 'http://www.academicsworld.org/Conference2019/USA/15/IC2NM/'
-    },
-    {
-        year: 2019,
-        date: 'Nov 3 - 7',
-        name: 'International Symposium on Clusters and Nanomaterials',
-        place: 'Richmond,VA',
-        link: 'https://iscan.vcu.edu/'
-    },
-    {
-        year: 2019,
-        date: 'Nov 12 - 14',
-        name: 'World Congress on Materials Science and Engineering',
-        place: 'Las Vegas, NV',
-        link: 'https://10times.com/wcmse'
-    },
     {
         year: 2020,
         date: 'Apr 25 - 26',
@@ -99,73 +36,38 @@ const US_EVENTS = [
         name: 'NanoTech Conference & Expo',
         place: 'Forest Heights, MD',
         link: 'https://10times.com/nanotech-expo'
+    },
+    {
+        year: 2020,
+        date: 'Aug 17 - 18',
+        name: '9th Global Nanotechnology Congress and Expo',
+        place: 'Miami, USA',
+        link: 'https://www.scientificfederation.com/nanotech-2020/'
+    },
+    {
+        year: 2020,
+        date: 'Aug 19 - 20',
+        name: 'Global Meeting on Nanotechnology Nanotechnology 2020',
+        place: 'Massachusetts, US',
+        link: 'https://mecglobalevents.com/conferences/nanotechnology/'
+    },
+    {
+        year: 2020,
+        date: 'Oct 05 - 06',
+        name: 'World Nanotech Summit 2020',
+        place: 'Texas, USA',
+        link: 'https://wns2020.org'
+    },
+    {
+        year: 2020,
+        date: 'Oct 29 - 31',
+        name: '2nd Edition of World Nanotechnology Conference',
+        place: 'Orlando, USA',
+        link: 'https://worldnanotechnologyconference.com'
     }
 ]
 
 const GLOBAL_EVENTS = [
-    {
-        year: 2019,
-        date: "Oct 27 - 30",
-        name: "IEEE NMDC 2019 -- 14th IEEE Nanotechnology Materials and Devices Conference",
-        place: "Stockholm, Sweden",
-        link: "https://ieeenmdc.org/nmdc-2019/"
-    },
-    {
-        year: 2019,
-        date: "Oct 27 - 31",
-        name: "ICQNM 2019 -- The Thirteenth International Conference on Quantum, Nano/Bio, and Micro Technologies",
-        place: "Nice, France",
-        link: "https://www.iaria.org/conferences2019/NetWare19.html"
-    },
-    {
-        year: 2019,
-        date: "Oct 30 - 31",
-        name: "Graphene and 3D Printing Technology (Symposium)",
-        place: "Tokyo, Japan",
-        link: "https://www.lexisconferences.com/graphene"
-    },
-    {
-        year: 2019,
-        date: "Nov 18 - 19",
-        name: "World Congress on Nanotechnology (Euro Nano-2019)",
-        place: "Milan, Italy",
-        link: "https://materialscience.gavinconferences.com"
-    },
-    {
-        year: 2019,
-        date: "Nov 20 - 21",
-        name: "Nanomaterials 2019 -- 3rd International Conference on Advanced Nanotechnology and Nanomaterials",
-        place: "Dobai, United Arab Emirates",
-        link: "https://www.coalesceresearchgroup.com/conferences/nanomaterials/"
-    },
-    {
-        year: 2019,
-        date: "Dec 2 - 3",
-        name: "Advanced Materials and Simulation",
-        place: "Barcelona, Spain",
-        link: "https://advancedmaterials.euroscicon.com"
-    },
-    {
-        year: 2019,
-        date: "Dec 9 - 10",
-        name: "World Congress on Advanced Nano Research and Nano Tech Applications",
-        place: "Bangkok, Thailand",
-        link: "https://world.nanotechconferences.org/"
-    },
-    {
-        year: 2019,
-        date: "Dec 10 - 13",
-        name: "Smart Nanomaterials 2019",
-        place: "Paris, France",
-        link: "https://statnano.com/event/2225"
-    },
-    {
-        year: 2020,
-        date: "Jan 29 - 30",
-        name: "NANO tech 2020",
-        place: "Tokyo, Japan",
-        link: "https://www.nanotechexpo.jp/"
-    },
     {
         year: 2020,
         date: "Feb 26 - 28",
@@ -182,10 +84,45 @@ const GLOBAL_EVENTS = [
     },
     {
         year: 2020,
+        date: "May 07 - 09",
+        name: "International Conference on Mining, Material & Metallurgical Engineering",
+        place: "Milan, Italy",
+        link: "http://worldmaterialsconference.com/2020/"
+    },
+    {
+        year: 2020,
+        date: "May 08 - 09",
+        name: "3rd Word Congress on Nanomaterials",
+        place: "Prague, Czech Republic",
+        link: "https://nanomaterials.alliedacademies.com"
+    },
+    {
+        year: 2020,
+        date: "May 11 - 12",
+        name: "14th Edition of International Conference on Nanomedicine and Advanced Drug Delivery",
+        place: "Vienna, Austria",
+        link: "https://nano-drugdelivery.euroscicon.com"
+    },
+    {
+        year: 2020,
         date: "May 11 - 12",
         name: " Nanotechnology Conference: A Disruptive Technology Shaping the Future with New Innovations",
         place: "Frankfurt, Germany",
         link: "https://nanotechnology.euroscicon.com/"
+    },
+    {
+        year: 2020,
+        date: "Jun 03 - 05",
+        name: "8th International Symposium on Sensor Science",
+        place: "Dresden, Germany",
+        link: "https://sciforum.net/conference/I3S2020Dresden"
+    },
+    {
+        year: 2020,
+        date: "Jun 09 - 10",
+        name: "23rd World Nanotechnology Congress",
+        place: "Istanbul, Turkey",
+        link: "https://nanotechnologycongress.conferenceseries.com"
     },
     {
         year: 2020,
@@ -196,10 +133,59 @@ const GLOBAL_EVENTS = [
     },
     {
         year: 2020,
+        date: "Jun 22 - 23",
+        name: "15th International Congress on Laser Advanced Materials Processing",
+        place: "Osaka, Japan",
+        link: "https://www.meetingsint.com/conferences/materialsprocessing"
+    },
+    {
+        year: 2020,
+        date: "Jul 30 - 31",
+        name: "3rd Global meeting on Nanotechnology and Advanced Materials",
+        place: "Paris, France",
+        link: "https://larixconferences.com/nanotechnology/"
+    },
+    {
+        year: 2020,
+        date: "Jul 31 - Aug 01",
+        name: "International Conference on Nanomedicine & Nanotechnology",
+        place: "Dublin, Ireland",
+        link: "https://nanomedicine-nanotechnology.pulsusconference.com"
+    },
+    {
+        year: 2020,
+        date: "Aug 24 - 25",
+        name: "15th World Congress on Nanophotonics and Electronics",
+        place: "Zurich, Switzerland",
+        link: "https://www.meetingsint.com/conferences/nanophotonics"
+    },
+    {
+        year: 2020,
+        date: "Sep 29 - Oct 01",
+        name: "ImagineNano 2020",
+        place: "Bilbao, Spain",
+        link: "http://www.imaginenano.com/2020/index.php"
+    },
+    {
+        year: 2020,
         date: "Oct 16 - 18",
         name: " NANOCON 2019 -- 11th International Conference on Nanomaterials - Research & Application",
         place: "Brno, Czech Republic",
         link: "https://www.nanocon.eu"
+    },
+    {
+        year: 2020,
+        date: "Oct 19 - 22",
+        name: "Graphene2020 ",
+        place: "Grenoble, France",
+        link: "http://www.grapheneconf.com/2020/index.php"
+    },
+    {
+        year: 2020,
+        date: "Nov 25 - 27",
+        name: "Nano Singapore 2020 Intl. Conference & Exhibition",
+        place: "Suntec, Singapore",
+        link: "https://www.setcor.org/conferences/Nano-Singapore"
     }
 ]
 

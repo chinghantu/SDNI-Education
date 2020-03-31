@@ -7,6 +7,20 @@ import CalBlue from '../../assets/Image/CaliforniaBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Mar 30",
+            "name": "Tiny Optical Cavity Could Make Quantum Networks Possible",
+            "place": "California Institute of Technology",
+            "description": "Engineers at Caltech have shown that atoms in optical cavities—tiny boxes for light—could be foundational to the creation of a quantum internet. Their work was published on March 30 by the journal Nature.",
+            "link": "https://www.caltech.edu/about/news/tiny-optical-cavity-could-make-quantum-networks-possible"
+        },
+        {
+            "date": "Mar 24",
+            "name": "As electronics shrink to nanoscale, will they still be good as gold?",
+            "place": "Stanford University",
+            "description": "Engineers wonder whether this tried and true precious metal, found in the bowels of most electronic devices, can stand up to the strain of next-generation data processing.",
+            "link": "https://engineering.stanford.edu/magazine/article/electronics-shrink-nanoscale-will-they-still-be-good-gold"
+        }, 
+        {
             "date": "Mar 19",
             "name": "Nature-Inspired Green Energy Technology Clears Major Development Hurdle",
             "place": "Lawrence Berkeley National Laboratory",
@@ -207,12 +221,47 @@ const CAL_NEWS = {
 const US_NEWS = {
     '2020': [
         {
+            "date": "Mar 30",
+            "name": "Heart attack on a chip: scientists model conditions of ischemia on a microfluidic device",
+            "place": "Tufts University",
+            "description": "Researchers led by biomedical engineers at Tufts University invented a microfluidic chip containing cardiac cells that is capable of mimicking hypoxic conditions following a heart attack – specifically when an artery is blocked in the heart and then unblocked after treatment. The chip contains multiplexed arrays of electronic sensors placed outside and inside the cells that can detect the rise and fall of voltage across individual cell membranes, as well as voltage waves moving across the cell layer, which cause the cells to beat in unison in the chip, just as they do in the heart.",
+            "link": "https://now.tufts.edu/news-releases/heart-attack-chip-scientists-model-conditions-ischemia-microfluidic-device"
+        },
+        {
+            "date": "Mar 27",
+            "name": "Double-walled nanotubes have electro-optical advantages",
+            "place": "Rice University",
+            "description": "Rice University engineers already knew that size matters when using single-walled carbon nanotubes for their electrical properties. But until now, nobody had studied how electrons act when confronted with the Russian doll-like structure of multiwalled tubes.",
+            "link": "https://news.rice.edu/2020/03/27/double-walled-nanotubes-have-electro-optical-advantages/"
+        },
+        {
+            "date": "Mar 26",
+            "name": "Experiments in Mice And Human Cells Shed Light On Best Way to Deliver Nanoparticle Therapy For Cancer",
+            "place": "Johns Hopkins Medicine",
+            "description": "Researchers in the cancer nanomedicine community debate whether use of tiny structures, called nanoparticles, can best deliver drug therapy to tumors passively — allowing the nanoparticles to diffuse into tumors and become held in place, or actively — adding a targeted anti-cancer molecule to bind to specific cancer cell receptors and, in theory, keep the nanoparticle in the tumor longer. Now, new research on human and mouse tumors in mice by investigators at the Johns Hopkins Kimmel Cancer Center suggests the question is even more complicated.",
+            "link": "https://www.hopkinsmedicine.org/news/newsroom/news-releases/experiments-in-mice-and-human-cells-shed-light-on-best-way-to-deliver-nanoparticle-therapy-for-cancer"
+        },
+        {
+            "date": "Mar 25",
+            "name": "‘Whiskey webs’ are the new ‘coffee ring effect’",
+            "place": "American Chemical Society",
+            "description": "Spilled coffee forms a ring as the liquid evaporates, depositing solids along the edge of the puddle. This “coffee ring effect” has fascinated scientists for decades, but now a team says they have uncovered the mechanism behind an even more striking, web-like pattern that forms when drops of American whiskey dry up. The results, reported in ACS Nano, suggest that these distinctive ‘whiskey webs’ could someday be used to identify counterfeit spirits.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/march/whiskey-webs-are-the-new-coffee-ring-effect.html"
+        }, 
+        {
             "date": "Mar 24",
             "name": "Crumpled graphene makes ultra-sensitive cancer DNA detector",
             "place": "University of Illinois at Urbana-Champaign",
             "description": "Graphene-based biosensors could usher in an era of liquid biopsy, detecting DNA cancer markers circulating in a patient’s blood or serum. But current designs need a lot of DNA. In a new study, crumpling graphene makes it more than ten thousand times more sensitive to DNA by creating electrical “hot spots,” researchers at the University of Illinois at Urbana-Champaign found.",
             "link": "https://news.illinois.edu/view/6367/807413"
         }, 
+        {
+            "date": "Mar 23",
+            "name": "A new ‘gold standard’ for safer ceramic coatings",
+            "place": "American Chemical Society",
+            "description": "Making your own ceramics can be a way to express your creativity, but some techniques and materials used in the process could spell bad news for your health and the environment. If not prepared properly, some glazed ceramics can leach potentially harmful heavy metals. Scientists now report progress toward a new type of glaze that includes gold and silver nanoparticles, which are less toxic and more environmentally friendly than currently used formulations, while still providing vibrant colors. ",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/march/new-gold-standard-for-safer-ceramic-coatings.html"
+        },    
         {
             "date": "Mar 19",
             "name": "Stretchable Supercapacitors to Power Tomorrow’s Wearable Devices",
@@ -1850,6 +1899,41 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Mar 30",
+            "name": "Phage capsid against influenza: perfectly fitting inhibitor prevents viral infection",
+            "place": "Forschungsverbund Berlin e.V.",
+            "description": "A new approach brings the hope of new therapeutic options for suppressing seasonal influenza and avian flu: On the basis of an empty – and therefore non-infectious – shell of a phage virus, researchers from Berlin have developed a chemically modified phage capsid that “stifles” influenza viruses.",
+            "link": "https://www.fv-berlin.de/en/info-for/the-media-and-public/news/phagen-kapsid-gegen-influenza-passgenauer-inhibitor-verhindert-virale-infektion"
+        },
+        {
+            "date": "Mar 27",
+            "name": "Graphene-iron filters a promising gas separation tool: research",
+            "place": "University of New South Wales",
+            "description": "UNSW researchers have shown how a new class of low-cost graphene-based membranes – a type of filter used in industry sectors that generate enormous mixed waste gases, such as solid plastic waste, biowaste or wastewater – can be selectively tuned to separate different gases from gaseous mixtures. ",
+            "link": "https://newsroom.unsw.edu.au/news/science-tech/graphene-iron-filters-promising-gas-separation-tool-research"
+        },
+        {
+            "date": "Mar 26",
+            "name": "3D printer sensors could make breath tests for diabetes possible",
+            "place": "Kiel University",
+            "description": "The production of highly sensitive sensors is a complex process: it requires many different steps and the almost dust-free environment of special cleanrooms. A research team from Materials Science at Kiel University (CAU) and from Biomedical Engineering at the Technical University of Moldova has now developed a procedure to produce extremely sensitive and energy-efficient sensors using 3D printing. ",
+            "link": "https://www.uni-kiel.de/en/university/details/news/091-3d-druck"
+        },
+        {
+            "date": "Mar 25",
+            "name": "A nanoscale device that can see through walls",
+            "place": "Ecole Polytechnique Fédérale de Lausanne",
+            "description": "Researchers at EPFL have developed a nanodevice that operates more than 10 times faster than today’s fastest transistors, and about 100 times faster than the transistors you have on your computers. This new device enables the generation of high-power terahertz waves. These waves, which are notoriously difficult to produce, are useful in a rich variety of applications ranging from imaging and sensing to high-speed wireless communications. The high-power picosecond operation of these device also hold immense promise to some advanced medical treatment techniques such as cancer therapy. The team’s pioneering compact source, described today in Nature, paves the way for untold new applications.",
+            "link": "https://news.epfl.ch/news/a-nanoscale-device-that-can-see-through-walls/"
+        },
+        {
+            "date": "Mar 25",
+            "name": "Innovative Thinner Electrolyte Can Improve Functioning of Solid Oxide Fuel Cells",
+            "place": "Tokyo University of Science",
+            "description": "Solid oxide fuel cells (SOFCs) are clean and highly efficient power generation systems, which can generate electrical energy but are limited by their high operating temperatures and infrequent applications. Researchers from the Tokyo University of Science led by Dr Tohru Higuchi, in their new study, explore how the efficiency of SOFCs can be increased by lowering their operating temperature and could be an alternative to nuclear and thermal power generation in the future.",
+            "link": "https://www.tus.ac.jp/en/mediarelations/archive/20200325001.html"
+        },     
         {
             "date": "Mar 23",
             "name": "Graphite nanoplatelets prevent infections",
