@@ -348,8 +348,7 @@ h3 {
 .banner1-corona-alert-container {
   position: absolute;
   width: 100%;
-  bottom: 50%;
-  top:50%;
+  bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,7 +356,6 @@ h3 {
 
 .corona-alert {
   font-weight: bolder;
-  background-color: black;
   color: red;
   z-index: 9999;
   text-align: center;
@@ -378,6 +376,14 @@ h3 {
   background-color: black;
   opacity: 0.5;
   z-index: 999;
+}
+
+.gray-filter {
+  filter: grayscale(100%) contrast(150%);
+}
+
+.btn-primary:disabled {
+  background-color: gray !important;
 }
 
 .banner1-img-inner-container, .banner2-img-inner-container {

@@ -58,15 +58,15 @@ class Home extends Component {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <div className="banner-item">
-                                <img className="d-block w-100" src={banner1} alt="" />
+                                <img className="d-block w-100 gray-filter" src={banner1} alt="" />
                                 <div className="banner1-corona-alert-container">
-                                    <h1 className="corona-alert text-uppercase">Due to the Corona Virus Situation this Event is Postponed Until August</h1>
+                                    <h1 className="corona-alert">Due to the Corona virus Pandemic, this event is postponed until August.</h1>
                                 </div>
                                 {/* <div className="img-gray-cover">
 
                                 </div> */}
                                 <div className="banner1-img-inner-container">
-                                    <button onClick={() => { window.location.href = 'https://www.eventbrite.com/e/sdni-nnci-educational-symposium-2020-tickets-94687786719' }} className="banner1-btn btn btn-sm btn-primary">
+                                    <button disabled onClick={() => { window.location.href = 'https://www.eventbrite.com/e/sdni-nnci-educational-symposium-2020-tickets-94687786719' }} className="banner1-btn btn btn-sm btn-primary">
                                         <span className="banner-btn-text">Registration</span>
                                         </button>
                                 </div>
