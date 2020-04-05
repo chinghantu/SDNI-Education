@@ -4,6 +4,8 @@ import NavBar from "../navbar/NavBar"
 import Footer from "../footer/Footer"
 
 import CalPink from '../../assets/Image/CaliforniaPink.png'
+import USA from '../../assets/Image/USA.png'
+import InternationalPink from '../../assets/Image/InternationalPink.png'
 
 const CAL_EVENTS = [
     {
@@ -201,7 +203,8 @@ class Event extends Component {
         }
         this.state = {
             title: title == null ? 'ca' : title,
-            data: []
+            data: [],
+            image: CalPink
         }
     }
 
@@ -219,25 +222,30 @@ class Event extends Component {
 
     handleChangeTab = (param) => {
         let data = CAL_EVENTS;
+        let image= CalPink;
         switch(param) {
             case 'ca':
                 data = CAL_EVENTS;
+                image = CalPink;
                 break;
             case 'us':
                 data = US_EVENTS;
+                image = USA;
                 break;
             case 'global':
                 data = GLOBAL_EVENTS;
+                image = InternationalPink;
                 break;
         }
         this.setState({
             title: param,
-            data: data
+            data: data,
+            image: image
         });
     }
 
     render() {
-        const { title, data } = this.state;
+        const { title, data, image } = this.state;
         const renderData = _.groupBy(data, function(item) { 
             return item.year;
         });
@@ -257,7 +265,7 @@ class Event extends Component {
                             </div>
                         </div>
                         <div className="col-sm-3">
-                            <img className="img-fluid mx-auto d-block event-image" src={CalPink} alt="Image"/>
+                            <img className="img-fluid mx-auto d-block event-image" src={image} alt="Image"/>
                         </div>
                     </div>
                 

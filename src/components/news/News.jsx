@@ -4,6 +4,9 @@ import NavBar from "../navbar/NavBar"
 import Footer from "../footer/Footer"
 
 import CalBlue from '../../assets/Image/CaliforniaBlue.png'
+import USA from '../../assets/Image/USA.png'
+import InternationalBlue from '../../assets/Image/InternationalBlue.png'
+
 const CAL_NEWS = {
     '2020': [
         {
@@ -3721,6 +3724,7 @@ class News extends Component {
         this.state = {
             title: title == null ? 'ca' : title,
             data: {},
+            image: CalBlue,
             renderData: [],
             /**
              * 
@@ -3752,17 +3756,21 @@ class News extends Component {
 
     handleChangeTab = (param) => {
         let data = CAL_NEWS;
+        let image = CalBlue;
         let expanded = {};
         let renderData = {};
         switch(param) {
             case 'ca':
                 data = CAL_NEWS;
+                image = CalBlue;
                 break;
             case 'us':
                 data = US_NEWS;
+                image = USA;
                 break;
             case 'global':
                 data = GLOBAL_NEWS;
+                image = InternationalBlue;
                 break;
         }
         // Initialize the expand-data
@@ -3774,6 +3782,7 @@ class News extends Component {
         this.setState({
             title: param,
             data: data,
+            image: image,
             expanded: expanded,
             renderData: renderData
         });
@@ -3847,7 +3856,7 @@ class News extends Component {
     }
 
     render() {
-        const { title, renderData, expanded } = this.state;
+        const { title, renderData, expanded, image } = this.state;
         return (
             <div>
                 <NavBar path={this.path} handler={this.handleChangeTab}/>
@@ -3864,7 +3873,7 @@ class News extends Component {
                             </div>
                         </div>
                         <div className="col-sm-3">
-                            <img className="img-fluid mx-auto d-block news-image" src={CalBlue} alt="Image"/>
+                            <img className="img-fluid mx-auto d-block news-image" src={image} alt="Image"/>
                         </div>
                     </div>
                     {
