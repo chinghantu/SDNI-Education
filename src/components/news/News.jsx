@@ -10,6 +10,13 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Mar 31",
+            "name": "On Mars or Earth, biohybrid can turn CO2 into new products",
+            "place": "University of California - Berkeley",
+            "description": "If humans ever hope to colonize Mars, the settlers will need to manufacture on-planet a huge range of organic compounds, from fuels to drugs, that are too expensive to ship from Earth. University of California, Berkeley, and Lawrence Berkeley National Laboratory (Berkeley Lab) chemists have a plan for that.",
+            "link": "https://news.berkeley.edu/2020/03/31/on-mars-or-earth-biohybrid-can-turn-co2-into-new-products/"
+        }, 
+        {
             "date": "Mar 30",
             "name": "Tiny Optical Cavity Could Make Quantum Networks Possible",
             "place": "California Institute of Technology",
@@ -223,6 +230,27 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Apr 06",
+            "name": "Researchers Help Expand Search for New State of Matter",
+            "place": "University of Arkansas",
+            "description": "A recent discovery by University of Arkansas physicists could help researchers establish the existence of quantum spin liquids, a new state of matter. They’ve been a mystery since they were first proposed in the 1970s. If proven to exist, quantum spin liquids would be a step toward much faster, next-generation quantum computing.",
+            "link": "https://news.uark.edu/articles/52683/researchers-help-expand-search-for-new-state-of-matter"
+        },
+        {
+            "date": "Apr 06",
+            "name": "Researchers use nanotechnology to develop new treatment for painful gynecological condition",
+            "place": "Oregon State University",
+            "description": "Scientists have developed a precise, nanotechnology-based treatment to alleviate the pain and fertility problems associated with endometriosis, a common gynecological condition in women of childbearing age.",
+            "link": "https://today.oregonstate.edu/news/researchers-use-nanotechnology-develop-new-treatment-painful-gynecological-condition"
+        },
+        {
+            "date": "Apr 02",
+            "name": "Capturing 3D microstructures in real time",
+            "place": "Argonne National Laboratory",
+            "description": "Modern scientific research on materials relies heavily on exploring their behavior at the atomic and molecular scales. For that reason, scientists are constantly on the hunt for new and improved methods for data gathering and analysis of materials at those scales.",
+            "link": "https://www.anl.gov/article/capturing-3d-microstructures-in-real-time"
+        },  
         {
             "date": "Mar 30",
             "name": "Heart attack on a chip: scientists model conditions of ischemia on a microfluidic device",
@@ -1903,6 +1931,34 @@ const US_NEWS = {
 const GLOBAL_NEWS = {
     '2020': [
         {
+            "date": "Apr 07",
+            "name": "Physicists produce stable water-based graphene dispersions",
+            "place": "Umea University",
+            "description": "Umeå researchers show how activated graphene, activated carbons and other hydrophobic carbons can be dispersed in water in a form of micrometer-sized particles. The key agent that helps to make these dispersions last for days is the oxidized form of graphene named graphene oxide. The authors have applied for patent for the method to prepare dispersions.",
+            "link": "https://www.umu.se/en/news/physicists-produce-stable-water-based-graphene-dispersions_9066278/"
+        },
+        {
+            "date": "Apr 06",
+            "name": "UCD Researchers Discover New Method to Generate Substantial Volumes of Nanobubbles in Water",
+            "place": "University College Dublin",
+            "description": "Researchers at University College Dublin (UCD) have discovered a new energy-efficient method to generate and release substantial volumes of metastable, nano-scale gas bubbles in water, in excess of natural solubility levels.",
+            "link": "https://www.ucd.ie/innovation/news-and-events/latest-news/ucd-researchers-new-nanobubbles-generation/name,490167,en.html"
+        },
+        {
+            "date": "Apr 03",
+            "name": "3D Reconstructions of Individual Nanoparticles",
+            "place": "Institute for Basic Science",
+            "description": "Liquid phase electron microscopy illuminates 3D atomic structures of platinum nanoparticles, advancing full control of nanoengineering.",
+            "link": "https://www.ibs.re.kr/cop/bbs/BBSMSTR_000000000738/selectBoardArticle.do?nttId=18295&pageIndex=1&searchCnd=&searchWrd="
+        },
+        {
+            "date": "Mar 31",
+            "name": "Scientists find a way to extract colour from black",
+            "place": "University of Birmingham",
+            "description": "Scientists have developed a way of extracting a richer palette of colours from the available spectrum by harnessing disordered patterns inspired by nature that would typically be seen as black.",
+            "link": "https://www.birmingham.ac.uk/news/latest/2020/03/scientists-find-a-way-to-extract-colour-from-black.aspx"
+        },    
+        {
             "date": "Mar 30",
             "name": "Phage capsid against influenza: perfectly fitting inhibitor prevents viral infection",
             "place": "Forschungsverbund Berlin e.V.",
@@ -1936,7 +1992,14 @@ const GLOBAL_NEWS = {
             "place": "Tokyo University of Science",
             "description": "Solid oxide fuel cells (SOFCs) are clean and highly efficient power generation systems, which can generate electrical energy but are limited by their high operating temperatures and infrequent applications. Researchers from the Tokyo University of Science led by Dr Tohru Higuchi, in their new study, explore how the efficiency of SOFCs can be increased by lowering their operating temperature and could be an alternative to nuclear and thermal power generation in the future.",
             "link": "https://www.tus.ac.jp/en/mediarelations/archive/20200325001.html"
-        },     
+        },    
+        {
+            "date": "Mar 24",
+            "name": "AI Finds 2D Materials in the Blink of an Eye",
+            "place": "University of Tokyo",
+            "description": "Researchers at the Institute of Industrial Science, a part of The University of Tokyo, demonstrated a novel artificial intelligence system that can find and label 2D materials in microscope images in the blink of an eye. This work can help shorten the time required for 2D material-based electronics to be ready for consumer devices.",
+            "link": "https://www.iis.u-tokyo.ac.jp/en/news/3270/"
+        },  
         {
             "date": "Mar 23",
             "name": "Graphite nanoplatelets prevent infections",
