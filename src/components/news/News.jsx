@@ -10,6 +10,20 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Apr 13",
+            "name": "UCI-led team designs carbon nanostructure stronger than diamonds",
+            "place": "University of California - Irvine",
+            "description": "Researchers at the University of California, Irvine and other institutions have architecturally designed plate-nanolattices – nanometer-sized carbon structures – that are stronger than diamonds as a ratio of strength to density.",
+            "link": "https://news.uci.edu/2020/04/13/uci-led-team-designs-carbon-nanostructure-stronger-than-diamonds/"
+        },
+        {
+            "date": "Apr 09",
+            "name": "Scientists Capture 3D Images of Nanoparticles, Atom by Atom, With Unprecedented Precision",
+            "place": "Lawrence Berkeley National Laboratory",
+            "description": "Since their invention in the 1930s, electron microscopes have helped scientists peer into the atomic structure of ordinary materials like steel, and even exotic graphene. But despite these advances, such imaging techniques cannot precisely map out the 3D atomic structure of materials in a liquid solution, such as a catalyst in a hydrogen fuel cell, or the electrolytes in your car’s battery.",
+            "link": "https://newscenter.lbl.gov/2020/04/09/3d-nanoparticles-atom-by-atom/"
+        },  
+        {
             "date": "Mar 31",
             "name": "On Mars or Earth, biohybrid can turn CO2 into new products",
             "place": "University of California - Berkeley",
@@ -230,6 +244,69 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Apr 13",
+            "name": "Tight spaces tip presence of petrochemicals",
+            "place": "Rice University",
+            "description": "Rice University engineers have put to rest a long-held theory about the detection of oil and gas that hides inside the nanoscale pores of shale formations. The Rice researchers determined that puzzling indicators from nuclear magnetic resonance (NMR) tools are not due, as thought, to the paramagnetic properties of the rock but solely to the size of the space that traps the petrochemicals. The team expects the discovery will lead to better interpretation of NMR logs by the oil and gas industry, especially in unconventional shale formations.",
+            "link": "https://news.rice.edu/2020/04/13/tight-spaces-tip-presence-of-petrochemicals-2/"
+        },
+        {
+            "date": "Apr 13",
+            "name": "Cell Membrane Proteins Imaged in 3-D",
+            "place": "Brookhaven National Laboratory",
+            "description": "A team of scientists including researchers at the National Synchrotron Light Source II (NSLS-II)—a U.S. Department of Energy (DOE) Office of Science User Facility at DOE’s Brookhaven National Laboratory—have demonstrated a new technique for imaging proteins in 3-D with nanoscale resolution. Their work, published in the Journal of the American Chemical Society, enables researchers to identify the precise location of proteins within individual cells, reaching the resolution of the cell membrane and the smallest subcellular organelles.",
+            "link": "https://www.bnl.gov/newsroom/news.php?a=117024"
+        },
+        {
+            "date": "Apr 10",
+            "name": "Researchers achieve remote control of hormone release",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Abnormal levels of stress hormones such as adrenaline and cortisol are linked to a variety of mental health disorders, including depression and posttraumatic stress disorder (PTSD). MIT researchers have now devised a way to remotely control the release of these hormones from the adrenal gland, using magnetic nanoparticles.",
+            "link": "http://news.mit.edu/2020/remote-control-hormone-release-nanoparticles-0410"
+        },
+        {
+            "date": "Apr 10",
+            "name": "Magnet Research Hits Breakthrough",
+            "place": "University of Central Florida",
+            "description": "Researchers pushing the limits of magnets as a means to create faster electronics published their proof of concept findings Friday in the journal Science.",
+            "link": "https://sciences.ucf.edu/news/magnet-research-hits-breakthrough/"
+        },
+        {
+            "date": "Apr 09",
+            "name": "World’s most complex microparticle: A synthetic that outdoes nature’s intricacy",
+            "place": "University of Michigan",
+            "description": "Synthetic microparticles more intricate than some of the most complicated ones found in nature have been produced by a University of Michigan-led international team. They also investigated how that intricacy arises and devised a way to measure it.",
+            "link": "https://news.umich.edu/worlds-most-complex-microparticle-a-synthetic-that-outdoes-natures-intricacy/"
+        },
+        {
+            "date": "Apr 09",
+            "name": "Now metal surfaces can be instant bacteria killers, thanks to new laser treatment technique",
+            "place": "Purdue University",
+            "description": "Bacterial pathogens can live on surfaces for days. What if frequently touched surfaces such as doorknobs could instantly kill them off? Purdue University engineers have created a laser treatment method that could potentially turn any metal surface into a rapid bacteria killer – just by giving the metal’s surface a different texture.",
+            "link": "https://www.purdue.edu/newsroom/releases/2020/Q2/now-metal-surfaces-can-be-instant-bacteria-killers,-thanks-to-new-laser-treatment-technique.html"
+        },
+        {
+            "date": "Apr 08",
+            "name": "Harnessing the power of electricity-producing bacteria for programmable ‘biohybrids’",
+            "place": "American Chemical Society",
+            "description": "Someday, microbial cyborgs –– bacteria combined with electronic devices –– could be useful in fuel cells, biosensors and bioreactors. But first, scientists need to develop materials that not only nurture the microbes, but also efficiently and controllably harvest the electricity or other resources they make. Now, researchers reporting in ACS Applied Materials & Interfaces have developed one such material that enabled them to create a programmable “biohybrid” system that conducts electrons from electricity-producing (exoelectrogenic) bacteria.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-april-8-2020/harnessing-the-power-of-electricity-producing-bacteria-for-programmable-biohybrids.html"
+        },
+        {
+            "date": "Apr 07",
+            "name": "Engineer uses metal-oxide nanomaterials deposited on cloth to wipe out microbes",
+            "place": "Iowa State University",
+            "description": "In an effort to make highly sensitive sensors to measure sugar and other vital signs of human health, Iowa State University’s Sonal Padalkar figured out how to deposit nanomaterials on cloth and paper.",
+            "link": "https://www.news.iastate.edu/news/2020/04/07/nano-materials"
+        },
+        {
+            "date": "Apr 06",
+            "name": "Tiny Nanoparticles Offer Large Potential for Brain Cancer Treatment",
+            "place": "Yale University",
+            "description": "For patients with malignant brain tumors, the prognosis remains dismal. With the most aggressive treatments available, patients are usually only expected to live about 14 months after a diagnosis. ",
+            "link": "https://medicine.yale.edu/news-article/23744/"
+        },         
         {
             "date": "Apr 06",
             "name": "Researchers Help Expand Search for New State of Matter",
@@ -1930,6 +2007,20 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Apr 09",
+            "name": "Scientists Propose Novel Bifunctional Iron Nanocomposite Catalyst",
+            "place": "Chinese Academy of Sciences",
+            "description": "Oxidation of alkenes to carbonyl compounds is one of the most important industrial reactions. The oxidation products are important and useful intermediates or building blocks in synthetic organic chemistry, pharmaceuticals, agrochemicals, and bulk/fine chemicals.  ",
+            "link": "http://english.cas.cn/newsroom/research_news/chem/202004/t20200409_234553.shtml"
+        },
+        {
+            "date": "Apr 08",
+            "name": "Eindhoven researchers present revolutionary light-emitting silicon",
+            "place": "Eindhoven University of Technology",
+            "description": "Emitting light from silicon has been the ‘Holy Grail’ in the microelectronics industry for decades. Solving this puzzle would revolutionize computing, as chips will become faster than ever. Researchers from Eindhoven University of Technology now succeeded: they have developed an alloy with silicon that can emit light. The results have been published in the journal Nature. The team will now start creating a silicon laser to be integrated into current chips.",
+            "link": "https://www.tue.nl/en/news/news-overview/08-04-2020-eindhoven-researchers-present-revolutionary-light-emitting-silicon/"
+        },  
         {
             "date": "Apr 07",
             "name": "Physicists produce stable water-based graphene dispersions",
