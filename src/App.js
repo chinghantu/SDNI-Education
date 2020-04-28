@@ -12,9 +12,16 @@ import Donate from './components/donate/Donate';
 import Networking from './components/networking/Networking';
 import Outreach from './components/outreach/Outreach';
 
+import ReactGA from 'react-ga';
+
 import Error404 from './components/404/404';
 
 function App() {
+
+  const trackingId = "UA-163661188-1";
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
   return (
     <Router history={history}>
       <Switch>

@@ -54,7 +54,7 @@ class Home extends Component {
         return (
             <div id="home-wrapper">
                 <NavBar path='/' />
-                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                {/* <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <div className="banner-item">
@@ -62,9 +62,6 @@ class Home extends Component {
                                 <div className="banner1-corona-alert-container">
                                     <h1 className="corona-alert">Due to the Corona virus Pandemic, this event is postponed until August.</h1>
                                 </div>
-                                {/* <div className="img-gray-cover">
-
-                                </div> */}
                                 <div className="banner1-img-inner-container">
                                     <button disabled onClick={() => { window.location.href = 'https://www.eventbrite.com/e/sdni-nnci-educational-symposium-2020-tickets-94687786719' }} className="banner1-btn btn btn-sm btn-primary">
                                         <span className="banner-btn-text">Registration</span>
@@ -89,7 +86,7 @@ class Home extends Component {
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="sr-only">Next</span>
                     </a>
-                </div>
+                </div> */}
                 <div className="bg">
                     <div className="container bg-content">
                         <div>
