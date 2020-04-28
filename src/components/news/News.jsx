@@ -10,6 +10,34 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Apr 22",
+            "name": "Researchers discover ferroelectricity at the atomic scale",
+            "place": "University of California - Berkeley",
+            "description": "A team of researchers have managed to grow ultra-thin material on silicon that can power small electronic devices.",
+            "link": "https://engineering.berkeley.edu/news/2020/04/researchers-discover-ferroelectricity-at-the-atomic-scale/"
+        },
+        {
+            "date": "Apr 22",
+            "name": "UCLA scientists invent nanoparticle that could improve treatment for bone defects",
+            "place": "University of California, Los Angeles",
+            "description": "A team of biomaterials scientists and dentists at the UCLA School of Dentistry has developed a nanoparticle that, based on initial experiments in animals, could improve treatment for bone defects.",
+            "link": "https://newsroom.ucla.edu/releases/sterosome-nanoparticle-bone-defects-treatment"
+        },
+        {
+            "date": "Apr 21",
+            "name": "Controlling ion transport for energy, environment",
+            "place": "Lawrence Livermore National Laboratory",
+            "description": "Understanding and controlling ion transport in porous materials and at hydrophobic interfaces is critical to a wide variety of energy and environmental technologies, ranging from ion selective membranes, drug delivery and biosensing to ion batteries and supercapacitors.",
+            "link": "https://www.llnl.gov/news/controlling-ion-transport-energy-environment"
+        },
+        {
+            "date": "Apr 20",
+            "name": "'Decoy' nanoparticles can block HIV and prevent infection",
+            "place": "University of California - San Diego",
+            "description": "Flipping the standard viral drug targeting approach on its head, engineers at the University of California San Diego have developed a promising new “nanosponge” method for preventing HIV from proliferating in the body: coating polymer nanoparticles with the membranes of T helper cells and turning them into decoys to intercept viral particles and block them from binding and infiltrating the body’s actual immune cells. ",
+            "link": "https://jacobsschool.ucsd.edu/news/news_releases/release.sfe?id=3019"
+        },    
+        {
             "date": "Apr 13",
             "name": "UCI-led team designs carbon nanostructure stronger than diamonds",
             "place": "University of California - Irvine",
@@ -244,6 +272,118 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Apr 27",
+            "name": "Researchers’ Method Holds Promise for Brain Study, Better Tests for Viruses",
+            "place": "University of Texas at Dallas",
+            "description": "University of Texas at Dallas researchers have developed a promising method for remotely stimulating activity in deep brain regions, advancing understanding of how molecules act in the brain and paving the way for better cancer treatments and therapies for other diseases.",
+            "link": "https://www.utdallas.edu/news/health-medicine/gold-nanoparticles-lasers-viruses-2020/"
+        },
+        {
+            "date": "Apr 24",
+            "name": "Rethinking the traditional vaccine delivery in response to coronaviruses",
+            "place": "Penn State University",
+            "description": "Researchers are proposing a possible COVID-19 vaccine that could be good news for resisting current and future pandemics, as well as for the needle-phobic: inhalable vaccines.",
+            "link": "https://news.psu.edu/story/617126/2020/04/24/research/rethinking-traditional-vaccine-delivery-response-coronaviruses"
+        },
+        {
+            "date": "Apr 24",
+            "name": "FSU researchers discover new structure for promising class of materials",
+            "place": "Florida State University",
+            "description": "Florida State University researchers have discovered a novel structure for organic-inorganic hybrid materials that shows potential for more efficient technologies.  ",
+            "link": "https://news.fsu.edu/news/2020/04/24/fsu-researchers-discover-new-structure-for-promising-class-of-materials/"
+        },
+        {
+            "date": "Apr 24",
+            "name": "Maryland Engineers Open Door to Big New Library of Tiny Nanoparticles",
+            "place": "University of Maryland",
+            "description": "The development of bimetallic nanoparticles (i.e., tiny particles composed of two different metals that exhibit several new and improved properties) represents a novel area of research with a wide range of potential applications. Now, a research team in the University of Maryland (UMD)’s Department of Materials Science and Engineering (MSE) has developed a new method for mixing metals generally known to be immiscible, or unmixable, at the nanoscale to create a new range of bimetallic materials. Such a library will be useful for studying the role of these bimetallic particles in various reaction scenarios such as the transformation of carbon dioxide to fuel and chemicals.",
+            "link": "https://eng.umd.edu/news/story/maryland-engineers-open-door-to-big-new-library-of-tiny-nanoparticles"
+        },
+        {
+            "date": "Apr 24",
+            "name": "The best material for homemade face masks may be a combination of two fabrics",
+            "place": "American Chemical Society",
+            "description": "In the wake of the COVID-19 pandemic, the U.S. Centers for Disease Control and Prevention recommends that people wear masks in public. Because N95 and surgical masks are scarce and should be reserved for health care workers, many people are making their own coverings. Now, researchers report in ACS Nano that a combination of cotton with natural silk or chiffon can effectively filter out aerosol particles — if the fit is good.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/april/the-best-material-for-homemade-face-masks-may-be-a-combination-of-two-fabrics.html"
+        },
+        {
+            "date": "Apr 23",
+            "name": "UTEP Researchers Develop Nanohybrid Vehicle to Optimally Deliver Drugs Into the Human Body",
+            "place": "University of Texas at El Paso",
+            "description": "Researchers in The University of Texas at El Paso’s Department of Chemistry and Biochemistry have developed a nanohybrid vehicle that can be used to optimally deliver drugs into the human body.",
+            "link": "https://www.utep.edu/newsfeed/campus/utep-researchers-develop-nanohybrid-vehicle-to-optimally-deliver-drugs-into-the-human-body.html?fbclid=IwAR3KrXc_tXKW9Vx2Mcpksf8yMLrtzcoRj81KsU0Glg75H216IuAKw7Re2Yg"
+        },
+        {
+            "date": "Apr 22",
+            "name": "A novel method to precisely deliver therapeutics inside the body",
+            "place": "Penn State University",
+            "description": "A new way to deliver therapeutic proteins inside the body uses an acoustically sensitive carrier to encapsulate the proteins and ultrasound to image and guide the package to the exact location required, according to Penn State researchers. Ultrasound then breaks the capsule, allowing the protein to enter the cell.",
+            "link": "https://news.psu.edu/story/616680/2020/04/22/research/novel-method-precisely-deliver-therapeutics-inside-body"
+        },
+        {
+            "date": "Apr 22",
+            "name": "A new way to cool down electronic devices, recover waste heat",
+            "place": "American Chemical Society",
+            "description": "Using electronic devices for too long can cause them to overheat, which might slow them down, damage their components or even make them explode or catch fire. Now, researchers reporting in ACS’ Nano Letters have developed a hydrogel that can both cool down electronics, such as cell phone batteries, and convert their waste heat into electricity.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-april-22-2020/a-new-way-to-cool-down-electronic-devices-recover-waste-heat.html"
+        },
+        {
+            "date": "Apr 22",
+            "name": "Spider combs tame unruly nanofibers (video)",
+            "place": "American Chemical Society",
+            "description": "Cribellate spiders spin thousands of tiny nanofibers into sticky threads. To keep from getting caught in their own webs, these spiders use a nonstick comb on their back legs. Now, researchers reporting in ACS Applied Nano Materials have patterned an antiadhesive nanostructure inspired by this comb onto a foil surface, creating a handy tool to control sticky lab-made nanomaterials for medical, smart textile and other applications. ",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-april-22-2020/spider-combs-tame-unruly-nanofibers-video.html"
+        },
+        {
+            "date": "Apr 20",
+            "name": "Diagnostic biosensor quickly detects SARS-CoV-2 from nasopharyngeal swabs",
+            "place": "American Chemical Society",
+            "description": "According to many experts, early diagnosis and management are critical for slowing the spread of SARS-CoV-2, the new coronavirus that causes COVID-19. Therefore, the race is on to develop diagnostic tests for the virus that are faster, easier and more accurate than existing ones. Now, researchers reporting in ACS Nano have developed a field-effect transistor-based biosensor that detects SARS-CoV-2 in nasopharyngeal swabs from patients with COVID-19, in less than one minute.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/april/diagnostic-biosensor-quickly-detects-sars-cov-2-from-nasopharyngeal-swabs.html"
+        },
+        {
+            "date": "Apr 20",
+            "name": "Federal funding for rapid COVID-19 test goes to McKelvey Engineering researchers",
+            "place": "Washington University in St. Louis",
+            "description": "Engineers at the McKelvey School of Engineering at Washington University in St. Louis have received federal funding for a rapid COVID-19 test using a newly developed technology. Srikanth Singamaneni, professor of mechanical engineering and materials science, and his team have developed a rapid, highly sensitive and accurate biosensor based on an ultrabright fluorescent nanoprobe, which has the potential to be broadly deployed.",
+            "link": "https://source.wustl.edu/2020/04/washu-engineer-awarded-federal-funding-for-rapid-covid-19-test/"
+        },
+        {
+            "date": "Apr 17",
+            "name": "Dissecting the mechanism of protein unfolding by SDS",
+            "place": "University of Illinois at Urbana–Champaign",
+            "description": "A new study by the Aksimentiev group at the University of Illinois has used molecular dynamics simulations to understand how sodium dodecyl sulfate, a commonly used detergent in labs, induces protein folding. Their results were published in the journal Nanoscale.",
+            "link": "https://beckman.illinois.edu/about/news/article/2020/04/17/dissecting-the-mechanism-of-protein-unfolding-by-sds"
+        },
+        {
+            "date": "Apr 16",
+            "name": "Engineers develop method to improve efficiency and heat tolerance of devices",
+            "place": "Penn State University",
+            "description": "When it comes to increasing electric storage efficiency and electric breakdown strength — the ability of an electrical system to operate at higher voltage and temperatures with great efficiency — increasing one traditionally has led to a decrease in the other. Penn State researchers, led by Qiming Zhang, distinguished professor of electrical engineering, recently developed a scalable method that relies on engineered materials to increase both properties.",
+            "link": "https://news.psu.edu/story/615890/2020/04/16/research/engineers-develop-method-improve-efficiency-and-heat-tolerance"
+        },
+        {
+            "date": "Apr 15",
+            "name": "RIT researchers build micro-device to detect bacteria, viruses",
+            "place": "Rochester Institute of Technology",
+            "description": "Engineering researchers developed a next-generation miniature lab device that uses magnetic nano-beads to isolate minute bacterial particles that cause diseases. Using this new technology improves how clinicians isolate drug-resistant strains of bacterial infections and difficult-to-detect micro-particles such as those making up Ebola and coronaviruses.",
+            "link": "https://www.rit.edu/news/rit-researchers-build-micro-device-detect-bacteria-viruses"
+        },
+        {
+            "date": "Apr 15",
+            "name": "Nanosensor can alert a smartphone when plants are stressed",
+            "place": "Massachusetts Institute of Technology",
+            "description": "MIT engineers have developed a way to closely track how plants respond to stresses such as injury, infection, and light damage, using sensors made of carbon nanotubes. These sensors can be embedded in plant leaves, where they report on hydrogen peroxide signaling waves.",
+            "link": "http://news.mit.edu/2020/cnt-nanosensor-smartphone-plant-stress-0415"
+        },
+        {
+            "date": "Apr 14",
+            "name": "Pushing the limits of 2D supramolecules",
+            "place": "University of South Florida",
+            "description": "Scientists at the University of South Florida have reached a new milestone in the development of two-dimensional supramolecules – the building blocks that make areas of nanotechnology and nanomaterial advancement possible.",
+            "link": "https://www.usf.edu/news/2020/pushing-the-limits-of-2d-supramolecules.aspx"
+        },                
         {
             "date": "Apr 13",
             "name": "Tight spaces tip presence of petrochemicals",
@@ -2007,6 +2147,97 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Apr 27",
+            "name": "Synthesis of silicon intercalated monolayer blue phosphorus",
+            "place": "National University of Singapore",
+            "description": "NUS chemists have developed a method to synthetically produce monolayer blue phosphorus for potential semiconductor applications.",
+            "link": "https://www.science.nus.edu.sg/blog/2020/04/27/synthesis-of-silicon-intercalated-monolayer-blue-phosphorus/"
+        },
+        {
+            "date": "Apr 23",
+            "name": "Multi-Functionalization of Graphene for Molecular Targeted Cancer Therapy",
+            "place": "Japan Advanced Institute of Science and Technology",
+            "description": "Three functional molecules (near-infrared fluorescent probe, tumor targeting molecule, and anticancer drug) are successfully decollated onto the surface of graphene molecule. The multi-functional graphene allows effective cancer cell elimination",
+            "link": "https://www.jaist.ac.jp/english/whatsnew/press/2020/04/23-1.html"
+        },
+        {
+            "date": "Apr 23",
+            "name": "Scientists Show a Way to Create Optical Chips and Solar Cell Details from Perovskite",
+            "place": "ITMO University",
+            "description": "It’s not a common thing in modern science when the results of one research give significant application results in three different fields of technology. Physicists from ITMO University and their colleagues from Far Eastern Federal University (FEFU) succeeded in conducting a series of experiments on laser processing of perovskite. They used their results to show how to create solar cells of any color, churn out millions of nanolasers for future optical transistors, as well as inscribe information that can only be read by those who it was intended for. The results were published in Small.",
+            "link": "https://news.itmo.ru/en/science/photonics/news/9361/"
+        },
+        {
+            "date": "Apr 21",
+            "name": "A new biosensor for the COVID-19 virus",
+            "place": "Swiss Federal Laboratories for Materials Science and Technology (EMPA)",
+            "description": "A team of researchers from Empa, ETH Zurich and Zurich University Hospital has succeeded in developing a novel sensor for detecting the new coronavirus. In future it could be used to measure the concentration of the virus in the environment - for example in places where there are many people or in hospital ventilation systems.",
+            "link": "https://www.empa.ch/web/s604/coronatest"
+        },
+        {
+            "date": "Apr 21",
+            "name": "Diamonds shine in energy storage solution",
+            "place": "Queensland University of Technology",
+            "description": "QUT researchers have proposed the design of a new carbon nanostructure made from diamond nanothreads that could one day be used for mechanical energy storage, wearable technologies, and biomedical applications.",
+            "link": "https://www.qut.edu.au/news?id=161689"
+        },
+        {
+            "date": "Apr 21",
+            "name": "New hybrid material improves the performance of silicon in Li-ion batteries",
+            "place": "University of Eastern Finland",
+            "description": "Researchers at the University of Eastern Finland have developed a new hybrid material of mesoporous silicon microparticles and carbon nanotubes that can improve the performance of silicon in Li-ion batteries. Advances in battery technology are essential for sustainable development and for achieving climate neutrality.",
+            "link": "https://www.uef.fi/en/news/new-hybrid-material-improves-the-performance-of-silicon-in-li-ion-batteries"
+        },
+        {
+            "date": "Apr 21",
+            "name": "New solution to capture microplastics before they enter waterways",
+            "place": "Technical Research Centre of Finland",
+            "description": "A thousand litres of seawater can contain up to 8.3 million particles of microplastics. Until now, identifying these very small particles has been difficult – usually they are only detected once they have accumulated in the bodies of fish. A method developed at VTT utilises nanocellulose structures for early particle identification. Nanocellulose would allow particles to be captured even before they enter waterways.",
+            "link": "https://www.vttresearch.com/en/news-and-ideas/new-solution-capture-microplastics-they-enter-waterways"
+        },
+        {
+            "date": "Apr 21",
+            "name": "New nanocarrier drug delivery technology crosses the blood-brain barrier",
+            "place": "Kumamoto University",
+            "description": "A Japanese research team has developed a cyclic peptide (a chain of amino acids bonded circularly) that enhances blood-brain barrier (BBB) penetration. By attaching the cyclic peptide to the surface of nanoparticles, research and development of new drug nanocarriers for drug delivery to the brain becomes possible.",
+            "link": "https://ewww.kumamoto-u.ac.jp/sp/en/news/375/"
+        },
+        {
+            "date": "Apr 20",
+            "name": "Photonic microwave generation using on-chip optical frequency combs",
+            "place": "Ecole Polytechnique Fédérale de Lausanne",
+            "description": "Using integrated photonic chips fabricated at EPFL, scientists have demonstrated laser-based microwave generators. These microwave signals, as well as their optical carriers, could be used in radars, satellite communications and future 5G wireless networks.",
+            "link": "https://news.epfl.ch/news/photonic-microwave-generation-using-on-chip-optica/"
+        },
+        {
+            "date": "Apr 20",
+            "name": "Researchers Propose Flexible Pressure Sensor for Human-machine Interaction",
+            "place": "Chinese Academy of Sciences",
+            "description": "Flexible pressure sensors have attracted considerable attention due to their potential applications in electronic skins. To date, lots of approaches have been reported to achieve effective transformation from mechanical stimuli to electrical signals. ",
+            "link": "http://english.cas.cn/newsroom/research_news/infotech/202004/t20200420_235012.shtml"
+        },
+        {
+            "date": "Apr 17",
+            "name": "Acidic alert",
+            "place": "Ludwig Maximilian University of Munich",
+            "description": "LMU researchers have synthesized nanoparticles that can be induced by a change in pH to release a deadly dose of ionized iron within cells. This mechanism could potentially open up new approaches to the targeted elimination of malignant tumors.",
+            "link": "https://www.en.uni-muenchen.de/news/newsarchiv/2020/ploetz_iron.html"
+        },
+        {
+            "date": "Apr 16",
+            "name": "Single-atom-layer Trap (SALT): A Pivotal Microscopic Feature for Li-ion Migration",
+            "place": "University of Science and Technology of China",
+            "description": "On April 14th, Prof. MA Cheng from the University of Science and Technology of China (USTC) and his colleagues made an important discovery on the mechanism of Li-ion migration in solid electrolytes for batteries. They observed a new type of microscopic feature that can significantly influence ionic transport.",
+            "link": "https://en.ustc.edu.cn/2020/0415/c15527a418244/page.htm"
+        },
+        {
+            "date": "Apr 15",
+            "name": "Scientists discover new features of molecular elevator",
+            "place": "Moscow Institute of Physics and Technology",
+            "description": "Biophysicists from the Moscow Institute of Physics and Technology and the University of Groningen in the Netherlands have visualized a nearly complete transport cycle of the mammalian glutamate transporter homologue from archaea. They confirmed that the transport mechanism resembles that of an elevator: A “door” opens, ions and substrate molecules come in, the door closes, and they travel through the membrane. Presumably the mammalian transporters operate the same way, so this discovery is potentially important for developing new treatments for schizophrenia and other mental illnesses caused by malfunctioning of these transporters. ",
+            "link": "https://mipt.ru/english/news/scientists_discover_new_features_of_molecular_elevator"
+        },             
         {
             "date": "Apr 09",
             "name": "Scientists Propose Novel Bifunctional Iron Nanocomposite Catalyst",
