@@ -450,6 +450,8 @@ h3 {
 
 .button,
 .button1,
+.sem-img-btn,
+.sem-img-btn-active,
 .event-active-tab,
 .event-tab,
 .news-active-tab,
@@ -463,10 +465,12 @@ h3 {
   transition: all 0.5s;
   cursor: pointer;
 }
+.sem-img-btn,
 .button {
   color: #48457a;
   background-color: #ffffff;
 }
+.sem-img-btn-active,
 .button1 {
   color: #ffffff;
   background-color: #48457a;
