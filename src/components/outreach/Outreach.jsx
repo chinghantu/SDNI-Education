@@ -11,7 +11,7 @@ import Img_3 from '../../assets/Image/outreach/image4.jpg'
 import Img_4 from '../../assets/Image/outreach/image7.jpeg'
 import Img_5 from '../../assets/Image/outreach/image9.jpeg'
 import Img_6 from '../../assets/Image/outreach/image10.jpeg'
-import { Alert, Modal, Button } from 'react-bootstrap'
+import { Alert, Modal, Button, Image } from 'react-bootstrap'
 
 function importAll(r) {
     return r.keys().map(r);
@@ -275,8 +275,6 @@ class Outreach extends Component {
         let { title, renderHtml, showImageGallery, imageTitle, imageGallery, currIndex, diverseTabs } = this.state
         if (title == 'sem') {
             let diverseGallery = Array.isArray(imageGallery[0])
-            console.log(NANOPARTICLES)
-            console.log(diverseGallery)
             renderHtml = !showImageGallery ? (
                 <div style={{ height: '50%', display: 'grid', alignItems: 'center', justifyContent: 'center' }}>
                     {
@@ -320,7 +318,7 @@ class Outreach extends Component {
             ) : (
                 <div>
                     <p className="title"><b>SEM Image Gallery</b></p>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <div className="row" style={{ justifyContent: 'center', alignItems: 'center' }}>
                         <button className={imageTitle == 'arachnids' ? "sem-img-btn-active" : "sem-img-btn"} 
                                 onClick={() => this.handleChangeImageTab('arachnids')}><span>Arachnids</span></button>
                         <button className={imageTitle == 'nanoparticles' ? "sem-img-btn-active" : "sem-img-btn"}
@@ -368,11 +366,15 @@ class Outreach extends Component {
                         {
                             diverseGallery ? imageGallery[currIndex].map((imgSrc, index) => {
                                 return (
-                                    <img key={index} src={imgSrc} className='img-fluid col-4 mt-3 mb-3' alt=""/>
+                                    <div className='col-4 mt-3 mb-3'>
+                                        <Image key={index} src={imgSrc} fluid/>
+                                    </div>
                                 )
                             }) : imageGallery.map((imgSrc, index) => {
                                 return (
-                                    <img key={index} src={imgSrc} className='img-fluid col-4 mt-3 mb-3' alt=""/>
+                                    <div className='col-4 mt-3 mb-3'>
+                                        <Image key={index} src={imgSrc} fluid/>
+                                    </div>
                                 )
                             })
                         }
