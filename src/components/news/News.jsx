@@ -10,6 +10,13 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "May 06",
+            "name": "Second skin protects against chem, bio agents",
+            "place": "Lawrence Livermore National Laboratory",
+            "description": "Recent events such as the COVID-19 pandemic and the use of chemical weapons in the Syria conflict have provided a stark reminder of the plethora of chemical and biological threats that soldiers, medical personnel and first responders face during routine and emergency operations.",
+            "link": "https://www.llnl.gov/news/second-skin-protects-against-chem-bio-agents"
+        }, 
+        {
             "date": "Apr 22",
             "name": "Researchers discover ferroelectricity at the atomic scale",
             "place": "University of California - Berkeley",
@@ -272,6 +279,104 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "May 06",
+            "name": "Investigating the dynamics of stability",
+            "place": "Argonne National Laboratory",
+            "description": "The quest to find viable alternatives to fossil fuel in energy production has experienced a recent revolution as scientists search for materials that do not require precious metals to produce active and stable reactions.",
+            "link": "https://www.anl.gov/article/investigating-the-dynamics-of-stability"
+        },
+        {
+            "date": "May 06",
+            "name": "Mats Made From Nanofibers Linked To A Red Wine Chemical Could Help Prevent Oxidation",
+            "place": "Texas A&M University",
+            "description": "Texas A&M engineering researchers have created mesh-like mats made with tannic acid. Used in bandages or inside food storage containers, they can help promote prolonged antioxidant activity.",
+            "link": "https://today.tamu.edu/2020/05/06/mats-made-from-nanofibers-linked-to-a-red-wine-chemical-could-help-prevent-oxidation/"
+        },
+        {
+            "date": "May 05",
+            "name": "Heating could be the best way to disinfect N95 masks for reuse",
+            "place": "American Chemical Society",
+            "description": "Since the outbreak of the COVID-19 pandemic, N95 face masks have been in short supply. Health care workers, in particular, desperately need these masks to protect themselves from the respiratory droplets of infected patients. But because of the shortage, many have to wear the same mask repeatedly. Now, researchers reporting in ACS Nano have tested several methods for disinfecting N95 materials, finding that heating them preserves their filtration efficiency for 50 cycles of disinfection.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/may/heating-could-be-best-way-to-disinfect-n95-masks-for-reuse.html"
+        },
+        {
+            "date": "May 05",
+            "name": "CCNY physicists shed light on the nanoscale dynamics of spin thermalization",
+            "place": "The City University of New York",
+            "description": "In physics, thermalization, or the trend of sub-systems within a whole to gain a common temperature, is typically the norm. There are situations, however, where thermalization is slowed down or virtually suppressed; examples are found when considering the dynamics of electron and nuclear spins in solids, where certain sub-groups behave as if isolated from the rest. Understanding why this happens and how it can be controlled is presently at the center of a broad effort, particularly for applications in the emerging field of quantum information technologies. ",
+            "link": "https://www.ccny.cuny.edu/news/ccny-physicists-shed-light-nanoscale-dynamics-spin-thermalization"
+        },
+        {
+            "date": "May 04",
+            "name": "Water-splitting module a source of perpetual energy",
+            "place": "Rice University",
+            "description": "Rice University researchers have created an efficient, low-cost device that splits water to produce hydrogen fuel. The platform developed by the Brown School of Engineering lab of Rice materials scientist Jun Lou integrates catalytic electrodes and perovskite solar cells that, when triggered by sunlight, produce electricity. The current flows to the catalysts that turn water into hydrogen and oxygen, with a sunlight-to-hydrogen efficiency as high as 6.7%.",
+            "link": "https://news.rice.edu/2020/05/04/water-splitting-module-a-source-of-perpetual-energy-2/"
+        },
+        {
+            "date": "May 04",
+            "name": "Tiny technology cleans dirty water",
+            "place": "University of Delaware",
+            "description": "An activated carbon filter — found in many household filtration systems—can purify your drinking water, but it’s no match for wastewater that contains military-grade explosives. To clean wastewater from munitions processing and demilitarization, a pair of University of Delaware environmental engineering professors and a UD engineering alumnus are teaming up to test a novel technology using iron nanoparticles.",
+            "link": "https://www.udel.edu/udaily/2020/may/explosives-wastewater-pei-chiu-dan-cha-brian-hubbard-water/"
+        },
+        {
+            "date": "May 04",
+            "name": "New imaging technology allows visualization of nanoscale structures inside whole cells and tissues",
+            "place": "Purdue University",
+            "description": "Since Robert Hooke’s first description of a cell in Micrographia 350 years ago, microscopy has played an important role in understanding the rules of life. However, the smallest resolvable feature, the resolution, is restricted by the wave nature of light. This century-old barrier has restricted understanding of cellular functions, interactions and dynamics, particularly at the sub-micron to nanometer scale.",
+            "link": "https://www.purdue.edu/newsroom/releases/2020/Q2/new-imaging-technology-allows-visualization-of-nanoscale-structures-inside-whole-cells-and-tissues.html"
+        },
+        {
+            "date": "May 01",
+            "name": "Obesity prevented in mice treated with gene-disabling nanoparticles",
+            "place": "Washington University School of Medicine in St. Louis",
+            "description": "Disabling a gene in specific mouse cells, researchers at Washington University School of Medicine in St. Louis have prevented mice from becoming obese, even after the animals had been fed a high-fat diet.",
+            "link": "https://medicine.wustl.edu/news/obesity-prevented-in-mice-treated-with-gene-disabling-nanoparticles/"
+        },
+        {
+            "date": "May 01",
+            "name": "Nanostimulators boost stem cells for muscle repair",
+            "place": "University of Illinois at Urbana-Champaign",
+            "description": "In regenerative medicine, an ideal treatment for patients whose muscles are damaged from lack of oxygen would be to invigorate them with an injection of their own stem cells. In a new study published in the journal ACS Nano, researchers at the University of Illinois at Urbana-Champaign demonstrated that “nanostimulators” – nanoparticles seeded with a molecule the body naturally produces to prompt stem cells to heal wounds – can amp up stem cells’ regenerative powers in a targeted limb in mice.",
+            "link": "https://news.illinois.edu/view/6367/808373"
+        },
+        {
+            "date": "Apr 30",
+            "name": "Nanodevices could prevent plaque formation in the brain",
+            "place": "Argonne National Laboratory",
+            "description": "Alzheimer's disease is the sixth leading cause of death in the United States, affecting one in 10 people over the age of 65. Scientists are engineering nanodevices to disrupt processes in the brain that lead to the disease.",
+            "link": "https://www.news-medical.net/news/20200430/Nanodevices-could-prevent-plaque-formation-in-the-brain.aspx"
+        },
+        {
+            "date": "Apr 30",
+            "name": "‘Breathable’ Electronics Pave the Way for More Functional Wearable Tech",
+            "place": "North Carolina State University",
+            "description": "Engineering researchers have created ultrathin, stretchable electronic material that is gas permeable, allowing the material to “breathe.” The material was designed specifically for use in biomedical or wearable technologies, since the gas permeability allows sweat and volatile organic compounds to evaporate away from the skin, making it more comfortable for users – especially for long-term wear.",
+            "link": "https://news.ncsu.edu/2020/04/breathable-electronics/"
+        },
+        {
+            "date": "Apr 29",
+            "name": "Engineers make a promising material stable enough for use in solar cells",
+            "place": "Purdue University",
+            "description": "Soft and flexible materials called halide perovskites could make solar cells more efficient at significantly less cost, but they’re too unstable to use.",
+            "link": "https://www.purdue.edu/newsroom/releases/2020/Q2/engineers-make-a-promising-material-stable-enough-for-use-in-solar-cells.html"
+        },
+        {
+            "date": "Apr 29",
+            "name": "Researchers measure cancer cell mechanics in living animals using nanoparticles",
+            "place": "Michigan State University",
+            "description": "A first-of-its-kind nanoparticle-based in vivo imaging technique that may one day be used to help diagnose and even treat cancer has been developed by researchers collaborating from Michigan State, Johns Hopkins and Stanford universities.",
+            "link": "https://msutoday.msu.edu/news/2020/researchers-measure-cancer-cell-mechanics-in-living-animals-using-nanoparticles/"
+        },
+        {
+            "date": "Apr 28",
+            "name": "A Leap in Using Silicon for Battery Anodes",
+            "place": "Pacific Northwest National Laboratory",
+            "description": "The same material you'll find at the tip of a pencil—graphite—has long been a key component in today's lithium-ion batteries. As our reliance on these batteries increases, however, graphite-based electrodes are due for an upgrade. For that, scientists are looking to the element at the heart of the digital revolution: silicon.",
+            "link": "https://www.pnnl.gov/news-media/leap-using-silicon-battery-anodes"
+        },              
         {
             "date": "Apr 27",
             "name": "Researchers’ Method Holds Promise for Brain Study, Better Tests for Viruses",
@@ -2147,6 +2252,83 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "May 06",
+            "name": "Tiny devices promise new horizon for medical imaging",
+            "place": "University of Strathclyde",
+            "description": "Miniature devices that could be developed into safe, high-resolution imaging technology, with uses such as helping doctors identify potentially deadly cancers and treat them early, have been created in research involving the University of Strathclyde.",
+            "link": "https://www.strath.ac.uk/whystrathclyde/news/tinydevicespromisenewhorizonformedicalimaging/"
+        },
+        {
+            "date": "May 06",
+            "name": "Plant viruses could be used to prevent and treat human autoimmune diseases",
+            "place": "John Innes Centre",
+            "description": "Researchers have taken positive steps towards using plant virus-based particles for the treatment of human autoimmune diseases such as type 1 diabetes and rheumatoid arthritis.",
+            "link": "https://www.jic.ac.uk/press-release/plant-viruses-could-be-used-to-prevent-and-treat-human-autoimmune-diseases/"
+        },
+        {
+            "date": "May 05",
+            "name": "Towards metallic polymers by exploiting two faces of the same coin: topological order and π-conjugation",
+            "place": "IMDEA Nanociencia",
+            "description": "Researchers at IMDEA Nanociencia, Universidad Autónoma de Madrid and Universidad Complutense de Madrid present a new strategy to fabricate quasi-metallic 1D polymers with atomic precision, in collaboration with The Czech Academy of Science, EMPA (Zürich, Switzerland) and RCATM (Olomouc, Czech Republic). This investigation within the framework of the ‘ERC Consolidator Grant ELECNANO’ and the ‘Comunidad de Madrid QUIMTRONIC project’ advances the possibility to design stable organic polymers with vanishing electronic bandgaps, whose applications range from molecular optoelectronics to quantum information technology.",
+            "link": "https://www.nanociencia.imdea.org/home-en/news/item/towards-metallic-polymers"
+        },
+        {
+            "date": "May 04",
+            "name": "User research at BESSY II: How new materials increase the efficiency of direct ethanol fuel cells",
+            "place": "Helmholtz-Zentrum Berlin für Materialien und Energie",
+            "description": "A group from Brazil and an HZB team have investigated a novel composite membrane for ethanol fuel cells. It consists of the polymer Nafion, in which nanoparticles of a titanium compound are embedded by the rarely explored melt extrusion process. At BESSY II they were able to observe in detail, how the nanoparticles in the Nafion matrix are distributed and how they contribute to increase proton conductivity.",
+            "link": "https://www.helmholtz-berlin.de/pubbin/news_seite?nid=21288;sprache=en;seitenid=382"
+        },
+        {
+            "date": "May 04",
+            "name": "Twisting 2D materials uncovers their superpowers – Researchers demonstrated twisting on record-breaking scale",
+            "place": "Aalto University",
+            "description": "Aalto researchers in an international collaboration have developed a completely new method for twisting atomically-thin materials, paving the way for applications of ‘twistronics’ based on tunable 2D materials",
+            "link": "https://www.aalto.fi/en/news/twisting-2d-materials-uncovers-their-superpowers-researchers-demonstrated-twisting-on-record"
+        },
+        {
+            "date": "May 01",
+            "name": "Breakthrough in molecular machines",
+            "place": "University of Southern Denmark",
+            "description": "Molecular machines have the potential to revolutionize the future - if we can find a way to control them. SDU researchers now report that they have found a way to control the small machines so that they move in a certain direction - for example, into the bloodstream.",
+            "link": "https://www.sdu.dk/en/nyheder/Forskningsnyheder/Gennembrud-i-arbejdet-med-molekylaere-maskiner"
+        },
+        {
+            "date": "Apr 30",
+            "name": "New STM technique with super sharp frozen carbon monoxide needle points way to new and purer pharmaceuticals",
+            "place": "University of Warwick",
+            "description": "Using an ultra-thin and sharp needle tipped with a single carbon monoxide molecule frozen to minus 266 degrees centigrade, researchers from the University of Warwick and Cardiff identified and mapped the location of every molecular bond on the surface of a material.",
+            "link": "https://warwick.ac.uk/newsandevents/pressreleases/new_stm_technique"
+        },
+        {
+            "date": "Apr 30",
+            "name": "Intricate Magnetic Configuration of 3D Nanoscale Gyroid Networks Revealed",
+            "place": "Tohoku University",
+            "description": "A multinational team of researchers from Tohoku University and institutions in the UK, Germany and Switzerland has revealed the magnetic states of nanoscale gyroids, 3D chiral network-like nanostructures. The findings add a new candidate system for research into unconventional information processing and emergent phenomena relevant to spintronics.",
+            "link": "https://www.tohoku.ac.jp/en/press/magnetic_configuration_3d_nanoscale_gyroid_networks.html"
+        },
+        {
+            "date": "Apr 30",
+            "name": "New study reveals unexpected softness of bilayer graphen",
+            "place": "Queen Mary University of London",
+            "description": "In the study, published in the journal Physical Review B, the researchers showed that bilayer graphene, consisting of two layers of graphene, was noticeably softer than both two-dimensional (2D) graphene and three-dimensional (3D) graphite along the stacking direction.",
+            "link": "https://www.qmul.ac.uk/media/news/2020/se/new-study-reveals-unexpected-softness-of-bilayer-graphene.html"
+        },
+        {
+            "date": "Apr 27",
+            "name": "Ultra-precision nano-sensor could detect iron disorders",
+            "place": "University of Sydney",
+            "description": "The University of Sydney's Tissue Engineering and Biomaterials Research Unit and the Australian Research Centre for Innovative BioEngineeing have developed a hypersensitive nano-sensor to detect harmful "free" iron disorders.",
+            "link": "https://www.sydney.edu.au/news-opinion/news/2020/04/27/ultra-precision-nano-sensor-could-detect-iron-disorders.html"
+        },
+        {
+            "date": "Apr 27",
+            "name": "I can’t reach with the screwdriver, please pass the laser!",
+            "place": "University of the Witwatersrand",
+            "description": "Researchers have demonstrated the world’s first metasurface laser that produces “super-chiral light”: light with ultra-high angular momentum. The light from this laser can be used as a type of “optical spanner” to or for encoding information in optical communications. ",
+            "link": "http://www.wits.ac.za/news/latest-news/research-news/2020/2020-04/i-cant-reach-with-the-screwdriver-please-pass-the-laser-.html"
+        },           
         {
             "date": "Apr 27",
             "name": "Synthesis of silicon intercalated monolayer blue phosphorus",
