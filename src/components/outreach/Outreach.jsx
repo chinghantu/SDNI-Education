@@ -61,9 +61,11 @@ const PHYTOPLANKTON = [
     importAll(require.context('../../assets/Image/sem/Phytoplankton/Coccolith', false, /\.(png|jpe?g|svg)$/)),
     importAll(require.context('../../assets/Image/sem/Phytoplankton/Diatoms', false, /\.(png|jpe?g|svg)$/)),
     importAll(require.context('../../assets/Image/sem/Phytoplankton/Foraminifera_Coccoliths', false, /\.(png|jpe?g|svg)$/)),
-    importAll(require.context('../../assets/Image/sem/Phytoplankton/Hidden_Coccoliths', false, /\.(png|jpe?g|svg)$/)),
-    importAll(require.context('../../assets/Image/sem/Phytoplankton/Radiolarians_Diatoms_Foraminifera', false, /\.(png|jpe?g|svg)$/))
+    importAll(require.context('../../assets/Image/sem/Phytoplankton/Hidden_Coccoliths', false, /\.(png|jpe?g|svg)$/))
+    // importAll(require.context('../../assets/Image/sem/Phytoplankton/Radiolarians_Diatoms_Foraminifera', false, /\.(png|jpe?g|svg)$/))
 ]
+
+const OCEANMIX = importAll(require.context('../../assets/Image/sem/Phytoplankton/Radiolarians_Diatoms_Foraminifera', false, /\.(png|jpe?g|svg)$/))
 
 const POLLEN = importAll(require.context('../../assets/Image/sem/Pollen', false, /\.(png|jpe?g|svg)$/))
 
@@ -72,89 +74,156 @@ const ZOOPLANKTON = [
     importAll(require.context('../../assets/Image/sem/Zooplankton/SIO_Radiolarians_sediment', false, /\.(png|jpe?g|svg)$/))
 ]
 
-const OTR2019 = (
-    <div>
-        <p className="title"><b>Outreach 2019</b></p>
-        
-        <p>
-            We would like to thank our teacher partners and their respective schools as well as district administrators 
-            and the San Diego county office of education for meeting with us and participating in our outreach program during the year 2019. 
-            The map below depicts our coverage throughout San Diego county.
-        </p>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <img className="img-fluid" style={{ marginTop: 30, marginBottom: 30 }} src={OutreachMap} alt=""/>
-        </div>
-        <p>
-            Teacher partners conducted interactive remote Scanning Electron Microscopy (SEM) sessions 
-            during which their students could control our high-end Zeiss 500 SEM from their own classrooms. 
-            Looking at nature and man-made structures under the SEM is a great way to introduce students to the micro and nano world. 
-            Please have a look at our image collections by clicking on the following link: SDNI-NANO3 SEM Image Gallery.
-        </p>
-        <table style={{ margin: 'auto', width: '100%' }}>
-            <thead>
-                <tr><td>Name</td><td>Institution</td></tr>
-            </thead>
-            <tbody>
-                <tr><td>John Spiegel</td><td>San Diego County Office of Education</td></tr>
-                <tr><td>Chelsea Cochrane</td><td>San Diego County Office of Education</td></tr>
-                <tr><td>Crystal Howe </td><td>San Diego County Office of Education</td></tr>
-                <tr><td>Alec Baron </td><td>Escondido Union High School District</td></tr>
-                <tr><td>Annika Goodin </td><td>Grossmont Union High School District</td></tr>
-                <tr><td>Franz Ruiz </td><td>Grossmont Union High School District</td></tr>
-                <tr><td>Jesus Leo </td><td>Sweetwater Union High School District</td></tr>
-                <tr><td>Kellie Fleming </td><td>Vista School District</td></tr>
-                <tr><td>David MacLeod </td><td>Warner Unified School District</td></tr>
-                <tr><td>Cynthia Hoover </td><td>Chaffey College</td></tr>
-                <tr><td>Angela Tsang </td><td>Miramar College</td></tr>
-                <tr><td>Patricia Moore </td><td>Miramar College</td></tr>
-                <tr><td>Sama Tamrakar </td><td>Miramar College</td></tr>
-                <tr><td>Juan Gonzalez </td><td>Southwestern College</td></tr>
-                <tr><td>Darci Kimball </td><td>Castle Park High School</td></tr>
-                <tr><td>Rachel Meisner </td><td>Castle Park High School</td></tr>
-                <tr><td>Angie Polmear </td><td>Chula Vista High School</td></tr>
-                <tr><td>Leticia Tena </td><td>Chula Vista High School</td></tr>
-                <tr><td>Roufieh Carmody </td><td>Chula Vista High School</td></tr>
-                <tr><td>Catherine Spencer </td><td>College Preparatory Middle School</td></tr>
-                <tr><td>Melizza Lozano </td><td>East Lake High School</td></tr>
-                <tr><td>Lyn Smith </td><td>El Cajon Valley High School</td></tr>
-                <tr><td>Patricia Stepanek </td><td>Escondido High School</td></tr>
-                <tr><td>Brendan Casey </td><td>Granite Hills High School</td></tr>
-                <tr><td>Jim Fisher </td><td>Imperial College</td></tr>
-                <tr><td>Eileen Huffer-Ege </td><td>Kearny High School</td></tr>
-                <tr><td>Lesli Horowitz </td><td>Kearny High School</td></tr>
-                <tr><td>Shirley Miranda </td><td>Kearny High School</td></tr>
-                <tr><td>Enrique Romero </td><td>Montgomery High School</td></tr>
-                <tr><td>Alexandra Yerka </td><td>Montgomery High School</td></tr>
-                <tr><td>Julio Avasan </td><td>Olympian High School</td></tr>
-                <tr><td>Tony Claudio </td><td>Olympian High School</td></tr>
-                <tr><td>Anne Artz </td><td>Preuss School</td></tr>
-                <tr><td>Marcelo Kim </td><td>Rancho Buena Vista High School</td></tr>
-                <tr><td>Nicole Kranzberg </td><td>Sweetwater High School</td></tr>
-                <tr><td>Sharla Short </td><td>Vista High School</td></tr>
-                <tr><td>Danielle Zurcher </td><td>Warner Springs Middle School</td></tr>
-            </tbody>
-        </table>
-        <p className="title" style={{ color: 'gray' }}><b>Educational and Outreach Events -- Selected Pictures</b></p>
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <div style={{ width: '80%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-                <img className="img-fluid" style={{ marginTop: 30, marginBottom: 30, width: '100%' }} src={Img_1} alt=""/>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_2} alt=""/>
-                    <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_3} alt=""/>
-                </div>
-                <p style={{ width: '100%', paddingLeft: '15px', paddingRight: '15px' }}>
-                    Patrica Moore, a Biology teacher from Southwestern College (SWC) and SDNI RET from summer 2018 who learned about the operations
-                    and applications of scanning Electron Microscopy at SDNI, is now performing a SEM session with her own SWC students during a visit of SDNI (April 2019)
-                </p>
-                <img className="img-fluid" style={{ marginTop: 30, marginBottom: 30, width: '100%' }} src={Img_4} alt=""/>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_5} alt=""/>
-                    <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_6} alt=""/>
-                </div>
-            </div>
-        </div>
-    </div>
-)
+const OTRLIST = [
+    {
+        "name": "John Spiegel",
+        "school": "San Diego County Office of Education"
+    },
+    {
+        "name": "Chelsea Cochrane",
+        "school": "San Diego County Office of Education"
+    },
+    {
+        "name": "Crystal Howe ",
+        "school": "San Diego County Office of Education"
+    },
+    {
+        "name": "Alec Baron ",
+        "school": "Escondido Union High School District"
+    },
+    {
+        "name": "Annika Goodin ",
+        "school": "Grossmont Union High School District"
+    },
+    {
+        "name": "Franz Ruiz ",
+        "school": "Grossmont Union High School District"
+    },
+    {
+        "name": "Jesus Leo ",
+        "school": "Sweetwater Union High School District"
+    },
+    {
+        "name": "Kellie Fleming ",
+        "school": "Vista School District"
+    },
+    {
+        "name": "David MacLeod ",
+        "school": "Warner Unified School District"
+    },
+    {
+        "name": "Cynthia Hoover ",
+        "school": "Chaffey College"
+    },
+    {
+        "name": "Angela Tsang ",
+        "school": "Miramar College"
+    },
+    {
+        "name": "Patricia Moore ",
+        "school": "Miramar College"
+    },
+    {
+        "name": "Sama Tamrakar ",
+        "school": "Miramar College"
+    },
+    {
+        "name": "Juan Gonzalez ",
+        "school": "Southwestern College"
+    },
+    {
+        "name": "Darci Kimball ",
+        "school": "Castle Park High School"
+    },
+    {
+        "name": "Rachel Meisner ",
+        "school": "Castle Park High School"
+    },
+    {
+        "name": "Angie Polmear ",
+        "school": "Chula Vista High School"
+    },
+    {
+        "name": "Leticia Tena ",
+        "school": "Chula Vista High School"
+    },
+    {
+        "name": "Roufieh Carmody ",
+        "school": "Chula Vista High School"
+    },
+    {
+        "name": "Catherine Spencer ",
+        "school": "College Preparatory Middle School"
+    },
+    {
+        "name": "Melizza Lozano ",
+        "school": "East Lake High School"
+    },
+    {
+        "name": "Lyn Smith ",
+        "school": "El Cajon Valley High School"
+    },
+    {
+        "name": "Patricia Stepanek ",
+        "school": "Escondido High School"
+    },
+    {
+        "name": "Brendan Casey ",
+        "school": "Granite Hills High School"
+    },
+    {
+        "name": "Jim Fisher ",
+        "school": "Imperial College"
+    },
+    {
+        "name": "Eileen Huffer-Ege ",
+        "school": "Kearny High School"
+    },
+    {
+        "name": "Lesli Horowitz ",
+        "school": "Kearny High School"
+    },
+    {
+        "name": "Shirley Miranda ",
+        "school": "Kearny High School"
+    },
+    {
+        "name": "Enrique Romero ",
+        "school": "Montgomery High School"
+    },
+    {
+        "name": "Alexandra Yerka ",
+        "school": "Montgomery High School"
+    },
+    {
+        "name": "Julio Avasan ",
+        "school": "Olympian High School"
+    },
+    {
+        "name": "Tony Claudio ",
+        "school": "Olympian High School"
+    },
+    {
+        "name": "Anne Artz ",
+        "school": "Preuss School"
+    },
+    {
+        "name": "Marcelo Kim ",
+        "school": "Rancho Buena Vista High School"
+    },
+    {
+        "name": "Nicole Kranzberg ",
+        "school": "Sweetwater High School"
+    },
+    {
+        "name": "Sharla Short ",
+        "school": "Vista High School"
+    },
+    {
+        "name": "Danielle Zurcher ",
+        "school": "Warner Springs Middle School"
+    }
+]
 
 const OTR2020 = (
     <div style={{ height: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -163,10 +232,12 @@ const OTR2020 = (
 )
 
 const HTML_MAP = {
-    'otr-2019': OTR2019,
+    'otr-2019': null,
     'otr-2020': OTR2020,
     'sem': null
 }
+
+const EXPAND_SCALER = 10
 
 class Outreach extends Component {
 
@@ -187,7 +258,9 @@ class Outreach extends Component {
             imageTitle: 'arachnids',
             imageGallery: ARACHNIDS,
             diverseTabs: [],
-            currIndex: 0
+            currIndex: 0,
+            renderOtrList: [],
+            expandIndex: 1
         }
     }
 
@@ -206,8 +279,16 @@ class Outreach extends Component {
     handleChangeTab = (param) => {
         this.setState({
             title: param,
-            renderHtml: HTML_MAP[param]
+            renderHtml: HTML_MAP[param],
+            renderOtrList: param == 'otr-2019' ? OTRLIST.slice(0, this.state.expandIndex * EXPAND_SCALER) : []
         })
+    }
+
+    handleExpandOtrList = () => {
+        this.setState(prevState => ({
+            expandIndex: prevState.expandIndex + 1,
+            renderOtrList: OTRLIST.slice(0, (prevState.expandIndex + 1) * EXPAND_SCALER)
+        }))
     }
 
     handleShowModal = () => { this.setState({ showModal: true }) }
@@ -253,7 +334,7 @@ class Outreach extends Component {
                 break
             case 'phytoplankton':
                 gallery = PHYTOPLANKTON
-                diverseTabs = ['Coccolith', 'Diatoms', 'Foraminifera Coccoliths', 'Hidden Coccoliths', 'Radiolarians Diatoms Foraminifera']
+                diverseTabs = ['Coccolith', 'Diatoms', 'Foraminifera Coccoliths', 'Hidden Coccoliths']
                 break  
             case 'pollen':
                 gallery = POLLEN
@@ -261,6 +342,9 @@ class Outreach extends Component {
             case 'zooplankton':
                 gallery = ZOOPLANKTON
                 diverseTabs = ['Foram Radiolaria', 'SIO Radiolarians Sediment']
+                break
+            case 'ocean':
+                gallery = OCEANMIX
                 break
         }
         this.setState({
@@ -272,7 +356,7 @@ class Outreach extends Component {
     }
 
     render() {
-        let { title, renderHtml, showImageGallery, imageTitle, imageGallery, currIndex, diverseTabs } = this.state
+        let { title, renderHtml, showImageGallery, imageTitle, imageGallery, currIndex, diverseTabs, renderOtrList } = this.state
         if (title == 'sem') {
             let diverseGallery = Array.isArray(imageGallery[0])
             renderHtml = !showImageGallery ? (
@@ -338,7 +422,9 @@ class Outreach extends Component {
                         <button className={imageTitle == 'otolith' ? "sem-img-btn-active" : "sem-img-btn"}
                                 onClick={() => this.handleChangeImageTab('otolith')}><span>Otolith</span></button>
                         <button className={imageTitle == 'osamples' ? "sem-img-btn-active" : "sem-img-btn"}
-                                onClick={() => this.handleChangeImageTab('osamples')}><span>Samples</span></button>
+                                onClick={() => this.handleChangeImageTab('osamples')}><span>Potpourri</span></button>
+                        <button className={imageTitle == 'ocean' ? "sem-img-btn-active" : "sem-img-btn"}
+                                onClick={() => this.handleChangeImageTab('ocean')}><span>Ocean mix</span></button>                 
                     </div>
                     <hr/>
                     <div className='row'>
@@ -346,38 +432,94 @@ class Outreach extends Component {
                             diverseGallery ? (
                                 <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                     {
-                                        diverseTabs.map((tab, index) => {
-                                            return (
-                                                <button 
-                                                    key={index}
-                                                    className={currIndex == this.state.diverseTabs.indexOf(tab) ? "mb-5 mt-5 sem-img-btn-active" : "mb-5 mt-5 sem-img-btn"}
-                                                    onClick={() => {
-                                                        this.setState({
-                                                            currIndex: this.state.diverseTabs.indexOf(tab)
-                                                        })
-                                                    }}><span>{tab}</span></button>
-                                            )
-                                        })
+                                        diverseTabs.map((tab, index) => (
+                                            <button 
+                                                key={index}
+                                                className={currIndex == this.state.diverseTabs.indexOf(tab) ? "mb-5 mt-5 sem-img-btn-active" : "mb-5 mt-5 sem-img-btn"}
+                                                onClick={() => {
+                                                    this.setState({
+                                                        currIndex: this.state.diverseTabs.indexOf(tab)
+                                                    })
+                                                }}><span>{tab}</span></button>
+                                        ))
                                     }
                                 </div>
                             ) : null
                         }
                         
                         {
-                            diverseGallery ? imageGallery[currIndex].map((imgSrc, index) => {
-                                return (
-                                    <div className='col-4 mt-3 mb-3'>
-                                        <Image key={index} src={imgSrc} fluid/>
-                                    </div>
-                                )
-                            }) : imageGallery.map((imgSrc, index) => {
-                                return (
-                                    <div className='col-4 mt-3 mb-3'>
-                                        <Image key={index} src={imgSrc} fluid/>
-                                    </div>
-                                )
-                            })
+                            diverseGallery ? imageGallery[currIndex].map((imgSrc, index) => (
+                                <div className='col-4 mt-3 mb-3'>
+                                    <Image key={index} src={imgSrc} fluid/>
+                                </div>
+                            )) : imageGallery.map((imgSrc, index) => (
+                                <div className='col-4 mt-3 mb-3'>
+                                    <Image key={index} src={imgSrc} fluid/>
+                                </div>
+                            ))
                         }
+                    </div>
+                </div>
+            )
+        }
+        else if (title == 'otr-2019') {
+            renderHtml = (
+                <div>
+                    <p className="title"><b>Outreach 2019</b></p>
+                    
+                    <p>
+                        We would like to thank our teacher partners and their respective schools as well as district administrators 
+                        and the San Diego county office of education for meeting with us and participating in our outreach program during the year 2019. 
+                        The map below depicts our coverage throughout San Diego county.
+                    </p>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <img className="img-fluid" style={{ marginTop: 30, marginBottom: 30 }} src={OutreachMap} alt=""/>
+                    </div>
+                    <p>
+                        Teacher partners conducted interactive remote Scanning Electron Microscopy (SEM) sessions 
+                        during which their students could control our high-end Zeiss 500 SEM from their own classrooms. 
+                        Looking at nature and man-made structures under the SEM is a great way to introduce students to the micro and nano world. 
+                        Please have a look at our image collections by clicking on the following link: SDNI-NANO3 SEM Image Gallery.
+                    </p>
+                    <table style={{ margin: 'auto', width: '100%' }}>
+                        <thead>
+                            <tr><td>Name</td><td>Institution</td></tr>
+                        </thead>
+                        <tbody>
+                            {
+                                renderOtrList.map((obj, index) => (
+                                    <tr key={index}>
+                                        <td>{obj.name}</td>
+                                        <td>{obj.school}</td>
+                                    </tr>
+                                ))
+                            }
+                        </tbody>
+                    </table>
+                    <button onClick={() => this.handleExpandOtrList()} 
+                            type="button"
+                            className="btn btn-primary"
+                            style={{ marginTop: 20 }}>
+                        Load More
+                    </button>
+                    <p className="title" style={{ color: 'gray' }}><b>Educational and Outreach Events -- Selected Pictures</b></p>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div style={{ width: '80%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+                            <img className="img-fluid" style={{ marginTop: 30, marginBottom: 30, width: '100%' }} src={Img_1} alt=""/>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_2} alt=""/>
+                                <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_3} alt=""/>
+                            </div>
+                            <p style={{ width: '100%', paddingLeft: '15px', paddingRight: '15px' }}>
+                                Patrica Moore, a Biology teacher from Southwestern College (SWC) and SDNI RET from summer 2018 who learned about the operations
+                                and applications of scanning Electron Microscopy at SDNI, is now performing a SEM session with her own SWC students during a visit of SDNI (April 2019)
+                            </p>
+                            <img className="img-fluid" style={{ marginTop: 30, marginBottom: 30, width: '100%' }} src={Img_4} alt=""/>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_5} alt=""/>
+                                <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_6} alt=""/>
+                            </div>
+                        </div>
                     </div>
                 </div>
             )

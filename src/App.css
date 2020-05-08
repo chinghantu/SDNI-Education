@@ -568,6 +568,9 @@ h3 {
 .sidebar {
   margin-top: 100px;
 }
+.sidebar > button {
+  display: block !important;
+}
 
 #what-is-center-img {
   margin-top: 100px;
