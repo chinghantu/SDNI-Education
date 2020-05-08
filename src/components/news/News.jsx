@@ -2319,7 +2319,7 @@ const GLOBAL_NEWS = {
             "date": "Apr 27",
             "name": "Ultra-precision nano-sensor could detect iron disorders",
             "place": "University of Sydney",
-            "description": "The University of Sydney's Tissue Engineering and Biomaterials Research Unit and the Australian Research Centre for Innovative BioEngineeing have developed a hypersensitive nano-sensor to detect harmful "free" iron disorders.",
+            "description": "The University of Sydney's Tissue Engineering and Biomaterials Research Unit and the Australian Research Centre for Innovative BioEngineeing have developed a hypersensitive nano-sensor to detect harmful \"free\" iron disorders.",
             "link": "https://www.sydney.edu.au/news-opinion/news/2020/04/27/ultra-precision-nano-sensor-could-detect-iron-disorders.html"
         },
         {
