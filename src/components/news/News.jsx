@@ -10,6 +10,27 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "May 25",
+            "name": "New Double-Contrast Technique Picks Up Small Tumors on MRI",
+            "place": "University of California - Davis",
+            "description": "Early detection of tumors is extremely important in treating cancer. A new technique developed by researchers at the University of California, Davis, offers a significant advance in using magnetic resonance imaging to pick out even very small tumors from normal tissue.",
+            "link": "https://www.ucdavis.edu/news/new-double-contrast-technique-picks-small-tumors-mri/"
+        },
+        {
+            "date": "May 14",
+            "name": "Making Quantum ‘Waves’ in Ultrathin Materials",
+            "place": "Lawrence Berkeley National Laboratory",
+            "description": "Study co-led by Berkeley Lab reveals how wavelike plasmons could power up a new class of sensing and photochemical technologies at the nanoscale.",
+            "link": "https://newscenter.lbl.gov/2020/05/14/plasmon-waves-ultrathin-materials/"
+        },
+        {
+            "date": "May 08",
+            "name": "To climb like a gecko, robots need toes",
+            "place": "University of California - Berkeley",
+            "description": "Robots with toes? Experiments suggest that climbing robots could benefit from having flexible, hairy toes, like those of geckos, that can adjust quickly to accommodate shifting weight and slippery surfaces.",
+            "link": "https://news.berkeley.edu/2020/05/08/to-climb-like-a-gecko-robots-need-toes/"
+        },
+        {
             "date": "May 06",
             "name": "Second skin protects against chem, bio agents",
             "place": "Lawrence Livermore National Laboratory",
@@ -279,6 +300,76 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "May 26",
+            "name": "Understanding ceramic ‘mortar’ of materials may reveal ways to improve them",
+            "place": "University of Wisconsin-Madison",
+            "description": "When most people think of ceramics, they might envision their favorite mug or a flowerpot. But modern technology is full of advanced ceramics, from silicon solar panels to ceramic superconductors and biomedical implants.",
+            "link": "https://news.wisc.edu/understanding-ceramic-mortar-of-materials-may-reveal-ways-to-improve-them/"
+        },
+        {
+            "date": "May 26",
+            "name": "Study finds electrical fields can throw a curveball",
+            "place": "Massachusetts Institute of Technology",
+            "description": "MIT researchers have discovered a phenomenon that could be harnessed to control the movement of tiny particles floating in suspension. This approach, which requires simply applying an external electric field, may ultimately lead to new ways of performing certain industrial or medical processes that require separation of tiny suspended materials.",
+            "link": "http://news.mit.edu/2020/electrical-fields-curve-particles-separation-0526"
+        },
+        {
+            "date": "May 26",
+            "name": "Novel insight reveals topological tangle in unexpected corner of the universe",
+            "place": "Argonne National Laboratory",
+            "description": "Scientists find a unique knotted structure — one that repeats itself throughout nature — in a ferroelectric nanoparticle, a material with promising applications in microelectronics and computing.",
+            "link": "https://www.anl.gov/article/novel-insight-reveals-topological-tangle-in-unexpected-corner-of-the-universe"
+        },
+        {
+            "date": "May 21",
+            "name": "A replaceable, more efficient filter for N95 masks",
+            "place": "American Chemical Society",
+            "description": "Since the outbreak of COVID-19, there’s been a worldwide shortage of face masks — particularly, the N95 ones worn by health care workers. Although these coverings provide the highest level of protection currently available, they have limitations. Now, researchers reporting in ACS Nano have developed a membrane that can be attached to a regular N95 mask and replaced when needed. The filter has a smaller pore size than normal N95 masks, potentially blocking more virus particles.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/may/replaceable-more-efficient-filter-for-n95-masks.html"
+        },
+        {
+            "date": "May 20",
+            "name": "Nanobowls serve up chemotherapy drugs to cancer cells ",
+            "place": "American Chemical Society",
+            "description": "For decades, scientists have explored the use of liposomes –– hollow spheres made of lipid bilayers –– to deliver chemotherapy drugs to tumor cells. But drugs can sometimes leak out of liposomes before they reach their destination, reducing the dose received by the tumor and causing side effects in healthy tissues. Now, researchers report in ACS’ Nano Letters a way to stabilize liposomes by embedding a stiff nanobowl in their inner cavity.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-may-20-2020/nanobowls-serve-up-chemotherapy-drugs-to-cancer-cells.html"
+        },
+        {
+            "date": "May 14",
+            "name": "2D sandwich sees molecules with clarity",
+            "place": "Rice University",
+            "description": "A sandwich of molybdenum, sulfur and selenium turns out to be deliciously useful for detecting biomolecules. Tests at Rice University’s Brown School of Engineering of a two-dimensional Janus compound showed it could be an effective and universal platform for improving the detection of biomolecules via surface-enhanced Raman spectroscopy (SERS).",
+            "link": "https://news.rice.edu/2020/05/14/2d-sandwich-sees-molecules-with-clarity/"
+        },
+        {
+            "date": "May 14",
+            "name": "Researchers invent technology to fully remedy 'weak spot' of 3D printing",
+            "place": "Texas A&M University",
+            "description": "Simple toys to custom prosthetic parts are made from plastic, which is also a popular 3D printing material. However, these printed parts are mechanically weak — a flaw caused by the imperfect bonding between the individual printed layers that make up 3D-printed parts.",
+            "link": "https://tees.tamu.edu/news/2020/05/researchers-invent-technology-to-fully-remedy-weak-spot-of-3d-printing.html"
+        },
+        {
+            "date": "May 13",
+            "name": "A New, Highly Sensitive Chemical Sensor Uses Protein Nanowires",
+            "place": "University of Massachusetts Amherst",
+            "description": "Writing in the journal NanoResearch, a team at the University of Massachusetts Amherst reports this week that they have developed bioelectronic ammonia gas sensors that are among the most sensitive ever made.",
+            "link": "https://www.umass.edu/newsoffice/article/new-highly-sensitive-chemical-sensor-uses"
+        },
+        {
+            "date": "May 11",
+            "name": "NIST Scientists Create New Recipe for Single-Atom Transistors",
+            "place": "National Institute of Standards and Technology (NIST)",
+            "description": "Once unimaginable, transistors consisting only of several-atom clusters or even single atoms promise to become the building blocks of a new generation of computers with unparalleled memory and processing power. But to realize the full potential of these tiny transistors — miniature electrical on-off switches — researchers must find a way to make many copies of these notoriously difficult-to-fabricate components. ",
+            "link": "https://www.nist.gov/news-events/news/2020/05/nist-scientists-create-new-recipe-single-atom-transistors"
+        },
+        {
+            "date": "May 07",
+            "name": "2D oxide flakes pick up surprise electrical properties",
+            "place": "Rice University",
+            "description": "Rice University researchers have found evidence of piezoelectricity in lab-grown, two-dimensional flakes of molybdenum dioxide.",
+            "link": "https://news.rice.edu/2020/05/07/2d-oxide-flakes-pick-up-surprise-electrical-properties/"
+        },          
         {
             "date": "May 06",
             "name": "Investigating the dynamics of stability",
@@ -2252,6 +2343,104 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "May 26",
+            "name": "A new law in laser physics could make eye surgery simpler",
+            "place": "University of Sydney",
+            "description": "By revisiting a simple type of laser, scientists have discovered a way to exponentially increase the amount of energy released in incredibly short periods of time, with potential applications in surgery.",
+            "link": "https://www.sydney.edu.au/news-opinion/news/2020/05/26/new-law-soliton-laser-physics-could-make-eye-surgery-simpler.html"
+        },
+        {
+            "date": "May 26",
+            "name": "Watching single protons moving at water-solid interfaces",
+            "place": "Ecole Polytechnique Fédérale de Lausanne",
+            "description": "Scientists at EPFL have been able to observe single protons moving at the interface between water and a solid surface. Their research reveals the strong interactions of these charges with surfaces.",
+            "link": "https://news.epfl.ch/news/watching-single-protons-moving-at-water-solid-inte/"
+        },
+        {
+            "date": "May 25",
+            "name": "Microbial Cyborgs: Bacteria Supplying Power",
+            "place": "Karlsruher Institut für Technologie (KIT)",
+            "description": "Electronic devices are still made of lifeless materials. One day, however, “microbial cyborgs” might be used in fuel cells, biosensors, or bioreactors. Scientists of Karlsruhe Institute of Technology (KIT) have created the necessary prerequisite by developing a programmable, biohybrid system consisting of a nanocomposite and the Shewanella oneidensis bacterium that produces electrons. The material serves as a scaffold for the bacteria and, at the same time, conducts the microbially produced current.",
+            "link": "http://www.kit.edu/kit/english/pi_2020_033_microbial-cyborgs-bacteria-supplying-power.php"
+        },
+        {
+            "date": "May 22",
+            "name": "Next-generation solar cells pass strict international tests",
+            "place": "University of Sydney",
+            "description": "Light-weight, cheap and ultra-thin, perovskite crystals have promised to shake-up renewable energy for some time. Research by Professor Anita Ho-Baillie means they are ready to take the next steps towards commercialisation.",
+            "link": "https://www.sydney.edu.au/news-opinion/news/2020/05/22/perovskite-solar-cells-pass-strict-international-tests.html"
+        },
+        {
+            "date": "May 19",
+            "name": "HKBU scientists eliminate drug side effects by manipulating molecular chirality",
+            "place": "Hong Kong Baptist University",
+            "description": "Scientists from Hong Kong Baptist University (HKBU) have developed a novel technique that can produce pure therapeutic drugs without the associated side effects. ",
+            "link": "https://cpro.hkbu.edu.hk/en/press_release/detail/HKBU-scientists-eliminate-drug-side-effects-by-manipulating-molecular-chirality"
+        },
+        {
+            "date": "May 15",
+            "name": "A Theoretical Boost to Nano-Scale Devices​",
+            "place": "The Korea Advanced Institute of Science and Technology (KAIST)",
+            "description": "Semiconductor companies are struggling to develop devices that are mere nanometers in size, and much of the challenge lies in being able to more accurately describe the underlying physics at that nano-scale. But a new computational approach that has been in the works for a decade could break down these barriers.",
+            "link": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=7250&skey=&sval=a+theoretical+boost&list_s_date=&list_e_date=&GotoPage=1"
+        },
+        {
+            "date": "May 15",
+            "name": "Eavesdropping on single molecules with light by replaying the chatter",
+            "place": "University of Exeter",
+            "description": "Scientists have pioneered a new technique to expose hidden biochemical pathways involving single molecules at the nanoscale.",
+            "link": "http://www.exeter.ac.uk/news/homepage/title_796795_en.html"
+        },
+        {
+            "date": "May 11",
+            "name": "On the road to non-toxic and stable perovskite solar cells",
+            "place": "Helmholtz-Zentrum Berlin für Materialien und Energie",
+            "description": "The promising halide perovskite materials for solar energy conversion show high efficiencies, but this comes at a cost: The best perovskite materials incorporate toxic lead which poses a hazard to the environment. To replace lead by less toxic elements is not easy since lead-free perovskites show lower stability and poor efficiencies. Now, an international collaboration has engineered a new hybrid perovskite material with promising efficiency and stability.",
+            "link": "https://www.helmholtz-berlin.de/pubbin/news_seite?nid=21321;sprache=en;seitenid=1"
+        },
+        {
+            "date": "May 11",
+            "name": "Material manufacturing from particles takes a giant step forward",
+            "place": "Aalto University",
+            "description": "Tiny fibrils extracted from plants have been getting a lot of attention for their strength. These nanomaterials have shown great promise in outperforming plastics, and even replacing them. A team led by Aalto University has now shown another remarkable property of nanocelluloses: their strong binding properties to form new materials with any particle.",
+            "link": "https://www.aalto.fi/en/news/material-manufacturing-from-particles-takes-a-giant-step-forward"
+        },
+        {
+            "date": "May 11",
+            "name": "Raise your glass: new nanotech clears haze from white wine",
+            "place": "University of South Australia",
+            "description": "Sauvignon Blanc, Semillon, or Chardonnay – when you reach for your favourite white, it’s the clean, clear sparkle that first catches your eye. Or does it? When white wines look cloudy it’s a sign of protein instability, and a sure-fire way to turn customers away.",
+            "link": "https://www.unisa.edu.au/Media-Centre/Releases/2020/raise-your-glass-new-nanotech-clears-haze-from-white-wine/"
+        },
+        {
+            "date": "May 08",
+            "name": "Chemistry breakthrough could speed up drug development",
+            "place": "Newcastle University",
+            "description": "Scientists have successfully developed a new technique to reliably grow crystals of organic soluble molecules from nanoscale droplets, unlocking the potential of accelerated new drug development.",
+            "link": "https://www.ncl.ac.uk/press/articles/latest/2020/05/chem/"
+        },
+        {
+            "date": "May 07",
+            "name": "Laser loop couples quantum systems over a distance",
+            "place": "University of Basel",
+            "description": "For the first time, researchers have succeeded in creating strong coupling between quantum systems over a greater distance. They accomplished this with a novel method in which a laser loop connects the systems, enabling nearly lossless exchange of information and strong interaction between them. In the scientific journal Science, the physicists from the University of Basel and University of Hanover reported that the new method opens up new possibilities in quantum networks and quantum sensor technology.",
+            "link": "https://www.unibas.ch/en/News-Events/News/Uni-Research/Laser-loop-couples-quantum-systems-over-a-distance.html"
+        },
+        {
+            "date": "May 07",
+            "name": "Highly efficient hydrogen gas production using sunlight, water and hematite",
+            "place": "Kobe University",
+            "description": "A research group led by Associate Professor TACHIKAWA Takashi of Kobe University’s Molecular Photoscience Research Center has succeeded in developing a strategy that greatly increases the amount of hydrogen produced from sunlight and water using hematite photocatalysts (*1).",
+            "link": "https://www.kobe-u.ac.jp/research_at_kobe_en/NEWS/news/2020_05_07_01.html"
+        },
+        {
+            "date": "May 07",
+            "name": "Light, sound, action: extending the life of acoustic waves on microchips",
+            "place": "University of Sydney",
+            "description": "Microchips without electrons will allow for the invention of data processing systems that don't overheat, have low energy costs and reduce greenhouse gas emissions. This foundational work will help scientists invent systems to achieve those aims.",
+            "link": "https://www.sydney.edu.au/news-opinion/news/2020/05/07/light-sound-action-extending-life-acoustic-waves-on-phonon-photonic-microchips.html"
+        },              
         {
             "date": "May 06",
             "name": "Tiny devices promise new horizon for medical imaging",
