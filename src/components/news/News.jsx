@@ -2,13 +2,18 @@ import React, { Component } from "react";
 import _ from 'underscore'
 import NavBar from "../navbar/NavBar"
 import Footer from "../footer/Footer"
-
 import CalBlue from '../../assets/Image/CaliforniaBlue.png'
 import USA from '../../assets/Image/USA.png'
 import InternationalBlue from '../../assets/Image/InternationalBlue.png'
-
 const CAL_NEWS = {
     '2020': [
+        {
+            "date": "Jun 04",
+            "name": "Scientists Aim Gene-Targeting Breakthrough Against COVID-19",
+            "place": "Lawrence Berkeley National Laboratory",
+            "description": "A team of scientists from Stanford University is working with researchers at the Molecular Foundry, a nanoscience user facility located at the Department of Energy’s Lawrence Berkeley National Laboratory (Berkeley Lab), to develop a gene-targeting, antiviral agent against COVID-19.",
+            "link": "https://www.sciencedaily.com/releases/2020/06/200604095651.htm"
+        }, 
         {
             "date": "May 25",
             "name": "New Double-Contrast Technique Picks Up Small Tumors on MRI",
@@ -300,6 +305,97 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Jun 09",
+            "name": "Predicting Unpredictable Reactions",
+            "place": "University of Pittsburgh",
+            "description": "Computational catalysis, a field that simulates and accelerates the discovery of catalysts for chemical production, has largely been limited to simulations of idealized catalyst structures that do not necessarily represent structures under realistic reaction conditions. ",
+            "link": "https://www.engineering.pitt.edu/News/2020/Mpourmpakis-ACS-Catalysis-Nanoparticle-Modeling/"
+        },
+        {
+            "date": "Jun 08",
+            "name": "New tool helps nanorods stand out",
+            "place": "Rice University",
+            "description": "Rice team’s SEMseg method makes nanoparticle analysis quicker and more affordable.",
+            "link": "https://news.rice.edu/2020/06/08/new-tool-helps-nanorods-stand-out-2/"
+        },  
+        {
+            "date": "Jun 08",
+            "name": "Crystalline ‘nanobrush’ clears way to advanced energy and information tech",
+            "place": "Oak Ridge National Laboratory",
+            "description": "A team led by the Department of Energy’s Oak Ridge National Laboratory synthesized a tiny structure with high surface area and discovered how its unique architecture drives ions across interfaces to transport energy or information. Their “nanobrush” contains bristles made of alternating crystal sheets with vertically aligned interfaces and plentiful pores.",
+            "link": "https://www.ornl.gov/news/crystalline-nanobrush-clears-way-advanced-energy-and-information-tech"
+        },  
+        {
+            "date": "Jun 04",
+            "name": "New Material, Modeling Methods Promise Advances in Energy Storage",
+            "place": "University of Houston",
+            "description": "The explosion of mobile electronic devices, electric vehicles, drones and other technologies have driven demand for new lightweight materials that can provide the power to operate them. Researchers from the University of Houston and Texas A&M University have reported a structural supercapacitor electrode made from reduced graphene oxide and aramid nanofiber that is stronger and more versatile than conventional carbon-based electrodes.",
+            "link": "https://uh.edu/news-events/stories/2020/june-2020/06042020ardebili-modeling-electrode.php"
+        },  
+        {
+            "date": "Jun 04",
+            "name": "Self-assembling, biomimetic composites possess unusual electrical properties",
+            "place": "Penn State University",
+            "description": "Sometimes, breaking rules is not a bad thing. Especially when the rules are apparent laws of nature that apply in bulk material, but other forces appear in the nanoscale.",
+            "link": "https://news.psu.edu/story/622291/2020/06/04/research/self-assembling-biomimetic-composites-possess-unusual-electrical"
+        },  
+        {
+            "date": "Jun 04",
+            "name": "UCF’s Butterfly-Inspired Nanotech Makes Natural-Looking Pictures on Digital Screens",
+            "place": "University of Central Florida",
+            "description": "The digital displays are lit by surrounding light and are more natural looking than current displays that rely on bright lights hidden behind screens.",
+            "link": "https://www.ucf.edu/news/ucfs-butterfly-inspired-nanotech-makes-natural-looking-pictures-on-digital-screens/"
+        },  
+        {
+            "date": "Jun 04",
+            "name": "A remote control for neurons",
+            "place": "Carnegie Mellon University",
+            "description": "A novel material for controlling human neuron cells could deepen our understanding of cell interactions and enable new therapies in medicine.",
+            "link": "https://www.cmu.edu/ni/news/june-2020/remote-control-neurons.html#:~:text=A%20novel%20material%20for%20controlling,with%20neural%20cells%20using%20light."
+        },  
+        {
+            "date": "Jun 03",
+            "name": "Synthetic red blood cells mimic natural ones, and have new abilities",
+            "place": "American Chemical Society",
+            "description": "Scientists have tried to develop synthetic red blood cells that mimic the favorable properties of natural ones, such as flexibility, oxygen transport and long circulation times. But so far, most artificial red blood cells have had one or a few, but not all, key features of the natural versions. Now, researchers reporting in ACS Nano have made synthetic red blood cells that have all of the cells’ natural abilities, plus a few new ones.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-june-3-2020/synthetic-red-blood-cells-mimic-natural-ones-and-have-new-abilities.html#:~:text=Now%2C%20researchers%20reporting%20in%20ACS,it%20to%20the%20body's%20tissues."
+        },  
+        {
+            "date": "Jun 02",
+            "name": "Exotic nanotubes move in less mysterious ways",
+            "place": "Rice University",
+            "description": "Rice scientists, engineers show boron nitride’s promise for composites, biomedical applications",
+            "link": "https://news.rice.edu/2020/06/02/exotic-nanotubes-move-in-less-mysterious-ways-2/"
+        },  
+        {
+            "date": "Jun 01",
+            "name": "Study: Paper-thin gallium oxide transistor handles more than 8,000 volts",
+            "place": "University at Buffalo",
+            "description": " People love their electric cars. But not so much the bulky batteries and related power systems that take up precious cargo space. Help could be on the way from a gallium oxide-based transistor under development at the University at Buffalo.",
+            "link": "http://www.buffalo.edu/news/releases/2020/06/001.html"
+        },  
+        {
+            "date": "May 29",
+            "name": "Texas A&M researchers light cells using nanosheets for cancer treatment",
+            "place": "Texas A&M University",
+            "description": "Scientists in the Department of Biomedical Engineering at Texas A&M University are developing new ways to advance the field of regenerative medicine and cancer treatment. They are developing a 2D nanosheet that is 1,000 times smaller than a strand of hair.",
+            "link": "https://engineering.tamu.edu/news/2020/05/texas-am-researchers-light-cells-using-nanosheets-for-cancer-treatment.html"
+        },  
+        {
+            "date": "May 28",
+            "name": "Theoretical breakthrough shows quantum fluids rotate by corkscrew mechanism",
+            "place": "Argonne National Laboratory",
+            "description": "Superfluids — also called quantum fluids — appear in a wide range of systems and applications. For example, cosmological superfluids meld with each other during neutron star mergers, and scientists use superfluid helium to cool magnetic resonance imaging (MRI) machines.",
+            "link": "https://www.anl.gov/article/theoretical-breakthrough-shows-quantum-fluids-rotate-by-corkscrew-mechanism"
+        },  
+        {
+            "date": "May 28",
+            "name": "Smart sponge could clean up oil spills",
+            "place": "Northwestern University",
+            "description": "A Northwestern University-led team has developed a highly porous smart sponge that selectively soaks up oil in water. With an ability to absorb more than 30 times its weight in oil, the sponge could be used to inexpensively and efficiently clean up oil spills without harming marine life. After squeezing the oil out of the sponge, it can be reused many dozens of times without losing its effectiveness.",
+            "link": "https://news.northwestern.edu/stories/2020/05/smart-sponge-could-clean-up-oil-spills/"
+        },             
         {
             "date": "May 26",
             "name": "Understanding ceramic ‘mortar’ of materials may reveal ways to improve them",
@@ -2343,6 +2439,83 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Jun 11",
+            "name": "UQ’s advanced nanotechnology to improve success of dental implants",
+            "place": "University of Queensland",
+            "description": "A technological advancement that may prove crucial in the long-term success of dental implants has been developed by University of Queensland researchers.",
+            "link": "https://habs.uq.edu.au/article/2020/06/uq%E2%80%99s-advanced-nanotechnology-improve-success-dental-implants"
+        },
+        {
+            "date": "Jun 10",
+            "name": "New sensor technology could speed up blood tests for COVID patients",
+            "place": "University of York",
+            "description": "Researchers are using laser-light technology to develop handheld biosensors with the potential to deliver fast, real-time blood test results for patients including those suffering from COVID-19 with secondary infections such as pneumonia.",
+            "link": "https://www.york.ac.uk/news-and-events/news/2020/research/blood-tests-covid/"
+        },
+        {
+            "date": "Jun 10",
+            "name": "New discovery: skyrmions can split like biological cells",
+            "place": "Ames Laboratory",
+            "description": "Scientists at the U.S. Department of Energy’s Ames Laboratory have discovered that skyrmions— a type of quasiparticle with properties that could lead to the next generation of data storage and transfer— reproduce by splitting in a way very similar to biological cell division.",
+            "link": "https://www.ameslab.gov/news/new-discovery-skyrmions-can-split-like-biological-cells"
+        },
+        {
+            "date": "Jun 10",
+            "name": "Flexible and recyclable optoelectronics move a step closer",
+            "place": "ARC Centre of Excellence in Exciton Science",
+            "description": "Australian researchers have demonstrated the strong potential for a new type of flexible, recyclable electrodes to be used in creating cheaper solar cells, touchscreens, wearable ‘e-skins’ and next-generation responsive windows.",
+            "link": "https://excitonscience.com/news/flexible-and-recyclable-optoelectronics-move-step-closer"
+        },
+        {
+            "date": "Jun 09",
+            "name": "HKUST Scientists Develop World's First Spherical Artificial Eye with 3D Retina",
+            "place": "Hong Kong University of Science and Technology",
+            "description": "An international team led by scientists at the Hong Kong University of Science and Technology (HKUST) has recently developed the world’s first 3D artificial eye with capabilities better than existing bionic eyes and in some cases, even exceed those of the human eyes, bringing vision to humanoid robots and new hope to patients with visual impairment. ",
+            "link": "https://www.ust.hk/news/research-and-innovation/hkust-scientists-develop-worlds-first-spherical-artificial-eye-3d"
+        },
+        {
+            "date": "Jun 09",
+            "name": "Renewable fuel from carbon dioxide with the aid of solar energy",
+            "place": "inköping University",
+            "description": "Researchers at LiU are attempting to convert carbon dioxide, a greenhouse gas, to fuel using energy from sunlight. Recent results have shown that it is possible to use their technique to selectively produce methane, carbon monoxide or formic acid from carbon dioxide and water.",
+            "link": "https://liu.se/en/news-item/fornybart-bransle-kan-bildas-av-koldioxid-med-hjalp-av-solenergi"
+        },
+        {
+            "date": "Jun 08",
+            "name": "Machine learning predicts nanoparticles’ structure and dynamics",
+            "place": "University of Jyväskylä - Jyväskylän yliopisto",
+            "description": "Researchers at the Nanoscience Center and at the Faculty of Information Technology at the University of Jyväskylä in Finland have demonstrated that new distance-based machine learning methods, developed in the University of Jyväskylä, are capable of predicting structures and atomic dynamics of nanoparticles reliably. The new methods are significantly faster than traditional simulation methods used for nanoparticle research and will facilitate more efficient explorations of particle-particle reactions and particles’ functionality in their environment. The study was published in a Special Issue devoted to machine learning in The Journal of Physical Chemistry on May 15, 2020.",
+            "link": "https://www.jyu.fi/en/current/archive/2020/06/machine-learning-predicts-nanoparticles2019-structure-and-dynamics"
+        },
+        {
+            "date": "Jun 04",
+            "name": "High-speed atomic video",
+            "place": "University of Tokyo",
+            "description": "A team including researchers from the Department of Chemistry at the University of Tokyo has successfully captured video of single molecules in motion at 1,600 frames per second. This is 100 times faster than previous experiments of this nature. They accomplished this by combining a powerful electron microscope with a highly sensitive camera and advanced image processing. This method could aid many areas of nanoscale research.",
+            "link": "https://www.u-tokyo.ac.jp/focus/en/press/z0508_00117.html"
+        },
+        {
+            "date": "Jun 03",
+            "name": "Graphene and 2D materials could move electronics beyond ‘Moore’s Law’",
+            "place": "University of Manchester",
+            "description": "A team of researchers based in Manchester, the Netherlands, Singapore, Spain, Switzerland and the USA has published a new review on a field of computer device development known as spintronics, which could use graphene as a building block for next-generation electronics.",
+            "link": "https://www.manchester.ac.uk/discover/news/graphene-and-2d-materials-could-move-electronics-beyond-moores-law/"
+        },
+        {
+            "date": "Jun 03",
+            "name": "Major breakthrough in extremely water-repellent materials makes them durable enough for the real world",
+            "place": "Aalto University",
+            "description": "A new armour-plated superhydrophobic material has been developed for potential uses in medical equipment, solar panels and more",
+            "link": "https://www.aalto.fi/en/news/major-breakthrough-in-extremely-water-repellent-materials-makes-them-durable-enough-for-the"
+        },
+        {
+            "date": "Jun 03",
+            "name": "Solar cells, phone displays & lighting could be transformed by nanocrystal assembly method",
+            "place": "ARC Centre of Excellence in Exciton Science",
+            "description": "Smart phones, tablets and laptop displays, camera lenses, biosensing devices, integrated chips and solar photovoltaic cells are among the applications that could stand to benefit from an innovative method of nanocrystal assembly pioneered by Australian scientists, led by the ARC Centre of Excellence in Exciton Science (Exciton Science).",
+            "link": "https://excitonscience.com/news/solar-cells-phone-displays-lighting-could-be-transformed-nanocrystal-assembly-method"
+        },
         {
             "date": "May 26",
             "name": "A new law in laser physics could make eye surgery simpler",
