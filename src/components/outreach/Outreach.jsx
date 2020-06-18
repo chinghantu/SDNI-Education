@@ -260,7 +260,8 @@ class Outreach extends Component {
             diverseTabs: [],
             currIndex: 0,
             renderOtrList: [],
-            expandIndex: 1
+            expandIndex: 1,
+            reachedEnd: false
         }
     }
 
@@ -287,9 +288,19 @@ class Outreach extends Component {
     handleExpandOtrList = () => {
         this.setState(prevState => ({
             expandIndex: prevState.expandIndex + 1,
-            renderOtrList: OTRLIST.slice(0, (prevState.expandIndex + 1) * EXPAND_SCALER)
+            renderOtrList: OTRLIST.slice(0, (prevState.expandIndex + 1) * EXPAND_SCALER),
+            reachedEnd: (prevState.expandIndex + 1) * EXPAND_SCALER >= OTRLIST.length
         }))
     }
+
+    handleCollapseOtrList = () => {
+        this.setState({
+            expandIndex: 1,
+            renderOtrList: OTRLIST.slice(0,EXPAND_SCALER),
+            reachedEnd: false
+        })
+    }
+
 
     handleShowModal = () => { this.setState({ showModal: true }) }
 
@@ -356,7 +367,8 @@ class Outreach extends Component {
     }
 
     render() {
-        let { title, renderHtml, showImageGallery, imageTitle, imageGallery, currIndex, diverseTabs, renderOtrList } = this.state
+        let { title, renderHtml, showImageGallery, imageTitle, 
+            imageGallery, currIndex, diverseTabs, renderOtrList, reachedEnd } = this.state
         if (title == 'sem') {
             let diverseGallery = Array.isArray(imageGallery[0])
             renderHtml = !showImageGallery ? (
@@ -496,11 +508,11 @@ class Outreach extends Component {
                             }
                         </tbody>
                     </table>
-                    <button onClick={() => this.handleExpandOtrList()} 
+                    <button onClick={() => reachedEnd ? this.handleCollapseOtrList() : this.handleExpandOtrList()} 
                             type="button"
                             className="btn btn-primary"
                             style={{ marginTop: 20 }}>
-                        Load More
+                        { reachedEnd ? "Collapse All" : "Load More" }
                     </button>
                     <p className="title" style={{ color: 'gray' }}><b>Educational and Outreach Events -- Selected Pictures</b></p>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -514,11 +526,20 @@ class Outreach extends Component {
                                 Patrica Moore, a Biology teacher from Southwestern College (SWC) and SDNI RET from summer 2018 who learned about the operations
                                 and applications of scanning Electron Microscopy at SDNI, is now performing a SEM session with her own SWC students during a visit of SDNI (April 2019)
                             </p>
-                            <img className="img-fluid" style={{ marginTop: 30, marginBottom: 30, width: '100%' }} src={Img_4} alt=""/>
-                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                            <img className="img-fluid" style={{ marginTop: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }} src={Img_4} alt=""/>
+                            <p style={{ marginBottom: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }}>
+                                Ryan Nicholl, SEM manager, and Yves Theriault SDNI Educational Program and Outreach Director (right) demonstrating
+                                SDNI's remote SEM access capabilities during a California newly elected lawmakers' reception at the UCSD Chancellor's House.
+                            </p>
+                            <img className="img-fluid" style={{ marginTop: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }} src={Img_6} alt=""/>
+                            <p style={{ marginBottom: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }}>
+                                RET 2019 Alumni. From the left: Lesli Horowitz (top); Angela Tsang (bottom); Patricia Moore; Lilia Ornelas; Gabriela Mansfield; and Kerson Perez.
+                            </p>
+                            <img className="img-fluid" style={{ marginTop: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }} src={Img_5} alt=""/>
+                            {/* <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                 <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_5} alt=""/>
                                 <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_6} alt=""/>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

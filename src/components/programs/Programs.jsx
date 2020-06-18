@@ -9,12 +9,16 @@ const K12 = (
     <div>
         <p className="title"><b>K-12 Curriculum</b></p>
         <p>
-            <span className="programs-span"><b>Please notice:</b></span><br />
+            <span className="programs-span"><b>National NanoTechnology Coordinated Infrastructure {"(NNCI)"}</b></span><br />
             We encourage educators to visit the <a href="nano.gov"><span className="nano-gov">nano.gov</span></a> website for existing nationwide resources. A large amount of educational materials and links to nanotechnology networks are available at:
 					<br /><br />
-            <a href="https://www.nano.gov/education-training"><button className="programs-button">Nano Education Traning</button></a>
+            <a href="https://www.nano.gov/education-training"><button className="programs-button">NNCI Educational Resources</button></a>
             <br /><br />
-            The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jsgntly with such school/college partners.
+            <span className="programs-span"><b>Omni Nano</b></span><br />
+            Omni Nano and SDNI are partnering for Nanotechnology curriculum development and educational outreach. We invite you to visit the <a href="https://omninano.org">Omni Nano Website</a>
+            <br /><br />
+            <span className="programs-span"><b>SDNI</b></span><br />
+            The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jointly with such school/college partners.
 					<br /><br />
         </p>
         <table>
@@ -23,6 +27,14 @@ const K12 = (
                     <td width="75%" className="text">A Sprinkle of Nano with your Bio?</td>
                     <td with="25%">
                         <a href="https://drive.google.com/file/d/11mmt_kViVQWUBN96DtJR3VRlqR-z5HCT/view?usp=sharing">
+                            <button className="programs-small-button">Learn More</button>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="75%" className="text">Colors: Wonderful Phenomena</td>
+                    <td with="25%">
+                        <a href="https://drive.google.com/file/d/1bzWZt4ClP-qsIlwu7CkdWhJuTJgfYEM5/view?ts=5edfc4c6">
                             <button className="programs-small-button">Learn More</button>
                         </a>
                     </td>
@@ -39,7 +51,7 @@ const CC = (
             <span className="programs-span"><b>Please notice:</b></span><br />
             We encourage educators to visit the <a href="nano.gov"><span className="nano-gov">nano.gov</span></a> website for existing nationwide resources. A large amount of educational materials and links to nanotechnology networks are available at:
 					<br /><br />
-            <a href="https://www.nano.gov/education-training"><button className="programs-button">Nano Education Traning</button></a>
+            <a href="https://www.nano.gov/education-training"><button className="programs-button">Nano Education Training</button></a>
             <br /><br />
             The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jsgntly with such school/college partners.
 				</p>
@@ -95,14 +107,14 @@ const CC = (
 
 const RET = (
     <div>
-        <p className="title"><b>Nano-SUIT and Research Education for Teachers (RET)</b></p>
+        <p className="title"><b>2021 - SDNI Summer Nano-SUIT Program for Community College Teachers</b></p>
         <p>
             <br /><br />
-            <b>2020 – SDNI Nano Summer Institute for Teachers (Nano-SUIT) & Research Education for Teachers (RET)</b>
+            <b>2021 – SDNI Nano Summer Institute for Teachers (Nano-SUIT) & Research Education for Teachers (RET)</b>
             <br /><br />
             The Nano-SUIT program combines the classic RET hands-on research experience for teachers with a comprehensive series of seminars in the broad field of nanotechnology. At the end of the program, participants produce a lesson plan, based on their research experience or another nanotechnology topic of their chsgce, that they must bring back to their respective schools/colleges for implementation in their class as well as sharing with their peers. This program hence acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current school and college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 6 weeks of the program, and the seminars will be provided by Dr. Yves Theriault, SDNI Director of Education Programs and Outreach as well as Dr. Ryan Nicholl, Microfabrication Engineer and SEM manager.
 					<br /><br /><br />
-            <b>Dates:</b> June 15, 2020 - July 24, 2020 with Final Presentations on July 31, 2020.
+            <b>Dates:</b> TBD
 					<br /><br />
             <b>Notice:</b> Exact date may change without prior notice. Please do not make travel arrangements around the above start and end dates as SDNI will not reimburse for fees related to flight date changes.
 					<br /><br />
@@ -114,13 +126,13 @@ const RET = (
 					<br /><br />
             <b>Stipends:</b> Participants will receive a $4,500 stipend in addition to a $1,000 materials budget.
 					<br /><br />
-            Applicants will be notified via email of their application status <b>no later than February 15, 2020</b>.
+            Applicants will be notified via email of their application status <b>no later than {"<TBD>"} </b>.
 					<br /><br /><br />
         </p>
         <h3><b>HOW TO APPLY</b></h3>
         <p>
             <br /><br />
-            The deadline for application is <b>January 31, 2020</b>. No application will be accepted after this date.
+            The deadline for application is <b>TBD</b>. No application will be accepted after this date.
 					<br /><br />
             Applicants are required to submit the following for full consideration:<br />
             1.	A completed online <a href="https://docs.google.com/forms/d/e/1FAIpQLScr6-AH2QYMC8YhkpIvcIGaaTGIwIMo-UqDbyIt7eDupJfMHg/viewform?usp=sf_link"><span className="nano-gov">Application Form</span></a><br />
@@ -140,12 +152,12 @@ const REU = (
         <p className="title"><b>Research Education for Undergrads (REU)</b></p>
         <p>
             <br /><br />
-            <b>2020 – SDNI Research Education for Undergrads (REU)</b>
+            <b>2021 – SDNI Research Education for Undergrads (REU)</b>
             <br /><br />
             This program acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current school and college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 10 weeks of the program. All professor-mentor will be faculty involved in nanotechnology research. Specific nanotechnology research areas will depend on faculty’s availability. Participation in the weekly seminars and social activities is mandatory for successful completion of the program.
 					<br /><br /><br />
-            <b>Dates:</b> June 22th, 2020 - August 28th, 2020 <br />
-            REU Participants are expected to arrive the day before program begins to move-in (June 21st)
+            <b>Dates:</b>TBD<br />
+            REU Participants are expected to arrive the day before program begins to move-in
 					<br /><br />
             <b>Notice:</b> Exact date may change without prior notice. Please do not make travel arrangements around the above start and end dates as SDNI will not reimburse for fees related to flight date changes.
 					<br /><br />
@@ -154,8 +166,8 @@ const REU = (
             <b>Housing:</b> <br />
             - UC San Diego on-campus housing will be provided<br />
             - Student housing is arranged and paid for by SDNI REU program<br />
-            - Move-in day is the Sunday (June 21st) prior to the start of the program<br />
-            - Move-out day is the Saturday (August 29th) following the last day of the program<br />
+            - Move-in day is the Sunday prior to the start of the program<br />
+            - Move-out day is the Saturday following the last day of the program<br />
             - Students will be charged for any move-out cleaning fees (if needed)
 
 					<br /><br />
@@ -163,7 +175,7 @@ const REU = (
 					<br /><br />
             <b>Stipends:</b> Each student will receive a $4,500 stipend for the program.
 					<br /><br />
-            Applicants will be notified via email of their application status <b>no later than February 15, 2020</b>.
+            Applicants will be notified via email of their application status <b>no later than {"<TBD>"}</b>.
 					<br /><br /><br />
         </p>
         <h3><b>Research Areas</b></h3><br />
@@ -197,7 +209,7 @@ const REU = (
         <h3><b>How To Apply</b></h3>
         <p>
             <br />
-            APPLICATION PERIOD: November 1, 2019 - January 31, 2020
+            APPLICATION PERIOD: TBD
 					<br /><br />
             The SDNI REU Summer Program application deadline is January 31st of the program year. We will continue to accept applications after that date until the positions are filled. Students applying to the program are asked to submit the following:<br /><br />
             1.	A completed online <a href="https://reumanager.com/sdni"><span className="nano-gov">Application Form</span></a><br /><br />
@@ -297,24 +309,24 @@ const DT2 = (
             <br /><br />
             Attendees are introduced to the fundamental principles of systems engineering and learn how to start from customer’s requirements elicitation to gradually define solution-unbiased systems requirements which ultimately lead to the definition of the system architecture and design with optimized engineering requirements. Students practice the drawing of context diagrams and the building functional lists and functional block diagrams of real-life man-made systems and establish appropriate system specifications and associated requirement traceability matrix. The training also covers the integration of specialty engineering disciplines and the basics of test and evaluation, quality assurance and control, as well as total life cycle management.
                                 <br /><br />
-            <b>Date:</b> 11/30/2019 - 12/01/2019<br />
-            <b>Location:</b> UCSD Campus<br />
+            <b>Date:</b> TBD<br />
+            <b>Location:</b> Online Class<br />
             <b>Instructor:</b> Yves Theriault, PhD, PMP
                                 <br /><br />
             <span className="programs-span"><b>2. Leadership 101 and the Learning Organization Model</b></span>
             <br /><br />
             Students are introduced to the model of the Learning Organization and its importance in fostering leadership which is the most important quality for anyone desirous of motivating, managing, leading teams in any organization, especially research and innovation-driven institutions. The training covers important related topics such as emotional intelligence, personality types, organizational culture and shared vision. Several examples of exemplary leadership are provided along with survey data that reports how people value true leaders and the characteristics and qualities that they seek from those leaders. Whether you are looking to perform in an academic or industrial setup, leadership skills are MUST HAVE if you are interested in leading people to achieve a shared vision. Finally, student s learn that leadership is not a born-child gift, but a set of skills that can be learned through practice, dedication, and hard work.
                                 <br /><br />
-            <b>Date:</b> February 2020 (exact date to be announced)<br />
-            <b>Location:</b> UCSD Campus<br />
+            <b>Date:</b> TBD<br />
+            <b>Location:</b> Online Class<br />
             <b>Instructor:</b> Yves Theriault, PhD, PMP
                                 <br /><br />
             <span className="programs-span"><b>3. Project Management Boot Camp</b></span>
             <br /><br />
             Organizational performance is driven by a careful investment of organizational resources to a well-managed project portfolio which depends on program and project performance. In today’s competitive environment, project management best practice is essential to a sustained market leadership. This training introduce attendees to the project management body of knowledge to include its 10 knowledge areas, to include integration, scope, schedule, cost, quality, resource, communication, risk, procurement and stakeholder management and 5 process groups to include initiating, planning, executing, monitoring and controlling, and closing. Reiterating the importance of leadership and communication skills for the project manager, the training also provide real-life examples of situations in which a project manager must make important decisions, and the umbrella of tools that he/she can use to drive project performance.
                                 <br /><br />
-            <b>Date:</b> May 2020 (exact date to be announced)<br />
-            <b>Location:</b> UCSD Campus<br />
+            <b>Date:</b> TBD<br />
+            <b>Location:</b> Online Class<br />
             <b>Instructor:</b> Yves Theriault, PhD, PMP
                                 <br /><br /><br /><br /><br />
         </p>
