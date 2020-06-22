@@ -2549,7 +2549,7 @@ const GLOBAL_NEWS = {
             "date": "Jun 16",
             "name": "A new family of nanocars ready for the next nano Grand Prix",
             "place": "Nara Institute of Science and Technology",
-            "description": "According to the British Royal Automobile and the French Automobile clubs, the first car was created in 1770 by the Frenchman Joseph Cugnot. This "Fardier" (French name for a trolley used to transport heavy loads) was a car propelled by a steam engine and powered by a boiler. This 7 m long self-propelled machine reached a speed of 4 km/h, for an average autonomy of 15 min. 250 years later, researchers at the Nara Institute of Science and Technology (NAIST), Japan, in partnership with colleagues in the University Paul Sabatier (Toulouse, France), report in Chemistry - A European Journal a new family of nanocars integrating a dipole to speed up their motion in the nanoworld.",
+            "description": "According to the British Royal Automobile and the French Automobile clubs, the first car was created in 1770 by the Frenchman Joseph Cugnot. This 'Fardier' (French name for a trolley used to transport heavy loads) was a car propelled by a steam engine and powered by a boiler. This 7 m long self-propelled machine reached a speed of 4 km/h, for an average autonomy of 15 min. 250 years later, researchers at the Nara Institute of Science and Technology (NAIST), Japan, in partnership with colleagues in the University Paul Sabatier (Toulouse, France), report in Chemistry - A European Journal a new family of nanocars integrating a dipole to speed up their motion in the nanoworld.",
             "link": "http://www.naist.jp/en/research_achievements/2020/06/007100.html"
         },
         {
