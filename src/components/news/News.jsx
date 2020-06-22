@@ -8,6 +8,21 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Jun 17",
+            "name": "Nanosponges Could Intercept Coronavirus Infection",
+            "place": "University of California - San Diego",
+            "description": "Nanoparticles cloaked in human lung cell membranes and human immune cell membranes can attract and neutralize the SARS-CoV-2 virus in cell culture, causing the virus to lose its ability to hijack host cells and reproduce. ",
+            "link": "https://ucsdnews.ucsd.edu/pressrelease/nanosponges-2020"
+        },
+        {
+            "date": "Jun 15",
+            "name": "Nanomaterial gives robots chameleon skin",
+            "place": "University of California - Riverside",
+            "description": "A new film made of gold nanoparticles changes color in response to any type of movement. Its unprecedented qualities could allow robots to mimic chameleons and octopi — among other futuristic applications.",
+            "link": "https://news.ucr.edu/articles/2020/06/15/nanomaterial-gives-robots-chameleon-skin"
+        },
+  
+        {
             "date": "Jun 04",
             "name": "Scientists Aim Gene-Targeting Breakthrough Against COVID-19",
             "place": "Lawrence Berkeley National Laboratory",
@@ -305,6 +320,48 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Jun 18",
+            "name": "UConn Researcher Invents Nanoparticle for Overcoming Leukemia Treatment Resistance",
+            "place": "University of Connecticut",
+            "description": "UConn associate professor of pharmaceutics Xiuling Lu, along with professor of chemistry Rajeswari M. Kasi, was part of a team that recently published a paper in Nature Cell Biology finding a commonly used chemotherapy drug may be repurposed as a treatment for resurgent or chemotherapy-resistant leukemia.",
+            "link": "https://today.uconn.edu/2020/06/uconn-researcher-invents-nanoparticle-overcoming-leukemia-treatment-resistance/"
+        },
+        {
+            "date": "Jun 17",
+            "name": "Study unveils new mechanism for long-distance cell communication",
+            "place": "University of Illinois at Chicago",
+            "description": "An extracellular vesicle — a nanoparticle released by cells — can use jerky movements similar to a car weaving in and out of traffic to navigate the obstacle-filled environment outside of cells, according to new discoveries made by researchers at the University of Illinois at Chicago.",
+            "link": "https://today.uic.edu/study-unveils-new-mechanism-for-long-distance-cell-communication"
+        },
+        {
+            "date": "Jun 13",
+            "name": "Spontaneous Formation of Nanoscale Hollow Structures Could Boost Battery Storage",
+            "place": "Georgia Institute of Technology",
+            "description": "An unexpected property of nanometer-scale antimony crystals — the spontaneous formation of hollow structures — could help give the next generation of lithium ion batteries higher energy density without reducing battery lifetime. The reversibly hollowing structures could allow lithium ion batteries to hold more energy and therefore provide more power between charges.",
+            "link": "https://news.gatech.edu/2020/06/13/spontaneous-formation-nanoscale-hollow-structures-could-boost-battery-storage"
+        },
+        {
+            "date": "Jun 12",
+            "name": "Unlocking PNA’s superpowers",
+            "place": "Carnegie Mellon University",
+            "description": "Researchers develop a method for self-assembling nanostructures with gamma-modified peptide nucleic acid, a synthetic mimic of DNA. The process has the potential to impact nanomanufacturing and biomedical technologies like targeted diagnostics and drug delivery.",
+            "link": "https://engineering.cmu.edu/news-events/news/2020/06/12-taylor-pna.html"
+        },
+        {
+            "date": "Jun 10",
+            "name": "Scientists Apply “Twistronics” to Light Propagation and Make a Breakthrough Discovery",
+            "place": "Advanced Science Research Center, GC/CUNY",
+            "description": "A research team led by scientists at the Advanced Science Research Center at The Graduate Center, CUNY (CUNY ASRC), in collaboration with National University of Singapore, University of Texas at Austin and Monash University, has employed “twistronics” concepts (the science of layering and twisting two-dimensional materials to control their electrical properties) to manipulate the flow of light in extreme ways. The findings, published in the journal Nature, hold the promise for leapfrog advances in a variety of light-driven technologies, including nano-imaging devices; high-speed, low-energy optical computers; and biosensors.",
+            "link": "https://asrc.gc.cuny.edu/headlines/2020/06/scientists-apply-twistronics-to-light-propagation-and-make-a-breakthrough-discovery/"
+        },
+        {
+            "date": "Jun 10",
+            "name": "Researchers mimic nature for fast, colorful 3D printing",
+            "place": "University of Illinois at Urbana-Champaign, News Bureau",
+            "description": "Brilliantly colored chameleons, butterflies, opals – and now some 3D-printed materials – reflect color by using nanoscale structures called photonic crystals.",
+            "link": "https://news.illinois.edu/view/6367/809468"
+        },      
         {
             "date": "Jun 09",
             "name": "Predicting Unpredictable Reactions",
@@ -2439,6 +2496,83 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Jun 19",
+            "name": "Researchers pioneer new production method for heterostructure devices",
+            "place": "University of Exeter",
+            "description": "Researchers at the University of Exeter have developed a pioneering production method for heterostructure devices, based on 2D materials such as graphene.",
+            "link": "https://www.exeter.ac.uk/news/research/title_802030_en.html"
+        },
+        {
+            "date": "Jun 18",
+            "name": "Graphene smart textiles developed for heat adaptive clothing",
+            "place": "University of Manchester",
+            "description": "New research on the two-dimensional (2D) material graphene has allowed researchers to create smart adaptive clothing which can lower the body temperature of the wearer in hot climates.",
+            "link": "https://www.manchester.ac.uk/discover/news/graphene-smart-textiles-developed-for-heat-adaptive-clothing/"
+        },
+        {
+            "date": "Jun 18",
+            "name": "Researchers create a photographic film of a molecular switch",
+            "place": "University of Münster",
+            "description": "Molecular switches – they are the molecular counterparts of electrical switches and play an important role in many processes in nature. Such molecules can reversibly interconvert between two or more states and thereby control molecular processes. In living organisms, for example, they play a role in muscle contraction but also our visual perception is based on the dynamics of a molecular switch in the eye. Scientists are working intensively to develop novel molecular components that enable switching between different states, so that molecular processes can be specifically controlled.",
+            "link": "https://www.uni-muenster.de/news/view.php?cmdid=11073"
+        },
+        {
+            "date": "Jun 18",
+            "name": "Towards ultra-sensitive diagnostic chips",
+            "place": "Swinburne University of Technology",
+            "description": "An international team, led by Swinburne researchers, has developed an ultra-thin nanostructure gold film – or metasurface – with the potential to revolutionise next-generation bio-sensing chips.",
+            "link": "http://www.swinburne.edu.au/news/latest-news/2020/06/towards-ultra-sensitive-diagnostic-chips.php"
+        },
+        {
+            "date": "Jun 18",
+            "name": "‘Nanotorch’ highlights ultrafast biochemical reactions",
+            "place": "Eindhoven University of Technology",
+            "description": "Yuyang Wang used single nanoparticles that illuminate single fluorescent molecules to detect ultrafast biochemical reactions.",
+            "link": "https://www.tue.nl/en/news/news-overview/18-06-2020-nanotorch-highlights-ultrafast-biochemical-reactions/"
+        },
+        {
+            "date": "Jun 16",
+            "name": "The smallest motor in the world",
+            "place": "Swiss Federal Laboratories for Materials Science and Technology (EMPA)",
+            "description": "A research team from Empa and EPFL has developed a molecular motor which consists of only 16 atoms and rotates reliably in one direction. It could allow energy harvesting at the atomic level. The special feature of the motor is that it moves exactly at the boundary between classical motion and quantum tunneling - and has revealed puzzling phenomena to researchers in the quantum realm.",
+            "link": "https://www.empa.ch/web/s604/molecular-motor"
+        },
+        {
+            "date": "Jun 16",
+            "name": "New Nanoparticle Drug Combination For Atherosclerosis​",
+            "place": "The Korea Advanced Institute of Science and Technology (KAIST)",
+            "description": "Physicochemical cargo-switching nanoparticles (CSNP) designed by KAIST can help significantly reduce cholesterol and macrophage foam cells in arteries, which are the two main triggers for atherosclerotic plaque and inflammation.",
+            "link": "http://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=8430"
+        },
+        {
+            "date": "Jun 16",
+            "name": "A new family of nanocars ready for the next nano Grand Prix",
+            "place": "Nara Institute of Science and Technology",
+            "description": "According to the British Royal Automobile and the French Automobile clubs, the first car was created in 1770 by the Frenchman Joseph Cugnot. This "Fardier" (French name for a trolley used to transport heavy loads) was a car propelled by a steam engine and powered by a boiler. This 7 m long self-propelled machine reached a speed of 4 km/h, for an average autonomy of 15 min. 250 years later, researchers at the Nara Institute of Science and Technology (NAIST), Japan, in partnership with colleagues in the University Paul Sabatier (Toulouse, France), report in Chemistry - A European Journal a new family of nanocars integrating a dipole to speed up their motion in the nanoworld.",
+            "link": "http://www.naist.jp/en/research_achievements/2020/06/007100.html"
+        },
+        {
+            "date": "Jun 12",
+            "name": "Minimizing thermal conductivity of crystalline material with optimal nanostructure",
+            "place": "Japan Science and Technology Agency",
+            "description": "Professor Junichiro Shiomi et al. from The University of Tokyo aimed to reduce the thermal conductivity of semiconductor materials by reducing the internal nanostructure, and successfully minimized thermal conductivity by designing, fabricating, and evaluating the optimal nanostructure-multilayer materials through materials informatics (MI), which combines machine learning and molecular simulation. ",
+            "link": "https://www.jst.go.jp/pr/announce/20200603-3/index_e.html"
+        },
+        {
+            "date": "Jun 11",
+            "name": "Engineers find neat way to turn waste carbon dioxide into useful material",
+            "place": "University of New South Wales",
+            "description": "Making catalysts to convert waste carbon dioxide into useful industrial products has been expensive and complicated – until now. UNSW engineers show it’s as easy as playing with Lego.",
+            "link": "https://newsroom.unsw.edu.au/news/science-tech/engineers-find-neat-way-turn-waste-carbon-dioxide-useful-material"
+        },
+        {
+            "date": "Jun 11",
+            "name": "Ultra-thin camera lenses could see the light of day",
+            "place": "Chalmers University of Technology",
+            "description": "In the future, camera lenses could be thousands of times thinner and significantly less resource-intensive to manufacture. Researchers from Chalmers now present a new technology for making the artificial materials known as ‘metasurfaces’, which consist of a multitude of interacting nanoparticles that together can control light. They could have great use in the optical technology of tomorrow. ​​​​​",
+            "link": "https://www.chalmers.se/en/departments/physics/news/Pages/Ultra_thin_camera_lenses_of_the_future_could_see_the_light_of_day.aspx"
+        },           
         {
             "date": "Jun 11",
             "name": "UQ’s advanced nanotechnology to improve success of dental implants",
