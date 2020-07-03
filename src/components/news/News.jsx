@@ -2605,7 +2605,7 @@ const GLOBAL_NEWS = {
             "date": "Jul 02",
             "name": "Spintronics: Faster data processing through ultrashort electric pulses ",
             "place": "Martin-Luther-Universität Halle-Wittenberg",
-            "description": "Physicists at Martin Luther University Halle-Wittenberg (MLU) and Lanzhou University in China developed a simple concept that could improve significantly magnetic-based data processing. Using ultrashort electric pulses in the terahertz range, data can be written, read and erased very quickly. This would make data processing faster, more compact and energy efficient. The researchers confirmed their theory by running complex simulations and the results were published in the journal "NPG Asia Materials".",
+            "description": "Physicists at Martin Luther University Halle-Wittenberg (MLU) and Lanzhou University in China developed a simple concept that could improve significantly magnetic-based data processing. Using ultrashort electric pulses in the terahertz range, data can be written, read and erased very quickly. This would make data processing faster, more compact and energy efficient. The researchers confirmed their theory by running complex simulations and the results were published in the journal 'NPG Asia Materials'.",
             "link": "https://pressemitteilungen.pr.uni-halle.de/index.php?modus=pmanzeige&pm_id=3289"
         },
         {
