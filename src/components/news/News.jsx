@@ -321,6 +321,104 @@ const CAL_NEWS = {
 const US_NEWS = {
     '2020': [
         {
+            "date": "Jul 01",
+            "name": "Materials scientists drill down to vulnerabilities involved in human tooth decay",
+            "place": "Northwestern University",
+            "description": "Northwestern University researchers have cracked one of the secrets of tooth decay. In a new study of human enamel, the materials scientists are the first to identify a small number of impurity atoms that may contribute to the enamel’s strength but also make the material more soluble. They also are the first to determine the spatial distribution of the impurities with atomic-scale resolution. ",
+            "link": "https://www.sciencedaily.com/releases/2020/07/200701125436.htm"
+        },
+        {
+            "date": "Jul 01",
+            "name": "Charcoal a weapon to fight superoxide-induced disease, injury",
+            "place": "Rice University",
+            "description": "Artificial enzymes made of treated charcoal could have the power to curtail damaging levels of superoxides, radical oxygen ions that are toxic at high concentrations.",
+            "link": "https://news.rice.edu/2020/07/01/charcoal-a-weapon-to-fight-superoxide-induced-disease-injury-2/"
+        },
+        {
+            "date": "Jun 30",
+            "name": "Spider Silk Can Create Lenses Useful for Biological Imaging",
+            "place": "American Institute of Physics",
+            "description": "Spider silk is useful for a variety of biomedical applications. It exhibits mechanical properties superior to synthetic fibers for tissue engineering, and it is not toxic or harmful to living cells.",
+            "link": "https://publishing.aip.org/publications/latest-content/spider-silk-can-create-lenses-useful-for-biological-imaging/"
+        },
+        {
+            "date": "Jun 29",
+            "name": "Cartwheeling light reveals new optical phenomenon",
+            "place": "Rice University",
+            "description": "Researchers at Rice University have discovered details about a novel type of polarized light-matter interaction with light that literally turns end over end as it propagates from a source. Their find could help study molecules like those in light-harvesting antennas anticipated to have unique sensitivity to the phenomenon.",
+            "link": "https://news.rice.edu/2020/06/29/cartwheeling-light-reveals-new-optical-phenomenon-2/"
+        },
+        {
+            "date": "Jun 29",
+            "name": "Rice lab’s bright idea is pure gold",
+            "place": "Rice University",
+            "description": "Seeing light emerge from a nanoscale experiment didn’t come as a big surprise to Rice University physicists. But it got their attention when that light was 10,000 times brighter than they expected.",
+            "link": "https://news.rice.edu/2020/06/29/rice-labs-bright-idea-is-pure-gold/"
+        },
+        {
+            "date": "Jun 29",
+            "name": "Producing a gaseous messenger molecule inside the body, on demand",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Nitric oxide is an important signaling molecule in the body, with a role in building nervous system connections that contribute to learning and memory. It also functions as a messenger in the cardiovascular and immune systems.",
+            "link": "http://news.mit.edu/2020/nitric-oxide-messenger-molecule-inside-body-demand-0629"
+        },
+        {
+            "date": "Jun 26",
+            "name": "Researchers control elusive spin fluctuations in 2D magnets",
+            "place": "Cornell University",
+            "description": "Like Bigfoot and the Loch Ness monster, critical spin fluctuations in a magnetic system haven’t been captured on film. Unlike the fabled creatures, these fluctuations – which are highly correlated electron spin patterns – do actually exist, but they are too random and turbulent to be seen in real time.",
+            "link": "https://news.cornell.edu/stories/2020/06/researchers-control-elusive-spin-fluctuations-2d-magnets"
+        },
+        {
+            "date": "Jun 26",
+            "name": "Process for ‘two-faced’ nanomaterials may aid energy, information tech",
+            "place": "Oak Ridge National Laboratory",
+            "description": "A team led by the Department of Energy’s Oak Ridge National Laboratory used a simple process to implant atoms precisely into the top layers of ultra-thin crystals, yielding two-sided structures with different chemical compositions. The resulting materials, known as Janus structures after the two-faced Roman god, may prove useful in developing energy and information technologies.",
+            "link": "https://www.ornl.gov/news/process-two-faced-nanomaterials-may-aid-energy-information-tech"
+        },
+        {
+            "date": "Jun 25",
+            "name": "Common Food Additive Causes Adverse Health Effects in Mice",
+            "place": "University of Massachusetts Amherst",
+            "description": "A common food additive, recently banned in France but allowed in the U.S. and many other countries, was found to significantly alter gut microbiota in mice, causing inflammation in the colon and changes in protein expression in the liver, according to research led by a University of Massachusetts Amherst food scientist.",
+            "link": "https://www.umass.edu/newsoffice/article/common-food-additive-causes-adverse-health"
+        },
+        {
+            "date": "Jun 25",
+            "name": "Researchers discover new boron-lanthanide nanostructure",
+            "place": "Brown University",
+            "description": "The discovery of carbon nanostructures like two-dimensional graphene and soccer ball-shaped buckyballs helped to launch a nanotechnology revolution. In recent years, researchers from Brown University and elsewhere have shown that boron, carbon’s neighbor on the periodic table, can make interesting nanostructures too, including two-dimensional borophene and a buckyball-like hollow cage structure called borospherene.",
+            "link": "https://www.brown.edu/news/2020-06-25/nanocage"
+        },
+        {
+            "date": "Jun 23",
+            "name": "Laser allows solid-state refrigeration of a semiconductor material",
+            "place": "University of Washington",
+            "description": "To the general public, lasers heat objects. And generally, that would be correct. But lasers also show promise to do quite the opposite — to cool materials. Lasers that can cool materials could revolutionize fields ranging from bio-imaging to quantum communication.",
+            "link": "https://www.washington.edu/news/2020/06/23/laser-refrigeration-semiconductor/#:~:text=Lasers%20that%20can%20cool%20materials,other%20liquids%20below%20room%20temperature."
+        },
+        {
+            "date": "Jun 22",
+            "name": "Using chaos as a tool, scientists discover new method of making 3D-heterostructured materials",
+            "place": "Ames Laboratory",
+            "description": "Scientists at the U.S. Department of Energy’s Ames Laboratory and their collaborators from Iowa State University have developed a new approach for generating layered, difficult-to-combine, heterostructured solids. Heterostructured materials, composed of layers of dissimilar building blocks display unique electronic transport and magnetic properties that are governed by quantum interactions between their structurally different building blocks, and open new avenues for electronic and energy applications.",
+            "link": "https://www.ameslab.gov/news/using-chaos-as-a-tool-scientists-discover-new-method-of-making-3d-heterostructured-materials"
+        },
+        {
+            "date": "Jun 22",
+            "name": "SLAC and Stanford scientists home in on pairs of atoms that boost a catalyst’s activity",
+            "place": "SLAC National Accelerator Laboratory",
+            "description": "They discovered the messy environment of a chemical reaction can actually change the shape of a catalytic nanoparticle in a way that makes it more active.",
+            "link": "https://www6.slac.stanford.edu/news/2020-06-22-slac-and-stanford-scientists-home-pairs-atoms-boost-catalyst%E2%80%99s-activity.aspx"
+        },
+        {
+            "date": "Jun 22",
+            "name": "Strainoptronics: A New Way to Control Photons",
+            "place": "George Washington University",
+            "description": "GW researchers create first efficient 2D material photodetector for telecom wavelengths, a discovery that has the potential to advance communications and computer systems.",
+            "link": "https://gwtoday.gwu.edu/strainoptronics-new-way-control-photons"
+        },              
+        {
             "date": "Jun 18",
             "name": "UConn Researcher Invents Nanoparticle for Overcoming Leukemia Treatment Resistance",
             "place": "University of Connecticut",
@@ -2496,6 +2594,62 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Jul 02",
+            "name": "The lightest shielding material in the world",
+            "place": "Swiss Federal Laboratories for Materials Science and Technology (EMPA)",
+            "description": "Empa researchers have succeeded in applying aerogels to microelectronics: Aerogels based on cellulose nanofibers can effectively shield electromagnetic radiation over a wide frequency range – and they are unrivalled in terms of weight.",
+            "link": "https://www.empa.ch/web/s604/cellulose-emi-shielding"
+        },
+        {
+            "date": "Jul 02",
+            "name": "Spintronics: Faster data processing through ultrashort electric pulses ",
+            "place": "Martin-Luther-Universität Halle-Wittenberg",
+            "description": "Physicists at Martin Luther University Halle-Wittenberg (MLU) and Lanzhou University in China developed a simple concept that could improve significantly magnetic-based data processing. Using ultrashort electric pulses in the terahertz range, data can be written, read and erased very quickly. This would make data processing faster, more compact and energy efficient. The researchers confirmed their theory by running complex simulations and the results were published in the journal "NPG Asia Materials".",
+            "link": "https://pressemitteilungen.pr.uni-halle.de/index.php?modus=pmanzeige&pm_id=3289"
+        },
+        {
+            "date": "Jul 01",
+            "name": "Building a Harder Diamond",
+            "place": "University of Tsukuba",
+            "description": "Scientists at the University of Tsukuba use computer calculations to propose a new way to rearrange the carbon atoms in a diamond to make it even harder, which may be useful in industrial applications that rely on synthetic cutting diamonds. ",
+            "link": "https://www.tsukuba.ac.jp/en/research-list/p202007011400"
+        },
+        {
+            "date": "Jul 01",
+            "name": "Teflon pipe makes a cheap, simple reactor for silica particle synthesis",
+            "place": "ARC Centre of Excellence in Exciton Science",
+            "description": "Researchers in Australia and China have proposed an innovative and cost-effective new method for creating silica beads, which have a number of key uses, ranging from nanomedicine and bioimaging to the production of paper and polished concrete.",
+            "link": "https://excitonscience.com/news/teflon-pipe-makes-cheap-simple-reactor-silica-particle-synthesis"
+        },
+        {
+            "date": "Jun 25",
+            "name": "Researchers Uncover New Environmentally-Friendly Approach to Water Treatment",
+            "place": "Swansea University",
+            "description": "Researchers from Swansea University have developed a new environmentally friendly method for removing toxic chemicals from water.",
+            "link": "https://www.swansea.ac.uk/press-office/news-events/news/2020/06/researchers-uncover-new-environmentally-friendly-approach-to-water-treatment.php"
+        },
+        {
+            "date": "Jun 25",
+            "name": "New knowledge about the energy levels in quantum dots",
+            "place": "Ruhr-University Bochum",
+            "description": "Researchers have experimentally proven the theoretically predicted Auger effect in quantum dots. The findings help to understand the structures that could form the basis of quantum communication.",
+            "link": "https://news.rub.de/presseinformationen/wissenschaft/2020-06-25-physik-neue-erkenntnisse-ueber-die-energieniveaus-quantenpunkten"
+        },
+        {
+            "date": "Jun 25",
+            "name": "AI could help improve performance of lithium-ion batteries and fuel cells",
+            "place": "Imperial College London",
+            "description": "Imperial researchers have demonstrated how machine learning could help design lithium-ion batteries and fuel cells with better performance.",
+            "link": "https://www.imperial.ac.uk/news/198713/ai-could-help-improve-performance-lithium-ion/"
+        },
+        {
+            "date": "Jun 22",
+            "name": "Super-resolution microscopy reveals a twist inside of cells",
+            "place": "Ecole Polytechnique Fédérale de Lausanne",
+            "description": "EPFL biophysicists have developed a high-throughput super-resolution microscope to probe nanoscale structures and dynamics of mammalian cells, showing in unprecedented detail the twists and turns of an organelle important for cell division.",
+            "link": "https://news.epfl.ch/news/super-resolution-microscopy-reveals-a-twist-inside/"
+        },        
         {
             "date": "Jun 19",
             "name": "Researchers pioneer new production method for heterostructure devices",
