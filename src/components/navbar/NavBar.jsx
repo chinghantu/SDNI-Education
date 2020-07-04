@@ -102,6 +102,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'cc')} href="">College Curriculum</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'ret')} href="">RET</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'reu')} href="">REU</a></li>
+                                    <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'si')} href="">Summer Institute</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'ret-a')} href="">RET Alumni</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'reu-a')} href="">REU Alumni</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'nt2025')} href="">NanoTech 2025 Project</a></li>
