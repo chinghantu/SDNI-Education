@@ -16,7 +16,7 @@ import { Alert, Modal, Button, Image } from 'react-bootstrap'
 function importAll(r) {
     return r.keys().map(r);
 }
-  
+
 const ARACHNIDS = importAll(require.context('../../assets/Image/sem/Arachnids', false, /\.(png|jpe?g|svg)$/));
 
 const BIRDS = importAll(require.context('../../assets/Image/sem/Birds', false, /\.(png|jpe?g|svg)$/));
