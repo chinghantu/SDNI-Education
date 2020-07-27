@@ -6,6 +6,7 @@ import Footer from "../footer/Footer"
 
 import banner1 from '../../assets/Image/banner1.png';
 import banner2 from '../../assets/Image/banner2.png';
+import banner from '../../assets/Image/banner.jpg';
 
 const allRoutes = ['/about', '/programs', '/events', '/news', '/donate', '/outreach', '/networking'];
 class Home extends Component {
@@ -87,6 +88,7 @@ class Home extends Component {
                         <span className="sr-only">Next</span>
                     </a>
                 </div> */}
+                <img src={banner} className="img-fluid" alt=""/>
                 <div className="bg">
                     <div className="container bg-content">
                         <div>
