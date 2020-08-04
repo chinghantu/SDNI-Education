@@ -2714,6 +2714,104 @@ const US_NEWS = {
 const GLOBAL_NEWS = {
     '2020': [
         {
+            "date": "Jul 30",
+            "name": "TU Graz Researchers synthesize nanoparticles tailored for special applications",
+            "place": "Graz University of Technology",
+            "description": "“Core-shell” clusters pave the way for new efficient nanomaterials that make catalysts, magnetic and laser sensors or measuring devices for detecting electromagnetic radiation more efficient.",
+            "link": "https://www.tugraz.at/en/tu-graz/services/news-stories/tu-graz-news/singleview/article/tu-graz-forschende-modellieren-nanopartikel-nach-mass0/"
+        },
+        {
+            "date": "Jul 27",
+            "name": "Water molecules are gold for nanocatalysis",
+            "place": "Ruhr-University Bochum",
+            "description": "Nanocatalysts made of gold nanoparticles dispersed on metal oxides are very promising for the industrial, selective oxidation of compounds, including alcohols, into valuable chemicals. They show high catalytic activity, particularly in aqueous solution. A team of researchers from RUB has been able to explain why: Water molecules play an active role in facilitating the oxygen dissociation needed for the oxidation reaction. The team of Professor Dominik Marx, Chair of Theoretical Chemistry, reports in the high-impact journal ACS Catalysis on 14 July 2020.",
+            "link": "https://news.rub.de/english/2020-07-27-chemistry-water-molecules-are-gold-nanocatalysis"
+        },
+        {
+            "date": "Jul 23",
+            "name": "Trapping tiny particles: A versatile tool for nanomanipulation",
+            "place": "Okinawa Institute of Science and Technology (OIST) Graduate University",
+            "description": "Nanoparticles are tiny. At just 1/1000th of a millimeter, they’re impossible to see with the naked eye. But, despite being small, they’re extremely important in many ways. If scientists want to take a close look at DNA, proteins, or viruses, then being able to isolate and monitor nanoparticles is essential.",
+            "link": "https://www.oist.jp/news-center/news/2020/7/15/trapping-tiny-particles-versatile-tool-nanomanipulation"
+        },
+        {
+            "date": "Jul 23",
+            "name": "Scientists develop new material for longer-lasting fuel cells",
+            "place": "Queen Mary University of London",
+            "description": "New research, involving scientists at Queen Mary University of London, suggests that graphene could be used to make more durable hydrogen fuel cells for cars.",
+            "link": "https://www.qmul.ac.uk/media/news/2020/se/scientists-develop-new-material-for-longer-lasting-fuel-cells.html"
+        },
+        {
+            "date": "Jul 22",
+            "name": "Photonic crystal light converter",
+            "place": "University of Tokyo",
+            "description": "Spectroscopy is the use of light to analyze physical objects and biological samples. Different kinds of light can provide different kinds of information. Vacuum ultraviolet light is useful as it can aid people in a broad range of research fields, but generation of that light has been difficult and expensive. Researchers created a new device to efficiently generate this special kind of light using an ultrathin film with nanoscale perforations.",
+            "link": "https://www.u-tokyo.ac.jp/focus/en/press/z0508_00121.html"
+        },
+        {
+            "date": "Jul 20",
+            "name": "A plot twist in pharmaceuticals: single nanoparticles could pave the way for medicines on demand",
+            "place": "University of Bath",
+            "description": "For the first time, a single, twisted nanoparticle has been accurately measured and characterised in a lab, taking scientists one vital step closer to a time when medicines will be produced and blended on a microscopic scale.",
+            "link": "https://www.bath.ac.uk/announcements/a-plot-twist-in-pharmaceuticals-single-nanoparticles-could-pave-the-way-for-medicines-on-demand/"
+        },      
+        {
+            "date": "Jul 29",
+            "name": "Transforming e-waste into a strong, protective coating for metal ",
+            "place": "American Chemical Society",
+            "description": "A typical recycling process converts large quantities of items made of a single material into more of the same. However, this approach isn’t feasible for old electronic devices, or “e-waste,” because they contain small amounts of many different materials that cannot be readily separated. Now, in ACS Omega, researchers report a selective, small-scale microrecycling strategy, which they use to convert old printed circuit boards and monitor components into a new type of strong metal coating.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-july-29-2020/transforming-e-waste-into-a-strong-protective-coating-for-metal.html"
+        },
+        {
+            "date": "Jul 28",
+            "name": "Room temperature superconductivity creeping toward possibility",
+            "place": "Penn State University",
+            "description": "The possibility of achieving room temperature superconductivity took a tiny step forward with a recent discovery by a team of Penn State physicists and materials scientists.",
+            "link": "https://news.psu.edu/story/626941/2020/07/28/research/room-temperature-superconductivity-creeping-toward-possibility"
+        },
+        {
+            "date": "Jul 28",
+            "name": "Solving materials problems with a quantum computer",
+            "place": "Argonne National Laboratory",
+            "description": "Quantum computers have enormous potential for calculations using novel algorithms and involving amounts of data far beyond the capacity of today’s supercomputers. While such computers have been built, they are still in their infancy and have limited applicability for solving complex problems in materials science and chemistry. For example, they only permit the simulation of the properties of a few atoms for materials research.",
+            "link": "https://www.anl.gov/article/solving-materials-problems-with-a-quantum-computer"
+        },
+        {
+            "date": "Jul 28",
+            "name": "Discovery Will Allow More Sophisticated Work at Nanoscale",
+            "place": "University of Houston",
+            "description": "The movement of fluids through small capillaries and channels is crucial for processes ranging from blood flow through the brain to power generation and electronic cooling systems, but that movement often stops when the channel is smaller than 10 nanometers.",
+            "link": "https://uh.edu/news-events/stories/july-2020/07282020ghasemi-ion-transport.php"
+        },
+        {
+            "date": "Jul 27",
+            "name": "Origami Metamaterials Reveal Reversible Auxeticity Combined with High Deformation Recoverability",
+            "place": "Northwestern University",
+            "description": "The simplicity and elegance of origami, an ancient Japanese art form, has motivated researchers to explore its application in the world of materials.",
+            "link": "https://www.mccormick.northwestern.edu/news/articles/2020/07/origami-metamaterials-reveal-reversible-auxeticity-combined-with-high-deformation-recoverability.html"
+        },
+        {
+            "date": "Jul 20",
+            "name": "New Nano Drug Candidate Kills Aggressive Breast Cancer Cells",
+            "place": "University of Arkansas",
+            "description": "Researchers at the University of Arkansas have developed a new nano drug candidate that kills triple negative breast cancer cells.",
+            "link": "https://news.uark.edu/articles/54282/new-nano-drug-candidate-kills-aggressive-breast-cancer-cells#:~:text=New%20Nano%20Drug%20Candidate%20Kills%20Aggressive%20Breast%20Cancer%20Cells,-July%2020%2C%202020&text=FAYETTEVILLE%2C%20Ark.,fatal%20types%20of%20breast%20cancer."
+        },
+        {
+            "date": "Jul 19",
+            "name": "A mechanical way to stimulate neurons",
+            "place": "Massachusetts Institute of Technology",
+            "description": "In addition to responding to electrical and chemical stimuli, many of the body’s neural cells can also respond to mechanical effects, such as pressure or vibration. But these responses have been more difficult for researchers to study, because there has been no easily controllable method for inducing such mechanical stimulation of the cells. Now, researchers at MIT and elsewhere have found a new method for doing just that.",
+            "link": "http://news.mit.edu/2020/neural-cell-stimulation-magnet-0720"
+        },
+        {
+            "date": "Jul 17",
+            "name": "Droplet biosensing method opens the door for faster identification of COVID-19",
+            "place": "Virginia Tech",
+            "description": "Mechanical engineering associate professor Jiangtao Cheng and electrical and computer engineering assistant professor Wei Zhou have developed an ultrasensitive biosensing method that could dramatically shorten the amount of time required to verify the presence of the COVID-19 virus in a sample. Their peer-reviewed research was published in ACS Nano on June 29.",
+            "link": "https://vtnews.vt.edu/articles/2020/07/cheng-zhou-dropletbiosensing.html"
+        },        
+        {
             "date": "Jul 15",
             "name": "Designing DNA From Scratch: Engineering the Functions of Micrometer-Sized DNA Droplets",
             "place": "Tokyo Institute of Technology",
