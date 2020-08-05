@@ -57,6 +57,7 @@ const CC = (
             We encourage educators to visit the <a href="nano.gov"><span className="nano-gov">nano.gov</span></a> website for existing nationwide resources. A large amount of educational materials and links to nanotechnology networks are available at:
 					<br /><br />
             <a href="https://www.nano.gov/education-training"><button className="programs-button">Nano Education Training</button></a>
+            <a href="https://www.nnci.net/resources-educators-k-16"><button className="programs-button">Resource for Educators (K-16)</button></a>
             <br /><br />
             The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jsgntly with such school/college partners.
 		</p>
@@ -67,7 +68,6 @@ const CC = (
         <span className="programs-span"><b>SDNI</b></span><br />
         The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jointly with such school/college partners.
 		<br /><br />
-        <a href="https://www.nnci.net/resources-educators-k-16"><button className="programs-button">Resource for Educators (K-16)</button></a>
         <h4><br />Integrated Photonics Education Kit<br /><br /></h4>
         <a href="https://drive.google.com/file/d/0B-PWal97iJz6RmluUDVRM1J2b19sUDhKTVM0b2F6Vlc2b1V3/view?usp=sharing"><button className="programs-button">Learn More</button></a>
         <p></p>
