@@ -8,6 +8,13 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Aug 06",
+            "name": "A Closer Look at Water-Splitting’s Solar Fuel Potential",
+            "place": "Lawrence Berkeley National Laboratory",
+            "description": "Scientists at Berkeley Lab and the Joint Center for Artificial Photosynthesis zero in on bismuth vanadate’s role in renewable energy at the nanoscale",
+            "link": "https://newscenter.lbl.gov/2020/08/06/water-splitting-solar-fuel/"
+        }, 
+        {
             "date": "Jul 15",
             "name": "A Nanomaterial Path Forward for COVID-19 Vaccine Development",
             "place": "University of California - San Diego",
@@ -327,6 +334,118 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Aug 17",
+            "name": "No limit yet for carbon nanotube fibers",
+            "place": "Rice University",
+            "description": "Carbon nanotube fibers made at Rice University are now stronger than Kevlar and are inching up on the conductivity of copper.",
+            "link": "http://news.rice.edu/2020/08/17/no-limit-yet-for-carbon-nanotube-fibers/"
+        },
+        {
+            "date": "Aug 17",
+            "name": "Converting solar energy to hydrogen fuel, with help from photosynthesis",
+            "place": "American Chemical Society",
+            "description": "Global economic growth comes with increasing demand for energy, but stepping up energy production can be challenging. Recently, scientists have achieved record efficiency for solar-to-fuel conversion, and now they want to incorporate the machinery of photosynthesis to push it further.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/august/converting-solar-energy-to-hydrogen-fuel-with-help-from-photosynthesis.html"
+        },
+        {
+            "date": "Aug 12",
+            "name": "Quantum Materials Quest Could Benefit From Graphene That Buckles",
+            "place": "Rutgers University",
+            "description": "Graphene, an extremely thin two-dimensional layer of the graphite used in pencils, buckles when cooled while attached to a flat surface, resulting in beautiful pucker patterns that could benefit the search for novel quantum materials and superconductors, according to Rutgers-led research in the journal Nature.",
+            "link": "https://www.rutgers.edu/news/quantum-materials-quest-could-benefit-graphene-buckles"
+        },
+        {
+            "date": "Aug 11",
+            "name": "Research exposes new vulnerability in SARS-CoV-2",
+            "place": "Northwestern University",
+            "description": "Northwestern University researchers have uncovered a new vulnerability in the novel coronavirus’ infamous spike protein — illuminating a relatively simple, potential treatment pathway.",
+            "link": "https://news.northwestern.edu/stories/2020/08/research-exposes-new-vulnerability-in-sars-cov-2/"
+        },
+        {
+            "date": "Aug 11",
+            "name": "Nanocrystals from recycled wood waste make carbon-fiber composites tougher",
+            "place": "Texas A&M University",
+            "description": "Polymers reinforced with ultra-fine strands of carbon fibers epitomize composite materials that are “light as a feather and strong as steel,” earning them versatile applications across several industries. Adding materials called carbon nanotubes can further enhance the composites’ functionality. But the chemical processes used for incorporating carbon nanotube end up spreading them unevenly on the composites, limiting the strength and other useful qualities that can be ultimately achieved.",
+            "link": "https://engineering.tamu.edu/news/2020/08/nanocrystals-from-recycled-wood-waste-make-carbon-fiber-composites-tougher.html"
+        },
+        {
+            "date": "Aug 10",
+            "name": "Breaking Molecular Traffic Jams with Finned Nanoporous Materials",
+            "place": "University of Houston",
+            "description": "Thousands of chemical processes used by the energy industry and for other applications rely on the high speed of catalytic reactions, but molecules frequently are hindered by molecular traffic jams that slow them down. Now an entirely new class of porous catalysts has been invented, using unique fins to speed up the chemistry by allowing molecules to skip the lines that limit the reaction. ",
+            "link": "https://uh.edu/news-events/stories/august-2020/08102020-jeff-rimer-breaking-molecular--traffic-jams.php"
+        },
+        {
+            "date": "Aug 06",
+            "name": "Why shaving dulls even the sharpest of razors",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Razors, scalpels, and knives are commonly made from stainless steel, honed to a razor-sharp edge and coated with even harder materials such as diamond-like carbon. However, knives require regular sharpening, while razors are routinely replaced after cutting materials far softer than the blades themselves.",
+            "link": "http://news.mit.edu/2020/why-shaving-dulls-razors-0806#:~:text=Now%20engineers%20at%20MIT%20have,softer%20than%20the%20blade%20itself.&text=The%20blade%20is%20more%20prone,the%20steel%20is%20not%20uniform."
+        },
+        {
+            "date": "Aug 05",
+            "name": "Turning carbon dioxide into liquid fuel",
+            "place": "Argonne National Laboratory",
+            "description": "Catalysts speed up chemical reactions and form the backbone of many industrial processes.  For example, they are essential in transforming heavy oil into gasoline or jet fuel. Today, catalysts are involved in over 80 percent of all manufactured products.",
+            "link": "https://www.anl.gov/article/turning-carbon-dioxide-into-liquid-fuel"
+        },        
+        {
+            "date": "Jul 29",
+            "name": "Transforming e-waste into a strong, protective coating for metal ",
+            "place": "American Chemical Society",
+            "description": "A typical recycling process converts large quantities of items made of a single material into more of the same. However, this approach isn’t feasible for old electronic devices, or “e-waste,” because they contain small amounts of many different materials that cannot be readily separated. Now, in ACS Omega, researchers report a selective, small-scale microrecycling strategy, which they use to convert old printed circuit boards and monitor components into a new type of strong metal coating.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-july-29-2020/transforming-e-waste-into-a-strong-protective-coating-for-metal.html"
+        },
+        {
+            "date": "Jul 28",
+            "name": "Room temperature superconductivity creeping toward possibility",
+            "place": "Penn State University",
+            "description": "The possibility of achieving room temperature superconductivity took a tiny step forward with a recent discovery by a team of Penn State physicists and materials scientists.",
+            "link": "https://news.psu.edu/story/626941/2020/07/28/research/room-temperature-superconductivity-creeping-toward-possibility"
+        },
+        {
+            "date": "Jul 28",
+            "name": "Solving materials problems with a quantum computer",
+            "place": "Argonne National Laboratory",
+            "description": "Quantum computers have enormous potential for calculations using novel algorithms and involving amounts of data far beyond the capacity of today’s supercomputers. While such computers have been built, they are still in their infancy and have limited applicability for solving complex problems in materials science and chemistry. For example, they only permit the simulation of the properties of a few atoms for materials research.",
+            "link": ""
+        },
+        {
+            "date": "Jul 28",
+            "name": "Discovery Will Allow More Sophisticated Work at Nanoscale",
+            "place": "University of Houston",
+            "description": "The movement of fluids through small capillaries and channels is crucial for processes ranging from blood flow through the brain to power generation and electronic cooling systems, but that movement often stops when the channel is smaller than 10 nanometers.",
+            "link": "https://uh.edu/news-events/stories/july-2020/07282020ghasemi-ion-transport.php"
+        },
+        {
+            "date": "Jul 27",
+            "name": "Origami Metamaterials Reveal Reversible Auxeticity Combined with High Deformation Recoverability",
+            "place": "Northwestern University",
+            "description": "The simplicity and elegance of origami, an ancient Japanese art form, has motivated researchers to explore its application in the world of materials.",
+            "link": "https://www.mccormick.northwestern.edu/news/articles/2020/07/origami-metamaterials-reveal-reversible-auxeticity-combined-with-high-deformation-recoverability.html"
+        },
+        {
+            "date": "Jul 20",
+            "name": "New Nano Drug Candidate Kills Aggressive Breast Cancer Cells",
+            "place": "University of Arkansas",
+            "description": "Researchers at the University of Arkansas have developed a new nano drug candidate that kills triple negative breast cancer cells.",
+            "link": "https://news.uark.edu/articles/54282/new-nano-drug-candidate-kills-aggressive-breast-cancer-cells#:~:text=New%20Nano%20Drug%20Candidate%20Kills%20Aggressive%20Breast%20Cancer%20Cells,-July%2020%2C%202020&text=FAYETTEVILLE%2C%20Ark.,fatal%20types%20of%20breast%20cancer."
+        },
+        {
+            "date": "Jul 19",
+            "name": "A mechanical way to stimulate neurons",
+            "place": "Massachusetts Institute of Technology",
+            "description": "In addition to responding to electrical and chemical stimuli, many of the body’s neural cells can also respond to mechanical effects, such as pressure or vibration. But these responses have been more difficult for researchers to study, because there has been no easily controllable method for inducing such mechanical stimulation of the cells. Now, researchers at MIT and elsewhere have found a new method for doing just that.",
+            "link": "http://news.mit.edu/2020/neural-cell-stimulation-magnet-0720"
+        },
+        {
+            "date": "Jul 17",
+            "name": "Droplet biosensing method opens the door for faster identification of COVID-19",
+            "place": "Virginia Tech",
+            "description": "Mechanical engineering associate professor Jiangtao Cheng and electrical and computer engineering assistant professor Wei Zhou have developed an ultrasensitive biosensing method that could dramatically shorten the amount of time required to verify the presence of the COVID-19 virus in a sample. Their peer-reviewed research was published in ACS Nano on June 29.",
+            "link": "https://vtnews.vt.edu/articles/2020/07/cheng-zhou-dropletbiosensing.html"
+        },        
         {
             "date": "Jul 17",
             "name": "Enhanced water repellent surfaces discovered in nature",
@@ -2713,6 +2832,90 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Aug 17",
+            "name": "Scientists use photons as threads to weave novel forms of matter",
+            "place": "University of Southampton",
+            "description": "New research from the University of Southampton has successfully discovered a way to bind two negatively charged electron-like particles which could create opportunities to form novel materials for use in new technological developments.",
+            "link": "https://www.southampton.ac.uk/news/2020/08/photons-weaved-together.page"
+        },
+        {
+            "date": "Aug 17",
+            "name": "Energy-Efficient Tuning of Spintronic Neurons",
+            "place": "Tohoku University",
+            "description": "The human brain efficiently executes highly sophisticated tasks, such as image and speech recognition, with an exceptionally lower energy budget than today's computers can. The development of energy-efficient and tunable artificial neurons capable of emulating brain-inspired processes has, therefore, been a major research goal for decades.",
+            "link": "https://www.tohoku.ac.jp/en/press/energy_efficient_tuning_of_spintronic_neurons.html"
+        },
+        {
+            "date": "Aug 13",
+            "name": "Why nanomaterial quality matters, and the smart new way to check it",
+            "place": "University of Sussex",
+            "description": "A new way to check the quality of nanomaterials like graphene has emerged from a team at the University of Sussex.",
+            "link": "https://www.sussex.ac.uk/research/full-news-list?id=52534"
+        },
+        {
+            "date": "Aug 12",
+            "name": "Spider silk inspires new class of functional synthetic polymers",
+            "place": "University of Groningen",
+            "description": "Synthetic polymers have changed the world around us, and it would be hard to imagine a world without them. However, they do have their problems. It is for instance hard from a synthetic point of view to precisely control their molecular structure. This makes it harder to finely tune some of their properties, such as the ability to transport ions. To overcome this problem, University of Groningen assistant professor Giuseppe Portale decided to take inspiration from nature. The result was published in Science Advances on July 17: a new class of polymers based on protein-like materials that work as proton conductors and might be useful in future bio-electronic devices.",
+            "link": "https://www.rug.nl/sciencelinx/nieuws/2020/08/spider-silk-inspires-new-class-of-functional-synthetic-polymers?lang=en"
+        },
+        {
+            "date": "Aug 12",
+            "name": "Nanotubes in the eye that help us see",
+            "place": "University of Montreal Hospital Research Centre (CRCHUM)",
+            "description": "Researchers at the CRCHUM find a new structure by which cells in the retina communicate with each other, regulating blood supply to keep vision intact.",
+            "link": "https://www.chumontreal.qc.ca/en/crchum/nouvelles/nanotubes-eye-help-us-see"
+        },
+        {
+            "date": "Aug 11",
+            "name": "Porous Liquids Allow for Efficient Gas Separation",
+            "place": "Karlsruher Institut für Technologie (KIT)",
+            "description": "Jointly with cooperation partners, a researcher of Karlsruhe Institute of Technology (KIT) has developed “porous liquids”: Nanoparticles, that are able to separate gas molecules of different sizes from each other, float – finely distributed – in a solvent. This is because the particles have empty pores, through whose openings only molecules of a certain size can penetrate. These porous liquids may be used directly or processed into membranes that efficiently separate propene from gaseous mixtures. Propen, in turn, is employed as the starting material for propylene, a widely used plastic material. This could replace the energy-intensive distillation that has been the common procedure up to now. The team reports on the results in Nature Materials. (DOI: 10.1038/s41563-020-0764-y).    ",
+            "link": "http://www.kit.edu/kit/english/pi_2020_067_porous-liquids-allow-for-efficient-gas-separation.php"
+        },
+        {
+            "date": "Aug 10",
+            "name": "From nanocellulose to gold",
+            "place": "Linköping University",
+            "description": "When nanocellulose is combined with various types of metal nanoparticles, materials are formed with many new and exciting properties. They may be antibacterial, change colour under pressure, or convert light to heat.",
+            "link": "https://liu.se/en/news-item/nanocellulosa-blir-till-guld"
+        },
+        {
+            "date": "Aug 07",
+            "name": "A titanate nanowire mask that can eliminate pathogens",
+            "place": "Ecole Polytechnique Fédérale de Lausanne",
+            "description": "Filter “paper” made from titanium oxide nanowires is capable of trapping pathogens and destroying them with light. This discovery by an EPFL laboratory could be put to use in personal protective equipment, as well as in ventilation and air conditioning systems.",
+            "link": "https://news.epfl.ch/news/a-titanate-nanowire-mask-that-can-eliminate-pathog/"
+        },
+        {
+            "date": "Aug 07",
+            "name": "Anode Material for Safe Batteries with a Long Cycle Life",
+            "place": "Karlsruher Institut für Technologie (KIT)",
+            "description": "Researchers at Karlsruhe Institute of Technology (KIT) and Jilin University in Changchun/China investigated a highly promising anode material for future high-performance batteries – lithium lanthanum titanate with a perovskite crystal structure (LLTO). As the team reported in the Nature Communications journal, LLTO can improve the energy density, power density, charging rate, safety, and cycle life of batteries without requiring a decrease of the particle size from micro to nano scale. (DOI: 10.1038/s41467-020-17233-1)",
+            "link": "http://www.kit.edu/kit/english/pi_2020_064_anode-material-for-safe-batteries-with-a-long-cycle-life.php"
+        },
+        {
+            "date": "Aug 06",
+            "name": "Efficient valves for electron spins",
+            "place": "University of Basel",
+            "description": "Researchers at the University of Basel in collaboration with colleagues from Pisa have developed a new concept that uses the electron spin to switch an electrical current. In addition to fundamental research, such spin valves are also the key elements in spintronics – a type of electronics that exploits the spin instead of the charge of electrons. The results were published in the scientific journal Communications Physics.",
+            "link": "https://www.unibas.ch/en/News-Events/News/Uni-Research/Efficient-valves-for-electron-spins.html#:~:text=Researchers%20at%20the%20University%20of,to%20switch%20an%20electrical%20current.&text=The%20idea%20behind%20it%20is,instead%20of%20the%20electrical%20charge."
+        },
+        {
+            "date": "Aug 05",
+            "name": "May the force be with you: detecting ultrafast light by its force",
+            "place": "McGill University",
+            "description": "A McGill research team has developed a new technique to detect nano-sized imperfections in materials. They believe this discovery will lead to improvements in the optical detectors used in a wide range of technologies, from cell phones to cameras and fiber optics, as well as in solar cells.",
+            "link": "https://www.mcgill.ca/newsroom/channels/news/may-force-be-you-detecting-ultrafast-light-its-force-323479"
+        },
+        {
+            "date": "Aug 05",
+            "name": "Molecular Forces: The Surprising Stretching Behaviour of DNA",
+            "place": "Vienna University of Technology",
+            "description": "What happens when you pull a DNA molecule? It behaves quite differently than we are used to from macroscopic objects. Scientists at TU Wien were now able to explain this.",
+            "link": "tuwien.at/en/tu-wien/news/news-articles/news/molecular-forces-the-surprising-stretching-behaviour-of-dna/"
+        },            
         {
             "date": "Jul 30",
             "name": "TU Graz Researchers synthesize nanoparticles tailored for special applications",
