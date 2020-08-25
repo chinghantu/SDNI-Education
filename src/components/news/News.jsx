@@ -8,6 +8,20 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Aug 20",
+            "name": "2D Electronics Get an Atomic Tuneup",
+            "place": "Lawrence Berkeley National Laboratory",
+            "description": "To tune the band gap, a key parameter in controlling the electrical conductivity and optical properties of semiconductors, researchers typically engineer alloys, a process in which two or more materials are combined to achieve properties that otherwise could not be achieved by a pristine material.",
+            "link": "https://newscenter.lbl.gov/2020/08/20/2d-electronics-atomic-tuneup/"
+        },
+        {
+            "date": "Aug 17",
+            "name": "Stanford scientists slow and steer light with resonant nanoantennas",
+            "place": "Stanford University",
+            "description": "Researchers have fashioned ultrathin silicon nanoantennas that trap and redirect light, for applications in quantum computing, LIDAR and even the detection of viruses.",
+            "link": "https://news.stanford.edu/press-releases/2020/08/17/slow-light-beam-steering/#:~:text=Stanford%20scientists%20slow%20and%20steer%20light%20with%20resonant%20nanoantennas,-Researchers%20have%20fashioned&text=17%2C%20in%20Nature%20Nanotechnology%2C%20Stanford,to%20direct%20it%20at%20will."
+        },  
+        {
             "date": "Aug 06",
             "name": "A Closer Look at Water-Splitting’s Solar Fuel Potential",
             "place": "Lawrence Berkeley National Laboratory",
@@ -334,6 +348,41 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Aug 24",
+            "name": "Machine learning peeks into nano-aquariums",
+            "place": "University of Illinois at Urbana-Champaign, News Bureau",
+            "description": "In the nanoworld, tiny particles such as proteins appear to dance as they transform and assemble to perform various tasks while suspended in a liquid. Recently developed methods have made it possible to watch and record these otherwise-elusive tiny motions, and researchers now take a step forward by developing a machine learning workflow to streamline the process. ",
+            "link": "https://news.illinois.edu/view/6367/309931086"
+        },
+        {
+            "date": "Aug 21",
+            "name": "Tiny engineered therapeutic delivery system safely solves genetic problems in mice",
+            "place": "Ohio State University",
+            "description": "Inserting genetic material into the body to treat diseases caused by gene mutations can work, scientists say – but getting those materials to the right place safely is tricky.",
+            "link": "https://news.osu.edu/tiny-engineered-therapeutic-delivery-system-safely-solves-genetic-problems-in-mice/"
+        },
+        {
+            "date": "Aug 20",
+            "name": "Graphene sensors find subtleties in magnetic fields",
+            "place": "Cornell University",
+            "description": "As with actors and opera singers, when measuring magnetic fields it helps to have range.",
+            "link": "https://news.cornell.edu/stories/2020/08/graphene-sensors-find-subtleties-magnetic-fields#:~:text=Cornell%20researchers%20used%20an%20ultrathin,within%20a%20larger%20magnetic%20background."
+        },
+        {
+            "date": "Aug 20",
+            "name": "Researchers create nanoclusters that mimic biomolecules",
+            "place": "Cornell University",
+            "description": "Biological systems come in all shapes, sizes and structures. Some of these structures, such as those found in DNA, RNA and proteins, are formed through complex molecular interactions that are not easily duplicated by inorganic materials.",
+            "link": "https://news.cornell.edu/stories/2020/08/researchers-create-nanoclusters-mimic-biomolecules"
+        },
+        {
+            "date": "Aug 19",
+            "name": "Toward a coronavirus breathalyzer test",
+            "place": "American Chemical Society",
+            "description": "Few people who have undergone nasopharyngeal swabs for coronavirus testing would describe it as a pleasant experience. The procedure involves sticking a long swab up the nose to collect a sample from the back of the nose and throat, which is then analyzed for SARS-CoV-2 RNA by the reverse-transcription polymerase chain reaction (RT-PCR). Now, researchers reporting in ACS Nano have developed a prototype device that non-invasively detected COVID-19 in the exhaled breath of infected patients.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/august/toward-a-coronavirus-breathalyzer-test.html"
+        },     
         {
             "date": "Aug 17",
             "name": "No limit yet for carbon nanotube fibers",
@@ -2832,6 +2881,76 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Aug 25",
+            "name": "A Four-State Magnetic Tunnel Junction for Novel Spintronics Applications",
+            "place": "Bar-Ilan University",
+            "description": "A novel magnetic tunnel junction, which has four resistance states instead of two states in existing magnetic tunnel junctions, may pave the way to novel spintronics devices, including multi-level magnetic memory.",
+            "link": "https://www1.biu.ac.il/indexE.php?id=33&pt=20&pid=4&level=1&cPath=4&type=1&news=3539"
+        },
+        {
+            "date": "Aug 24",
+            "name": "Fuel cells for hydrogen vehicles are becoming longer lasting",
+            "place": "University of Bern",
+            "description": "An international research team led by the University of Bern has succeeded in developing an electrocatalyst for hydrogen fuel cells which, in contrast to the catalysts commonly used today, does not require a carbon carrier and is therefore much more stable. The new process is industrially applicable and can be used to further optimize fuel cell powered vehicles without CO₂ emissions.",
+            "link": "https://www.unibe.ch/news/media_news/media_relations_e/media_releases/2020/media_releases_2020/fuel_cells_for_hydrogen_vehicles_are_becoming_longer_lasting/index_eng.html"
+        },
+        {
+            "date": "Aug 24",
+            "name": "Scientists get atomistic picture of platinum catalyst degradation",
+            "place": "European Synchrotron Radiation Facility",
+            "description": "Degradation of platinum, used as a key electrode material in the hydrogen economy, severely shortens the lifetime of  electrochemical energy conversion devices, such as fuel cells. For the first time, scientists elucidated the movements of the platinum atoms that lead to catalyst surface degradation. Their results are published today in Nature Catalysis.",
+            "link": "https://www.esrf.eu/home/news/general/content-news/general/scientists-get-atomistic-picture-of-platinum-catalyst-degradation.html"
+        },
+        {
+            "date": "Aug 24",
+            "name": "Velcro method for more precise binding of drug particles",
+            "place": "Eindhoven University of Technology",
+            "description": "In order to deliver drug particles to the right place in the body, a field known as nanomedicine, selectivity plays an important role. After all, the drug only has to attach itself to the cells that need it. A theory from 2011 predicts that selectivity is not only based on the type of receptors, but also on the number and strength of the receptors on the cell. Researchers at Eindhoven University of Technology are now proving this experimentally. They published their results in the journal PNAS.",
+            "link": "https://www.tue.nl/en/news/news-overview/24-08-2020-velcro-method-for-more-precise-binding-of-drug-particles/"
+        },
+        {
+            "date": "Aug 24",
+            "name": "New Ultra-Long Circulating Nanoparticle Developed for Chronic Myeloid Leukemia",
+            "place": "Chinese Academy of Sciences",
+            "description": "By conjugating CHMFL-ABL-053 to an amphiphilic polymer and self-assembling into a nanoparticle (NP) with a high loading, an ultra-long circulating nanomaterial was prepared by researchers recently.",
+            "link": "http://english.cas.cn/newsroom/research_news/life/202008/t20200824_241988.shtml"
+        },
+        {
+            "date": "Aug 24",
+            "name": "Application of Two Engineering Nanomaterials Provides Novel Way to Improve Salt Tolerance in Plants",
+            "place": "Chinese Academy of Sciences",
+            "description": "Sophora alopecuroides is an important traditional Chinese medicine. Salt stress, as one of the most hampering abiotic factors, can severely affect plant growth and crop yield. It is of great significance to improve the salt tolerance of S. alopecuroides for increasing yield and quality, and thereby promoting the local sustainable development of agriculture. ",
+            "link": "http://english.cas.cn/newsroom/research_news/life/202008/t20200824_241996.shtml"
+        },
+        {
+            "date": "Aug 20",
+            "name": "Surface deep: Light-responsive top layer of plastic film induces movement",
+            "place": "Nagoya University",
+            "description": "Azobenzene-containing plastic film is a peculiar material: its surface can change shape when exposed to light, making it a valuable component in modern technologies/devices like TV screens and solar cells. Scientists now show that only a thin, topmost layer of the light-dependent azobenzene-containing plastic film needs to be light-sensitive, rather than the entire film, opening up new ways to potentially reduce production costs and revolutionize its use.",
+            "link": "http://en.nagoya-u.ac.jp/research/activities/news/2020/08/surface-deep-light-responsive-top-layer-of-plastic-film-induces-movement.html"
+        },
+        {
+            "date": "Aug 19",
+            "name": "Trapping and controlling light at the interface of atomically thin nanomaterials",
+            "place": "SPIE--International Society for Optics and Photonics",
+            "description": "Scientists at Cornell University propose a new method to confine light in an atomically thin graphene layer by leveraging topological phenomena that occur at the interface of specially designed nanomaterials. Their method brings together two rapidly advancing fields in applied and fundamental physics: graphene nanolight and topological photonics.",
+            "link": "https://spie.org/news/trapping-and-controlling-light-at-the-interface-of-atomically-thin-nanomaterials"
+        },
+        {
+            "date": "Aug 19",
+            "name": "Insect wings inspire new ways to fight superbugs",
+            "place": "RMIT University",
+            "description": "Scientists have revealed how nanomaterials inspired by insect wings are able to destroy bacteria on contact.",
+            "link": "https://www.rmit.edu.au/news/all-news/2020/aug/insect-wings-superbugs"
+        },
+        {
+            "date": "Aug 18",
+            "name": "Further Details Revealed About a Highly-efficient Anticancer Drug Delivery System",
+            "place": "Tohoku University",
+            "description": "The majority of drug delivery systems use nano carriers to transport drugs due to their small size and ability to distribute drugs to otherwise inaccessible sites of the body. The downside to this small size, however, is that large quantities are needed to match the required dosage.",
+            "link": "https://www.tohoku.ac.jp/en/press/sn38npd_further_details_revealed.html"
+        },          
         {
             "date": "Aug 17",
             "name": "Scientists use photons as threads to weave novel forms of matter",
