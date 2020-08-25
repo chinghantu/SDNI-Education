@@ -19,7 +19,7 @@ const K12 = (
             <a href="https://www.nnci.net/resources-educators-k-16"><button className="programs-button">Resource for Educators (K-16)</button></a>
             <br /><br />
             <span className="programs-span"><b>Omni Nano</b></span><br />
-            <img className="img-fluid" src={Omninano}></img><br />
+            <img className="img-fluid" style={{ width: 150, height: 150 }} src={Omninano}></img><br />
             Omni Nano and SDNI are partnering for Nanotechnology curriculum development and educational outreach. We invite you to visit the <a href="https://omninano.org">Omni Nano Website</a>
             <br /><br />
             <span className="programs-span"><b>SDNI</b></span><br />
@@ -62,7 +62,7 @@ const CC = (
             The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jsgntly with such school/college partners.
 		</p>
         <span className="programs-span"><b>Omni Nano</b></span><br />
-        <img className="img-fluid" src={Omninano}></img><br />
+        <img className="img-fluid" style={{ width: 150, height: 150 }} src={Omninano}></img><br />
         Omni Nano and SDNI are partnering for Nanotechnology curriculum development and educational outreach. We invite you to visit the <a href="https://omninano.org">Omni Nano Website</a>
         <br /><br />
         <span className="programs-span"><b>SDNI</b></span><br />
