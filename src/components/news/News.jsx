@@ -349,6 +349,48 @@ const CAL_NEWS = {
 const US_NEWS = {
     '2020': [
         {
+            "date": "Aug 31",
+            "name": "An improved wearable, stretchable gas sensor using nanocomposites",
+            "place": "Pennsylvania State University",
+            "description": "A stretchable, wearable gas sensor for environmental sensing has been developed and tested by researchers at Penn State, Northeastern University and five universities in China.",
+            "link": "https://news.psu.edu/story/629868/2020/08/27/research/improved-wearable-stretchable-gas-sensor-using-nanocomposites"
+        },
+        {
+            "date": "Aug 28",
+            "name": "Team’s Flexible Micro LEDs May Reshape Future of Wearable Technology",
+            "place": "University of Texas at Dallas",
+            "description": "University of Texas at Dallas researchers and their international colleagues have developed a method to create micro LEDs that can be folded, twisted, cut and stuck to different surfaces.",
+            "link": "https://www.utdallas.edu/news/science-technology/micro-leds-2020/"
+        },
+        {
+            "date": "Aug 28",
+            "name": "A new platform for controlled delivery of key nanoscale drugs and more",
+            "place": "Massachusetts Institute of Technology",
+            "description": "The novel approach, developed by MIT chemical engineers, could help create more efficient consumer products, including drugs, cosmetics, and food.",
+            "link": "https://news.mit.edu/2020/new-platform-for-controlled-nanoscale-drug-delivery-0828"
+        },
+        {
+            "date": "Aug 26",
+            "name": "Laser jolts microscopic electronic robots into motion",
+            "place": "Cornell University",
+            "description": "In 1959, former Cornell physicist Richard Feynman delivered his famous lecture “There’s Plenty of Room at the Bottom,” in which he described the opportunity for shrinking technology, from machines to computer chips, to incredibly small sizes. Well, the bottom just got more crowded.",
+            "link": "https://news.cornell.edu/stories/2020/08/laser-jolts-microscopic-electronic-robots-motion"
+        },
+        {
+            "date": "Aug 26",
+            "name": "Photonics researchers report breakthrough in miniaturizing light-based chips",
+            "place": "University of Rochester",
+            "description": "Rochester team demonstrates new way to control light as it moves through integrated circuits, paving a research avenue in communications, computing, and photonics research.",
+            "link": "https://www.rochester.edu/newscenter/photonics-researchers-report-breakthrough-in-miniaturizing-light-based-chips-449382/"
+        },
+        {
+            "date": "Aug 24",
+            "name": "Using light’s properties to indirectly see inside a cell membrane",
+            "place": "Washington University in St. Louis",
+            "description": "New imaging technique helps resolve nanodomains, chemical composition in cell membranes",
+            "link": "https://source.wustl.edu/2020/08/using-lights-properties-to-indirectly-see-inside-a-cell-membrane/"
+        },      
+        {
             "date": "Aug 24",
             "name": "Machine learning peeks into nano-aquariums",
             "place": "University of Illinois at Urbana-Champaign, News Bureau",
@@ -2881,6 +2923,48 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Aug 28",
+            "name": "Huge nanomachine helps the immune system",
+            "place": "Ruhr-University Bochum",
+            "description": "An imposing nanomachine is responsible for a small but important step towards a successful immune response. Researchers use simulations to understand how they work.",
+            "link": "https://news.rub.de/wissenschaft/2020-08-28-theoretische-chemie-riesige-nanomaschine-hilft-dem-immunsystem"
+        },
+        {
+            "date": "Aug 28",
+            "name": "Round Nanoparticles Improve Quality Factors of Surface Lattice Resonances: Study",
+            "place": "Chinese Academy of Sciences",
+            "description": "Plasmonic surface lattice resonances (SLRs) supported by metal nanoparticle arrays have many merits such as strong field enhancements extended over large volumes, as well as long lifetimes, narrow linewidths, angle-dependent dispersion, and a wide range of wavelength tunability. ",
+            "link": "http://english.cas.cn/newsroom/research_news/tech/202008/t20200828_242194.shtml"
+        },
+        {
+            "date": "Aug 28",
+            "name": "Scientists Find Direct Evidence of Thickening Organic Film at Soil-water Micro-interfaces",
+            "place": "Chinese Academy of Sciences",
+            "description": "Soil organic matter is essential for maintenance of soil fertility, absorption of pollutants and mitigation of global climate change. In the past few decades, the long-term protection mechanism of organic matter in soil and sediment has been extensively studied.",
+            "link": "http://english.cas.cn/newsroom/research_news/earth/202008/t20200828_242179.shtml"
+        },
+        {
+            "date": "Aug 27",
+            "name": "Scientists perfect knot-tying techniques with molecular string",
+            "place": "University of Manchester",
+            "description": "A group of chemists from Manchester have successfully tied a series of microscopic knots using individual molecules for the first time, ushering in the advent of a form of nano-scale weaving which could create a new generation of advanced materials.",
+            "link": "https://www.manchester.ac.uk/discover/news/scientists-perfect-knot-tying-techniques-with-molecular-string/"
+        },
+        {
+            "date": "Aug 27",
+            "name": "New tech extracts potential to identify quality graphene cheaper and faster",
+            "place": "Monash University",
+            "description": "Engineers at Australia’s Monash University have developed world-first technology that can help industry identify and export high quality graphene cheaper, faster and more accurately than current methods.",
+            "link": "https://www.monash.edu/news/articles/new-tech-extracts-potential-to-identify-quality-graphene-cheaper-and-faster"
+        },
+        {
+            "date": "Aug 25",
+            "name": "Pots of gold engineered to help with early disease detection",
+            "place": "University of Queensland",
+            "description": "University of Queensland researchers have developed biosensors that use nanoengineered porous gold which more effectively detect early signs of disease, improving patient outcomes.",
+            "link": "https://www.uq.edu.au/news/article/2020/08/pots-of-gold-engineered-help-early-disease-detection#:~:text=University%20of%20Queensland%20researchers%20have,of%20disease%2C%20improving%20patient%20outcomes."
+        },      
         {
             "date": "Aug 25",
             "name": "A Four-State Magnetic Tunnel Junction for Novel Spintronics Applications",
