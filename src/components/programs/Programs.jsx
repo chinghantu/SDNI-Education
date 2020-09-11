@@ -294,9 +294,7 @@ const NT2025 = (
             <br /><br />
             Creating awareness about nanotechnology at all level of the education system, from administrators and science specialists of offices of education and school districts, school principals, teachers and TOSAs, and ultimately reach the students. This awareness will be realized via presentations, seminars, in-person meeting, web meetings, webinars to the parties to be reached. One of the great engagement tools that SDNI has used so far consists of remote access to its high-end Scanning Electron Microscope whereby students and teachers can remotely control SDNI SEM (with Focus and Zoom functions) and observe specimen at the micro and nano scale.
 					<br /><br />
-            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career chsgce.
-					<br /><br />
-            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career chsgce.
+            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career choice.
 					<br /><br />
         </p>
         <h4>2. California Community College System</h4>
