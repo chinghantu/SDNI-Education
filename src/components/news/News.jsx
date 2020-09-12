@@ -349,6 +349,62 @@ const CAL_NEWS = {
 const US_NEWS = {
     '2020': [
         {
+            "date": "Sep 11",
+            "name": "Dipanjan Pan demonstrates new method to produce gold nanoparticles directly in cancer cells with possible applications in x-ray imaging, cancer treatment",
+            "place": "University of Maryland Baltimore County",
+            "description": "Dipanjan Pan, professor of chemical, biochemical, and environmental engineering at UMBC, and collaborators have published a seminal study in Nature Communications that demonstrates for the first time a method of biosynthesizing plasmonic gold nanoparticles within cancer cells, without the need for conventional bench-top lab methods. It has the potential to notably expand biomedical applications. ",
+            "link": "https://news.umbc.edu/dipanjan-pan-demonstrates-new-method-to-produce-gold-nanoparticles-directly-in-cancer-cells-with-possible-applications-in-x-ray-imaging-cancer-treatment/"
+        },
+        {
+            "date": "Sep 10",
+            "name": "Inexpensive, Non-Toxic Nanofluid Could Be a Game-Changer for Oil Recovery",
+            "place": "University of Houston",
+            "description": "Researchers from the University of Houston have demonstrated that an inexpensive and non-toxic nanofluid can be used to efficiently recover even heavy oil with high viscosity from reservoirs.",
+            "link": "https://uh.edu/news-events/stories/2020/september-2020/09102020ren-nanofluid-oil.php#:~:text=News%20Releases-,Inexpensive%2C%20Non%2DToxic%20Nanofluid%20Could%20Be%20a,Game%2DChanger%20for%20Oil%20Recovery&text=Researchers%20from%20the%20University%20of%20Houston%20have%20demonstrated%20that%20an,with%20high%20viscosity%20from%20reservoirs."
+        },
+        {
+            "date": "Sep 10",
+            "name": "High-precision electrochemistry: The new gold standard in fuel cell catalyst development",
+            "place": "Argonne National Laboratory",
+            "description": "Vehicles powered by polymer electrolyte membrane fuel cells (PEMFCs) are energy-efficient and eco-friendly, but despite increasing public interest in PEMFC-powered transportation, current performance of materials that are used in fuel cells limits their widespread commercialization.",
+            "link": "https://www.anl.gov/article/highprecision-electrochemistry-the-new-gold-standard-in-fuel-cell-catalyst-development"
+        },
+        {
+            "date": "Sep 09",
+            "name": "Sampling the gut microbiome with an ingestible pill",
+            "place": "American Chemical Society",
+            "description": "Gut microbes affect human health, but there is still much to learn, in part because they’re not easy to collect. But researchers now report in ACS Nano that they have developed an ingestible capsule that in rat studies captured bacteria and other biological samples while passing through the gastrointestinal (GI) tract.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-september-9-2020/sampling-the-gut-microbiome-with-an-ingestible-pill.html"
+        },
+        {
+            "date": "Sep 08",
+            "name": "Boundaries no barrier for thermoelectricity",
+            "place": "Rice University",
+            "description": "Though the Summer Olympics were postponed, there’s at least one place to see agile hurdlers go for the gold.",
+            "link": "https://news.rice.edu/2020/09/08/boundaries-no-barrier-for-thermoelectricity/"
+        },
+        {
+            "date": "Sep 07",
+            "name": "A new twist on DNA origami",
+            "place": "Arizona State University",
+            "description": "A team of scientists from Arizona State University and Shanghai Jiao Tong University (SJTU), led by Hao Yan, ASU’s Milton Glick Professor in the School of Molecular Sciences and director of the ASU Biodesign Institute’s Center for Molecular Design and Biomimetics, has just announced the creation of a new type of meta-DNA structures that will open up the fields of optoelectronics, including information storage and encryption as well as synthetic biology.",
+            "link": "https://asunow.asu.edu/20200904-new-twist-dna-origami"
+        },
+        {
+            "date": "Sep 02",
+            "name": "Ambient light alters refraction in 2D material",
+            "place": "Rice University",
+            "description": "Microscopic crystals in tantalum disulfide have a starring role in what could become a hit for 3D displays, virtual reality and even self-driving vehicles.",
+            "link": "http://news.rice.edu/2020/09/02/ambient-light-alters-refraction-in-2d-material/"
+        },
+        {
+            "date": "Sep 01",
+            "name": "Your paper notebook could become your next tablet",
+            "place": "Purdue University",
+            "description": "Innovators from Purdue University hope their new technology can help transform paper sheets from a notebook into a music player interface and make food packaging interactive.",
+            "link": "https://www.purdue.edu/newsroom/releases/2020/Q3/your-paper-notebook-could-become-your-next-tablet.html"
+        },        
+        {
             "date": "Aug 31",
             "name": "An improved wearable, stretchable gas sensor using nanocomposites",
             "place": "Pennsylvania State University",
@@ -2923,6 +2979,62 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Sep 12",
+            "name": "Get Diamonds, Take Temperature: Quantum Thermometer Using Nanodiamonds Senses a ‘Fever’ in Tiny Worms C. elegans",
+            "place": "Osaka City University",
+            "description": "Measuring the temperature of objects at a nanometer-scale has been a long challenge, especially in living biological samples, because of the lack of precise and reliable nanothermometers. An international team of researchers has realized a quantum technology to probe temperature on a nanometer-scale, and have observed a ‘fever’ in tiny nematode worms under pharmacological treatment. This strengthens the connection between quantum sensing and biology and ushers in novel thermal imaging technologies in biomedical research.",
+            "link": "https://www.osaka-cu.ac.jp/en/news/2020/200912-1"
+        }, 
+        {
+            "date": "Sep 11",
+            "name": "Significant leap forward in method for cancer treatment",
+            "place": "Eindhoven University of Technology",
+            "description": "Eindhoven University of Technology Professor Jan C.M. van Hest has announced a breakthrough in non-invasive cancer treatment. His Institute for Complex Molecular Systems partnered with several Chinese research institutions to test a nanotechnology that addresses the drawbacks to photodynamic therapy, an emerging cancer treatment. A paper detailing the successful test of the methodology was recently published in the journal ACS Nano.",
+            "link": "https://www.tue.nl/en/news/news-overview/11-09-2020-significant-leap-forward-in-method-for-cancer-treatment/#:~:text=TU%2Fe%20researchers%20develop%20nanotechnology,in%20non%2Dinvasive%20cancer%20treatment."
+        }, 
+        {
+            "date": "Sep 07",
+            "name": "Bio-based photo-resin invented by Lithuanian researchers promises a breakthrough in rapid prototyping",
+            "place": "Kaunas University of Technology",
+            "description": "Lithuanian researchers from Kaunas University of Technology and Vilnius University synthesised and tested a bio-based resin for optical 3D printing (O3DP). The bio-based resin made from renewable raw materials proved to be universal for both table-top 3D printers and state-of-the-art ultrafast laser, suitable for O3DP in the scales from nano- to macro- dimensions. This, according to the researchers, is a unique property for a single photo-resin.",
+            "link": "https://en.ktu.edu/news/bio-based-photo-resin-invented-by-lithuanian-researchers-promises-a-breakthrough-in-rapid-prototyping/#:~:text=The%20novel%20bio%2Dbased%20photo,University%20of%20Technology%20(KTU).&text=%E2%80%9CCurrently%2C%20only%20thermoplastic%20bio%2D,used%20for%20optical%203D%20printing."
+        }, 
+        {
+            "date": "Sep 07",
+            "name": "A tiny instrument to measure the faintest magnetic fields",
+            "place": "Swiss Nanoscience Institute, University of Basel",
+            "description": "Physicists at the University of Basel have developed a minuscule instrument able to detect extremely faint magnetic fields. At the heart of the superconducting quantum interference device are two atomically thin layers of graphene, which the researchers combined with boron nitride. Instruments like this one have applications in areas such as medicine, besides being used to research new materials.",
+            "link": "https://nanoscience.ch/en/2020/09/07/a-tiny-instrument-to-measure-the-faintest-magnetic-fields/"
+        }, 
+        {
+            "date": "Sep 03",
+            "name": "Nanoearthquakes control spin centers in SiC",
+            "place": "Forschungsverbund Berlin",
+            "description": "Researchers from the Paul-Drude-Institut in Berlin, the Helmholtz-Zentrum in Dresden and the Ioffe Institute in St. Petersburg have demonstrated the use of elastic vibrations to manipulate the spin states of optically active color centers in SiC at room temperature.",
+            "link": "https://www.fv-berlin.de/infos-fuer/medien-und-oeffentlichkeit/news/nanoearthquakes-control-spin-centers-in-sic"
+        }, 
+        {
+            "date": "Sep 03",
+            "name": "Autonomous Robot Plays with NanoLEGO",
+            "place": "Forschungszentrum Juelich",
+            "description": "Molecules are the building blocks of everyday life. Many materials are composed of them, a little like a LEGO model consists of a multitude of different bricks. But while individual LEGO bricks can be simply shifted or removed, this is not so easy in the nanoworld. Atoms and molecules behave in a completely different way to macroscopic objects and each brick requires its own “instruction manual”. Scientists from Jülich and Berlin have now developed an artificial intelligence system that autonomously learns how to grip and move individual molecules using a scanning tunnelling microscope. The method, which has been published in Science Advances, is not only relevant for research but also for novel production technologies such as molecular 3D printing.",
+            "link": "https://www.fz-juelich.de/SharedDocs/Pressemitteilungen/UK/EN/2020/2020-09-03-ki-stm-en.html?nn=748728"
+        }, 
+        {
+            "date": "Sep 02",
+            "name": "New electronic skin can react to pain like human skin",
+            "place": "RMIT University",
+            "description": "Researchers have developed electronic artificial skin that reacts to pain just like real skin, opening the way to better prosthetics, smarter robotics and non-invasive alternatives to skin grafts.",
+            "link": "https://www.rmit.edu.au/news/all-news/2020/sep/electronic-skin"
+        }, 
+        {
+            "date": "Aug 31",
+            "name": "New method: efficiently removing steroid hormones from water",
+            "place": "Karlsruher Institut für Technologie",
+            "description": "Micropollutants pollute water all over the world. These include steroid hormones, which conventional methods are insufficient to eliminate. Researchers at the Karlsruhe Institute of Technology (KIT) have developed an innovative filtration system that combines a polymer membrane with activated carbon. In this system, they now use particularly small carbon particles so that they achieve the recommended value of one nanogram of estradiol - the most physiologically effective estrogen - per liter proposed by the European Commission for drinking water. The team reports on the improved process in the journal Water Research.",
+            "link": "https://www.kit.edu/kit/pi_2020_072_neues-verfahren-steroidhormone-effizient-aus-wasser-entfernen.php"
+        }, 
         {
             "date": "Aug 28",
             "name": "Huge nanomachine helps the immune system",

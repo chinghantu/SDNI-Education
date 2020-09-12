@@ -10,6 +10,13 @@ import InternationalPink from '../../assets/Image/InternationalPink.png'
 const CAL_EVENTS = [
     {
         year: 2020,
+        date: 'Sept 12 - 13',
+        name: 'SDNI-NNCI Educational Symposium',
+        place: 'Online',
+        link: 'https://www.eventbrite.com/e/sdni-nnci-educational-symposium-2020-tickets-115864430631'
+    },
+    {
+        year: 2020,
         date: 'Sept 27 - 30',
         name: 'IEEE-NEMS 2020 (15th IEEE international Conference on Nano/Micro Engineered and Molecular Systems) ',
         place: 'San Diego, CA',
