@@ -8,6 +8,13 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Sep 16",
+            "name": "From CO2 to Ethylene — UCLA and Caltech Researchers Discover Effective Pathway to Convert Greenhouse Gas into Valuable Products",
+            "place": "University of California - Los Angeles",
+            "description": "A research team from Caltech and the UCLA Samueli School of Engineering has demonstrated a promising way to efficiently convert carbon dioxide into ethylene — an important chemical used to produce plastics, solvents, cosmetics and other important products globally.",
+            "link": "https://samueli.ucla.edu/from-co2-to-ethylene/"
+        }, 
+        {
             "date": "Aug 20",
             "name": "2D Electronics Get an Atomic Tuneup",
             "place": "Lawrence Berkeley National Laboratory",
@@ -348,6 +355,76 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Sep 21",
+            "name": "NASA’s IRIS Spots Nanojets: Shining Light On Heating the Solar Corona",
+            "place": "NASA Goddard Space Flight Center",
+            "description": "In a paper published today in Nature Astronomy, researchers report the first ever clear images of nanojets -- bright thin lights that travel perpendicular to the magnetic structures in the solar atmosphere, called the corona -- in a process that reveals the existence of one of the potential coronal heating candidates: nanoflares.",
+            "link": "https://www.nasa.gov/feature/goddard/2020/nasa-s-iris-spots-nanojets-shining-light-on-heating-the-solar-corona"
+        },
+        {
+            "date": "Sep 21",
+            "name": "New composite material revs up pursuit of advanced electric vehicles",
+            "place": "Oak Ridge National Laboratory",
+            "description": "Scientists at Oak Ridge National Laboratory used new techniques to create a composite that increases the electrical current capacity of copper wires, providing a new material that can be scaled for use in ultra-efficient, power-dense electric vehicle traction motors.",
+            "link": "https://www.ornl.gov/news/new-composite-material-revs-pursuit-advanced-electric-vehicles"
+        },
+        {
+            "date": "Sep 21",
+            "name": "Technique permits convenient, precise optical imaging of individual proteins",
+            "place": "Arizona State University",
+            "description": "Often considered the workhorses of the body, proteins are among the most important biomolecules critical to life processes. They provide structural foundation for cells and tissues and perform a dizzying array of tasks, from metabolizing energy and helping cells communicate with one another to defending the body from pathogens and guiding cell division and growth.",
+            "link": "https://biodesign.asu.edu/news/technique-permits-convenient-precise-optical-imaging-individual-proteins"
+        },
+        {
+            "date": "Sep 18",
+            "name": "Engineers produce a fisheye lens that’s completely flat",
+            "place": "Massachusetts Institute of Technology",
+            "description": "To capture panoramic views in a single shot, photographers typically use fisheye lenses — ultra-wide-angle lenses made from multiple pieces of curved glass, which distort incoming light to produce wide, bubble-like images. Their spherical, multipiece design makes fisheye lenses inherently bulky and often costly to produce.",
+            "link": "https://news.mit.edu/2020/flat-fisheye-lens-0918"
+        },
+        {
+            "date": "Sep 18",
+            "name": "NCATS, NRL Create Nanoparticle SARS-CoV-2 Model to Speed Drug Discovery for COVID-19",
+            "place": "NIH/National Center for Advancing Translational Sciences (NCATS)",
+            "description": "A team of scientists from the NCATS and Naval Research Laboratory (NRL) in Washington, D.C., has developed a new tool that mimics how SARS-CoV-2 — the virus that causes COVID-19 — infects a cell, information that could potentially speed the search for treatments against the disease.",
+            "link": "https://ncats.nih.gov/news/releases/2020/ncats-nrl-create-nanoparticle-sars-cov-2-model-to-speed-drug-discovery-for-covid-19"
+        },
+        {
+            "date": "Sep 18",
+            "name": "Shape matters for light-activated nanocatalysts",
+            "place": "Rice University",
+            "description": "Researchers at Rice University’s Laboratory for Nanophotonics (LANP) have long known that a nanoparticle’s shape affects how it interacts with light, and their latest study shows how shape affects a particle’s ability to use light to catalyze important chemical reactions.",
+            "link": "http://news.rice.edu/2020/09/18/shape-matters-for-light-activated-nanocatalysts-2/"
+        },
+        {
+            "date": "Sep 17",
+            "name": "Most homemade masks are doing a great job, even when we sneeze, study finds",
+            "place": "University of Illinois at Urbana-Champaign, News Bureau",
+            "description": "Studies indicate that homemade masks help combat the spread of viruses like COVID-19 when combined with frequent hand-washing and physical distancing. Many of these studies focus on the transfer of tiny aerosol particles; however, researchers say that speaking, coughing and sneezing generates larger droplets that carry virus particles. Because of this, mechanical engineer Taher Saif said the established knowledge may not be enough to determine the effectiveness of some fabrics used in homemade masks.",
+            "link": "https://news.illinois.edu/view/6367/1603161133"
+        },
+        {
+            "date": "Sep 15",
+            "name": "Engineers imitate human hands to make better sensors",
+            "place": "Penn State University ",
+            "description": "An international research team has developed “electronic skin” sensors capable of mimicking the dynamic process of human motion. This work could help severely injured people, such as soldiers, regain the ability to control their movements, as well as contribute to the development of smart robotics, according to Huanyu “Larry” Cheng, Dorothy Quiggle Early Career Professor in the Penn State Department of Engineering Science and Mechanics.",
+            "link": "https://news.psu.edu/story/631783/2020/09/15/research/engineers-imitate-human-hands-make-better-sensors"
+        },
+        {
+            "date": "Sep 14",
+            "name": "New method to design diamond lattices, other crystals from microscopic building blocks",
+            "place": "Arizona State University",
+            "description": "An impressive array of architectural forms can be produced from the popular interlocking building blocks known as Legos. All that is needed is a child’s imagination to construct a virtually infinite variety of complex shapes.",
+            "link": "https://asunow.asu.edu/20200914-new-method-design-diamond-lattices-other-crystals-microscopic-building-blocks"
+        },
+        {
+            "date": "Sep 14",
+            "name": "Researchers Create Morphing Crystals Powered by Water Evaporation",
+            "place": "Advanced Science Research Center",
+            "description": "New study details the molecular-level design of materials that enable clean and sustainable water evaporation energy to be harvested and efficiently converted into motion, with the potential to power future mechanical devices and machines.",
+            "link": "https://asrc.gc.cuny.edu/headlines/2020/09/researchers-create-morphing-crystals-powered-by-water-evaporation/"
+        },          
         {
             "date": "Sep 11",
             "name": "Dipanjan Pan demonstrates new method to produce gold nanoparticles directly in cancer cells with possible applications in x-ray imaging, cancer treatment",
@@ -2980,12 +3057,54 @@ const US_NEWS = {
 const GLOBAL_NEWS = {
     '2020': [
         {
+            "date": "Sep 16",
+            "name": "Anti-reflective coating inspired by fly eyes",
+            "place": "Université de Genève",
+            "description": "A team from UNIGE has artificially reproduced a nanoscale coating on different types of surfaces that usually covers the eyes of fruit flies, and which provides anti-reflective, anti-adhesive properties.",
+            "link": "https://www.unige.ch/communication/communiques/en/2020/un-revetement-antireflet-sinspire-des-yeux-de-mouches/"
+        },
+        {
+            "date": "Sep 15",
+            "name": "Great progress for electronic gadgets of the future",
+            "place": "Norwegian University of Science and Technology",
+            "description": "A new discovery is an important step towards smaller, more advanced electronics. And maybe more environmentally friendly gadgets, too.",
+            "link": "https://norwegianscitechnews.com/2020/09/great-progress-for-electronic-gadgets-of-the-future/"
+        },
+        {
+            "date": "Sep 15",
+            "name": "Going Small for Big Solutions: Sub-Nanoparticle Catalysts Made from Coinage Elements as Effective Catalysts",
+            "place": "Tokyo Institute of Technology",
+            "description": "'Sub-nanometer' particles (SNPs) are very popular because of their diverse applications, but technical difficulties in their synthesis has hindered research in this field. Scientists at the Tokyo Institute of Technology (Tokyo tech) used an 'atom-hybridization method' to overcome this barrier they developed to study the reactivity of alloy SNPs made from three coinage metal elements. Their findings are an important step in improving the knowledge about properties of finite elements and help in building a sustainable society.",
+            "link": "https://www.titech.ac.jp/english/news/2020/047862.html"
+        },
+        {
+            "date": "Sep 15",
+            "name": "Single photons from a silicon chip",
+            "place": "Helmholtz-Zentrum Dresden-Rossendorf",
+            "description": "Quantum technology holds great promise: Just a few years from now, quantum computers are expected to revolutionize database searches, AI systems, and computational simulations. Today already, quantum cryptography can guarantee absolutely secure data transfer, albeit with limitations. The greatest possible compatibility with our current silicon-based electronics will be a key advantage. And that is precisely where physicists from the Helmholtz-Zentrum Dresden-Rossendorf (HZDR) and TU Dresden have made remarkable progress: The team has designed a silicon-based light source to generate single photons that propagate well in glass fibers.",
+            "link": "https://www.hzdr.de/db/Cms?pOid=61675&pNid=0"
+        },
+        {
+            "date": "Sep 14",
+            "name": "Bioactive nano-capsules to hijack cell behavior",
+            "place": "University of Basel",
+            "description": "Many diseases are caused by defects in signaling pathways of body cells. In the future, bioactive nanocapsules could become a valuable tool for medicine to control these pathways. Researchers from the University of Basel have taken an important step in this direction: They succeed in having several different nanocapsules work in tandem to amplify a natural signaling cascade and influence cell behavior.",
+            "link": "https://www.unibas.ch/en/News-Events/News/Uni-Research/Bioactive-nano-capsules-to-hijack-cell-behavior.html"
+        }, 
+        {
             "date": "Sep 12",
             "name": "Get Diamonds, Take Temperature: Quantum Thermometer Using Nanodiamonds Senses a ‘Fever’ in Tiny Worms C. elegans",
             "place": "Osaka City University",
             "description": "Measuring the temperature of objects at a nanometer-scale has been a long challenge, especially in living biological samples, because of the lack of precise and reliable nanothermometers. An international team of researchers has realized a quantum technology to probe temperature on a nanometer-scale, and have observed a ‘fever’ in tiny nematode worms under pharmacological treatment. This strengthens the connection between quantum sensing and biology and ushers in novel thermal imaging technologies in biomedical research.",
             "link": "https://www.osaka-cu.ac.jp/en/news/2020/200912-1"
         }, 
+        {
+            "date": "Sep 11",
+            "name": "New on/off functionality for fast, sensitive, ultra-small technologies",
+            "place": "Osaka University",
+            "description": "How do you turn on and off an ultra-small component in advanced technologies? You need an actuator, a device that transmits an input such as electricity into physical motion. However, actuators in small-scale technologies to date have critical limitations. For example, if it's difficult to integrate the actuator into semiconductor electronics, real-world applications of the technology will be limited. An actuator design that operates quickly, has precise on/off control, and is compatible with modern electronics would be immensely useful.",
+            "link": "https://resou.osaka-u.ac.jp/en/research/2020/20200911_1"
+        },     
         {
             "date": "Sep 11",
             "name": "Significant leap forward in method for cancer treatment",
