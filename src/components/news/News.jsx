@@ -8,6 +8,13 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Sep 24",
+            "name": "Metal wires of carbon complete toolbox for carbon-based computers",
+            "place": "University of California - Berkeley",
+            "description": "Transistors based on carbon rather than silicon could potentially boost computers’ speed and cut their power consumption more than a thousandfold — think of a mobile phone that holds its charge for months — but the set of tools needed to build working carbon circuits has remained incomplete until now.",
+            "link": "https://news.berkeley.edu/2020/09/24/metal-wires-of-carbon-complete-toolbox-for-carbon-based-computers/#:~:text=A%20team%20of%20chemists%20and,transistors%20and%2C%20ultimately%2C%20computers."
+        }, 
+        {
             "date": "Sep 16",
             "name": "From CO2 to Ethylene — UCLA and Caltech Researchers Discover Effective Pathway to Convert Greenhouse Gas into Valuable Products",
             "place": "University of California - Los Angeles",
@@ -355,6 +362,55 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Oct 06",
+            "name": "All together now: Experiments with twisted 2D materials catch electrons behaving collectively",
+            "place": "University of Washington",
+            "description": "Scientists can have ambitious goals: curing disease, exploring distant worlds, clean-energy revolutions. In physics and materials research, some of these ambitious goals are to make ordinary-sounding objects with extraordinary properties: wires that can transport power without any energy loss, or quantum computers that can perform complex calculations that today’s computers cannot achieve. And the emerging workbenches for the experiments that gradually move us toward these goals are 2D materials — sheets of material that are a single layer of atoms thick.",
+            "link": "https://www.washington.edu/news/2020/10/06/2d-materials-electron-collective/#:~:text=In%20a%20paper%20published%20Sept,exhibit%20highly%20correlated%20electron%20properties."
+        },
+        {
+            "date": "Oct 06",
+            "name": "Multi-institutional team extracts more energy from sunlight with advanced solar panels",
+            "place": "University of Illinois at Urbana-Champaign, News Bureau",
+            "description": "Researchers working to maximize solar panel efficiency said layering advanced materials atop traditional silicon is a promising path to eke more energy out of sunlight. A new study shows that by using a precisely controlled fabrication process, researchers can produce multilayered solar panels with the potential to be 1.5 times more efficient than traditional silicon panels.",
+            "link": "https://news.illinois.edu/view/6367/1955138234"
+        },
+        {
+            "date": "Oct 05",
+            "name": "‘Like a fishing net,’ nanonet collapses to trap drug molecules",
+            "place": "Northwestern University",
+            "description": "The team has discovered a new, rapid method for fabricating nanoparticles from a simple, self-assembling polymer. The novel method presents new possibilities for diverse applications, including water purification, diagnostics and rapidly generating vaccine formulations, which typically require many different types of molecules to be either captured or delivered at the same time.",
+            "link": "https://news.northwestern.edu/stories/2020/10/like-a-fishing-net-nanonet-collapses-to-trap-drug-molecules/"
+        },
+        {
+            "date": "Sep 29",
+            "name": "Nanotech Filter Coating Offers Promise Against COVID-19",
+            "place": "University of Houston",
+            "description": "A physics professor from the University of Houston has developed a nanotech coating designed to allow air filters to capture airborne or aerosolized droplets of the virus that causes COVID-19.",
+            "link": "https://uh.edu/news-events/stories/2020/september-2020/09292020-curran-covid-filter.php"
+        },
+        {
+            "date": "Sep 28",
+            "name": "New Brain Cell-Like Nanodevices Work Together To Identify Mutations In Viruses",
+            "place": "Texas A&M University",
+            "description": "In the September issue of the journal Nature, scientists from Texas A&M University, Hewlett Packard Labs and Stanford University have described a new nanodevice that acts almost identically to a brain cell. They have shown that these synthetic brain cells can be joined together to form intricate networks that can then solve problems in a brain-like manner.",
+            "link": "https://today.tamu.edu/2020/09/28/new-brain-cell-like-nanodevices-work-together-to-identify-mutations-in-viruses/#:~:text=Researchers%20have%20built%20a%20new,just%20like%20a%20brain%20cell.&text=In%20the%20September%20issue%20of,identically%20to%20a%20brain%20cell."
+        },
+        {
+            "date": "Sep 22",
+            "name": "NIST Scientists Get Soft on 3D Printing",
+            "place": "National Institute of Standards and Technology (NIST)",
+            "description": "Researchers at the National Institute of Standards and Technology (NIST) have developed a new method of 3D-printing gels and other soft materials. Published in a new paper, it has the potential to create complex structures with nanometer-scale precision. Because many gels are compatible with living cells, the new method could jump-start the production of soft tiny medical devices such as drug delivery systems or flexible electrodes that can be inserted into the human body.",
+            "link": "https://www.nist.gov/news-events/news/2020/09/nist-scientists-get-soft-3d-printing"
+        },
+        {
+            "date": "Sep 22",
+            "name": "A multishot lensless camera in development could aid disease diagnosis",
+            "place": "Penn State University",
+            "description": "A new type of imaging that does not require a lens and uses reconfigurable particle-based masks to take multiple shots of an object is being developed by researchers at Penn State. The electric-field directed self-assembling mask technology is expected to have uses in lower-cost and faster disease diagnosis, the enhancement of optical microscopy, and may even lead to thinner cellphone technology.",
+            "link": "https://news.psu.edu/story/632648/2020/09/22/research/multishot-lensless-camera-development-could-aid-disease-diagnosis"
+        },       
         {
             "date": "Sep 21",
             "name": "NASA’s IRIS Spots Nanojets: Shining Light On Heating the Solar Corona",
@@ -3056,6 +3112,111 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Oct 07",
+            "name": "New findings pave the way to environmentally friendly supercapacitors",
+            "place": "Graz University of Technology",
+            "description": "Similar to batteries, supercapacitors are suitable for the repeated storage of electrical energy. TU Graz researchers have presented a particularly safe and sustainable variant of such a supercapacitor in Nature Communications.",
+            "link": "https://www.tugraz.at/en/tu-graz/services/news-stories/tu-graz-news/singleview/article/neue-erkenntnisse-ebnen-den-weg-zu-umweltfreundlichen-superkondensatoren0/"
+        },
+        {
+            "date": "Oct 06",
+            "name": "Diamonds are a quantum scientist’s best friend",
+            "place": "University of the Witwatersrand",
+            "description": "Diamonds have a firm foothold in our lexicon. Their many properties often serve as superlatives for quality, clarity and hardiness. Aside from the popularity of this rare material in ornamental and decorative use, these precious stones are also highly valued in industry where they are used to cut and polish other hard materials and build radiation detectors.",
+            "link": "https://www.wits.ac.za/news/latest-news/research-news/2020/2020-10/diamonds-are-a-quantum-scientists-best-friend.html#:~:text=The%20Wits%20NSTPL%20has%20developed,regarded%20as%20a%20quantum%20material."
+        },
+        {
+            "date": "Oct 01",
+            "name": "Our health: New focus on the synergy effect of nanoparticles",
+            "place": "University of Southern Denmark",
+            "description": "Nanoparticles are valuable and useful in many products, but according to a new study, they can also damage our cells. Researchers are concerned about the effect of lifelong exposure to the human organism.",
+            "link": "https://www.sdu.dk/en/om_sdu/fakulteterne/naturvidenskab/nyheder-2020/nyt-fokus-paa-nanopartiklers-synergieffekt"
+        },
+        {
+            "date": "Oct 01",
+            "name": "The most sensitive and fastest graphene microwave bolometer",
+            "place": "ICFO",
+            "description": "Scientists from Harvard, ICFO, MIT, Raytheon BBN Technologies and NIMS construct the fastest and most sensitive graphene-based microwave bolometer achieved so far.",
+            "link": "https://www.icfo.eu/newsroom/news/article/4838"
+        },
+        {
+            "date": "Sep 30",
+            "name": "Zebrafish embryos help prove what happens to nanoparticles in the blood",
+            "place": "Aarhus University",
+            "description": "What happens to the nanoparticles when they are injected into the bloodstream, for example, to destroy solid tumours? With new results published in ACS Nano, researchers from Aarhus University are now ready to tackle such a challenging question using zebrafish embryos as a new study model in nanomedicine and nanotoxicology.",
+            "link": "https://mbg.au.dk/en/news-and-events/news-item/artikel/zebrafish-embryos-help-prove-what-happens-to-nanoparticles-in-the-blood/"
+        },
+        {
+            "date": "Sep 30",
+            "name": "Nanomotors as probes to sense cancer environment ",
+            "place": "Indian Institute of Science",
+            "description": "An interdisciplinary team of researchers from the Indian Institute of Science (IISc) has used a 3D tumour model and magnetically-driven nanomotors to probe the microenvironment of cancer cells. The team consists of researchers from the Centre for Nano Science and Engineering (CeNSE) and Department of Molecular Reproduction, Development and Genetics (MRDG).   ",
+            "link": "https://www.iisc.ac.in/events/nanomotors-as-probes-to-sense-cancer-environment/"
+        },
+        {
+            "date": "Sep 28",
+            "name": "Terraced graphene for ultrasensitive magnetic field sensor",
+            "place": "National University of Singapore",
+            "description": "NUS physicists have developed a sensitive two-dimensional (2-D) magnetic field sensor, which can potentially improve the detection of nanoscale magnetic domains for data storage applications.",
+            "link": "https://www.science.nus.edu.sg/blog/2020/09/28/terraced-graphene-for-ultrasensitive-magnetic-field-sensor/"
+        },
+        {
+            "date": "Sep 25",
+            "name": "Secure nano-carrier delivers medications directly to cells",
+            "place": "Technical University of Munich (TUM)",
+            "description": "Medications often have unwanted side-effects. One reason is that they reach not only the unhealthy cells for which they are intended, but also reach and have an impact on healthy cells. Researchers at the Technical University of Munich (TUM), working together with the KTH Royal Institute of Technology in Stockholm, have developed a stable nano-carrier for medications. A special mechanism makes sure the drugs are only released in diseased cells.",
+            "link": "https://www.tum.de/nc/en/about-tum/news/press-releases/details/36236/"
+        },
+        {
+            "date": "Sep 25",
+            "name": "Nanosecond laser-induced amplification of a photochromic reaction in a diarylethene nanoparticle",
+            "place": "Ehime University",
+            "description": "An Ehime University group led by Dr. Ishibashi and Prof. Asahi reported that when a nanosecond laser pulse was irradiated to diarylethene nanoparticles which show the photo-induced isomerization reaction from the colored closed-form to the colorless open-form, the ring-opening reaction was at most 80 times more effective than that in the solution phase. The amplification could be well explained as a ‘photosynergetic effect’ coupled with nanoscale photothermal conversion and a photochemical reaction. There are very few reports of such a nanosecond laser pulse induced amplified photochemical reaction in nanoparticles, indicating a new photoenergy conversion method.",
+            "link": "https://www.asiaresearchnews.com/content/nanosecond-laser-induced-amplification-photochromic-reaction-diarylethene-nanoparticle"
+        },
+        {
+            "date": "Sep 24",
+            "name": "Lithium Batteries: New Nanochannels Make Them Charge Faster",
+            "place": "University of Twente",
+            "description": "A new technology to be used in lithium batteries can make them charge faster. The material graphite that was often used, already had a successor that could not further be improved, was the assumption. Until now, as researchers of the MESA+ Institute of the University of Twente found out that by nano structuring the material, new ‘paths’ will be created for lithium ions. This makes the battery charge faster, the researchers show in their paper in Journal of Power Sources.",
+            "link": "https://www.utwente.nl/en/news/2020/9/787582/lithium-batteries-new-nanochannels-make-them-charge-faster"
+        },
+        {
+            "date": "Sep 23",
+            "name": "Nanostructures with a unique property",
+            "place": "Paul Scherrer Institute",
+            "description": "Nanoscale vortices known as skyrmions can be created in many magnetic materials. For the first time, researchers at PSI have managed to create and identify antiferromagnetic skyrmions with a unique property: critical elements inside them are arranged in opposing directions. Scientists have succeeded in visualising this phenomenon using neutron scattering. Their discovery is a major step towards developing potential new applications, such as more efficient computers. The results of the research are published today in the journal Nature.",
+            "link": "https://www.psi.ch/en/media/our-research/nanostructures-with-a-unique-property"
+        },
+        {
+            "date": "Sep 23",
+            "name": "NTU Singapore scientists devise 'Trojan horse' approach to kill cancer cells without using drugs ",
+            "place": "Nanyang Technological University",
+            "description": "Cancer cells are killed in lab experiments and tumour growth reduced in mice, using a new approach that turns a nanoparticle into a 'Trojan horse' that causes cancer cells to self-destruct, a research team at the Nanyang Technological University, Singapore (NTU Singapore) has found.",
+            "link": "http://news.ntu.edu.sg/pages/newsdetail.aspx?URL=http://news.ntu.edu.sg/news/Pages/NR2020_Sep23.aspx&Guid=8a36c19f-9d5b-45b7-86bc-a5cd655eefc7&Category=@NTU"
+        },
+        {
+            "date": "Sep 23",
+            "name": "Bristol scientists shine light on tiny crystals behind unexpected violent eruptions",
+            "place": "University of Bristol",
+            "description": "In a new study of volcanic processes, Bristol scientists have demonstrated the role nanolites play in the creation of violent eruptions at otherwise ‘calm’ and predictable volcanoes.",
+            "link": "http://www.bristol.ac.uk/news/2020/september/nanolites.html"
+        },
+        {
+            "date": "Sep 22",
+            "name": "New Materials: A Toggle Switch for Catalysis",
+            "place": "Vienna University of Technology",
+            "description": "Electrochemical reactions, which will play an important role in the future of energy supply, can now be explained in detail, thanks to measurements carried out by TU Wien and DESY.",
+            "link": "https://www.tuwien.at/en/tu-wien/news/news-articles/news/new-materials-a-toggle-switch-for-catalysis/"
+        },
+        {
+            "date": "Sep 22",
+            "name": "Biosynthesized Silver Nanoparticles are Promising for Pest Management",
+            "place": "Chinese Academy of Sciences",
+            "description": "In recent years, with the purpose of generating environment-friendly nanoparticles encompassing a vast range of applications, the green synthesis approach involving plants has gained great attention. ",
+            "link": "http://english.cas.cn/newsroom/research_news/life/202009/t20200922_244123.shtml"
+        },               
         {
             "date": "Sep 16",
             "name": "Anti-reflective coating inspired by fly eyes",
