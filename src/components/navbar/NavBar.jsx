@@ -140,8 +140,8 @@ class NavBar extends Component {
                             </a>
                                 <input type="checkbox" id="sm1" />
                                 <ul className="sub-menu">
-                                    <li><a onClick={(e) => this.handleRedirect(e, '/outreach', 'otr-2019')} href="">Outreach 2019</a></li>
-                                    <li><a onClick={(e) => this.handleRedirect(e, '/outreach', 'otr-2020')} href="">Outreach 2020</a></li>
+                                    <li><a onClick={(e) => this.handleRedirect(e, '/outreach', 'otr-2019')} href="">Outreach 2019 - 2020</a></li>
+                                    {/* <li><a onClick={(e) => this.handleRedirect(e, '/outreach', 'otr-2020')} href="">Outreach 2020</a></li> */}
                                     <li><a onClick={(e) => this.handleRedirect(e, '/outreach', 'sem')} href="">SEM Image Gallery</a></li>
                                 </ul>
                             </li>

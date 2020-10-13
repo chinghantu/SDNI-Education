@@ -63,11 +63,11 @@ class Home extends Component {
                                 {/* <div className="banner1-corona-alert-container">
                                     <h1 className="corona-alert">Due to the Corona virus Pandemic, this event is postponed until August.</h1>
                                 </div> */}
-                                <div className="banner1-img-inner-container">
+                                {/* <div className="banner1-img-inner-container">
                                     <button onClick={() => { window.location.href = 'https://www.eventbrite.com/e/sdni-nnci-educational-symposium-2020-tickets-115864430631' }} className="banner1-btn btn btn-sm btn-primary">
                                         <span className="banner-btn-text">Registration</span>
                                     </button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="carousel-item">
