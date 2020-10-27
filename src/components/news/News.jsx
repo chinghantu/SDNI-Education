@@ -363,6 +363,62 @@ const CAL_NEWS = {
 const US_NEWS = {
     '2020': [
         {
+            "date": "Oct 26",
+            "name": "On-surface synthesis of graphene nanoribbons could advance quantum devices",
+            "place": "Oak Ridge National Laboratory",
+            "description": "An international multi-institution team of scientists has synthesized graphene nanoribbons – ultrathin strips of carbon atoms – on a titanium dioxide surface using an atomically precise method that removes a barrier for custom-designed carbon nanostructures required for quantum information sciences.",
+            "link": "https://www.ornl.gov/news/surface-synthesis-graphene-nanoribbons-could-advance-quantum-devices"
+        },
+        {
+            "date": "Oct 26",
+            "name": "Rice rolls out next-gen nanocars",
+            "place": "Rice University",
+            "description": "Nanomechanics at Rice University and the University of Houston are getting ready to rev their engines for the second international Nanocar Race.",
+            "link": "http://news.rice.edu/2020/10/26/rice-rolls-out-next-gen-nanocars-2/"
+        },
+        {
+            "date": "Oct 22",
+            "name": "Do the twist: Making two-dimensional quantum materials using curved surfaces",
+            "place": "University of Wisconsin-Madison",
+            "description": "Scientists at the University of Wisconsin–Madison have discovered a way to control the growth of twisting, microscopic spirals of materials just one atom thick.",
+            "link": "https://news.wisc.edu/do-the-twist-making-two-dimensional-quantum-materials-using-curved-surfaces/#:~:text=Do%20the%20twist%3A%20Making%20two%2Ddimensional%20quantum%20materials%20using%20curved%20surfaces,-October%2022%2C%202020&text=Scientists%20at%20the%20University%20of,materials%20just%20one%20atom%20thick."
+        },
+        {
+            "date": "Oct 22",
+            "name": "Cicada-inspired waterproof surfaces closer to reality, researchers report",
+            "place": "University of Illinois at Urbana-Champaign, News Bureau",
+            "description": "A multidisciplinary group that studies the physical and chemical properties of insect wings has demonstrated the ability to reproduce the nanostructures that help cicada wings repel water and prevent bacteria from establishing on the surface. The new technique – which uses commercial nail polish – is economical and straightforward, and the researchers said it will help fabricate future high-tech waterproof materials.",
+            "link": "https://news.illinois.edu/view/6367/1104928821"
+        },
+        {
+            "date": "Oct 19",
+            "name": "A trillion turns of light nets terahertz polarized bytes",
+            "place": "Rice University",
+            "description": "U.S. and Italian engineers have demonstrated the first nanophotonic platform capable of manipulating polarized light 1 trillion times per second.",
+            "link": "https://news.rice.edu/2020/10/19/a-trillion-turns-of-light-nets-terahertz-polarized-bytes-2/"
+        },
+        {
+            "date": "Oct 16",
+            "name": "Calcium bursts kill drug-resistant tumor cells",
+            "place": "American Chemical Society",
+            "description": "Multidrug resistance (MDR) –– a process in which tumors become resistant to multiple medicines –– is the main cause of failure of cancer chemotherapy. Tumor cells often acquire MDR by boosting their production of proteins that pump drugs out of the cell, rendering the chemotherapies ineffective. Now, researchers reporting in ACS’ Nano Letters have developed nanoparticles that release bursts of calcium inside tumor cells, inhibiting drug pumps and reversing MDR.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2020/october/calcium-bursts-kill-drug-resistant-tumor-cells.html#:~:text=Now%2C%20researchers%20reporting%20in%20ACS,a%20key%20role%20in%20MDR."
+        },
+        {
+            "date": "Oct 14",
+            "name": "A first-of-its-kind catalyst mimics natural processes to break down plastic and produce valuable new products",
+            "place": "Ames Laboratory",
+            "description": "While plastics recycling is not new science, current processes don’t make it economically worthwhile-- waste plastics get “down-cycled” into lower grade, less useful material. It’s a challenge that continues to be an obstacle in tackling a growing global pollution crisis in single use plastics.",
+            "link": "https://www.ameslab.gov/news/a-first-of-its-kind-catalyst-mimics-natural-processes-to-break-down-plastic-and-produce"
+        },
+        {
+            "date": "Oct 13",
+            "name": "COVID-19 rapid test has successful lab results, research moves to next stages",
+            "place": "University of Nevada, Reno",
+            "description": "Rapid detection of the SARS-CoV-2 virus, in about 30 seconds following the test, has had successful preliminary results in Mano Misra’s lab at the University of Nevada, Reno. The test uses a nanotube-based electrochemical biosensor, a similar technology that Misra has used in the past for detecting tuberculosis and colorectal cancer as well as detection of biomarkers for food safety.",
+            "link": "https://www.unr.edu/nevada-today/news/2020/covid-19-rapid-test#:~:text=Rapid%20detection%20of%20the%20SARS,the%20University%20of%20Nevada%2C%20Reno."
+        },        
+        {
             "date": "Oct 06",
             "name": "All together now: Experiments with twisted 2D materials catch electrons behaving collectively",
             "place": "University of Washington",
@@ -3112,6 +3168,34 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Oct 22",
+            "name": "Turning streetwear into solar concentrators",
+            "place": "Swiss Federal Laboratories for Materials Science and Technology (EMPA)",
+            "description": "Researchers at Empa and ETH Zurich succeeded in developing a material that works like a luminescent solar concentrator and can even be applied to textiles. This opens up numerous possibilities for producing energy directly where it is needed, i.e. in the use of everyday electronics.",
+            "link": "https://www.empa.ch/web/s604/wearable-solar-cells"
+        },
+        {
+            "date": "Oct 20",
+            "name": "Highly selective membranes",
+            "place": "University of Tokyo",
+            "description": "Membranes with microscopic pores are useful for water filtration. The effect of pore size on water filtration is well-understood, as is the role of ions, charged atoms, that interact with the membrane. For the first time, researchers have successfully described the impact water molecules have on other water molecules and on ions as part of the filtration mechanism. The researchers detail a feedback system between water molecules which opens up new design possibilities for highly selective membranes. Applications could include virus filters.",
+            "link": "https://www.u-tokyo.ac.jp/focus/en/press/z0508_00132.html"
+        },
+        {
+            "date": "Oct 19",
+            "name": "High levels of microplastics released from infant feeding bottles during formula prep",
+            "place": "Trinity College Dublin",
+            "description": "New research shows that high levels of microplastics (MPs) are released from infant-feeding bottles (IFBs) during formula preparation. The research also indicates a strong relationship between heat and MP release, such that warmer liquids (formula or water used to sterilise bottles) result in far greater release of MPs.",
+            "link": "https://www.tcd.ie/news_events/articles/high-levels-of-microplastics-released-from-infant-feeding-bottles-during-formula-preparation/"
+        },
+        {
+            "date": "Oct 19",
+            "name": "Creating perfect edges in 2D-materials",
+            "place": "Chalmers University of Technology",
+            "description": "Ultrathin materials such as graphene promise a revolution in nanoscience and technology. Researchers at Chalmers University of Technology, Sweden, have now made an important advance within the field. In a recent paper in Nature Communications they present a method for controlling the edges of two-dimensional materials using a ‘magic’ chemical.",
+            "link": "https://news.cision.com/chalmers/r/creating-perfect-edges-in-2d-materials,c3218564"
+        },    
         {
             "date": "Oct 07",
             "name": "New findings pave the way to environmentally friendly supercapacitors",
