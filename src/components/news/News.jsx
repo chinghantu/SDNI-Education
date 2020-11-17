@@ -363,6 +363,90 @@ const CAL_NEWS = {
 const US_NEWS = {
     '2020': [
         {
+            "date": "Nov 16",
+            "name": "New Technology Allows More Precise View Of The Smallest Nanoparticles",
+            "place": "University of Houston",
+            "description": "Current state-of-the-art techniques have clear limitations when it comes to imaging the smallest nanoparticles, making it difficult for researchers to study viruses and other structures at the molecular level.",
+            "link": "https://www.egr.uh.edu/news/202011/new-technology-allows-more-precise-view-smallest-nanoparticles"
+        },
+        {
+            "date": "Nov 12",
+            "name": "Pearls may provide new information processing options for biomedical, military innovations",
+            "place": "Purdue University",
+            "description": "Pearls have long been favored as objects of beauty. Now, Purdue University innovators are using the gem to provide potential new opportunities for spectral information processing that can be applied to spectroscopy in biomedical and military applications.",
+            "link": "https://www.purdue.edu/newsroom/releases/2020/Q4/pearls-may-provide-new-information-processing-options-for-biomedical,-military-innovations.html#:~:text=Now%2C%20Purdue%20University%20innovators%20are,by%20creating%20a%20pearl%20spectrometer."
+        },
+        {
+            "date": "Nov 09",
+            "name": "A better understanding of coral skeleton growth suggests ways to restore reefs",
+            "place": "University of Wisconsin-Madison",
+            "description": "Coral reefs are vibrant communities that host a quarter of all species in the ocean and are indirectly crucial to the survival of the rest. But they are slowly dying — some estimates say 30 to 50 percent of reefs have been lost — due to climate change.",
+            "link": "https://news.wisc.edu/a-better-understanding-of-coral-skeleton-growth-suggests-ways-to-restore-reefs/"
+        },
+        {
+            "date": "Nov 04",
+            "name": "Luminescent wood could light up homes of the future ",
+            "place": "American Chemical Society",
+            "description": "The right indoor lighting can help set the mood, from a soft romantic glow to bright, stimulating colors.  But some materials used for lighting, such as plastics, are not eco-friendly. Now, researchers reporting in ACS Nano have developed a bio-based, luminescent, water-resistant wood film that could someday be used as cover panels for lamps, displays and laser devices.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-november-4-2020/luminescent-wood-could-light-up-homes-of-the-future.html"
+        },
+        {
+            "date": "Nov 02",
+            "name": "Room Temperature Conversion of CO2 to CO: A New Way to Synthesize Hydrocarbons",
+            "place": "National Institute of Standards and Technology (NIST)",
+            "description": "Researchers at the National Institute of Standards and Technology (NIST) and their colleagues have demonstrated a room-temperature method that could significantly reduce carbon dioxide levels in fossil-fuel power plant exhaust, one of the main sources of carbon emissions in the atmosphere.",
+            "link": "https://www.nist.gov/news-events/news/2020/11/room-temperature-conversion-co2-co-new-way-synthesize-hydrocarbons#:~:text=Researchers%20at%20the%20National%20Institute,carbon%20emissions%20in%20the%20atmosphere."
+        },
+        {
+            "date": "Oct 30",
+            "name": "Research lays groundwork for ultra-thin, energy efficient photodetector on glass",
+            "place": "Penn State",
+            "description": "Though we may not always realize it, photodetectors contribute greatly to the convenience of modern life. Also known as photosensors, photodetectors convert light energy into electrical signals to complete tasks such as opening automatic sliding doors and automatically adjusting a cell phone’s screen brightness in different lighting conditions.",
+            "link": "https://news.psu.edu/story/637229/2020/10/30/research/research-lays-groundwork-ultra-thin-energy-efficient-photodetector"
+        },
+        {
+            "date": "Oct 30",
+            "name": "A new spin on atoms gives scientists a closer look at quantum weirdness",
+            "place": "Princeton University",
+            "description": "When atoms get extremely close, they develop intriguing interactions that could be harnessed to create new generations of computing and other technologies. These interactions in the realm of quantum physics have proven difficult to study experimentally due the basic limitations of optical microscopes.",
+            "link": "https://engineering.princeton.edu/news/2020/10/30/new-spin-atoms-gives-scientists-closer-look-quantum-weirdness#:~:text=A%20new%20spin%20on%20atoms%20gives%20scientists%20a%20closer%20look%20at%20quantum%20weirdness,-By%20Scott%20Lyon&text=Now%20a%20team%20of%20Princeton,optical%20lens%20can%20distinguish%20them."
+        },
+        {
+            "date": "Oct 30",
+            "name": "Researchers Develop a New Way to Create a Spectrum of Natural-looking Hair Colors",
+            "place": "Northwestern University",
+            "description": "We’ve long been warned of the risks of dyeing hair at home and in salons. Products used can cause allergies and skin irritation — an estimated one percent of people have an allergy to dye. Furthermore, repeated use of some dyes has been linked to cancer.",
+            "link": "https://www.mccormick.northwestern.edu/news/articles/2020/10/researchers-develop-a-new-way-to-create-a-spectrum-of-natural-looking-hair-colors.html"
+        },
+        {
+            "date": "Oct 29",
+            "name": "Flash graphene rocks strategy for plastic waste",
+            "place": "Rice University",
+            "description": "Rice lab detours potential environmental hazard into useful material",
+            "link": "https://news.rice.edu/2020/10/29/flash-graphene-rocks-strategy-for-plastic-waste-2/"
+        },
+        {
+            "date": "Oct 29",
+            "name": "Rice finds path to nanodiamond from graphene",
+            "place": "Rice University",
+            "description": "A spot of pressure enables chemical conversion to hardened 2D material ",
+            "link": "https://news.rice.edu/2020/10/29/rice-finds-path-to-nanodiamond-from-graphene-2/"
+        },
+        {
+            "date": "Oct 29",
+            "name": "Breakthrough quantum-dot transistors create a flexible alternative to conventional electronics",
+            "place": "Los Alamos National Laboratory",
+            "description": "Researchers at Los Alamos National Laboratory and their collaborators from the University of California, Irvine have created fundamental electronic building blocks out of tiny structures known as quantum dots and used them to assemble functional logic circuits. The innovation promises a cheaper and manufacturing-friendly approach to complex electronic devices that can be fabricated in a chemistry laboratory via simple, solution-based techniques, and offer long-sought components for a host of innovative devices.",
+            "link": "https://www.lanl.gov/discover/news-release-archive/2020/October/1029-quantum-dot-transistors.php"
+        },
+        {
+            "date": "Oct 28",
+            "name": "Turning a coronavirus protein into a nanoparticle could be key for COVID-19 vaccine",
+            "place": "University at Buffalo",
+            "description": " A University at Buffalo-led research team has discovered a technique that could help increase the effectiveness of vaccines against the novel coronavirus, the virus that causes COVID-19.",
+            "link": "http://www.buffalo.edu/news/releases/2020/10/028.html"
+        },            
+        {
             "date": "Oct 26",
             "name": "On-surface synthesis of graphene nanoribbons could advance quantum devices",
             "place": "Oak Ridge National Laboratory",
@@ -3168,6 +3252,90 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Nov 13",
+            "name": "Success in controlling the composition of perovskite ions paves the way for applying their flexibility to devices",
+            "place": "Kobe University",
+            "description": "Hybrid organic-inorganic perovskites(*1) have received much attention as potential next generation solar cells and as materials for light-emitting devices.",
+            "link": "https://www.kobe-u.ac.jp/research_at_kobe_en/NEWS/news/2020_11_13_01.html"
+        },
+        {
+            "date": "Nov 12",
+            "name": "Smaller than Ever—Exploring the Unusual Properties of Quantum-sized Materials",
+            "place": "Tokyo Institute of Technology",
+            "description": "Scientists at Tokyo Institute of Technology (Tokyo Tech) synthesize sub-nanometer particles with precisely controlled proportions of indium and tin using specific macromolecular templates called dendrimers. Through a screening process spanning different metallic ratios, they discovered unusual electronic states and optical properties originating from size-miniaturization and elemental-hybridization. Their approach could be a first step in the development of sub-nanoparticles with unique functionalities and characteristics for electronic, magnetic, and catalytic applications.",
+            "link": "https://www.titech.ac.jp/english/news/2020/048014.html"
+        },
+        {
+            "date": "Nov 11",
+            "name": "Turning heat into power with efficient organic thermoelectric material",
+            "place": "University of Groningen",
+            "description": "Thermoelectric materials use a temperature difference between both sides of the material to create an electric current. Inorganic thermoelectric materials are already quite efficient, but they contain toxic or rare elements and are often brittle, which makes them unsuitable for everyday applications. By contrast, organic thermoelectric materials are safe to use, but their efficiency in converting a temperature difference into a current is not very good. A team of scientists led by Jan Anton Koster, Professor of Semiconductor Physics at the University of Groningen, has now created a much more efficient organic thermoelectric material that is made from buckyballs with organic side chains. Their flexible material could be used to power wearable electronics.",
+            "link": "https://www.rug.nl/sciencelinx/nieuws/2020/11/turning-heat-into-power-with-efficient-organic-thermoelectric-material?lang=en"
+        },
+        {
+            "date": "Nov 10",
+            "name": "Making 3-D Nanosuperconductors with DNA",
+            "place": "Brookhaven National Laboratory",
+            "description": "Three-dimensional (3-D) nanostructured materials—those with complex shapes at a size scale of billionths of a meter—that can conduct electricity without resistance could be used in a range of quantum devices. For example, such 3-D superconducting nanostructures could find application in signal amplifiers to enhance the speed and accuracy of quantum computers and ultrasensitive magnetic field sensors for medical imaging and subsurface geology mapping. However, traditional fabrication tools such as lithography have been limited to 1-D and 2-D nanostructures like superconducting wires and thin films. ",
+            "link": "https://www.bnl.gov/newsroom/news.php?a=117490"
+        },
+        {
+            "date": "Nov 09",
+            "name": "Bringing drugs to the brain with nanoparticles to treat neurodegenerative diseases",
+            "place": "Institut national de la recherche scientifique - INRS",
+            "description": "Researchers from the Institut national de la recherche scientifique (INRS) have shown that nanoparticles could be used to deliver drugs to the brain to treat neurodegenerative diseases.",
+            "link": "https://inrs.ca/en/news/bringing-drugs-to-the-brain-with-nanoparticles-to-treat-neurodegenerative-diseases/"
+        },
+        {
+            "date": "Nov 09",
+            "name": "Water Predictions: Telling when a Nanolithography Mold will Break Through Droplets",
+            "place": "Tokyo University of Science",
+            "description": "Ultraviolet nanoimprint lithography is powerful method of producing polymer nanostructures by pressing a curable resin onto a mold. However, there are no convenient methods to determine the lifetime of molds. Now, in a recent study in Japan, scientists develop a simple strategy to reliably predict the durability of mold materials by observing how water droplets make contact with the mold's surface as it wears out and distorts with use.",
+            "link": "https://www.tus.ac.jp/en/mediarelations/archive/20201109_4567.html"
+        },
+        {
+            "date": "Nov 09",
+            "name": "The importance of good neighbours in catalysis",
+            "place": "Chalmers University of Technology",
+            "description": "Are you affected by your neighbours? So are nanoparticles in catalysts. New research from Chalmers, published in the journals Science Advances and Nature Communications, reveals how the nearest neighbours determine how well nanoparticles work in a catalyst.​​",
+            "link": "https://www.chalmers.se/en/departments/physics/news/Pages/The-importance-of-good-neighbours-in-catalysis.aspx"
+        },
+        {
+            "date": "Nov 06",
+            "name": "Creating 3D Virtual Personas of All-Solid-State Batteries, Building a Better Tomorrow",
+            "place": "Daegu Gyeongbuk Institute of Science and Technology",
+            "description": "Scientists are eyeing all-solid-state-lithium batteries as a safer alternative to conventional lithium-ion batteries; but their performance needs much improvement. Now, with the 3D digital twin technology that a team from Korea has developed, a 3D digital replica of the real thing can be developed, and their solid interface microstructures can be studied in detail, potentially accelerating their advancement manifold. ",
+            "link": "https://www.dgist.ac.kr/en/html/sub06/060202.html?mode=V&no=54cf49d1498121eb2e7e15cb0ecc48f7&GotoPage=1"
+        },
+        {
+            "date": "Nov 06",
+            "name": "Blue phosphorus: How a semiconductor becomes a metal",
+            "place": "Technische Universität Dresden",
+            "description": "Blue phosphorus, an atomically thin synthetic semiconductor, becomes metallic as soon as it is converted into a double layer. This has been discovered by an interdisciplinary team led by Prof Thomas Heine from TU Dresden and Prof Gabriel Merino from the Mexican research institute Cinvestav Merida. The scientists are first to describe the possibility of constructing nanoscale, highly efficient transistors consisting of only one element. The results of these investigations were published as highlight article in the current issue of the journal 'Physical Review Letters'.",
+            "link": "https://tu-dresden.de/mn/der-bereich/news/blue-phosphorus-how-a-semiconductor-becomes-a-metal?set_language=en"
+        },
+        {
+            "date": "Nov 05",
+            "name": "Laser-Powered Nanomotors Chart Their Own Course",
+            "place": "Institute of Industrial Science, The University of Tokyo",
+            "description": "Researchers from the Institute of Industrial Science, the University of Tokyo (UTokyo-IIS) have designed novel linear nanomotors that can be moved in controlled directions using light. This work opens the way for new microfluidics, including lab-on-a-chip systems with optically actuated pumps and valves.",
+            "link": "https://www.iis.u-tokyo.ac.jp/en/news/3397/"
+        },
+        {
+            "date": "Nov 05",
+            "name": "Future Information Technologies: Germanium telluride's hidden properties at the nanoscale revealed",
+            "place": "Helmholtz-Zentrum Berlin für Materialien und Energie",
+            "description": "Germanium Telluride is an interesting candidate material for spintronic devices. In a comprehensive study at BESSY II, a Helmholtz-RSF Joint Research Group has now revealed how the spin texture switches by ferroelectric polarization within individual nanodomains.",
+            "link": "https://www.helmholtz-berlin.de/pubbin/news_seite?nid=22323;sprache=en;seitenid=1"
+        },
+        {
+            "date": "Nov 04",
+            "name": "Scientists Grow Carbon Nanotube Forest Much Longer Than Any Other",
+            "place": "Waseda University",
+            "description": "Novel technique yields a carbon nanotube forest of record length, potentially revolutionizing the future of many industries",
+            "link": "https://www.waseda.jp/top/en/news/73953"
+        },            
         {
             "date": "Oct 22",
             "name": "Turning streetwear into solar concentrators",
