@@ -8,6 +8,27 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2020': [
         {
+            "date": "Nov 30",
+            "name": "Virus-Like Probes Could Help Make Rapid COVID-19 Testing More Accurate, Reliable",
+            "place": "University of California - San Diego",
+            "description": "Nanoengineers at the University of California San Diego have developed new and improved probes, known as positive controls, that could make it easier to validate rapid, point-of-care diagnostic tests for COVID-19 across the globe.",
+            "link": "https://ucsdnews.ucsd.edu/pressrelease/virus-like-probes-could-help-make-rapid-covid-19-testing-more-accurate-reliable"
+        },
+        {
+            "date": "Nov 24",
+            "name": "Scientists Design New Framework for Clean Water",
+            "place": "Lawrence Berkeley National Laboratory",
+            "description": "We rely on water to quench our thirst and to irrigate bountiful farmland. But what do you do when that once pristine water is polluted with wastewater from abandoned copper mines?",
+            "link": "https://newscenter.lbl.gov/2020/11/24/new-framework-for-clean-water/"
+        },
+        {
+            "date": "Nov 23",
+            "name": "Direct visualization of quantum dots reveals shape of quantum wave function",
+            "place": "University of California - Santa Cruz",
+            "description": "Researchers used a scanning tunneling microscope to visualize quantum dots in bilayer graphene, an important step toward quantum information technologies",
+            "link": "https://news.ucsc.edu/2020/11/quantum-dots.html#:~:text=Direct%20visualization%20of%20quantum%20dots%20reveals%20shape%20of%20quantum%20wave%20function,-Researchers%20used%20a&text=Researchers%20at%20UC%20Santa%20Cruz,function%20of%20the%20trapped%20electrons."
+        },   
+        {
             "date": "Sep 24",
             "name": "Metal wires of carbon complete toolbox for carbon-based computers",
             "place": "University of California - Berkeley",
@@ -362,6 +383,90 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2020': [
+        {
+            "date": "Dec 07",
+            "name": "Harnessing Quantum Properties to Create Single-Molecule Devices",
+            "place": "Columbia University",
+            "description": "Researchers, led by Columbia Engineering Professor Latha Venkataraman, report today that they have discovered a new chemical design principle for exploiting destructive quantum interference. They used their approach to create a six-nanometer single-molecule switch where the on-state current is more than 10,000 times greater than the off-state current—the largest change in current achieved for a single-molecule circuit to date.",
+            "link": "https://www.apam.columbia.edu/press-releases/venkataraman-quantum-single-molecule-device"
+        },
+        {
+            "date": "Dec 07",
+            "name": "Researchers develop unique process for producing light-matter mixture",
+            "place": "University of Minnesota",
+            "description": "In groundbreaking new research, an international team of researchers led by the University of Minnesota Twin Cities has developed a unique process for producing a quantum state that is part light and part matter. ",
+            "link": "https://twin-cities.umn.edu/news-events/researchers-develop-unique-process-producing-light-matter-mixture#:~:text=In%20groundbreaking%20new%20research%2C%20an,part%20light%20and%20part%20matter.&text=Quantum%20science%20studies%20natural%20phenomena,matter%20at%20the%20smallest%20scales."
+        },
+        {
+            "date": "Dec 04",
+            "name": "Paper-based electrochemical sensor can detect COVID-19 in less than five minutes",
+            "place": "University of Illinois Grainger College of Engineering",
+            "description": "As the COVID-19 pandemic continues to spread across the world, testing remains a key strategy for tracking and containing the virus. Bioengineering graduate student, Maha Alafeef, has co-developed a rapid, ultrasensitive test using a paper-based electrochemical sensor that can detect the presence of the virus in less than five minutes. The team led by professor Dipanjan Pan reported their findings in ACS Nano.",
+            "link": "https://bioengineering.illinois.edu/news/article/paper-based-electrochemical-sensor-covid-19"
+        },
+        {
+            "date": "Dec 03",
+            "name": "Chemists get peek at novel fluorescence",
+            "place": "Rice University",
+            "description": "That carbon nanotubes fluoresce is no longer a surprise. Finding a second level of fluorescence is surprising and potentially useful.",
+            "link": "https://news.rice.edu/2020/12/03/chemists-get-peek-at-novel-fluorescence/"
+        },
+        {
+            "date": "Dec 03",
+            "name": "New Platform Generates Hybrid Light-Matter Excitations in Highly Charged Graphene",
+            "place": "Columbia University ",
+            "description": "Columbia researchers are the first to use static charge between 2D atomic layers to provide a new route for generating graphene plasmon polaritons without an external power source or chemical dopants; discovery has broad application in nanotechnology",
+            "link": "https://www.engineering.columbia.edu/press-releases/hybrid-light-matter-excitations"
+        },
+        {
+            "date": "Dec 02",
+            "name": "Nanomaterials Enable Passive Dual-Mode Heating and Cooling Device",
+            "place": "Duke University",
+            "description": "Engineers at Duke University have demonstrated a dual-mode heating and cooling device for building climate control that, if widely deployed in the U.S., could cut HVAC energy use by nearly 20%.",
+            "link": "https://mems.duke.edu/about/news/nanomaterials-enable-passive-dual-mode-heating-and-cooling-device"
+        },
+        {
+            "date": "Dec 02",
+            "name": "No nanoparticle risks to humans found in field tests of spray sunscreens",
+            "place": "Penn State",
+            "description": "People can continue using mineral-based aerosol sunscreens without fear of exposure to dangerous levels of nanoparticles or other respirable particulates, according to Penn State research published in the journal Aerosol Science and Engineering.",
+            "link": "https://news.psu.edu/story/640588/2020/12/02/research/no-nanoparticle-risks-humans-found-field-tests-spray-sunscreens#:~:text=No%20nanoparticle%20risks%20to%20humans%20found%20in%20field%20tests%20of%20spray%20sunscreens,-AddThis%20Sharing%20Buttons&text=Penn%20State%20researchers%20field%20tested,related%20to%20exposure%20to%20nanoparticles."
+        },
+        {
+            "date": "Dec 01",
+            "name": "New Glue Sticks Easily, Holds Strongly, and is a Gas to Pull Apart",
+            "place": "Dartmouth College",
+            "description": "Temporary glues may not steal headlines, but they can make everyday life easier.",
+            "link": "https://www.dartmouth.edu/press-releases/new-glue-sticks-easily-holds-strongly-gas-pull-apart.html#:~:text=Molecular%20solids%20being%20studied%20by,without%20disturbing%20the%20bonded%20surfaces."
+        },
+        {
+            "date": "Nov 24",
+            "name": "Creating Higher Energy Density Lithium-Ion Batteries for Renewable Energy Applications",
+            "place": "American Institute of Physics",
+            "description": "Lithium-ion batteries (LIBs) that function as high-performance power sources for renewable applications, such as electric vehicles and consumer electronics, require electrodes that deliver high energy density without compromising cell lifetimes.",
+            "link": "https://publishing.aip.org/publications/latest-content/creating-higher-energy-density-lithium-ion-batteries-for-renewable-energy-applications/"
+        },
+        {
+            "date": "Nov 19",
+            "name": "Predicting Forces between Oddly Shaped Nanoparticles",
+            "place": "Duke University",
+            "description": "Materials scientists at Duke University have devised a simplified method for calculating the attractive forces that cause nanoparticles to self-assemble into larger structures.",
+            "link": "https://pratt.duke.edu/about/news/faceted-nanoparticles-energy"
+        },
+        {
+            "date": "Nov 18",
+            "name": "UIC researchers describe fundamental processes behind movement of magnetic particles",
+            "place": "University of Illinois at Chicago",
+            "description": "The motion of magnetic particles as they pass through a magnetic field is called magnetophoresis. Until now, not much was known about the factors influencing these particles and their movement. Now, researchers from the University of Illinois Chicago describe several fundamental processes associated with the motion of magnetic particles through fluids as they are pulled by a magnetic field.",
+            "link": "https://today.uic.edu/uic-researchers-describe-fundamental-processes-behind-movement-of-magnetic-particles"
+        },
+        {
+            "date": "Nov 18",
+            "name": "A DNA-based nanogel for targeted chemotherapy ",
+            "place": "American Chemical Society",
+            "description": "Current chemotherapy regimens slow cancer progression and save lives, but these powerful drugs affect both healthy and cancerous cells. Now, researchers reporting in ACS’ Nano Letters have designed DNA-based nanogels that only break down and release their chemotherapeutic contents within cancer cells, minimizing the impacts on normal ones and potentially eliminating painful and uncomfortable side effects.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2020/acs-presspac-november-18-2020/a-dna-based-nanogel-for-targeted-chemotherapy.html"
+        },            
         {
             "date": "Nov 16",
             "name": "New Technology Allows More Precise View Of The Smallest Nanoparticles",
@@ -3252,6 +3357,69 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2020': [
+        {
+            "date": "Dec 03",
+            "name": "Cooling electronics efficiently with graphene-enhanced heat pipes",
+            "place": "Chalmers University of Technology",
+            "description": "Researchers at Chalmers University of Technology, Sweden, have found that graphene-based heat pipes can help solve the problems of cooling electronics and power systems used in avionics, data centres, and other power electronics. 'Heat pipes are one of the most efficient tools for this because of their high efficiency and unique ability to transfer heat over a large distance,' says Johan Liu, Professor of Electronics Production, at the Department of Microtechnology and Nanoscience – MC2, at Chalmers. The results, which also involved researchers in China and Italy, were recently published in the scientific Open Access journal Nano Select.",
+            "link": "https://www.chalmers.se/en/departments/mc2/news/Pages/Cooling-electronics-efficiently-with-graphene-enhanced-heat-pipes.aspx#:~:text=and%20Johan%20Liu-,Cooling%20electronics%20efficiently%20with%20graphene%2Denhanced%20heat%20pipes,centres%2C%20and%20other%20power%20electronics."
+        },
+        {
+            "date": "Nov 25",
+            "name": "Quantum nanodiamonds may help detect disease earlier",
+            "place": "University College London",
+            "description": "The quantum sensing abilities of nanodiamonds can be used to improve the sensitivity of paper-based diagnostic tests, potentially allowing for earlier detection of diseases such as HIV, according to a study led by UCL researchers in the i-sense McKendry group.",
+            "link": "https://www.ucl.ac.uk/news/2020/nov/quantum-nanodiamonds-may-help-detect-disease-earlier"
+        },
+        {
+            "date": "Nov 24",
+            "name": "Shining a light on nanoscale dynamics",
+            "place": "University of Konstanz",
+            "description": "Watching metamaterials at work in real time using ultrafast electron diffraction: a research team led by University of Konstanz physicist Peter Baum succeeds in using ultrashort electron pulses to measure light-matter interactions in nanophotonic materials and metamaterials.",
+            "link": "https://www.uni-konstanz.de/en/university/news-and-media/current-announcements/news-in-detail/dynamische-nanowelt-im-fokus/"
+        },
+        {
+            "date": "Nov 24",
+            "name": "Sound waves power new advances in drug delivery and smart materials",
+            "place": "RMIT University",
+            "description": "Researchers have revealed how high-frequency sound waves can be used to build new materials, make smart nanoparticles and even deliver drugs to the lungs for painless, needle-free vaccinations.",
+            "link": "https://www.rmit.edu.au/news/media-releases-and-expert-comments/2020/nov/sound-waves-advances"
+        },
+        {
+            "date": "Nov 23",
+            "name": "Controlling fully integrated nanodiamonds",
+            "place": "University of Münster",
+            "description": "Using modern nanotechnology, it is possible nowadays to produce structures which have a feature sizes of just a few nanometres. This world of the most minute particles – also known as quantum systems – makes possible a wide range of technological applications, in fields which include magnetic field sensing, information processing, secure communication or ultra-precise time keeping. The production of these microscopically small structures has progressed so far that they reach dimensions below the wavelength of light. In this way, it is possible to break down hitherto existent boundaries in optics and utilize the quantum properties of light. In other words, nanophotonics represent a novel approach to quantum technologies.",
+            "link": "https://www.uni-muenster.de/news/view.php?cmdid=11392"
+        },
+        {
+            "date": "Nov 20",
+            "name": "Staying Ahead of the Curve with 3D Curved Graphene",
+            "place": "Tohoku University",
+            "description": "A team of researchers has amplified 3D graphene's electrical properties by controlling its curvature.",
+            "link": "https://www.tohoku.ac.jp/en/press/staying_ahead_of_the_curve.html"
+        },
+        {
+            "date": "Nov 19",
+            "name": "World’s Smallest Atom-Memory Unit Created",
+            "place": "University of Texas at Austin",
+            "description": "Faster, smaller, smarter and more energy-efficient chips for everything from consumer electronics to big data to brain-inspired computing could soon be on the way after engineers at The University of Texas at Austin created the smallest memory device yet. And in the process, they figured out the physics dynamic that unlocks dense memory storage capabilities for these tiny devices.",
+            "link": "https://news.utexas.edu/2020/11/19/worlds-smallest-atom-memory-unit-created/"
+        },
+        {
+            "date": "Nov 18",
+            "name": "Improving quantum dot interactions, one layer at a time",
+            "place": "Osaka City University",
+            "description": "Osaka City University scientists and colleagues in Japan have found a way to control an interaction between quantum dots that could greatly improve charge transport, leading to more efficient solar cells. Their findings were published in the journal Nature Communications.",
+            "link": "https://www.osaka-cu.ac.jp/en/news/2020/improving-quantum-dot-interactions-one-layer-at-a-time"
+        },
+        {
+            "date": "Nov 18",
+            "name": "New electronic chip delivers smarter, light-powered AI",
+            "place": "RMIT University",
+            "description": "Researchers have developed artificial intelligence technology that brings together imaging, processing, machine learning and memory in one electronic chip, powered by light.",
+            "link": "https://www.rmit.edu.au/news/media-releases-and-expert-comments/2020/nov/light-powered-artificial-intelligence"
+        },         
         {
             "date": "Nov 13",
             "name": "Success in controlling the composition of perovskite ions paves the way for applying their flexibility to devices",
