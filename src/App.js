@@ -25,15 +25,15 @@ function App() {
   return (
     <Router history={history}>
       <Switch>
-      <Route exact path='/' render={(props) => <Home {...props} />} />
-      <Route exact path='/about' render={(props) => <About {...props} />} />
-      <Route exact path='/programs' render={(props) => <Programs {...props} />} />
-      <Route exact path='/events' render={(props) => <Event {...props} />} />
-      <Route exact path='/news' render={(props) => <News {...props} />} />
-      <Route exact path='/donate' render={(props) => <Donate {...props} />} />
-      <Route exact path='/networking' render={(props) => <Networking {...props} />} />
-      <Route exact path='/outreach' render={(props) => <Outreach {...props} />} />
-      <Route path='*' exact={true} component={Error404} />
+        <Route exact path='/' render={(props) => <Home {...props} />} />
+        <Route exact path='/about' render={(props) => <About {...props} />} />
+        <Route exact path='/programs' render={(props) => <Programs {...props} />} />
+        <Route exact path='/events' render={(props) => <Event {...props} />} />
+        <Route exact path='/news' render={(props) => <News {...props} />} />
+        <Route exact path='/donate' render={(props) => <Donate {...props} />} />
+        <Route exact path='/networking' render={(props) => <Networking {...props} />} />
+        <Route exact path='/outreach' render={(props) => <Outreach {...props} />} />
+        <Route path='*' exact={true} component={Error404} />
       </Switch>
     </Router>
 

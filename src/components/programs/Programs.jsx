@@ -5,6 +5,9 @@ import Footer from '../footer/Footer';
 import RETAlumni from '../../assets/Image/RETAlumni.jpg';
 import REUAlumni from '../../assets/Image/REUAlumni.jpg';
 
+import Omninano from '../../assets/Image/omni-nano.jpeg';
+import Construction from '../../assets/Image/construction.png'
+
 const K12 = (
     <div>
         <p className="title"><b>K-12 Curriculum</b></p>
@@ -13,8 +16,10 @@ const K12 = (
             We encourage educators to visit the <a href="nano.gov"><span className="nano-gov">nano.gov</span></a> website for existing nationwide resources. A large amount of educational materials and links to nanotechnology networks are available at:
 					<br /><br />
             <a href="https://www.nano.gov/education-training"><button className="programs-button">NNCI Educational Resources</button></a>
+            <a href="https://www.nnci.net/resources-educators-k-16"><button className="programs-button">Resource for Educators (K-16)</button></a>
             <br /><br />
             <span className="programs-span"><b>Omni Nano</b></span><br />
+            <img className="img-fluid" style={{ width: 150, height: 150 }} src={Omninano}></img><br />
             Omni Nano and SDNI are partnering for Nanotechnology curriculum development and educational outreach. We invite you to visit the <a href="https://omninano.org">Omni Nano Website</a>
             <br /><br />
             <span className="programs-span"><b>SDNI</b></span><br />
@@ -52,9 +57,17 @@ const CC = (
             We encourage educators to visit the <a href="nano.gov"><span className="nano-gov">nano.gov</span></a> website for existing nationwide resources. A large amount of educational materials and links to nanotechnology networks are available at:
 					<br /><br />
             <a href="https://www.nano.gov/education-training"><button className="programs-button">Nano Education Training</button></a>
+            <a href="https://www.nnci.net/resources-educators-k-16"><button className="programs-button">Resource for Educators (K-16)</button></a>
             <br /><br />
             The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jsgntly with such school/college partners.
-				</p>
+		</p>
+        <span className="programs-span"><b>Omni Nano</b></span><br />
+        <img className="img-fluid" style={{ width: 150, height: 150 }} src={Omninano}></img><br />
+        Omni Nano and SDNI are partnering for Nanotechnology curriculum development and educational outreach. We invite you to visit the <a href="https://omninano.org">Omni Nano Website</a>
+        <br /><br />
+        <span className="programs-span"><b>SDNI</b></span><br />
+        The following section will build gradually over the years and contain curriculum and activities that are developed by SDNI or its school/college partners, or jointly with such school/college partners.
+		<br /><br />
         <h4><br />Integrated Photonics Education Kit<br /><br /></h4>
         <a href="https://drive.google.com/file/d/0B-PWal97iJz6RmluUDVRM1J2b19sUDhKTVM0b2F6Vlc2b1V3/view?usp=sharing"><button className="programs-button">Learn More</button></a>
         <p></p>
@@ -96,6 +109,22 @@ const CC = (
                     <td width="75%" className="text">Gold Nanoparticles - Size-Dependent Colors</td>
                     <td with="25%">
                         <a href="https://drive.google.com/file/d/15Jy42tGLHkvceFUFl68CoFO0Y8pWXX_Q/view?usp=sharing">
+                            <button className="programs-small-button">Learn More</button>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="75%" className="text">Fluorescence and Quantum Dots</td>
+                    <td with="25%">
+                        <a href="https://drive.google.com/file/d/1acOjiJRsb-_N3mp4Q_-0oiuRVs-VkNdB/view?usp=sharing">
+                            <button className="programs-small-button">Learn More</button>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="75%" className="text">Synthesis and Characterization of Calcium Nanoparticles</td>
+                    <td with="25%">
+                        <a href="https://drive.google.com/file/d/1ISCLp_7yRAFJSgnrWeR67lwepz8Gjcxs/view?usp=sharing">
                             <button className="programs-small-button">Learn More</button>
                         </a>
                     </td>
@@ -223,6 +252,15 @@ const REU = (
     </div>
 )
 
+const SI = (
+    <div>
+        <p className="title"><b>Summer Institutes</b></p>
+        <div style={{ height: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <img className='img-fluid' src={Construction} alt=""/>
+        </div>
+    </div>
+)
+
 const REU_A = (
     <div>
         <p className="title"><b>REU 2019 Alumni</b></p>
@@ -264,9 +302,7 @@ const NT2025 = (
             <br /><br />
             Creating awareness about nanotechnology at all level of the education system, from administrators and science specialists of offices of education and school districts, school principals, teachers and TOSAs, and ultimately reach the students. This awareness will be realized via presentations, seminars, in-person meeting, web meetings, webinars to the parties to be reached. One of the great engagement tools that SDNI has used so far consists of remote access to its high-end Scanning Electron Microscope whereby students and teachers can remotely control SDNI SEM (with Focus and Zoom functions) and observe specimen at the micro and nano scale.
 					<br /><br />
-            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career chsgce.
-					<br /><br />
-            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career chsgce.
+            Creating nanotechnology contents that can be integrated to the current K-12 science curricula. Such contents is/will be distributed in the form of Open Educational Resources in electronic format for affordable and efficient distribution. This step in essential for a sustainable program aiming to make nanotechnology a part of the pre-college students’ education and a possible career choice.
 					<br /><br />
         </p>
         <h4>2. California Community College System</h4>
@@ -416,6 +452,8 @@ class Programs extends Component {
                 return RET;
             case 'reu':
                 return REU;
+            case 'si':
+                return SI;
             case 'ret-a':
                 return (
                     <div>
@@ -465,6 +503,7 @@ class Programs extends Component {
                             <button onClick={() => this.handleChangeTab('cc')} className={this.state.title == 'cc' ? "button1" : "button"}><span>College Curriculum</span></button>
                             <button onClick={() => this.handleChangeTab('ret')} className={this.state.title == 'ret' ? "button1" : "button"}><span>RET</span></button>
                             <button onClick={() => this.handleChangeTab('reu')} className={this.state.title == 'reu' ? "button1" : "button"}><span>REU</span></button>
+                            <button onClick={() => this.handleChangeTab('si')} className={this.state.title == 'si' ? "button1" : "button"}><span>Summer Institute</span></button>
                             <button onClick={() => this.handleChangeTab('ret-a')} className={this.state.title == 'ret-a' ? "button1" : "button"}><span>RET Alumni</span></button>
                             <button onClick={() => this.handleChangeTab('reu-a')} className={this.state.title == 'reu-a' ? "button1" : "button"}><span>REU Alumni</span></button>
                             <button onClick={() => this.handleChangeTab('nt2025')} className={this.state.title == 'nt2025' ? "button1" : "button"}><span>NanoTech 2025 Project</span></button>
