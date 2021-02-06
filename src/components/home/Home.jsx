@@ -55,7 +55,7 @@ class Home extends Component {
         return (
             <div id="home-wrapper">
                 <NavBar path='/' />
-                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="4000">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <div className="banner-item">

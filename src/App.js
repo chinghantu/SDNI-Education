@@ -26,7 +26,7 @@ function App() {
     <Router history={history}>
       <Switch>
         <Route exact path='/' render={(props) => <Home {...props} />} />
-        <Route exact path='/about' render={(props) => <About {...props} />} />
+        <Route exact path='/about' component={About} />
         <Route exact path='/programs' render={(props) => <Programs {...props} />} />
         <Route exact path='/events' render={(props) => <Event {...props} />} />
         <Route exact path='/news' render={(props) => <News {...props} />} />

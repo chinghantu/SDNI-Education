@@ -8,6 +8,27 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2021': [
         {
+            "date": "Jan 29",
+            "name": "Islands without structure inside metal alloys could lead to tougher materials",
+            "place": "University of California - San Diego",
+            "description": "These high-entropy allows have applications in transportation, energy and defense. The team, which includes researchers from the University of California San Diego and Berkeley, as well as Carnegie Mellon University and University of Oxford, produced islands of amorphous, non-crystalline material inside a class of new metal alloys known as high-entropy alloys.",
+            "link": "https://ucsdnews.ucsd.edu/pressrelease/amorphous_islands"
+        },
+        {
+            "date": "Jan 21",
+            "name": "Making Masks Smarter and Safer Against COVID-19",
+            "place": "University of California - San Diego",
+            "description": "A new tool for monitoring COVID-19 may one day be right under your nose. Researchers at the University of California San Diego are developing a color-changing test strip that can be stuck on a mask and used to detect SARS-CoV-2 in a user’s breath or saliva.",
+            "link": "https://ucsdnews.ucsd.edu/feature/making-masks-smarter-and-safer-against-covid-19"
+        },
+        {
+            "date": "Jan 21",
+            "name": "New Property Discovered at the \"Magic Angle\"",
+            "place": "California Institute of Technology",
+            "description": "Specially oriented twisted bilayer graphene hosts topological electronic states. A sheet of magic-angle twisted bilayer graphene can host novel topological phases of matter, a study has revealed.",
+            "link": "https://www.caltech.edu/about/news/new-property-discovered-at-the-magic-angle"
+        },
+        {
             "date": "Jan 15",
             "name": "Stanford engineers find a way to control chemical catalysts with sculpted light",
             "place": "Stanford University",
@@ -421,6 +442,202 @@ const CAL_NEWS = {
 const US_NEWS = {
     '2021': [
         {
+            "date": "Feb 01",
+            "name": "UMass Amherst Researchers Discover Materials Capable of Self-Propulsion",
+            "place": "University of Massachusetts Amherst",
+            "description": "Research highlights how shape and environment can cause materials to move without motors or hands.",
+            "link": "https://www.umass.edu/newsoffice/article/umass-amherst-researchers-discover"
+        },
+        {
+            "date": "Feb 01",
+            "name": "Physicists create tunable superconductivity in twisted graphene “nanosandwich”",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Structure may reveal conditions needed for high-temperature superconductivity.",
+            "link": "https://news.mit.edu/2021/physicists-create-tunable-superconductivity-twisted-graphene-nanosandwich-0201"
+        },
+        {
+            "date": "Jan 28",
+            "name": "“Liquid” machine-learning system adapts to changing conditions",
+            "place": "Massachusetts Institute of Technology",
+            "description": "The new type of neural network could aid decision making in autonomous driving and medical diagnosis.",
+            "link": "https://news.mit.edu/2021/machine-learning-adapts-0128"
+        },
+        {
+            "date": "Jan 28",
+            "name": "Robust artificial intelligence tools to predict future cancer",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Researchers created a risk-assessment algorithm that shows consistent performance across datasets from US, Europe, and Asia.",
+            "link": "https://news.mit.edu/2021/robust-artificial-intelligence-tools-predict-future-cancer-0128"
+        },
+        {
+            "date": "Jan 28",
+            "name": "A high-resolution glimpse of gene expression in cells",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Expanding tissue samples before sequencing allows researchers to pinpoint locations of RNA molecules.",
+            "link": "https://news.mit.edu/2021/gene-expression-cell-expansion-0128"
+        },
+        {
+            "date": "Jan 28",
+            "name": "Researchers Create Powerful Unipolar Carbon Nanotube Muscles",
+            "place": "University of Texas at Dallas",
+            "description": "This scanning electron microscope image shows a coiled unipolar muscle made from carbon nanotubes and coated with poly(sodium 4-styrenesulfonate). The outer coil diameter is approximately 140 microns, about twice that of a human hair.",
+            "link": "https://www.utdallas.edu/news/science-technology/unipolar-carbon-nanotube-muscles-2021/#:~:text=In%20a%20study%20posted%20in,the%20applications%20for%20these%20muscles."
+        },
+        {
+            "date": "Jan 28",
+            "name": "Chemists Settle Battery Debate, Propel Research Forward",
+            "place": "Brookhaven National Laboratory",
+            "description": "Researchers used ultrabright x-rays to identify lithium hydride and a new form of lithium fluoride in the interphase of lithium metal anodes",
+            "link": "https://www.bnl.gov/newsroom/news.php?a=117633"
+        },
+        {
+            "date": "Jan 27",
+            "name": "A metalens for virtual and augmented reality",
+            "place": "Harvard University",
+            "description": "Researchers develop a millimeter-size flat lens for VR and AR platforms.",
+            "link": "https://www.seas.harvard.edu/news/2021/01/metalens-virtual-and-augmented-reality"
+        },
+        {
+            "date": "Jan 27",
+            "name": "A mild way to upcycle plastics used in bottles into fuel and other high-value products",
+            "place": "American Chemical Society",
+            "description": "Plastic is ubiquitous in people’s lives. Yet, when plastic-containing items have fulfilled their missions, only a small amount is recycled into new products, which are often of lower quality compared to the original material. And, transforming this waste into high-value chemicals requires substantial energy. Now, researchers reporting in ACS’ JACS Au have combined a ruthenium-carbon catalyst and mild, lower-energy reaction conditions to convert plastics used in bottles and other packaging into fuels and chemical feedstock.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2021/acs-presspac-january-27-2021/a-mild-way-to-upcycle-plastics-used-in-bottles-into-fuel-and-other-high-value-products.html"
+        },
+        {
+            "date": "Jan 27",
+            "name": "Ultra-absorptive nanofiber swabs could improve SARS-CoV-2 test sensitivity",
+            "place": "American Chemical Society",
+            "description": "Rapid, sensitive diagnosis of COVID-19 is essential for early treatment, contact tracing and reducing viral spread. However, some people infected with SARS-CoV-2 receive false-negative test results, which might put their and others’ health at risk. Now, researchers reporting in ACS’ Nano Letters have developed ultra-absorptive nanofiber swabs that could reduce the number of false-negative tests by improving sample collection and test sensitivity.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2021/acs-presspac-january-27-2021/ultra-absorptive-nanofiber-swabs-could-improve-sars-cov-2-test-sensitivity.html"
+        },
+        {
+            "date": "Jan 27",
+            "name": "VCU technology could upend DNA sequencing for diagnosing certain DNA mutations",
+            "place": "Virginia Commonwealth University",
+            "description": "Doctors are increasingly using genetic signatures to diagnose diseases and determine the best course of care, but using DNA sequencing and other techniques to detect genomic rearrangements remains costly or limited in capabilities. However, an innovative breakthrough developed by researchers at Virginia Commonwealth University Massey Cancer Center and the VCU Department of Physics promises to diagnose DNA rearrangement mutations at a fraction of the cost with improved accuracy.",
+            "link": "https://massey.vcu.edu/about/news-center/2021-archive/vcu-technology-could-upend-dna-sequencing-for-diagnosing-certain-dna-mutations/"
+        },
+        {
+            "date": "Jan 27",
+            "name": "A little soap simplifies making 2D nanoflakes",
+            "place": "Rice University",
+            "description": "Just a little soap helps clean up the challenging process of preparing two-dimensional hexagonal boron nitride (hBN). Rice University chemists have found a way to get the maximum amount of quality 2D hBN nanosheets from its natural bulk form by processing it with surfactant (aka soap) and water. The surfactant surrounds and stabilizes the microscopic flakes, preserving their properties.",
+            "link": "https://news.rice.edu/2021/01/27/a-little-soap-simplifies-making-2d-nanoflakes/"
+        },
+        {
+            "date": "Jan 26",
+            "name": "Nanoparticle drug delivery technique shows promise for treating pancreatic cancer",
+            "place": "U.S. Department of Veterans Affairs",
+            "description": "Researchers with the Kansas City VA Medical Center and North Dakota State University have designed a new way to deliver pancreatic cancer drugs that could make fighting the disease much easier. Encapsulating cancer drugs in nanoparticles shows potential to target tumors more effectively and avoid danger to other parts of the body.",
+            "link": "https://www.research.va.gov/currents/0121-Nanoparticle-drug-delivery-technique-shows-promise-for-treating-pancreatic-cancer.cfm"
+        },
+        {
+            "date": "Jan 26",
+            "name": "Studies Provide Answers About Promising 2D Materials",
+            "place": "Yale School of Engineering and Applied Science",
+            "description": "Two-dimensional, layered materials hold great promise for a number of applications, such as alternative platforms for the next-generation of logic and memory devices and flexible energy storage devices. There’s still much, however, that remains unknown about them.",
+            "link": "https://seas.yale.edu/news-events/news/studies-provide-answers-about-promising-2d-materials"
+        },
+        {
+            "date": "Jan 26",
+            "name": "Oxford Instruments Asylum Research joins MIT.nano Consortium",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Company specializing in atomic force microscopy to advise, collaborate with MIT researchers.",
+            "link": "https://news.mit.edu/2021/oxford-instruments-asylum-research-joins-mitnano-consortium-0126"
+        },
+        {
+            "date": "Jan 25",
+            "name": "Researchers use nanomaterials to make 2D diamond clusters at room temperature",
+            "place": "New York University",
+            "description": "Atomically thin, 2D hexagonal boron nitride (h-BN) is a promising material whose protean ability to undergo phase transformations to strong, super lightweight, chemically stable, oxidation-resistant films makes them ideal for protective coatings, nanotechnology thermal applications, deep-UV light emitters, and much more.",
+            "link": "https://engineering.nyu.edu/news/researchers-use-nanomaterials-make-2d-diamond-clusters-room-temperature"
+        },
+        {
+            "date": "Jan 25",
+            "name": "Boosting the efficiency of carbon capture and conversion systems",
+            "place": "Massachusetts Institute of Technology",
+            "description": "New design could speed reaction rates in electrochemical systems for pulling carbon out of power plant emissions.",
+            "link": "https://news.mit.edu/2021/carbon-capture-efficiency-0125"
+        },
+        {
+            "date": "Jan 25",
+            "name": "Atomic design for a carbon-free planet",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Manipulating materials at a fundamental level, Ju Li reveals new properties for energy applications.",
+            "link": "https://news.mit.edu/2021/atomic-design-carbon-free-planet-ju-li-mit-0125"
+        },
+        {
+            "date": "Jan 25",
+            "name": "Researchers construct molecular nanofibers that are stronger than steel",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Self-assembly of Kevlar-inspired molecules leads to structures with robust properties, offering new materials for solid-state applications.",
+            "link": "https://news.mit.edu/2021/molecular-nanofibers-stronger-than-steel-0125"
+        },
+        {
+            "date": "Jan 25",
+            "name": "Nanomedicine’s ‘crown’ is ready for its close-up",
+            "place": "Michigan State University",
+            "description": "An international team of researchers led by Michigan State University’s Morteza Mahmoudi has developed a new method to better understand how nanomedicines — emerging diagnostics and therapies that are very small yet very intricate — interact with patients’ biomolecules.",
+            "link": "https://msutoday.msu.edu/news/2021/nanomedicine-crown-close-up"
+        },
+        {
+            "date": "Jan 21",
+            "name": "‘Smart Bandage’ detects, could prevent infections",
+            "place": "University of Rhode Island",
+            "description": "URI chemical engineering professor embeds nanosensors in microfibers to create ‘smart bandage’",
+            "link": "https://today.uri.edu/news/smart-bandage-detects-could-prevent-infections/#:~:text=URI%20chemical%20engineering%20professor%20embeds,microfibers%20to%20create%20'smart%20bandage'&text=KINGSTON%2C%20R.I.&text=%E2%80%9CSingle%2Dwalled%20carbon%20nanotubes%20within,hydrogen%20peroxide%2C%E2%80%9D%20said%20Roxbury."
+        },
+        {
+            "date": "Jan 21",
+            "name": "New self-assembly method creates bioelectronics out of microscopic structures",
+            "place": "The University of Chicago",
+            "description": "Researchers with the University of Chicago designed a “bottom-up” approach to create carbon-based bioelectronics that could be used in medical research or for devices such as tissue stimulators to treat Parkinson’s disease or cardiac problems.",
+            "link": "https://news.uchicago.edu/story/new-self-assembly-method-creates-bioelectronics-out-microscopic-structures#:~:text=UChicago%20researchers%20have%20developed%20a,creating%20a%20highly%20customizable%20product."
+        },
+        {
+            "date": "Jan 21",
+            "name": "Researchers develop new graphene nanochannel water filters",
+            "place": "Brown University",
+            "description": "Brown University researchers have shown that tiny channels between graphene sheets can be aligned in a way that makes them ideal for water filtration.",
+            "link": "https://www.brown.edu/news/2021-01-21/vagme#:~:text=Brown%20University%20researchers%20have%20shown,them%20ideal%20for%20water%20filtration."
+        },
+        {
+            "date": "Jan 20",
+            "name": "Lasers create miniature robots from bubbles (video)",
+            "place": "American Chemical Society",
+            "description": "Robots are widely used to build cars, paint airplanes and sew clothing in factories, but the assembly of microscopic components, such as those for biomedical applications, has not yet been automated. Lasers could be the solution. Now, researchers reporting in ACS Applied Materials & Interfaces have used lasers to create miniature robots from bubbles that lift, drop and manipulate small pieces into interconnected structures.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/presspacs/2021/acs-presspac-january-20-2021/lasers-create-miniature-robots-from-bubbles-video.html"
+        },
+        {
+            "date": "Jan 20",
+            "name": "Drug-delivery microcapsules tagged with zirconium-89 can be tracked by PET imaging",
+            "place": "University of Alabama at Birmingham",
+            "description": "University of Alabama at Birmingham polymer and radionuclide chemists report what they say ““may represent a major step forward in microcapsule drug delivery systems.” The UAB microcapsules—labeled with radioactive zirconium-89—are the first example of hollow polymer capsules capable of long-term, multi day positron emission tomography, or PET, imaging in vivo.",
+            "link": "https://www.uab.edu/news/research/item/11806-drug-delivery-microcapsules-tagged-with-zirconium-89-can-be-tracked-by-pet-imaging"
+        },
+        {
+            "date": "Jan 20",
+            "name": "An anode-free zinc battery that could someday store renewable energy",
+            "place": "American Chemical Society",
+            "description": "Renewable energy sources, such as wind and solar power, could help decrease the world's reliance on fossil fuels. But first, power companies need a safe, cost-effective way to store the energy for later use. Massive lithium-ion batteries can do the job, but they suffer from safety issues and limited lithium availability. Now, researchers have made a prototype of an anode-free, zinc-based battery that uses low-cost, naturally abundant materials.",
+            "link": "https://www.acs.org/content/acs/en/pressroom/newsreleases/2021/january/an-anode-free-zinc-battery-that-could-someday-store-renewable-energy.html"
+        },
+        {
+            "date": "Jan 19",
+            "name": "Ultrawide bandgap gives material high-power potential",
+            "place": "Cornell University",
+            "description": "A Cornell collaboration has found a way to grow a single crystalline layer of alpha-aluminum gallium oxide that has the widest energy bandgap to date – a discovery that clears the way for new semiconductors that will handle higher voltages, higher power densities and higher frequencies than previously seen.",
+            "link": "https://news.cornell.edu/stories/2021/01/ultrawide-bandgap-gives-material-high-power-potential"
+        },
+        {
+            "date": "Jan 19",
+            "name": "A little friction goes a long way toward stronger nanotube fibers",
+            "place": "American Chemical Society",
+            "description": "Carbon nanotube fibers are not nearly as strong as the nanotubes they contain, but Rice University researchers are working to close the gap. A computational model by materials theorist Boris Yakobson and his team at Rice’s Brown School of Engineering establishes a universal scaling relationship between nanotube length and friction between them in a bundle, parameters that can be used to fine-tune fiber properties for strength.",
+            "link": "https://news.rice.edu/2021/01/19/a-little-friction-goes-a-long-way-toward-stronger-nanotube-fibers/"
+        },
+        {
             "date": "Jan 14",
             "name": "New way to control electrical charge in 2D materials: Put a flake on it",
             "place": "Washington University in St. Louis",
@@ -440,6 +657,13 @@ const US_NEWS = {
             "place": "University of Pennsylvania",
             "description": "Researchers at Children’s Hospital of Philadelphia and the School of Engineering and Applied Science at the University of Pennsylvania have identified ionizable lipid nanoparticles that could be used to deliver mRNA as part of fetal therapy. The proof-of-concept study engineered and screened a number of lipid nanoparticle formulations for targeting mouse fetal organs and has laid the groundwork for testing potential therapies to treat genetic diseases before birth.",
             "link": "https://blog.seas.upenn.edu/penn-engineering-and-chop-researchers-identify-nanoparticles-that-could-be-used-in-therapeutic-mrna-delivery-before-birth/"
+        },
+        {
+            "date": "Jan 12",
+            "name": "‘Swiss Army knife’ catalyst can make natural gas burn cleaner",
+            "place": "University of Illinois Chicago",
+            "description": "Natural gas is the cleanest traditional fossil fuel source because it produces relatively low amounts of pollutants like carbon dioxide – a potent greenhouse gas and major contributor to climate change. But greenhouse gases and pollutants released by burning natural gas could be reduced even further with the help of advanced catalysts that help lower the temperature at which methane – the largest component of natural gas – is burned.",
+            "link": "https://mie.uic.edu/news-stories/swiss-army-knife-catalyst-can-make-natural-gas-burn-cleaner/"
         },
         {
             "date": "Jan 11",
@@ -499,6 +723,13 @@ const US_NEWS = {
         },
         {
             "date": "Jan 07",
+            "name": "New Strategies for Designing Efficient Electroluminescent Materials",
+            "place": "University of Pennsylvania",
+            "description": "A collaborative team of materials scientists and theoretical chemists provide hybrid perovskite nanoparticles that are high-efficiency light emitters by using a comprehensive defect-suppression strategy.",
+            "link": "https://penntoday.upenn.edu/news/new-strategies-designing-electroluminescent-materials"
+        },
+        {
+            "date": "Jan 07",
             "name": "Nanodroplets and Ultrasound ‘Drills’ Prove Effective at Tackling Tough Blood Clots",
             "place": "North Carolina State University",
             "description": "Engineering researchers have developed a new technique for eliminating particularly tough blood clots, using engineered nanodroplets and an ultrasound “drill” to break up the clots from the inside out. The technique has not yet gone through clinical testing. In vitro testing has shown promising results.",
@@ -538,6 +769,13 @@ const US_NEWS = {
             "place": "University of Wyoming",
             "description": "Using copper foil, glass containers and a conventional household microwave oven, University of Wyoming researchers have demonstrated that pulverized coal powder can be converted into higher-value nano-graphite. The discovery is another step forward in the effort to find alternative uses for Wyoming’s Powder River Basin coal, at a time when demand for coal to generate electricity is declining due to concerns about climate change.",
             "link": "http://www.uwyo.edu/uw/news/2021/01/uw-researchers-turn-coal-powder-into-graphite-in-microwave-oven.html"
+        },
+        {
+            "date": "Jan 04",
+            "name": "Researchers Measure, Model Desalination Membranes to Maximize Flow, Clean More Water",
+            "place": "University of Texas at Austin",
+            "description": "A desalination membrane acts as a filter for salty water: push the water through the membrane, get clean water suitable for agriculture, energy production and even drinking. The process seems simple enough, but it contains complex intricacies that have baffled scientists for decades — until now.",
+            "link": "https://research.utexas.edu/showcase/articles/view/researchers-measure-model-desalination-membranes-to-maximize-flow-clean-more-water"
         },
         {
             "date": "Jan 01",
@@ -3565,6 +3803,168 @@ const US_NEWS = {
 const GLOBAL_NEWS = {
     '2021': [
         {
+            "date": "Feb 01",
+            "name": "Batteries that Can be Assembled in Ambient Air",
+            "place": "Pohang University of Science & Technology ",
+            "description": "POSTECH-Ulsan College joint research team develops a multi-functional separator membrane that traps impurities in the air. It opens the possibility of a battery manufacturing environment that reduces processing costs without a dry room.",
+            "link": "http://www.postech.ac.kr/eng/batteries-that-can-be-assembled-in-ambient-air/#post-22121"
+        },
+        {
+            "date": "Feb 01",
+            "name": "The first steps toward a quantum brain",
+            "place": "Radboud University",
+            "description": "An intelligent material that learns by physically changing itself, similar to how the human brain works, could be the foundation of a completely new generation of computers. Radboud physicists working toward this so-called “quantum brain” have made an important step. They have demonstrated that they can pattern and interconnect a network of single atoms, and mimic the autonomous behaviour of neurons and synapses in a brain.",
+            "link": "https://www.ru.nl/english/news-agenda/news/vm/imm/2021/first-steps-toward-quantum-brain/"
+        },
+        {
+            "date": "Feb 01",
+            "name": "Salt battery design overcomes 'bump' in the road to help electric cars go the extra mile",
+            "place": "University of Nottingham",
+            "description": "Using salt as a key ingredient, Chinese and British researchers have designed a new type of rechargeable battery that could accelerate the shift to greener, electric transport on our roads.",
+            "link": "https://www.nottingham.ac.uk/news/salt-battery-that-helps-electric-cars-go-the-extra-mile"
+        },
+        {
+            "date": "Jan 29",
+            "name": "Scientists Observe Very Slow Hot Electron Cooling in Electron-doped Quantum Dots",
+            "place": "Chinese Academy of Sciences",
+            "description": "In conventional solar cells, the excessive energy of carriers above the band gap of a semiconductor is lost in the form of heat due to rapid cooling of hot carriers via emission of phonons. This is a major reason for Shockley-Queisser limit of solar cell efficiency.",
+            "link": "https://english.cas.cn/newsroom/research_news/chem/202101/t20210129_262356.shtml"
+        },
+        {
+            "date": "Jan 29",
+            "name": "Scientists capture the moments of nascent crystal formation and growth",
+            "place": "Institute for Basic Science",
+            "description": "Conversion of most materials into organized crystalline structure starts with the nucleation process. One everyday example that many people may be familiar with is the rapid crystallization of supercooled water after the nucleation of a seed crystal. This phenomenon has been perplexing both scientists and ordinary people alike.",
+            "link": "https://www.ibs.re.kr/cop/bbs/BBSMSTR_000000000738/selectBoardArticle.do?nttId=19599"
+        },
+        {
+            "date": "Jan 29",
+            "name": "Optimal information about the invisible",
+            "place": "Utrecht University",
+            "description": "How do you measure objects that you cannot see under normal circumstances? Researchers from Utrecht University and TU Wien (Vienna) open up new possibilities with special light waves.",
+            "link": "https://www.uu.nl/en/news/optimal-information-about-the-invisible"
+        },
+        {
+            "date": "Jan 28",
+            "name": "Physicists develop record-breaking source for single photons",
+            "place": "University of Basel",
+            "description": "Researchers at the University of Basel and Ruhr University Bochum have developed a source of single photons that can produce billions of these quantum particles per second. With its record-breaking efficiency, the photon source represents a new and powerful building-block for quantum technologies.",
+            "link": "https://www.unibas.ch/en/News-Events/News/Uni-Research/Physicists-develop-record-breaking-source-for-single-photons.html"
+        },
+        {
+            "date": "Jan 25",
+            "name": "New study predicts increased market penetration for graphene-based applications by 2025",
+            "place": "The Fraunhofer Institute for Systems and Innovation Research (ISI)",
+            "description": "Graphene Flagship experts from Fraunhofer ISI identify key opportunities in graphene commercialisation after a comprehensive three-year analysis of production methods and potential applications. The results are summarised in two new publications.",
+            "link": "https://www.isi.fraunhofer.de/en/presse/2021/presseinfo-01-Graphen-Roadmap-Briefs.html"
+        },
+        {
+            "date": "Jan 24",
+            "name": "Continuous monitoring of proteins a game-changer for patients with rapidly deteriorating conditions",
+            "place": "Monash University",
+            "description": "A world-first discovery by Australian researchers could become a game-changer for patients at risk of rapid health deterioration, such as heart complications, stroke, sepsis and cancer.\n" +
+                "Researchers developed an antibody as a biosensor, to continuously monitor rapid changes in the concentration of EGFR, a protein present on cancer cells and in body fluids.\n",
+            "link": "https://www.monash.edu/news/articles/continuous-monitoring-of-proteins-a-game-changer-for-patients-with-rapidly-deteriorating-conditions"
+        },
+        {
+            "date": "Jan 22",
+            "name": "Press Release: Crystal structures in super slow motion",
+            "place": "University of Göttingen",
+            "description": "Researchers at the University of Göttingen and the Max Planck Institute (MPI) for Biophysical Chemistry in Göttingen have now managed to film, for the first time, the laser transformation of a crystal structure with nanometre resolution and in slow motion in an electron microscope.",
+            "link": "https://www.uni-goettingen.de/en/3240.html?id=6144"
+        },
+        {
+            "date": "Jan 22",
+            "name": "Crystal close up: First-ever atomic resolution video of salt crystals forming in real time",
+            "place": "The University of Tokyo",
+            "description": "Two novel techniques, atomic-resolution real-time video and conical carbon nanotube confinement, allow researchers to view never-before-seen details about crystal formation.",
+            "link": "https://www.u-tokyo.ac.jp/focus/en/press/z0508_00161.html"
+        },
+        {
+            "date": "Jan 22",
+            "name": "Highly efficient grid-scale electricity storage at fifth of cost - researchers modify hybrid flow battery electrodes with nanomaterials",
+            "place": "University of Warwick",
+            "description": "Researchers in WMG at the University of Warwick, in collaboration with Imperial College London, have found a way to enhance hybrid flow batteries and their commercial use. The new approach can store electricity in these batteries for very long durations for about a fifth the price of current technologies, with minimal location restraints and zero emissions.",
+            "link": "https://www.sciencedaily.com/releases/2021/01/210122112306.htm"
+        },
+        {
+            "date": "Jan 21",
+            "name": "Pioneering new technique could revolutionise super-resolution imaging systems",
+            "place": "University of Exeter",
+            "description": "Scientists have developed a pioneering new technique that could revolutionise the accuracy, precision and clarity of super-resolution imaging systems.",
+            "link": "https://www.exeter.ac.uk/news/research/title_834924_en.html"
+        },
+        {
+            "date": "Jan 21",
+            "name": "Producing green hydrogen through the exposure of nanomaterials to sunlight",
+            "place": "Institut national de la recherche scientifique (INRS)",
+            "description": "Sunlight and nanostructured electrodes are the two ingredients used by INRS Professor My Ali El Khakani and a team from ICPEES in France to produce green hydrogen.",
+            "link": "https://inrs.ca/en/news/producing-green-hydrogen-through-the-exposure-of-nanomaterials-to-sunlight/"
+        },
+        {
+            "date": "Jan 21",
+            "name": "Highly functional membrane developed for producing freshwater from seawater",
+            "place": "Kobe University’s Research Center for Membrane and Film Technology",
+            "description": "A desalination membrane laminated with nanosheets featuring 2D nanochannels.",
+            "link": "https://www.kobe-u.ac.jp/research_at_kobe_en/NEWS/news/2021_01_21_02.html"
+        },
+        {
+            "date": "Jan 21",
+            "name": "Gold nanoparticles more stable by putting rings on them",
+            "place": "Hokkaido University",
+            "description": "Hokkaido University scientists have found a way to prevent gold nanoparticles from clumping, which could help towards their use as an anti-cancer therapy.",
+            "link": "https://www.global.hokudai.ac.jp/blog/gold-nanoparticles-more-stable-by-putting-rings-on-them/#:~:text=Hokkaido%20University%20scientists%20have%20found,as%20an%20anti%2Dcancer%20therapy.&text=For%20example%2C%20if%20delivered%20to,light%20to%20kill%20cancerous%20tissue."
+        },
+        {
+            "date": "Jan 21",
+            "name": "A Display that Completely Blocks Off Counterfeits",
+            "place": "Pohang University of Science & Technology",
+            "description": "Despite the anticounterfeiting devices attached to luxury handbags, marketable securities, and identification cards, counterfeit goods are on the rise. There is a demand for the next-generation anticounterfeiting technology – that surpasses the traditional ones – that are not easily forgeable and can hold various data.",
+            "link": "http://www.postech.ac.kr/eng/a-display-that-completely-blocks-off-counterfeits/#post-22085"
+        },
+        {
+            "date": "Jan 20",
+            "name": "Nano-thin piezoelectrics advance self-powered electronics",
+            "place": "RMIT University",
+            "description": "A new type of ultra-efficient, nano-thin material could advance self-powered electronics, wearable technologies and even deliver pacemakers powered by heart beats. The flexible and printable piezoelectric material, which can convert mechanical pressure into electrical energy, has been developed by an Australian research team led by RMIT University.",
+            "link": "https://www.rmit.edu.au/news/all-news/2021/jan/nano-thin-piezoelectrics"
+        },
+        {
+            "date": "Jan 20",
+            "name": "Wanted: Problem Solvers for the Next Generation of Microtechnologies",
+            "place": "Chemnitz University of Technology",
+            "description": "Researchers from Chemnitz and Dresden give an overview of challenging ways to produce tiny batteries for microelectronics. Interdisciplinary courses of study and cooperation are gaining in importance.",
+            "link": "https://mipt.ru/english/news/experimental_evidence_of_an_intermediate_state_of_matter_between_a_crystal_and_a_liquid"
+        },
+        {
+            "date": "Jan 20",
+            "name": "Experimental evidence of intermediate state of matter between crystal and liquid",
+            "place": "Moscow Institute of Physics and Technology (MIPT)",
+            "description": "Scientists from the Joint Institute for High Temperatures Russian Academy of Sciences (JIHT RAS) and Moscow Institute of Physics and Technology (MIPT) have experimentally confirmed the presence of an intermediate phase between the crystalline and liquid states in a monolayer dusty plasma system.",
+            "link": "https://mipt.ru/english/news/experimental_evidence_of_an_intermediate_state_of_matter_between_a_crystal_and_a_liquid"
+        },
+        {
+            "date": "Jan 20",
+            "name": "Taking sieving lessons from nature",
+            "place": "King Abdullah University of Science and Technology",
+            "description": "Nanostructure-templated electrochemical polymerization enhances speed and selectivity in organic membrane-based processes. Generating membranes using electrochemical polymerization, or electropolymerization, could provide a simple and cost-effective route to help various industries meet increasingly strict environmental regulations and reduce energy consumption.",
+            "link": "https://discovery.kaust.edu.sa/en/article/1082/taking-sieving-lessons-from-nature"
+        },
+        {
+            "date": "Jan 19",
+            "name": "2D perovskites: promising materials for harnessing solar energy",
+            "place": "Autonomous University of Madrid",
+            "description": "A team of physicists from the Autonomous University of Madrid has described in the journal Materials Horizons some of the characteristics that would help convert two-dimensional perovskites - a new semiconductor material - into the silicon of the future.",
+            "link": "http://www.uam.es/ss/Satellite?c=UAM_NotCientific_FA&cid=1446812810846&language=es&pagename=UniversidadAutonomaMadrid%2FUAM_NotCientific_FA%2FUAM_notCientific&pid=1242652870949&title=Perovskitas+2D%3A++materiales+prometedores+para+el+aprovechamiento+de+la+energ%3Fa+solar"
+        },
+        {
+            "date": "Jan 19",
+            "name": "Nanodiamonds feel the heat",
+            "place": "Osaka University",
+            "description": "An international team of researchers led by Osaka University, The University of Queensland and the National University of Singapore created nanodiamond sensors that can act as both heat sources and thermometers, and is using them to measure the thermal conductivity inside living cells, which may lead to new diagnostics tools and therapies for cancer.",
+            "link": "http://www.protein.osaka-u.ac.jp/en/achievements/press_release20210112/"
+        },
+        {
             "date": "Jan 18",
             "name": "One-dimensional quantum nanowires fertile ground for Majorana zero modes",
             "place": "University of New South Wales Sydney Place",
@@ -3581,10 +3981,31 @@ const GLOBAL_NEWS = {
         },
         {
             "date": "Jan 14",
+            "name": "The New Gold Standard: Anti-cancer Drug Discovery Made Easier with Gold Nanostructures",
+            "place": "Chung Ang University",
+            "description": "Scientists design a novel 3D cell culture-based electrical platform for high-throughput anti-cancer drug testing using a new type of gold nanostructure.",
+            "link": "https://neweng.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=920&CONTENTS_NO=&SITE_NO=3&BOARD_SEQ=14&BOARD_CATEGORY_NO=&P_TAB_NO=&TAB_NO=&BBS_SEQ=83"
+        },
+        {
+            "date": "Jan 14",
+            "name": "From Heat to Spin to Electricity: Understanding Spin Transport in Thermoelectric Devices",
+            "place": "Chung Ang University",
+            "description": "Scientists shed light on how the magnetic properties of 2D interlayers can enhance spin accumulation effects in thermoelectric heterostructures.",
+            "link": "https://neweng.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=920&CONTENTS_NO=&SITE_NO=3&BOARD_SEQ=14&BOARD_CATEGORY_NO=&P_TAB_NO=&TAB_NO=&BBS_SEQ=84"
+        },
+        {
+            "date": "Jan 14",
             "name": "Fluorescence microscopy at highest spatial and temporal resolution",
             "place": "Ludwig Maximilian University of Munich",
             "description": "LMU researchers simplify the MINFLUX microscope and have succeeded in differentiating molecules that are extremely close together and tracking their dynamics. Only a few years ago, an ostensibly fundamental resolution limit in optical microscopy was superseded - a breakthrough which in 2014 led to the Nobel Prize in Chemistry for super-resolution microscopy. Since then, there has been another quantum leap in this area, which has further reduced the resolution limit to the molecular level (1 nm).",
             "link": "https://www.en.uni-muenchen.de/news/newsarchiv/2020/tinnefeld_minflux.html"
+        },
+        {
+            "date": "Jan 12",
+            "name": "Electrons Caught in the Act",
+            "place": "University of Tsukuba",
+            "description": "Scientists at the University of Tsukuba combine scanning tunneling microscopy with ultrafast spectroscopy to image the motion of electrons with unprecedented resolution, which may lead to advances in semiconductors and optoelectronics.",
+            "link": "https://www.tsukuba.ac.jp/en/research-news/20210112140000.html"
         },
         {
             "date": "Jan 12",
@@ -3627,6 +4048,13 @@ const GLOBAL_NEWS = {
             "place": "Nara Institute of Science and Technology",
             "description": "Scientists from the Nara Institute of Science and Technology (NAIST) have etched silicon to take the shape of atomically smooth pyramids. When these silicon pyramids were coated with a thin iron layer, magnetic properties that were only theoretical so far were achieved.",
             "link": "http://www.naist.jp/en/research_achievements/2021/01/007565.html"
+        },
+        {
+            "date": "Jan 06",
+            "name": "Fighting Respiratory Virus Outbreaks through “Nano-Popcorn” Sensor-based Rapid Detection",
+            "place": "Chung-Ang university",
+            "description": "Respiratory diseases like influenza can spread rapidly and escalate to global health crises. Thus, to control them, simple yet sensitive detection techniques are needed. To overcome this, researchers in Korea have now developed a novel SERS-based sensor that can effectively detect influenza. Through this improved method of detection, preventing future outbreaks of respiratory diseases can become easier.",
+            "link": "https://neweng.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=920&CONTENTS_NO=&SITE_NO=3&BOARD_SEQ=14&BOARD_CATEGORY_NO=&P_TAB_NO=&TAB_NO=&BBS_SEQ=78"
         },
         {
             "date": "Jan 06",
@@ -3685,6 +4113,13 @@ const GLOBAL_NEWS = {
             "place": "Singapore-MIT Alliance for Research and Technology",
             "description": "SMART researchers use Raman spectroscopy for early detection of SAS, which can help farmers better monitor plant health and improve crop yields.",
             "link": "https://news.mit.edu/2020/smart-discovery-allows-early-detection-shade-avoidance-syndrome-1218"
+        },
+        {
+            "date": "Dec 14",
+            "name": "How does your computer smell?",
+            "place": "University of Tokyo",
+            "description": "Researchers create a highly sensitive biohybrid olfactory sensor.",
+            "link": "https://www.u-tokyo.ac.jp/focus/en/press/z0508_00159.html"
         },
         {
             "date": "Dec 14",
@@ -6846,9 +7281,10 @@ class News extends Component {
                 break;
         }
         // Initialize the expand-data
+        // expanded[2021] = false, 2021 cal news doesn't need "show all" option
         Object.keys(data).forEach(element => {
             expanded[element] = data[element].length > EXPAND_SCALER;
-            renderData[element] = data[element].slice(0, 1 * EXPAND_SCALER);
+            renderData[element] = data[element].slice(0, EXPAND_SCALER);
         });
         
         this.setState({
@@ -6950,8 +7386,8 @@ class News extends Component {
                     </div>
                     {
                         Object.keys(renderData).sort().reverse().map((year, i) => {
-                            const currentYear = renderData[year];
-                            let showAll = expanded[year] == 1;                          
+                            const currentYear = renderData[year];   // top ~7 news of the year
+                            let showAll = expanded[year] == 1;
                             return (
                                 <div key={i}>
                                     <div className="mt-5 mb-5 row">
@@ -7027,7 +7463,7 @@ class News extends Component {
                     }
                 
                     <a onClick={() => {this.scrollToTop()}} href="" className="text-center"><p><span className="news-back-to-top">Back to Top</span><br/><br/><br/></p></a>
-                </div> 
+                </div> 5
                 <Footer/>
             </div>
         );
