@@ -60,6 +60,12 @@ class About extends Component {
                                             <b>Director, Education Programs and Outreach</b>
                                             <br />
                                             <b>San Diego NanoTechnology Infrastructure</b>
+                                            <br />
+                                            <b>Program Manager, Education and Outreach Programs</b>
+                                            <br />
+                                            <b>The Qualcomm Institute</b>
+                                            <br />
+                                            <b>UC San Diego</b>
 
                                         </p>
                                         <h6 className="subtitle"><br /><br /><br />JOIN US</h6>
@@ -116,7 +122,7 @@ class About extends Component {
                                             <br /><br />
                                             In 2009, Yves founded the California Institute for Performance Management (CALIPM), a non-for-profit educational organization, providing continued education in the fields of Leadership, Drug Development, Biotechnology, Nanotechnology, Systems Engineering, Project, Program, and Portfolio Management. He also created a tutoring component within CALIPM, The California Institute for Academic Excellence, and helped several students to obtain and maintain A grades and be admitted to the colleges of their choice. In the process, he learned about the California K-12 education system.
                                             <br /><br />
-                                            He currently is Director of Education Program and Outreach at the San Diego Nanotechnology Infrastructure (SDNI), located at UC San Diego. Yves brings to SDNI his knowledge of the California Education system and his extensive professional and academic background and knowledge of Science & Technology, Leadership, and Organizational Performance. SDNI is actively involved in bringing nanotechnology contents that can be integrated to current California high school and community college STEM curricula.
+                                            Yves is Program Manager for Education and Outreach Programs at the UC San Diego-based Qualcomm Institute (QI). At QI, he develops and implements educational programs focused on convergence education, highly integrated multidisciplinary science and engineering program and project management, leadership in the science and technology environments, and nanotechnology convergence and its multiple distributive applications. He also currently serves as Director of Education Program and Outreach at the San Diego Nanotechnology Infrastructure (SDNI), located at UC San Diego. Yves brings to SDNI his knowledge of the California Education system and his extensive professional and academic background and knowledge of Science & Technology, Leadership, and Organizational Performance. SDNI is actively involved in bringing nanotechnology contents that can be integrated to current California high school and community college STEM curricula.
                                             <br /><br />
                                             Yves is a certified Project Management Professional and an Active member of the International Council On System Engineering (INCOSE). He also has been Instructor at UCSD Extension since 2008 where he developed and taught courses in the fields of Leadership in the scientific/research environment, Drug Development, Medicinal Chemistry, and Biotech/Pharma Projec Management.
                                             <br /><br />
