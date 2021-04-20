@@ -264,39 +264,10 @@ const NT2025 = (
 
 const DT2 = (
     <div>
-        <p className="title"><b>SDNI 2-Day Free Training Opportunities for College Students</b></p>
-        <h5><br /><br /><b>SDNI 2-DAY FREE TRAINING OPPORTUNITIES FOR COLLEGE STUDENTS</b></h5>
-        <p>
-            <br />
-            Notice: Classes are limited to 15 students and enrollment is on a first arrive first serve basis. In order to qualify for a free training, you <b>must be enrolled in a STEM program in a California Community College or 4-year University</b>. Proof of enrollment will be needed prior to start of class.
-                                <br /><br />
-            If you are interested in any of the trainings, please email Yves Theriault, PhD, PMP at <b>ytheriault@ucsd.edu</b> and provide the following information: <b>Name, College attended, Major/Program, proof of enrollment, expected date of graduation</b>.
-                                <br /><br /><br />
-            <span className="programs-span"><b>1. Systems Engineering Fundamentals</b></span>
-            <br /><br />
-            Attendees are introduced to the fundamental principles of systems engineering and learn how to start from customer’s requirements elicitation to gradually define solution-unbiased systems requirements which ultimately lead to the definition of the system architecture and design with optimized engineering requirements. Students practice the drawing of context diagrams and the building functional lists and functional block diagrams of real-life man-made systems and establish appropriate system specifications and associated requirement traceability matrix. The training also covers the integration of specialty engineering disciplines and the basics of test and evaluation, quality assurance and control, as well as total life cycle management.
-                                <br /><br />
-            <b>Date:</b> TBD<br />
-            <b>Location:</b> Online Class<br />
-            <b>Instructor:</b> Yves Theriault, PhD, PMP
-                                <br /><br />
-            <span className="programs-span"><b>2. Leadership 101 and the Learning Organization Model</b></span>
-            <br /><br />
-            Students are introduced to the model of the Learning Organization and its importance in fostering leadership which is the most important quality for anyone desirous of motivating, managing, leading teams in any organization, especially research and innovation-driven institutions. The training covers important related topics such as emotional intelligence, personality types, organizational culture and shared vision. Several examples of exemplary leadership are provided along with survey data that reports how people value true leaders and the characteristics and qualities that they seek from those leaders. Whether you are looking to perform in an academic or industrial setup, leadership skills are MUST HAVE if you are interested in leading people to achieve a shared vision. Finally, student s learn that leadership is not a born-child gift, but a set of skills that can be learned through practice, dedication, and hard work.
-                                <br /><br />
-            <b>Date:</b> TBD<br />
-            <b>Location:</b> Online Class<br />
-            <b>Instructor:</b> Yves Theriault, PhD, PMP
-                                <br /><br />
-            <span className="programs-span"><b>3. Project Management Boot Camp</b></span>
-            <br /><br />
-            Organizational performance is driven by a careful investment of organizational resources to a well-managed project portfolio which depends on program and project performance. In today’s competitive environment, project management best practice is essential to a sustained market leadership. This training introduce attendees to the project management body of knowledge to include its 10 knowledge areas, to include integration, scope, schedule, cost, quality, resource, communication, risk, procurement and stakeholder management and 5 process groups to include initiating, planning, executing, monitoring and controlling, and closing. Reiterating the importance of leadership and communication skills for the project manager, the training also provide real-life examples of situations in which a project manager must make important decisions, and the umbrella of tools that he/she can use to drive project performance.
-                                <br /><br />
-            <b>Date:</b> TBD<br />
-            <b>Location:</b> Online Class<br />
-            <b>Instructor:</b> Yves Theriault, PhD, PMP
-                                <br /><br /><br /><br /><br />
-        </p>
+        <p className="title"><b>Summer Institutes</b></p>
+        <div style={{ height: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <img className='img-fluid' src={Construction} alt=""/>
+        </div>
     </div>
 )
 
@@ -438,7 +409,7 @@ class Programs extends Component {
                             <button onClick={() => this.handleChangeTab('ret-a')} className={this.state.title == 'ret-a' ? "button1" : "button"}><span>RET Alumni</span></button>
                             <button onClick={() => this.handleChangeTab('reu-a')} className={this.state.title == 'reu-a' ? "button1" : "button"}><span>REU Alumni</span></button>
                             <button onClick={() => this.handleChangeTab('nt2025')} className={this.state.title == 'nt2025' ? "button1" : "button"}><span>NanoTech 2025 Project</span></button>
-                            <button onClick={() => this.handleChangeTab('2dt')} className={this.state.title == '2dt' ? "button1" : "button"}><span>2-Day Training</span></button>
+                            <button onClick={() => this.handleChangeTab('2dt')} className={this.state.title == '2dt' ? "button1" : "button"}><span>Free Half-Day Workshops</span></button>
                             <button onClick={() => this.handleChangeTab('r-sem')} className={this.state.title == 'r-sem' ? "button1" : "button"}><span>Remote SEM</span></button>
                             <button onClick={() => this.handleChangeTab('sg')} className={this.state.title == 'sg' ? "button1" : "button"}><span>Seed Grants</span></button>
                         </div>

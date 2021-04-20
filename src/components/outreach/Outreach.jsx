@@ -671,7 +671,7 @@ class Outreach extends Component {
                 <div className="container1">
                     <div className="row">
                         <div className="col-sm-3 sidebar">
-                            <button onClick={() => this.handleChangeTab('otr-2019')} className={title == 'otr-2019' ? "button1" : "button"}><span>Outreach 2019 - 2020</span></button>
+                            <button onClick={() => this.handleChangeTab('otr-2019')} className={title == 'otr-2019' ? "button1" : "button"}><span>Outreach 2019 - 2021</span></button>
                             {
                                 title == 'otr-2019' ?
                                 (<div style={{ marginLeft: 20, marginTop: 20 }}>
