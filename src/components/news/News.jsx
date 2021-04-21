@@ -8,11 +8,32 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2021': [
         {
+            "date": "Apr 08",
+            "name": "The Spintronics Technology Revolution Could Be Just a Hopfion Away",
+            "place": "DOE/Lawrence Berkeley National Laboratory",
+            "description": "Pioneering study co-led by Berkeley Lab has significance for next-gen information technologies.",
+            "link": "https://newscenter.lbl.gov/2021/04/08/spintronics-tech-a-hopfion-away/"
+        },
+        {
+            "date": "Apr 05",
+            "name": "Glass nanopore pulls DNA like spaghetti through a needle",
+            "place": "University of California - Riverside",
+            "description": "Research led by UC Riverside is making it easier to detect and capture DNA from fluid samples such as blood using a tiny glass tube and electric current. The technique, described in the journal, Nanoscale, can also improve cancer diagnosis in the future.",
+            "link": "https://news.ucr.edu/articles/2021/04/05/glass-nanopore-pulls-dna-spaghetti-through-needle"
+        },
+        {
             "date": "Apr 05",
             "name": "This Hydrogen Fuel Machine Could Be the Ultimate Guide to Self-Improvement",
             "place": "DOE/Lawrence Berkeley National Laboratory",
             "description": "Study co-led by Berkeley Lab uncovers secret behind humble material’s surprise performance as an artificial photosynthesis device",
             "link": "https://newscenter.lbl.gov/2021/04/05/hydrogen-fuel-self-improvement/"
+        },
+        {
+            "date": "Mar 29",
+            "name": "This Ultrathin Sensor Could Save Your Lungs – and the Climate",
+            "place": "University of California - Berkeley",
+            "description": "Atomically thin device developed by scientists at Berkeley Lab and UC Berkeley could turn your smartphone into a supersmart gas sensor",
+            "link": "https://newscenter.lbl.gov/2021/03/29/detector-could-save-lungs-climate/#:~:text=Atomically%20thin%20device%20developed%20by,into%20a%20supersmart%20gas%20sensor&text=Nitrogen%20dioxide%2C%20an%20air%20pollutant,it's%20bad%20for%20our%20health."
         },
         {
             "date": "Mar 18",
@@ -540,6 +561,20 @@ const CAL_NEWS = {
 const US_NEWS = {
     '2021': [
         {
+            "date": "Apr 08",
+            "name": "Unlocking richer intracellular recordings",
+            "place": "Carnegie Mellon University",
+            "description": "A forward-thinking group of researchers from Carnegie Mellon University and Istituto Italiano di Tecnologia has identified a flexible, low-cost, and biocompatible platform for enabling richer intracellular recordings.",
+            "link": "https://engineering.cmu.edu/news-events/news/2021/04/07-intracellular-recordings.html"
+        },
+        {
+            "date": "Apr 06",
+            "name": "Concept of Nanoconfinement Improves Sensitivity and Safety of a Life-saving Diagnostic Contrast Agent",
+            "place": "Yale University",
+            "description": "The Yale-led research team found that when packaged in a nanoparticle, CT contrast agents, such as iodine, increased the absorption of X-rays by nearly an order of magnitude, thus improving sensitivity for imaging and disease characterization and potentially reducing toxicity compared with conventional contrast agents.",
+            "link": "https://medicine.yale.edu/news-article/31503/"
+        },
+        {
             "date": "Apr 05",
             "name": "Less than a nanometer thick, stronger and more versatile than steel",
             "place": "DOE/Argonne National Laboratory",
@@ -562,10 +597,52 @@ const US_NEWS = {
         },
         {
             "date": "Mar 26",
+            "name": "Cooling homes without warming the planet",
+            "place": "Massachusetts Institute of Technology",
+            "description": "The startup Transaera is using a class of materials, advanced by MIT Professor Mircea Dinca for over a decade, to create a more energy-efficient air conditioner.",
+            "link": "https://news.mit.edu/2021/transaera-air-conditioner-0326"
+        },
+        {
+            "date": "Mar 26",
+            "name": "Controlling bubble formation on electrodes",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Study finds the wettability of porous electrode surfaces is key to making efficient water-splitting or carbon-capturing systems.",
+            "link": "https://news.mit.edu/2021/controlling-bubble-electrodes-0326"
+        },
+        {
+            "date": "Mar 26",
             "name": "Trapped Configurations of Plasmon-Coupled Gold Nanoparticles Useful for Thermal History Sensing",
             "place": "North Carolina State University",
             "description": "Researchers have demonstrated that stretching shape-memory polymers embedded with clusters of gold nanoparticles alters their plasmon-coupling, giving rise to desirable optical properties.",
             "link": "https://news.ncsu.edu/2021/03/plasmon-coupled-nanospheres/"
+        },
+        {
+            "date": "Mar 25",
+            "name": "MIT engineers make filters from tree branches to purify drinking water",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Prototypes tested in India show promise as a low-cost, natural filtration option.",
+            "link": "https://news.mit.edu/2021/filters-sapwood-purify-water-0325"
+        },
+        {
+            "date": "Mar 25",
+            "name": "Design could enable longer lasting, more powerful lithium batteries",
+            "place": "Massachusetts Institute of Technology",
+            "description": "Use of a novel electrolyte could allow advanced metal electrodes and higher voltages, boosting capacity and cycle life.",
+            "link": "https://news.mit.edu/2021/lithium-metal-batteries-nickel-oxide-0325"
+        },
+        {
+            "date": "Mar 25",
+            "name": "New UCF Nanotech Gives Boost to Detection of Cancer and Disease",
+            "place": "University of Central Florida",
+            "description": "The technique uses nickel-platinum nanoparticles to increase the sensitivity of an enzyme-linked immunosorbent assay, or ELISA, that is used to test for the presence of cancers, HIV and more.",
+            "link": "https://www.ucf.edu/news/new-ucf-nanotech-gives-boost-to-detection-of-cancer-and-disease/#:~:text=Science%20%26%20Technology-,New%20UCF%20Nanotech%20Gives%20Boost%20to%20Detection%20of%20Cancer%20and,of%20cancers%2C%20HIV%20and%20more."
+        },
+        {
+            "date": "Mar 24",
+            "name": "Recharge your batteries",
+            "place": "University of Utah",
+            "description": "Scientists have long thought the laws of physics limited how fast you could safely recharge a battery, but new research by University of Utah chemical engineering assistant professor Tao Gao has opened the door to creating a battery that can be recharged in just a fraction of the time.",
+            "link": "https://www.coe.utah.edu/2021/03/24/recharge-your-batteries/"
         },
         {
             "date": "Mar 24",
@@ -776,6 +853,13 @@ const US_NEWS = {
             "place": "Rice University",
             "description": "A new theory by Rice University scientists could boost the growing field of spintronics, devices that depend on the state of an electron as much as the brute electrical force required to push it.",
             "link": "https://news.rice.edu/2021/02/25/theory-could-accelerate-push-for-spintronic-devices/"
+        },
+        {
+            "date": "Feb 24",
+            "name": "MIT.nano director: “the future will be measured in nanometers”",
+            "place": "Massachusetts Institute of Technology",
+            "description": "“The future will be measured in nanometers. In fact, the industries of tomorrow will be thinking in nanokilometers. Being able to control these elements will dramatically change the wellbeing of this planet.” This is what Dr. Vladimir Bulović, director and founder of MIT.nano, said in his presentation at Tec de Monterrey’s 51st Research and Development Conference about the importance of nanoscience to the future of humanity.",
+            "link": "https://tec.mx/en/news/national/research/mitnano-director-future-will-be-measured-nanometers"
         },
         {
             "date": "Feb 24",
@@ -4454,11 +4538,116 @@ const US_NEWS = {
 const GLOBAL_NEWS = {
     '2021': [
         {
+            "date": "Apr 12",
+            "name": "Centrifugal multispun nanofibers put a new spin on COVID-19 masks",
+            "place": "The Korea Advanced Institute of Science and Technology (KAIST)",
+            "description": "KAIST researchers have developed a novel nanofiber production technique called ‘centrifugal multispinning’ that will open the door for the safe and cost-effective mass production of high-performance polymer nanofibers. This new technique, which has shown up to a 300 times higher nanofiber production rate per hour than that of the conventional electrospinning method, has many potential applications including the development of face mask filters for coronavirus protection.",
+            "link": "https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=13291"
+        },
+        {
+            "date": "Apr 09",
+            "name": "Pillar of support: Breakthrough discovery could speed up bone implant recovery",
+            "place": "Monash University",
+            "description": "A Monash University-led international research team has uncovered a new technique that can speed up recovery from bone replacements.",
+            "link": "https://www.monash.edu/news/articles/pillar-of-support-breakthrough-discovery-could-speed-up-bone-implant-recovery"
+        },
+        {
+            "date": "Apr 09",
+            "name": "Optically active defects improve carbon nanotubes",
+            "place": "University of Heidelberg",
+            "description": "The properties of carbon-based nanomaterials can be altered and engineered through the deliberate introduction of certain structural “imperfections” or defects. The challenge, however, is to control the number and type of these defects. In the case of carbon nanotubes – microscopically small tubular compounds that emit light in the near-infrared – chemists and materials scientists at Heidelberg University led by Prof. Dr Jana Zaumseil have now demonstrated a new reaction pathway to enable such defect control.",
+            "link": "https://www.uni-heidelberg.de/en/newsroom/optically-active-defects-improve-carbon-nanotubes"
+        },
+        {
+            "date": "Apr 08",
+            "name": "Discovery could lengthen lifespan of electronic devices",
+            "place": "University of Sydney",
+            "description": "University of Sydney researchers have made a significant discovery in the field of materials science, for the first time providing a full picture of how fatigue in ferroelectric materials occurs.",
+            "link": "https://www.sydney.edu.au/news-opinion/news/2021/04/08/discovery-could-help-lengthen-lifespan-of-electronic-devices.html"
+        },
+        {
+            "date": "Apr 08",
+            "name": "Research team demonstrates control mechanism for quantum material",
+            "place": "Bielefeld University",
+            "description": "Scientists create stable nanosheets containing boron and hydrogen atoms with potential applications in nanoelectronics and quantum information technology.",
+            "link": "https://ekvv.uni-bielefeld.de/blog/uninews/entry/graphene_everything_under_control"
+        },
+        {
+            "date": "Apr 08",
+            "name": "Discovery could help lengthen lifespan of electronic devices",
+            "place": "University of Sydney",
+            "description": "University of Sydney researchers have made a significant discovery in the field of materials science, for the first time providing a full picture of how fatigue in ferroelectric materials occurs.",
+            "link": "https://www.sydney.edu.au/news-opinion/news/2021/04/08/discovery-could-help-lengthen-lifespan-of-electronic-devices.html"
+        },
+        {
+            "date": "Apr 08",
+            "name": "Carbon dots from human hair boost solar cells",
+            "place": "Queensland University of Technology",
+            "description": "QUT researchers have used carbon dots, created from human hair waste sourced from a Brisbane barbershop, to create a kind of “armour” to improve the performance of cutting-edge solar technology.",
+            "link": "https://www.qut.edu.au/news?id=175051"
+        },
+        {
+            "date": "Apr 07",
+            "name": "Artificial intelligence to explore the biomolecular world",
+            "place": "Swiss Federal Institute of Technology Lausanne",
+            "description": "EPFL scientists have developed AI-powered nanosensors that let researchers track various kinds of biological molecules without disturbing them. ",
+            "link": "https://actu.epfl.ch/news/artificial-intelligence-to-explore-the-biomolecula/#:~:text=EPFL%20scientists%20have%20developed%20AI,biological%20molecules%20without%20disturbing%20them.&text=Their%20innovative%20technique%20uses%20nanotechnology,infrared%20light%20and%20artificial%20intelligence."
+        },
+        {
+            "date": "Apr 07",
+            "name": "Cancer drugs could be delivered in molecular cages unlocked by light",
+            "place": "Imperial College London",
+            "description": "Researchers from the Department of Chemistry at Imperial College London have created a novel type of ‘cage’ for a molecule with anticancer properties. The release of the molecule from the cage can be then controlled by external stimuli, such as light.",
+            "link": "https://www.imperial.ac.uk/news/218893/cancer-drugs-could-delivered-molecular-cages/"
+        },
+        {
+            "date": "Apr 07",
+            "name": "Researchers Develop Materials For Oral Delivery of Insulin Medication Which Could Potentially Replace Injections",
+            "place": "New York University Abu Dhabi",
+            "description": "A revolutionary technology developed within the Trabolsi Research Group at NYU Abu Dhabi (NYUAD) could dramatically improve the well-being of diabetic patients through a simple and straightforward way: an insulin oral delivery system that could replace traditional subcutaneous injections without the side effects caused by frequent injection. ",
+            "link": "https://nyuad.nyu.edu/en/news/latest-news/science-and-technology/2021/april/new-insulin-medication.html"
+        },
+        {
+            "date": "Apr 07",
+            "name": "Energy transmission by gold nanoparticles coupled to DNA structures",
+            "place": "Ludwig Maximilian University of Munich",
+            "description": "Using DNA structures as scaffolds, Tim Liedl has shown that precisely positioned gold nanoparticles can serve as efficient energy transmitters.",
+            "link": "https://www.lmu.de/en/newsroom/news-and-events/news/energy-transmission-by-gold-nanoparticles-coupled-to-dna-structures.html"
+        },
+        {
+            "date": "Apr 07",
+            "name": "Nanoparticles reveal their location via mirror SELFI",
+            "place": "University of Technology Sydney",
+            "description": "Can a mirror turn an orange into a doughnut? The answer is definitely no in the real (macro) world. But at the nanoscale, a mirror can turn an “orange” shaped pattern into a “doughnut” shaped pattern by overlapping the “orange” with its reflected mirror image, research shows.",
+            "link": "https://www.uts.edu.au/news/tech-design/nanoparticles-reveal-their-location-mirror-selfi"
+        },
+        {
+            "date": "Apr 06",
+            "name": "A new, positive approach could be the key to next-generation, transparent electronics",
+            "place": "FLEET (Future Low- Energy Electronics Technologies)",
+            "description": "A new study, out this week, could pave the way to revolutionary, transparent electronics. Such see-through devices could potentially be integrated in glass, in flexible displays and in smart contact lenses, bringing to life futuristic devices that seem like the product of science fiction.",
+            "link": "https://www.fleet.org.au/blog/a-new-positive-approach-could-be-the-key-to-next-generation-transparent-electronics/"
+        },
+        {
+            "date": "Apr 06",
+            "name": "Tattoo made of gold nanoparticles revolutionizes medical diagnostics",
+            "place": "Johannes Gutenberg Universitaet Mainz",
+            "description": "Color changes of gold nanoparticles under the skin reveal concentration changes of substances in the body.",
+            "link": "https://www.uni-mainz.de/presse/aktuell/13376_ENG_HTML.php"
+        },
+        {
             "date": "Apr 01",
             "name": "Study shows promise of quantum computing using factory-made silicon chips",
             "place": "University College London",
             "description": "A single qubit on a standard silicon transistor chip has been successfully demonstrated as “quantum capable” in a new study by the UCL spinout Quantum Motion, led by researchers at UCL and Oxford University.",
             "link": "https://www.ucl.ac.uk/news/2021/apr/study-shows-promise-quantum-computing-using-factory-made-silicon-chips#:~:text=Study%20shows%20promise%20of%20quantum%20computing%20using%20factory%2Dmade%20silicon%20chips,-1%20April%202021&text=A%20single%20qubit%20on%20a,at%20UCL%20and%20Oxford%20University."
+        },
+        {
+            "date": "Mar 31",
+            "name": "Cohesive circuit protection for wearable electronics",
+            "place": "Osaka University",
+            "description": "Researchers from Osaka University developed a cellulose nanofiber coating that counters bending damage, retains electrode function underwater, and thus offers unparalleled water resistance for flexible electronic devices.",
+            "link": "https://resou.osaka-u.ac.jp/en/research/20210401_1"
         },
         {
             "date": "Mar 31",
@@ -4483,6 +4672,13 @@ const GLOBAL_NEWS = {
         },
         {
             "date": "Mar 29",
+            "name": "Contact lenses may one day treat diseases, detect cancer",
+            "place": "Centre for Ocular Research & Education (CORE)",
+            "description": "Researchers are designing lenses that can monitor blood sugar levels for people with diabetes — and that's just one of many potential developments.",
+            "link": "https://www.phillyvoice.com/technology-contact-lenses-disease-detection-diabetes-cancer-/"
+        },
+        {
+            "date": "Mar 29",
             "name": "Scientists use nanotechnology to detect bone-healing stem cells",
             "place": "University of Southampton",
             "description": "Researchers at the University of Southampton have developed a new way of using nanomaterials to identify and enrich skeletal stem cells – a discovery which could eventually lead to new treatments for major bone fractures and the repair of lost or damaged bone.",
@@ -4490,10 +4686,24 @@ const GLOBAL_NEWS = {
         },
         {
             "date": "Mar 26",
+            "name": "Exploring the nanoworld in 3D",
+            "place": "University of Paris-Saclay",
+            "description": "Imagine a cube on which light is projected by a flashlight. The cube reflects the light in a particular way, so simply spinning the cube or moving the flashlight makes it possible to examine each aspect and deduce information regarding its structure. Now, imagine that this cube is just a few atoms high, that the light is detectable only in infrared, and that the flashlight is a beam from a microscope. How to go about examining each of the cube’s sides?",
+            "link": "https://www.lps.u-psud.fr/spip.php?article3557&lang=en"
+        },
+        {
+            "date": "Mar 26",
             "name": "Sorting out nanodiamonds with fluorescent centers",
             "place": "Hokkaido University",
             "description": "Scientists have developed a method to use lasers to control the movement of  nanodiamonds with fluorescent centers.",
             "link": "https://www.global.hokudai.ac.jp/blog/sorting-out-nanodiamonds-with-fluorescent-centers/"
+        },
+        {
+            "date": "Mar 25",
+            "name": "Researchers discover new organic conductor",
+            "place": "Institute for Molecular Science of the National Institutes of Natural Sciences",
+            "description": "Researchers have discovered a one-dimensional charge transfer salt with an infinite anion chain. This one-dimensional substance exhibits unique physical phenomena and functionality.",
+            "link": "https://www.ims.ac.jp/en/news/2021/03/19_4921.html"
         },
         {
             "date": "Mar 25",

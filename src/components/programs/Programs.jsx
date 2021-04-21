@@ -136,41 +136,29 @@ const CC = (
 
 const RET = (
     <div>
-        <p className="title"><b>2021 - SDNI Summer Nano-SUIT Program for Community College Teachers</b></p>
+        {/*<p className="title"><b>2021 - SDNI Summer Nano-SUIT Program for Community College Teachers</b></p>*/}
         <p>
             <br /><br />
-            <b>2021 – SDNI Nano Summer Institute for Teachers (Nano-SUIT) & Research Education for Teachers (RET)</b>
+            <b>The 2021 Program is postponed until summer 2022</b>
+            {/*<b>2021 – SDNI Nano Summer Institute for Teachers (Nano-SUIT) & Research Education for Teachers (RET)</b>*/}
             <br /><br />
-            The Nano-SUIT program combines the classic RET hands-on research experience for teachers with a comprehensive series of seminars in the broad field of nanotechnology. At the end of the program, participants produce a lesson plan, based on their research experience or another nanotechnology topic of their chsgce, that they must bring back to their respective schools/colleges for implementation in their class as well as sharing with their peers. This program hence acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current school and college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 6 weeks of the program, and the seminars will be provided by Dr. Yves Theriault, SDNI Director of Education Programs and Outreach as well as Dr. Ryan Nicholl, Microfabrication Engineer and SEM manager.
-					<br /><br /><br />
+            <b>2022 - SDNI Summer Nano-SUIT Program for Community College Teachers</b>
+            <br /><br />
+            <b>About the program:</b>
+            <br />
+            <b>SDNI Nano Summer Institute for Teachers (Nano-SUIT) & Research Education for Teachers (RET)</b>
+            <br /><br />
+            The Nano-SUIT program combines the classic RET hands-on research experience for teachers with a comprehensive series of seminars in the broad field of nanotechnology. At the end of the program, participants produce a lesson plan, based on their research experience or another nanotechnology topic of their choice, that they must bring back to their respective schools/colleges for implementation in their class as well as sharing with their peers. This program hence acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 6 weeks of the program, and the seminars will be provided by Dr. Yves Theriault, SDNI Director of Education Programs and Outreach.
+					<br /><br />
             <b>Dates:</b> TBD
 					<br /><br />
-            <b>Notice:</b> Exact date may change without prior notice. Please do not make travel arrangements around the above start and end dates as SDNI will not reimburse for fees related to flight date changes.
-					<br /><br />
-            <b>Eligibility:</b> Must be an active California K-12 or Community College Teacher, recommended by 2 recommenders, and must be able to commit to the entire 6 weeks program. In addition, applicants must be United States citizens or U.S. permanent residents.
+            <b>Eligibility:</b> Must be an active Community College Teacher, recommended by 2 recommenders, and must be able to commit to the entire 6 weeks program. In addition, applicants must be United States citizens or U.S. permanent residents.
 					<br /><br />
             <b>Housing:</b> Not provided for Nano-SUIT participants
 					<br /><br />
             <b>Travel Expenses:</b> Not provided for Nano-SUIT participants
 					<br /><br />
             <b>Stipends:</b> Participants will receive a $4,500 stipend in addition to a $1,000 materials budget.
-					<br /><br />
-            Applicants will be notified via email of their application status <b>no later than {"<TBD>"} </b>.
-					<br /><br /><br />
-        </p>
-        <h3><b>HOW TO APPLY</b></h3>
-        <p>
-            <br /><br />
-            The deadline for application is <b>TBD</b>. No application will be accepted after this date.
-					<br /><br />
-            Applicants are required to submit the following for full consideration:<br />
-            1.	A completed online <a href="https://docs.google.com/forms/d/e/1FAIpQLScr6-AH2QYMC8YhkpIvcIGaaTGIwIMo-UqDbyIt7eDupJfMHg/viewform?usp=sf_link"><span className="nano-gov">Application Form</span></a><br />
-            2.	A copy of the applicant degree and/or teaching credential<br />
-            3. 	Two letters of recommendation form professors in the applicant’s field of study Recommendations are processed via the application portal.
-					<br /><br />
-            When you create an online application to the SDNI RET program, you will be required to enter recommenders’ information. Reminders are not sent to recommenders on our behalf. Therefore, please submit your application with enough time remaining for you to follow up with your recommenders and have your letters submitted on time. Should they have any questions, they can contact <b>ytheriault@ucsd.edu</b>.
-					<br /><br />
-            Submit inquiries and any supporting documents to: <b>ytheriault@ucsd.edu</b>
             <br /><br /><br /><br /><br />
         </p>
     </div>
@@ -183,70 +171,13 @@ const REU = (
             <br /><br />
             <b>2021 – SDNI Research Education for Undergrads (REU)</b>
             <br /><br />
+            <b>Applications are closed</b>
+            <br /><br />
             This program acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current school and college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 10 weeks of the program. All professor-mentor will be faculty involved in nanotechnology research. Specific nanotechnology research areas will depend on faculty’s availability. Participation in the weekly seminars and social activities is mandatory for successful completion of the program.
 					<br /><br /><br />
-            <b>Dates:</b>TBD<br />
-            REU Participants are expected to arrive the day before program begins to move-in
-					<br /><br />
-            <b>Notice:</b> Exact date may change without prior notice. Please do not make travel arrangements around the above start and end dates as SDNI will not reimburse for fees related to flight date changes.
-					<br /><br />
-            <b>Eligibility:</b> All applicants must be United States citizens or U.S. permanent residents enrolled in an undergraduate institution for the duration of the program. In addition, all applicants must commit to the entire 10-week program. Students who arrive late or leave early will not be accepted. There are no vacations during the 10-week program. Participation in the weekly seminars and social activities is mandatory for successful completion of the program.
-					<br /><br />
-            <b>Housing:</b> <br />
-            - UC San Diego on-campus housing will be provided<br />
-            - Student housing is arranged and paid for by SDNI REU program<br />
-            - Move-in day is the Sunday prior to the start of the program<br />
-            - Move-out day is the Saturday following the last day of the program<br />
-            - Students will be charged for any move-out cleaning fees (if needed)
-
-					<br /><br />
-            <b>Travel Expenses:</b> Up to $500 in travel expenses will be reimbursed to each student. Receipts must be provided.
-					<br /><br />
-            <b>Stipends:</b> Each student will receive a $4,500 stipend for the program.
-					<br /><br />
-            Applicants will be notified via email of their application status <b>no later than {"<TBD>"}</b>.
-					<br /><br /><br />
-        </p>
-        <h3><b>Research Areas</b></h3><br />
-        <p>
-            <a href="http://xugroup.eng.ucsd.edu"><span className="nano-gov"><b>Professor Sheng Xu</b></span></a><br />
-            Hybridized wearable electronic devices for health monitoring applications<br /><br />
-            <a href="http://nanomaterials.ucsd.edu/"><span className="nano-gov"><b>Professor Prabhakar Bandaru</b></span></a><br />
-            Nanostructured carbon foams and porous media for high efficiency desalination<br />
-            Evaluation of graphene based devices and platforms for novel electronics <br />
-            Harness of thermal energy through nanoscale metamaterials<br /><br />
-            <a href="http://flexible-electronics.ucsd.edu/"><span className="nano-gov"><b>Professor Tina Ng</b></span></a><br />
-            Recording Repetitive Behaviors and Physiological Stress<br /><br />
-            <a href="http://circuit.ucsd.edu/~zhaowei/"><span className="nano-gov"><b>Professor Zhaowei Liu</b></span></a><br />
-            Hyperspectral imaging at mid-IR range<br /><br />
-            <a href="http://schen.ucsd.edu/lab/"><span className="nano-gov"><b>Professor Shaochen Chen</b></span></a><br />
-            3D Bioprinting of Biomaterials for Regenerative Medicine<br /><br />
-            <a href="http://liugroup.ucsd.edu/"><span className="nano-gov"><b>Professor Ping Liu</b></span></a><br />
-            Self forming, self-repairing batteries<br />
-            Batteries as solid state actuators<br /><br />
-            <a href="http://fenningresearchgroup.com/"><span className="nano-gov"><b>Professor David P. Fenning</b></span></a><br />
-            New approaches to nanostructuring next-generation solar cell materials<br /><br />
-            <a href="http://chen.ucsd.edu/"><span className="nano-gov"><b>Professor Renkun Chen</b></span></a><br />
-            Nanostructured Thermoelectric Devices for Personalized Air Conditioning<br /><br />
-            <a href="http://jjokerst.eng.ucsd.edu/"><span className="nano-gov"><b>Professor Jesse Jokerst</b></span></a><br />
-            Synthesis and Characterization of Nanoparticle Contrast Agents for Molecular Imaging<br /><br />
-            <a href="http://emerald.ucsd.edu/index.html"><span className="nano-gov"><b>Professor Shaya Fainman</b></span></a><br />
-            Si-Photonics, Nanolasers and biosensing<br /><br />
-            <a href="https://sites.google.com/a/logroup.ucsd.edu/web/home"><span className="nano-gov"><b>Professor Yu-Hwa Lo</b></span></a><br />
-            Design microfluidic and electronic devices to study protein-ligand, protein-aptamer, and protein-nucleic acid interactions for drug discovery<br /><br />
-        </p>
-        <h3><b>How To Apply</b></h3>
-        <p>
-            <br />
-            APPLICATION PERIOD: TBD
-					<br /><br />
-            The SDNI REU Summer Program application deadline is January 31st of the program year. We will continue to accept applications after that date until the positions are filled. Students applying to the program are asked to submit the following:<br /><br />
-            1.	A completed online <a href="https://reumanager.com/sdni"><span className="nano-gov">Application Form</span></a><br /><br />
-            2.	Transcripts. Unofficial transcripts of all previous college work or university work, including work in progress. Transcripts should be sent via email to <b>betovasquez@eng.ucsd.edu</b>. You MUST include your first name, middle initial, last name, and current institution in the email so your transcript can be matched with your application.<br /><br />
-            3. 	Two (2) letters of recommendation are required from professors in your area of study. Recommendations are processed via the application portal. <br /><br />
-            When you create an online application to the SDNI REU program, you will be required to enter recommenders information. Reminders are not sent to recommenders on our behalf. Therefore, please submit your application with enough time remaining for you to follow up with your recommenders and have your letters submitted on time. Should they have any questions, they can contact <b>betovasquez@eng.ucsd.edu</b>.
-					<br /><br />
-            Submit inquiries and any supporting documents to: <b>betovasquez@ucsd.edu</b>
+					<b>2022 – SDNI Research Education for Undergrads (REU)</b>
+            <br /><br />
+            <b>Applications will reopen in October 2021 – Please visit us later</b>
             <br /><br /><br /><br /><br />
         </p>
     </div>
