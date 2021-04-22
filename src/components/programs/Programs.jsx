@@ -185,7 +185,7 @@ const REU = (
 
 const SI = (
     <div>
-        <p className="title"><b>Summer Institutes</b></p>
+        <p className="title"><b>Summer Institute</b></p>
         <div style={{ height: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <img className='img-fluid' src={Construction} alt=""/>
         </div>
@@ -264,11 +264,12 @@ const NT2025 = (
 
 const DT2 = (
     <div>
-        <p className="title"><b>Summer Institutes</b></p>
+        <p className="title"><b>Free Half-Day Workshops</b></p>
         <div style={{ height: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <img className='img-fluid' src={Construction} alt=""/>
         </div>
     </div>
+
 )
 
 const R_SEM = (

@@ -106,7 +106,7 @@ class NavBar extends Component {
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'ret-a')} href="">RET Alumni</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'reu-a')} href="">REU Alumni</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'nt2025')} href="">NanoTech 2025 Project</a></li>
-                                    <li><a onClick={(e) => this.handleRedirect(e, '/programs', '2dt')} href="">2-Day Training</a></li>
+                                    <li><a onClick={(e) => this.handleRedirect(e, '/programs', '2dt')} href="">Free Half-Day Workshops</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'r-sem')} href="">Remote SEM</a></li>
                                     <li><a onClick={(e) => this.handleRedirect(e, '/programs', 'sg')} href="">Seed Grants</a></li>
                                 </ul>
@@ -140,7 +140,7 @@ class NavBar extends Component {
                             </a>
                                 <input type="checkbox" id="sm1" />
                                 <ul className="sub-menu">
-                                    <li><a onClick={(e) => this.handleRedirect(e, '/outreach', 'otr-2019')} href="">Outreach 2019 - 2020</a></li>
+                                    <li><a onClick={(e) => this.handleRedirect(e, '/outreach', 'otr-2019')} href="">Outreach 2019 - 2021</a></li>
                                     {/* <li><a onClick={(e) => this.handleRedirect(e, '/outreach', 'otr-2020')} href="">Outreach 2020</a></li> */}
                                     <li><a onClick={(e) => this.handleRedirect(e, '/outreach', 'sem')} href="">SEM Image Gallery</a></li>
                                 </ul>

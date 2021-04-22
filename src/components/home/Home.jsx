@@ -71,22 +71,25 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <div className="banner-item">
-                                <img src={banner} className="d-block w-100" alt=""/>
-                                {/* <div className="banner2-img-inner-container">
-                                    <button onClick={(e) => this.handleRedirect(e, '/news', 'ca')} className="banner2-btn btn btn-sm btn-primary"><span className="banner-btn-text">See "News" Section</span></button>
-                                </div> */}
-                            </div>
+
+                            {/*sponser banner*/}
+                            {/*<div className="banner-item">*/}
+                            {/*    <img src={banner} className="d-block w-100" alt=""/>*/}
+                            {/*    /!* <div className="banner2-img-inner-container">*/}
+                            {/*        <button onClick={(e) => this.handleRedirect(e, '/news', 'ca')} className="banner2-btn btn btn-sm btn-primary"><span className="banner-btn-text">See "News" Section</span></button>*/}
+                            {/*    </div> *!/*/}
+                            {/*</div>*/}
+
                         </div>
                     </div>
-                    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Previous</span>
-                    </a>
-                    <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Next</span>
-                    </a>
+                    {/*<a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">*/}
+                    {/*    <span className="carousel-control-prev-icon" aria-hidden="true"></span>*/}
+                    {/*    <span className="sr-only">Previous</span>*/}
+                    {/*</a>*/}
+                    {/*<a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">*/}
+                    {/*    <span className="carousel-control-next-icon" aria-hidden="true"></span>*/}
+                    {/*    <span className="sr-only">Next</span>*/}
+                    {/*</a>*/}
                 </div>
                 <div className="bg">
                     <div className="container bg-content">
