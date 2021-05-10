@@ -497,7 +497,7 @@ class Outreach extends Component {
                 case 'reach-out':
                     renderHtml = (
                         <div>
-                            <p className="title"><b>Reaching Out To Schools, Teachers, and Students</b></p>
+                            <p className="title"><b>Reaching Out to Schools, Teachers, and Students</b></p>
                             <p>
                                 We would like to thank our teacher partners and their respective schools as well as district administrators 
                                 and the San Diego county office of education for meeting with us and participating in our outreach program during the year 2019. 
