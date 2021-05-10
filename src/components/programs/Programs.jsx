@@ -138,27 +138,26 @@ const RET = (
     <div>
         {/*<p className="title"><b>2021 - SDNI Summer Nano-SUIT Program for Community College Teachers</b></p>*/}
         <p>
-            <br /><br />
-            <b>The 2021 Program is postponed until summer 2022</b>
-            {/*<b>2021 – SDNI Nano Summer Institute for Teachers (Nano-SUIT) & Research Education for Teachers (RET)</b>*/}
-            <br /><br />
-            <b>2022 - SDNI Summer Nano-SUIT Program for Community College Teachers</b>
-            <br /><br />
-            <b>About the program:</b>
+            <p className="title"><b>Research Education for Teachers (RET)</b></p>
+            <span className="programs-span"><b>The 2021 Program is postponed until summer 2022</b></span><br />
             <br />
-            <b>SDNI Nano Summer Institute for Teachers (Nano-SUIT) & Research Education for Teachers (RET)</b>
+            <b className="programs-span">2022 - SDNI Summer Nano-SUIT Program for Community College Teachers</b>
+            <br /><br /><br />
+            <b className="programs-span">About the program:</b>
+            <br /><br />
+            <b className="programs-span">SDNI Nano Summer Institute for Teachers (Nano-SUIT) & Research Education for Teachers (RET)</b>
             <br /><br />
             The Nano-SUIT program combines the classic RET hands-on research experience for teachers with a comprehensive series of seminars in the broad field of nanotechnology. At the end of the program, participants produce a lesson plan, based on their research experience or another nanotechnology topic of their choice, that they must bring back to their respective schools/colleges for implementation in their class as well as sharing with their peers. This program hence acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 6 weeks of the program, and the seminars will be provided by Dr. Yves Theriault, SDNI Director of Education Programs and Outreach.
 					<br /><br />
-            <b>Dates:</b> TBD
+            <b className="programs-span">Dates:</b> TBD
 					<br /><br />
-            <b>Eligibility:</b> Must be an active Community College Teacher, recommended by 2 recommenders, and must be able to commit to the entire 6 weeks program. In addition, applicants must be United States citizens or U.S. permanent residents.
+            <b className="programs-span">Eligibility:</b> Must be an active Community College Teacher, recommended by 2 recommenders, and must be able to commit to the entire 6 weeks program. In addition, applicants must be United States citizens or U.S. permanent residents.
 					<br /><br />
-            <b>Housing:</b> Not provided for Nano-SUIT participants
+            <b className="programs-span">Housing:</b> Not provided for Nano-SUIT participants
 					<br /><br />
-            <b>Travel Expenses:</b> Not provided for Nano-SUIT participants
+            <b className="programs-span">Travel Expenses:</b> Not provided for Nano-SUIT participants
 					<br /><br />
-            <b>Stipends:</b> Participants will receive a $4,500 stipend in addition to a $1,000 materials budget.
+            <b className="programs-span">Stipends:</b> Participants will receive a $4,500 stipend in addition to a $1,000 materials budget.
             <br /><br /><br /><br /><br />
         </p>
     </div>
@@ -166,18 +165,17 @@ const RET = (
 
 const REU = (
     <div>
-        <p className="title"><b>Research Education for Undergrads (REU)</b></p>
+        <span><p className="title"><b>Research Education for Undergrads (REU)</b></p></span>
         <p>
+            <b className="programs-span">2021 – SDNI Research Education for Undergrads (REU)</b>
             <br /><br />
-            <b>2021 – SDNI Research Education for Undergrads (REU)</b>
-            <br /><br />
-            <b>Applications are closed</b>
+            <b className="programs-span">Applications are closed</b>
             <br /><br />
             This program acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current school and college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 10 weeks of the program. All professor-mentor will be faculty involved in nanotechnology research. Specific nanotechnology research areas will depend on faculty’s availability. Participation in the weekly seminars and social activities is mandatory for successful completion of the program.
 					<br /><br /><br />
-					<b>2022 – SDNI Research Education for Undergrads (REU)</b>
+					<b className="programs-span">2022 – SDNI Research Education for Undergrads (REU)</b>
             <br /><br />
-            <b>Applications will reopen in October 2021 – Please visit us later</b>
+            <b className="programs-span">Applications will reopen in October 2021 – Please visit us later</b>
             <br /><br /><br /><br /><br />
         </p>
     </div>
@@ -186,8 +184,34 @@ const REU = (
 const SI = (
     <div>
         <p className="title"><b>Summer Institute</b></p>
-        <div style={{ height: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <img className='img-fluid' src={Construction} alt=""/>
+        <div>
+            <p>
+                <b className="programs-span">2021 SDNI Nanotechnology Summer Institute for Middle and High School Teachers</b>
+                <br/><br/>
+                The SDNI Nanotechnology Summer Institute for Middle and High School Teachers is designed to
+                provide teachers with knowledge and understanding of nanoscience and nanotechnology. In
+                addition, teachers have the opportunity to explore how nanotechnology content can be
+                integrated to the current California K-12 NGSS science curricula. During the program, teachers
+                prepare a lesson plan that they can bring to their classes and consequently provide awareness
+                and knowledge about nanotechnology and its several applications to thousands of students.
+                This program intends to be a catalyst for the SDNI Nanotech 2025 project.
+                <br/><br/>
+                In order to qualify, applicants must be ready to attend the 5-day program every day of the
+                program. They also must be scheduled to teach math or science at a California middle or high
+                school for the school year 2021-2022.
+                <br/><br/>
+                No travel or lodging expenses are covered for this program.
+                <br/><br/>
+                <b className="programs-span">Provided Stipend/Materials: </b>
+                <li>$500 at completion of the 5-day program</li>
+                <li>$300 after in-class implementation of the lesson plan</li>
+                <li>Materials for hands-on activities (up to $200 value)</li>
+                <br/><br/>
+                <li className="text-danger"><b>Due to an early high demand, enrollment is closed for this year.</b></li>
+                <li className="programs-span"><b>Announcement for the 2022 Summer Institute will start in February 2022.</b></li>
+                <br/><br/>
+            </p>
+
         </div>
     </div>
 )
