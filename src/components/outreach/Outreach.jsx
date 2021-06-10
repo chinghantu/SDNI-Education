@@ -619,7 +619,7 @@ class Outreach extends Component {
                                 </Row>
                             </Container>
                             <p style={{ color: "#48457a", marginTop: 50 }}><b>Videos</b></p>
-                            <Button variant="link" style={{ display: "block", paddingLeft: 0 }} onClick={() => (window.location = "https://drive.google.com/file/d/1Cxa34vbkpxTYpM8j7VpZDORLQ2iJ16JV/view")}>SDNI-NNCI Educational Symposium 2020</Button>
+                            <Button variant="link" style={{ display: "block", paddingLeft: 0 }} onClick={() => (window.location = "https://drive.google.com/file/d/1Cxa34vbkpxTYpM8j7VpZDORLQ2iJ16JV/view")}>SDNI-NNCI Educational Symposium 2020 - SATURDAY Session</Button>
                             <Button variant="link" style={{ display: "block", paddingLeft: 0 }} onClick={() => (window.location = "https://drive.google.com/file/d/1NA6WRLX9Mj_FqzgnbAOsR2P4ALbygp5L/view")}>SDNI-NNCI Educational Symposium 2020 - SUNDAY Session</Button>
                         </div>
                     )
