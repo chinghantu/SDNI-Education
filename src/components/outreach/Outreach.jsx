@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 import NavBar from "../navbar/NavBar"
 import Footer from "../footer/Footer"
@@ -28,7 +28,7 @@ import Lisa from '../../assets/files/Lisa Friedersdorf presentation.pdf'
 
 import ReactPlayer from 'react-player'
 
-import { Alert, Modal, Button, Image, Row, Col, Container } from 'react-bootstrap'
+import {Alert, Modal, Button, Image, Row, Col, Container} from 'react-bootstrap'
 
 function importAll(r) {
     return r.keys().map(r);
@@ -261,7 +261,7 @@ class Outreach extends Component {
     constructor(props) {
         super(props)
         this.path = '/outreach'
-        let { state } = this.props.location
+        let {state} = this.props.location
         let title = null
         if (state) {
             title = state.title
@@ -314,17 +314,23 @@ class Outreach extends Component {
     handleCollapseOtrList = () => {
         this.setState({
             expandIndex: 1,
-            renderOtrList: OTRLIST.slice(0,EXPAND_SCALER),
+            renderOtrList: OTRLIST.slice(0, EXPAND_SCALER),
             reachedEnd: false
         })
     }
 
 
-    handleShowModal = () => { this.setState({ showModal: true }) }
+    handleShowModal = () => {
+        this.setState({showModal: true})
+    }
 
-    handleHideModal = () => { this.setState({ showModal: false }) }
+    handleHideModal = () => {
+        this.setState({showModal: false})
+    }
 
-    handleDenyPolicies = () => { this.setState({ showModal: false, accessDenied: true }) }
+    handleDenyPolicies = () => {
+        this.setState({showModal: false, accessDenied: true})
+    }
 
     handleAllowPolicies = () => {
         this.setState({
@@ -335,7 +341,7 @@ class Outreach extends Component {
 
     handleChangeImageTab = (param) => {
         let gallery, diverseTabs;
-        switch(param) {
+        switch (param) {
             case 'arachnids':
                 gallery = ARACHNIDS
                 break
@@ -364,7 +370,7 @@ class Outreach extends Component {
             case 'phytoplankton':
                 gallery = PHYTOPLANKTON
                 diverseTabs = ['Coccolith', 'Diatoms', 'Foraminifera Coccoliths', 'Hidden Coccoliths']
-                break  
+                break
             case 'pollen':
                 gallery = POLLEN
                 break
@@ -385,45 +391,51 @@ class Outreach extends Component {
     }
 
     render() {
-        let { title, renderHtml, showImageGallery, imageTitle, subTitle, 
-            imageGallery, currIndex, diverseTabs, renderOtrList, reachedEnd } = this.state
+        let {
+            title, renderHtml, showImageGallery, imageTitle, subTitle,
+            imageGallery, currIndex, diverseTabs, renderOtrList, reachedEnd
+        } = this.state
         if (title == 'sem') {
             let diverseGallery = Array.isArray(imageGallery[0])
             renderHtml = !showImageGallery ? (
-                <div style={{ height: '50%', display: 'grid', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{height: '50%', display: 'grid', alignItems: 'center', justifyContent: 'center'}}>
                     {
                         !this.state.accessDenied ? (
-                            <Button style={{ paddingLeft: 15, paddingRight: 15 }} variant="primary" onClick={this.handleShowModal}>
-                                <span style={{ fontSize: 20 }}>Enter SEM Image Gallery</span>
+                            <Button style={{paddingLeft: 15, paddingRight: 15}} variant="primary"
+                                    onClick={this.handleShowModal}>
+                                <span style={{fontSize: 20}}>Enter SEM Image Gallery</span>
                             </Button>
                         ) : null
                     }
 
                     <Modal show={this.state.showModal} onHide={this.handleHideModal}>
                         <Modal.Header closeButton>
-                        <Modal.Title>SEM Image Gallery Terms and Conditions</Modal.Title>
+                            <Modal.Title>SEM Image Gallery Terms and Conditions</Modal.Title>
                         </Modal.Header>
-                        <Modal.Body>All images herein are the property of the Regents of UC San Diego. 
-                            Permission to copy and use for non-commercial purpose without modification is granted to local 
-                            schools and non-for-profit educational organizations. When using any of the images contained herein,
-                            you agree to give credit as follows: <i>"Courtesy of UC San Diego Nano3 Facility"</i>. 
-                            In order to acknowledge your understanding and agreement of the foregoing, 
+                        <Modal.Body>All images herein are the property of the Regents of UC San Diego.
+                            Permission to copy and use for non-commercial purpose without modification is granted to
+                            local
+                            schools and non-for-profit educational organizations. When using any of the images contained
+                            herein,
+                            you agree to give credit as follows: <i>"Courtesy of UC San Diego Nano3 Facility"</i>.
+                            In order to acknowledge your understanding and agreement of the foregoing,
                             please click on the "I Agree" button below.</Modal.Body>
                         <Modal.Footer>
-                        <Button variant="secondary" onClick={this.handleDenyPolicies}>
-                            I Do Not Agree
-                        </Button>
-                        <Button variant="primary" onClick={this.handleAllowPolicies}>
-                            I Agree
-                        </Button>
+                            <Button variant="secondary" onClick={this.handleDenyPolicies}>
+                                I Do Not Agree
+                            </Button>
+                            <Button variant="primary" onClick={this.handleAllowPolicies}>
+                                I Agree
+                            </Button>
                         </Modal.Footer>
                     </Modal>
                     {
                         this.state.accessDenied ? (
-                            <Alert variant="danger" >
+                            <Alert variant="danger">
                                 <Alert.Heading>Your access to the SEM Image Gallery is denied</Alert.Heading>
                                 <p>
-                                    You did not agree to the "SEM Image Gallery Terms and Conditions". To get access to the SEM Image Gallery, you have to agree the policies described in the popup window.
+                                    You did not agree to the "SEM Image Gallery Terms and Conditions". To get access to
+                                    the SEM Image Gallery, you have to agree the policies described in the popup window.
                                 </p>
                             </Alert>
                         ) : null
@@ -432,14 +444,16 @@ class Outreach extends Component {
             ) : (
                 <div>
                     <p className="title"><b>SEM Image Gallery</b></p>
-                    <div className="row" style={{ justifyContent: 'center', alignItems: 'center' }}>
-                        <button className={imageTitle == 'arachnids' ? "sem-img-btn-active" : "sem-img-btn"} 
+                    <div className="row" style={{justifyContent: 'center', alignItems: 'center'}}>
+                        <button className={imageTitle == 'arachnids' ? "sem-img-btn-active" : "sem-img-btn"}
                                 onClick={() => this.handleChangeImageTab('arachnids')}><span>Arachnids</span></button>
                         <button className={imageTitle == 'nanoparticles' ? "sem-img-btn-active" : "sem-img-btn"}
-                                onClick={() => this.handleChangeImageTab('nanoparticles')}><span>Nanoparticles</span></button>
+                                onClick={() => this.handleChangeImageTab('nanoparticles')}><span>Nanoparticles</span>
+                        </button>
                         <button className={imageTitle == 'zooplankton' ? "sem-img-btn-active" : "sem-img-btn"}
-                                onClick={() => this.handleChangeImageTab('zooplankton')}><span>Zooplankton</span></button>
-                        <button className={imageTitle == 'pollen' ? "sem-img-btn-active" : "sem-img-btn"} 
+                                onClick={() => this.handleChangeImageTab('zooplankton')}><span>Zooplankton</span>
+                        </button>
+                        <button className={imageTitle == 'pollen' ? "sem-img-btn-active" : "sem-img-btn"}
                                 onClick={() => this.handleChangeImageTab('pollen')}><span>Pollen</span></button>
                         <button className={imageTitle == 'fungi' ? "sem-img-btn-active" : "sem-img-btn"}
                                 onClick={() => this.handleChangeImageTab('fungi')}><span>Fungi</span></button>
@@ -448,22 +462,28 @@ class Outreach extends Component {
                         <button className={imageTitle == 'birds' ? "sem-img-btn-active" : "sem-img-btn"}
                                 onClick={() => this.handleChangeImageTab('birds')}><span>Birds</span></button>
                         <button className={imageTitle == 'phytoplankton' ? "sem-img-btn-active" : "sem-img-btn"}
-                                onClick={() => this.handleChangeImageTab('phytoplankton')}><span>Phytoplankton</span></button>
+                                onClick={() => this.handleChangeImageTab('phytoplankton')}><span>Phytoplankton</span>
+                        </button>
                         <button className={imageTitle == 'otolith' ? "sem-img-btn-active" : "sem-img-btn"}
                                 onClick={() => this.handleChangeImageTab('otolith')}><span>Otolith</span></button>
                         <button className={imageTitle == 'osamples' ? "sem-img-btn-active" : "sem-img-btn"}
                                 onClick={() => this.handleChangeImageTab('osamples')}><span>Potpourri</span></button>
                         <button className={imageTitle == 'ocean' ? "sem-img-btn-active" : "sem-img-btn"}
-                                onClick={() => this.handleChangeImageTab('ocean')}><span>Ocean mix</span></button>                 
+                                onClick={() => this.handleChangeImageTab('ocean')}><span>Ocean mix</span></button>
                     </div>
                     <hr/>
                     <div className='row'>
                         {
                             diverseGallery ? (
-                                <div style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <div style={{
+                                    width: '100%',
+                                    display: 'flex',
+                                    justifyContent: 'center',
+                                    alignItems: 'center'
+                                }}>
                                     {
                                         diverseTabs.map((tab, index) => (
-                                            <button 
+                                            <button
                                                 key={index}
                                                 className={currIndex == this.state.diverseTabs.indexOf(tab) ? "mb-5 mt-5 sem-img-btn-active" : "mb-5 mt-5 sem-img-btn"}
                                                 onClick={() => {
@@ -476,7 +496,7 @@ class Outreach extends Component {
                                 </div>
                             ) : null
                         }
-                        
+
                         {
                             diverseGallery ? imageGallery[currIndex].map((imgSrc, index) => (
                                 <div className='col-4 mt-3 mb-3'>
@@ -491,56 +511,66 @@ class Outreach extends Component {
                     </div>
                 </div>
             )
-        }
-        else if (title == 'otr-2019') {
+        } else if (title == 'otr-2019') {
             switch (subTitle) {
                 case 'reach-out':
                     renderHtml = (
                         <div>
                             <p className="title"><b>Reaching Out to Schools, Teachers, and Students</b></p>
                             <p>
-                                We would like to thank our teacher partners and their respective schools as well as district administrators 
-                                and the San Diego county office of education for meeting with us and participating in our outreach program during the year 2019. 
+                                We would like to thank our teacher partners and their respective schools as well as
+                                district administrators
+                                and the San Diego county office of education for meeting with us and participating in
+                                our outreach program during the year 2019.
                                 The map below depicts our coverage throughout San Diego county.
                             </p>
-                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <img className="img-fluid" style={{ marginTop: 30, marginBottom: 30 }} src={OutreachMap} alt=""/>
+                            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                                <img className="img-fluid" style={{marginTop: 30, marginBottom: 30}} src={OutreachMap}
+                                     alt=""/>
                             </div>
                             <p>
-                                Teacher partners conducted interactive remote Scanning Electron Microscopy (SEM) sessions 
-                                during which their students could control our high-end Zeiss 500 SEM from their own classrooms. 
-                                Looking at nature and man-made structures under the SEM is a great way to introduce students to the micro and nano world. 
-                                Please have a look at our image collections by clicking on the following link: SDNI-NANO3 SEM Image Gallery.
+                                Teacher partners conducted interactive remote Scanning Electron Microscopy (SEM)
+                                sessions
+                                during which their students could control our high-end Zeiss 500 SEM from their own
+                                classrooms.
+                                Looking at nature and man-made structures under the SEM is a great way to introduce
+                                students to the micro and nano world.
+                                Please have a look at our image collections by clicking on the following link:
+                                SDNI-NANO3 SEM Image Gallery.
                             </p>
-                            <table style={{ margin: 'auto', width: '100%' }}>
+                            <table style={{margin: 'auto', width: '100%'}}>
                                 <thead>
-                                    <tr><td>Name</td><td>Institution</td></tr>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Institution</td>
+                                </tr>
                                 </thead>
                                 <tbody>
-                                    {
-                                        renderOtrList.map((obj, index) => (
-                                            <tr key={index}>
-                                                <td>{obj.name}</td>
-                                                <td>{obj.school}</td>
-                                            </tr>
-                                        ))
-                                    }
+                                {
+                                    renderOtrList.map((obj, index) => (
+                                        <tr key={index}>
+                                            <td>{obj.name}</td>
+                                            <td>{obj.school}</td>
+                                        </tr>
+                                    ))
+                                }
                                 </tbody>
                             </table>
-                            <button onClick={() => reachedEnd ? this.handleCollapseOtrList() : this.handleExpandOtrList()} 
-                                    type="button"
-                                    className="btn btn-primary"
-                                    style={{ marginTop: 20, marginBottom: 20 }}>
-                                { reachedEnd ? "Collapse All" : "Load More" }
+                            <button
+                                onClick={() => reachedEnd ? this.handleCollapseOtrList() : this.handleExpandOtrList()}
+                                type="button"
+                                className="btn btn-primary"
+                                style={{marginTop: 20, marginBottom: 20}}>
+                                {reachedEnd ? "Collapse All" : "Load More"}
                             </button>
                         </div>
                     )
                     break;
-                case 'symp':
+                case 'symp_2020':
                     renderHtml = (
-                        <div style={{ marginBottom: 50 }}>
-                            <p className="title"><b>SDNI-NNCI Annual Educational Symposium 2020</b></p>
-                            <p style={{ color: "#48457a" }}><b>Presentations</b></p>
+                        <div style={{marginBottom: 50}}>
+                            <p className="title"><b>SDNI-NNCI Annual Education Symposium 2020</b></p>
+                            <p style={{color: "#48457a"}}><b>Presentations</b></p>
                             <Container>
                                 <Row>
                                     <Col>
@@ -557,70 +587,171 @@ class Outreach extends Component {
                                     </Col>
                                     <Col>
                                         <div className="presentation-card">
-                                        <a href={Beto}>Beto Vasquez</a>
+                                            <a href={Beto}>Beto Vasquez</a>
                                         </div>
                                     </Col>
                                     <Col>
                                         <div className="presentation-card">
-                                        <a href={Daniella}>Daniella Duran</a>
-                                        </div>
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col>
-                                        <div className="presentation-card">
-                                        <a href={Jared}>Jared Ashcroft</a>
-                                        </div>
-                                    </Col>
-                                    <Col>
-                                        <div className="presentation-card">
-                                        <a href={John}>John Spiegle</a>
-                                        </div>
-                                    </Col>
-                                    <Col>
-                                        <div className="presentation-card">
-                                        <a href={Lesli}>Lesli Horowitz</a>
+                                            <a href={Daniella}>Daniella Duran</a>
                                         </div>
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col>
                                         <div className="presentation-card">
-                                        <a href={Lisa}>Lisa Friedersdorf</a>
+                                            <a href={Jared}>Jared Ashcroft</a>
                                         </div>
                                     </Col>
                                     <Col>
                                         <div className="presentation-card">
-                                        <a href={Marco}>Marco-Curreli</a>
+                                            <a href={John}>John Spiegle</a>
                                         </div>
                                     </Col>
                                     <Col>
                                         <div className="presentation-card">
-                                        <a href={Mike}>Mike Sailor</a>
+                                            <a href={Lesli}>Lesli Horowitz</a>
                                         </div>
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col>
                                         <div className="presentation-card">
-                                        <a href={Nancy}>Nancy Healy</a>
+                                            <a href={Lisa}>Lisa Friedersdorf</a>
                                         </div>
                                     </Col>
                                     <Col>
                                         <div className="presentation-card">
-                                        <a href={Tonya}>Tonya Pruitt</a>
+                                            <a href={Marco}>Marco-Curreli</a>
                                         </div>
                                     </Col>
                                     <Col>
                                         <div className="presentation-card">
-                                        <a href={Yves}>Yves Theriault</a>
+                                            <a href={Mike}>Mike Sailor</a>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a href={Nancy}>Nancy Healy</a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a href={Tonya}>Tonya Pruitt</a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a href={Yves}>Yves Theriault</a>
                                         </div>
                                     </Col>
                                 </Row>
                             </Container>
-                            <p style={{ color: "#48457a", marginTop: 50 }}><b>Videos</b></p>
-                            <Button variant="link" style={{ display: "block", paddingLeft: 0 }} onClick={() => (window.location = "https://drive.google.com/file/d/1Cxa34vbkpxTYpM8j7VpZDORLQ2iJ16JV/view")}>SDNI-NNCI Educational Symposium 2020 - SATURDAY Session</Button>
-                            <Button variant="link" style={{ display: "block", paddingLeft: 0 }} onClick={() => (window.location = "https://drive.google.com/file/d/1NA6WRLX9Mj_FqzgnbAOsR2P4ALbygp5L/view")}>SDNI-NNCI Educational Symposium 2020 - SUNDAY Session</Button>
+                            <p style={{color: "#48457a", marginTop: 50}}><b>Videos</b></p>
+                            <Button variant="link" style={{display: "block", paddingLeft: 0}}
+                                    onClick={() => (window.location = "https://drive.google.com/file/d/1Cxa34vbkpxTYpM8j7VpZDORLQ2iJ16JV/view")}>SDNI-NNCI
+                                Education Symposium 2020 - SATURDAY Session</Button>
+                            <Button variant="link" style={{display: "block", paddingLeft: 0}}
+                                    onClick={() => (window.location = "https://drive.google.com/file/d/1NA6WRLX9Mj_FqzgnbAOsR2P4ALbygp5L/view")}>SDNI-NNCI
+                                Education Symposium 2020 - SUNDAY Session</Button>
+                        </div>
+                    )
+                    break;
+                case 'symp_2021':
+                    renderHtml = (
+                        <div style={{marginBottom: 50}}>
+                            <p className="title"><b>SDNI-NNCI Annual Education Symposium 2021</b></p>
+                            <p style={{color: "#48457a"}}><b>Presentations</b></p>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1CXq8044lV2wG87W5lYRBmUg414AWDekp/view?usp=sharing">SDNI-NNCI Annual Education Symposium 2021 Agenda</a>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1BK5y2bLSiu5EGXzb0l9OQC7KIdY6gVua/view?usp=sharing">Sandra Hodge</a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1CNSgcz-GyKqxLZlOACQAQsxP8rcCILWz/view?usp=sharing">Marc Michel</a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1_ikB_W7x3XV6kpk04JUoikfI20ZXy5qM/view?usp=sharing">Kelley Le</a>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1YmNxD-4FmxjQCaH3nLliTJQPrNsjAyMK/view?usp=sharing">Yves Theriault</a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1WxKAlKWFrtQkiE2Rmfo2XFRK5PWdhUUk/view?usp=sharing">Michael Sailor</a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1Ss7sVqhzaFlQZoD4tz9FydGHAcxdO3il/view?usp=sharing">Daniella Duran</a>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1LpxZuRGUKI0YUoWwLbDqdTdxzLy4aVNS/view?usp=sharing">Marco Curreli</a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1H24dcZGADIPzC1P1ZgyHWfDVxUpnOavX/view?usp=sharing">Brendan Casey</a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1PA0tlK70aYt_DZrCV0OBEhHMXqarMzPi/view?usp=sharing">Heike Paulsen, Jessica Sensenbaugh</a>
+                                        </div>
+                                    </Col>
+                                </Row>
+                                <Row>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1iHN_41ptzW2gsj5NVUdniU6cVk35wTzZ/view?usp=sharing">
+                                                Rita Blaik
+                                            </a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1r8gxEvI8QrywEEJKnUgZT2kd6_8d4SVI/view?usp=sharing">
+                                                Maria Campa, Lisa Friedersdor
+                                            </a>
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div className="presentation-card">
+                                            <a target="_blank" href="https://drive.google.com/file/d/1kSfhOFEkCLSaXp0lQZtT7jpqGldKFseW/view?usp=sharing">Jared Ashcroft, Robert Ehrmann, Mariel Kolker</a>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </Container>
+
+                            <p style={{color: "#48457a", marginTop: 50}}><b>Videos</b></p>
+                            <Button variant="link" style={{display: "block", paddingLeft: 0}}
+                                    onClick={() => (window.location = "https://drive.google.com/file/d/1zIeGjehRY2LNtzK3lPdFNX6QXPhLh4LC/view?usp=sharing")}>SDNI-NNCI
+                                Education Symposium 2021 - SATURDAY Session</Button>
+                            <Button variant="link" style={{display: "block", paddingLeft: 0}}
+                                    onClick={() => (window.location = "https://drive.google.com/file/d/1fLnZv-7SEDN6uWtop77SVXiTN28exdzA/view?usp=sharing")}>SDNI-NNCI
+                                Education Symposium 2021 - SUNDAY Session</Button>
                         </div>
                     )
                     break;
@@ -628,27 +759,64 @@ class Outreach extends Component {
                     renderHtml = (
                         <div>
                             <p className="title"><b>Selected Event Pictures</b></p>
-                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                <div style={{ width: '80%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-                                    <img className="img-fluid" style={{ marginTop: 30, marginBottom: 30, width: '100%' }} src={Img_1} alt=""/>
-                                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                        <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_2} alt=""/>
-                                        <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_3} alt=""/>
+                            <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                                <div style={{
+                                    width: '80%',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    alignItems: 'center',
+                                    justifyContent: 'center'
+                                }}>
+                                    <img className="img-fluid" style={{marginTop: 30, marginBottom: 30, width: '100%'}}
+                                         src={Img_1} alt=""/>
+                                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                                        <img style={{margin: 'auto'}} className="img-fluid col-6" src={Img_2} alt=""/>
+                                        <img style={{margin: 'auto'}} className="img-fluid col-6" src={Img_3} alt=""/>
                                     </div>
-                                    <p style={{ width: '100%', paddingLeft: '15px', paddingRight: '15px' }}>
-                                        Patrica Moore, a Biology teacher from Southwestern College (SWC) and SDNI RET from summer 2018 who learned about the operations
-                                        and applications of scanning Electron Microscopy at SDNI, is now performing a SEM session with her own SWC students during a visit of SDNI (April 2019)
-                                    </p>
-                                    <img className="img-fluid" style={{ marginTop: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }} src={Img_4} alt=""/>
-                                    <p style={{ marginBottom: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }}>
-                                        Ryan Nicholl, SEM manager, and Yves Theriault SDNI Educational Program and Outreach Director (right) demonstrating
-                                        SDNI's remote SEM access capabilities during a California newly elected lawmakers' reception at the UCSD Chancellor's House.
-                                    </p>
-                                    <img className="img-fluid" style={{ marginTop: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }} src={Img_6} alt=""/>
-                                    <p style={{ marginBottom: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }}>
-                                        RET 2019 Alumni. From the left: Lesli Horowitz (top); Angela Tsang (bottom); Patricia Moore; Lilia Ornelas; Gabriela Mansfield; and Kerson Perez.
-                                    </p>
-                                    <img className="img-fluid" style={{ marginTop: 30, width: '100%', paddingLeft: '15px', paddingRight: '15px' }} src={Img_5} alt=""/>
+                                    <p style={{width: '100%', paddingLeft: '15px', paddingRight: '15px'}}>
+                                    Patrica Moore, a Biology teacher from Southwestern College (SWC) and SDNI RET from
+                                    summer 2018 who learned about the operations
+                                    and applications of scanning Electron Microscopy at SDNI, is now performing a SEM
+                                    session with her own SWC students during a visit of SDNI (April 2019)
+                                </p>
+                                    <img className="img-fluid" style={{
+                                        marginTop: 30,
+                                        width: '100%',
+                                        paddingLeft: '15px',
+                                        paddingRight: '15px'
+                                    }} src={Img_4} alt=""/>
+                                    <p style={{
+                                    marginBottom: 30,
+                                    width: '100%',
+                                    paddingLeft: '15px',
+                                    paddingRight: '15px'
+                                }}>
+                                    Ryan Nicholl, SEM manager, and Yves Theriault SDNI Educational Program and Outreach
+                                    Director (right) demonstrating
+                                    SDNI's remote SEM access capabilities during a California newly elected lawmakers'
+                                    reception at the UCSD Chancellor's House.
+                                </p>
+                                    <img className="img-fluid" style={{
+                                        marginTop: 30,
+                                        width: '100%',
+                                        paddingLeft: '15px',
+                                        paddingRight: '15px'
+                                    }} src={Img_6} alt=""/>
+                                    <p style={{
+                                    marginBottom: 30,
+                                    width: '100%',
+                                    paddingLeft: '15px',
+                                    paddingRight: '15px'
+                                }}>
+                                    RET 2019 Alumni. From the left: Lesli Horowitz (top); Angela Tsang (bottom);
+                                    Patricia Moore; Lilia Ornelas; Gabriela Mansfield; and Kerson Perez.
+                                </p>
+                                    <img className="img-fluid" style={{
+                                        marginTop: 30,
+                                        width: '100%',
+                                        paddingLeft: '15px',
+                                        paddingRight: '15px'
+                                    }} src={Img_5} alt=""/>
                                     {/* <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                                         <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_5} alt=""/>
                                         <img style={{ margin: 'auto' }} className="img-fluid col-6" src={Img_6} alt=""/>
@@ -671,28 +839,43 @@ class Outreach extends Component {
                 <div className="container1">
                     <div className="row">
                         <div className="col-sm-3 sidebar">
-                            <button onClick={() => this.handleChangeTab('otr-2019')} className={title == 'otr-2019' ? "button1" : "button"}><span>Outreach 2019 - 2021</span></button>
+                            <button onClick={() => this.handleChangeTab('otr-2019')}
+                                    className={title == 'otr-2019' ? "button1" : "button"}>
+                                <span>Outreach 2019 - 2021</span></button>
                             {
                                 title == 'otr-2019' ?
-                                (<div style={{ marginLeft: 20, marginTop: 20 }}>
-                                    <ul style={{ listStyleType: 'none', color: "#48457a" }}>
-                                        <li className="sub-menu" style={subTitle === 'reach-out' ? { fontWeight: 'bold' } : {}} onClick={() => this.setState({ subTitle: 'reach-out' })}>
-                                            Reaching Out To Schools, Teachers, and Students
-                                        </li>
-                                        <li className="sub-menu" style={subTitle === 'symp' ? { fontWeight: 'bold' } : {}} onClick={() => this.setState({ subTitle: 'symp' })}>
-                                            SDNI-NNCI Annual Educational Symposium 2020
-                                        </li>
-                                        <li className="sub-menu" style={subTitle === 'pictures' ? { fontWeight: 'bold' } : {}} onClick={() => this.setState({ subTitle: 'pictures' })}>
-                                            Selected Event Pictures
-                                        </li>
-                                    </ul>
-                                </div>) : null
+                                    (<div style={{marginLeft: 20, marginTop: 20}}>
+                                        <ul style={{listStyleType: 'none', color: "#48457a"}}>
+                                            <li className="sub-menu"
+                                                style={subTitle === 'reach-out' ? {fontWeight: 'bold'} : {}}
+                                                onClick={() => this.setState({subTitle: 'reach-out'})}>
+                                                Reaching Out To Schools, Teachers, and Students
+                                            </li>
+                                            <li className="sub-menu"
+                                                style={subTitle === 'symp_2020' ? {fontWeight: 'bold'} : {}}
+                                                onClick={() => this.setState({subTitle: 'symp_2020'})}>
+                                                SDNI-NNCI Annual Education Symposium 2020
+                                            </li>
+                                            <li className="sub-menu"
+                                                style={subTitle === 'symp_2021' ? {fontWeight: 'bold'} : {}}
+                                                onClick={() => this.setState({subTitle: 'symp_2021'})}>
+                                                SDNI-NNCI Annual Education Symposium 2021
+                                            </li>
+                                            <li className="sub-menu"
+                                                style={subTitle === 'pictures' ? {fontWeight: 'bold'} : {}}
+                                                onClick={() => this.setState({subTitle: 'pictures'})}>
+                                                Selected Event Pictures
+                                            </li>
+                                        </ul>
+                                    </div>) : null
                             }
                             {/* <button onClick={() => this.handleChangeTab('otr-2020')} className={title == 'otr-2020' ? "button1" : "button"}><span>Outreach 2020</span></button> */}
-                            <button onClick={() => this.handleChangeTab('sem')} className={title == 'sem' ? "button1" : "button"}><span>SEM Image Gallery</span></button>
+                            <button onClick={() => this.handleChangeTab('sem')}
+                                    className={title == 'sem' ? "button1" : "button"}><span>SEM Image Gallery</span>
+                            </button>
                         </div>
                         <div className="col-sm-7 main-content">
-                            { renderHtml }
+                            {renderHtml}
                         </div>
                         <div className="col-sm-2"></div>
                     </div>

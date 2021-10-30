@@ -11,6 +11,7 @@ import News from './components/news/News'
 import Donate from './components/donate/Donate';
 import Networking from './components/networking/Networking';
 import Outreach from './components/outreach/Outreach';
+import Jobs from './components/jobs/Jobs';
 
 import ReactGA from 'react-ga';
 
@@ -33,6 +34,7 @@ function App() {
         <Route exact path='/donate' render={(props) => <Donate {...props} />} />
         <Route exact path='/networking' render={(props) => <Networking {...props} />} />
         <Route exact path='/outreach' render={(props) => <Outreach {...props} />} />
+        <Route exact path='/jobs' render={(props) => <Jobs {...props} />} />
         <Route path='*' exact={true} component={Error404} />
       </Switch>
     </Router>

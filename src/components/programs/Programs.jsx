@@ -4,6 +4,7 @@ import Footer from '../footer/Footer';
 
 import RETAlumni from '../../assets/Image/RETAlumni.jpg';
 import REUAlumni from '../../assets/Image/REUAlumni.jpg';
+import REUAlumni_2021 from '../../assets/Image/REUAlumni_2021.jpg';
 
 import Omninano from '../../assets/Image/omni-nano.jpeg';
 import Construction from '../../assets/Image/construction.png'
@@ -46,6 +47,7 @@ const K12 = (
                 </tr>
             </tbody>
         </table>
+        <br /><br />
     </div>
 )
 
@@ -131,6 +133,7 @@ const CC = (
                 </tr>
             </tbody>
         </table>
+        <br /><br />
     </div>
 )
 
@@ -216,9 +219,9 @@ const SI = (
     </div>
 )
 
-const REU_A = (
+const REU_A_2019 = (
     <div>
-        <p className="title"><b>REU 2019 Alumni</b></p>
+        <p className="title"><b>2019 REU Alumni</b></p>
         <img className="img-fluid" src={REUAlumni} alt="Image" />
         <p>
             <span className="programs-span">
@@ -229,11 +232,31 @@ const REU_A = (
             <br /><br />
             At the end of the program, each REU student made a presentation at the 2019 UC San Diego Summer Research Conference, summarizing their respective research projects and accomplishments to include lessons learned.
 					<br /><br />
-            SDNI anticipates that all participants will share their unique and exciting hands-on research experience and other components of the program to include presentation skills and the writing of a personal statement with several students at their respective colleges, and by dsgng so will promote STEM and more specifically nanotechnology education. This type of impact is in line with The California NanoTech 2025 Project general mission.
+            SDNI anticipates that all participants will share their unique and exciting hands-on research experience and other components of the program to include presentation skills and the writing of a personal statement with several students at their respective colleges, and by doing so will promote STEM and more specifically nanotechnology education. This type of impact is in line with The California NanoTech 2025 Project general mission.
 					<br /><br />
             <b>The participants’ final presentations can be found below.</b>
             <br /><br />
             <a href="https://drive.google.com/open?id=1Ydaa5r5KhPeKj5T_nfGCj-54VVyfRq6A"><button className="programs-button">REU Final Presentation</button></a>
+            <br /><br /><br /><br /><br />
+        </p>
+    </div>
+)
+
+
+const REU_A_2021 = (
+    <div>
+        <p className="title"><b>2021 REU Alumni</b></p>
+        <img className="img-fluid" src={REUAlumni_2021} alt="Image" />
+        <p>
+
+            <br /><br />
+            At the end of the program, each REU student made a presentation at the 2021 UC San Diego Summer Research Conference, summarizing their respective research projects and accomplishments to include lessons learned.
+            <br /><br />
+            SDNI anticipates that all participants will share their unique and exciting hands-on research experience and other components of the program to include presentation skills and the writing of a personal statement with several students at their respective colleges, and by doing so will promote STEM and more specifically nanotechnology education.
+            <br /><br />
+            <b>The participants’ final presentations can be found below.</b>
+            <br /><br />
+            <a href="https://drive.google.com/drive/folders/1WvEch3otnf2rOrHsUgSkjfvoLnz5Jfs4?usp=sharing"><button className="programs-button">REU Final Presentation</button></a>
             <br /><br /><br /><br /><br />
         </p>
     </div>
@@ -302,7 +325,7 @@ const R_SEM = (
         <p>
             School teachers are invited to benefit of our program consisting of Remote Access to our high-end Scanning Electron Microscope (SEM). This program enables you to control the Zoom and Focus functions of our SEM from the comfort of your classroom. The only thing you need is a connection to the internet and a display screen (or LCD; you can also simply use your computer screen if nothing else is available). We have conducted several remote SEM sessions and all teachers and students have found this experience very engaging and eye opening. The observation of specimens at the micro and nano scale provide student with a unique knowledge tool that has proven to change the way students think about science.
 					<br /><br />
-            In order to schedule a remote SEM session, please go to the “Get Involved” tab and select the subtab: “Bring Nano Vision to Your School!” and fill the form. We will get back to you within 24 hours.
+            In order to schedule a remote SEM session, please go to the <span className="subtitle">Get Involved</span> tab and select the subtab: <span className="subtitle">Bring Nano Vision to Your School!</span> and fill the form. We will get back to you within 24 hours.
 					<br /><br /><br /><br /><br />
         </p>
     </div>
@@ -405,8 +428,10 @@ class Programs extends Component {
                         </p>
                     </div>
                 );
-            case 'reu-a':
-                return REU_A;
+            case 'reu-a-2019':
+                return REU_A_2019;
+            case 'reu-a-2021':
+                return REU_A_2021;
             case 'nt2025':
                 return NT2025;
             case '2dt':
@@ -419,20 +444,33 @@ class Programs extends Component {
     }
 
     render() {
-        const { renderHtml } = this.state;
+        const { renderHtml, title } = this.state;
         return (
             <div>
                 <NavBar path='/programs' handler={this.handleChangeTab}></NavBar>
                 <div className="container1">
                     <div className="row">
                         <div className="col-sm-3 submenu-tabs sidebar">
-                            <button onClick={() => this.handleChangeTab('k12')} className={this.state.title == 'k12' ? "button1" : "button"}><span>K-12 Curriculum</span></button>
-                            <button onClick={() => this.handleChangeTab('cc')} className={this.state.title == 'cc' ? "button1" : "button"}><span>College Curriculum</span></button>
-                            <button onClick={() => this.handleChangeTab('ret')} className={this.state.title == 'ret' ? "button1" : "button"}><span>RET</span></button>
-                            <button onClick={() => this.handleChangeTab('reu')} className={this.state.title == 'reu' ? "button1" : "button"}><span>REU</span></button>
-                            <button onClick={() => this.handleChangeTab('si')} className={this.state.title == 'si' ? "button1" : "button"}><span>Summer Institute</span></button>
-                            <button onClick={() => this.handleChangeTab('ret-a')} className={this.state.title == 'ret-a' ? "button1" : "button"}><span>RET Alumni</span></button>
-                            <button onClick={() => this.handleChangeTab('reu-a')} className={this.state.title == 'reu-a' ? "button1" : "button"}><span>REU Alumni</span></button>
+                            <button onClick={() => this.handleChangeTab('k12')} className={title == 'k12' ? "button1" : "button"}><span>K-12 Curriculum</span></button>
+                            <button onClick={() => this.handleChangeTab('cc')} className={title == 'cc' ? "button1" : "button"}><span>College Curriculum</span></button>
+                            <button onClick={() => this.handleChangeTab('ret')} className={title == 'ret' ? "button1" : "button"}><span>RET</span></button>
+                            <button onClick={() => this.handleChangeTab('reu')} className={title == 'reu' ? "button1" : "button"}><span>REU</span></button>
+                            <button onClick={() => this.handleChangeTab('si')} className={title == 'si' ? "button1" : "button"}><span>Summer Institute</span></button>
+                            <button onClick={() => this.handleChangeTab('ret-a')} className={title == 'ret-a' ? "button1" : "button"}><span>RET Alumni</span></button>
+                            <button onClick={() => this.handleChangeTab('reu-a-2019')} className={title.startsWith('reu-a') ? "button1" : "button"}><span>REU Alumni</span></button>
+                            {
+                                title.startsWith('reu-a') ?
+                                    (<div style={{ marginLeft: 20, marginTop: 0 }}>
+                                        <ul style={{ listStyleType: 'none', color: "#48457a" }}>
+                                            <li className="sub-menu" style={title === 'reu-a-2019' ? { fontWeight: 'bold' } : {}} onClick={() => this.handleChangeTab('reu-a-2019')}>
+                                                2019 SDNI REU
+                                            </li>
+                                            <li className="sub-menu" style={title === 'reu-a-2021' ? { fontWeight: 'bold' } : {}} onClick={() => this.handleChangeTab('reu-a-2021')}>
+                                                2021 SDNI REU
+                                            </li>
+                                        </ul>
+                                    </div>) : null
+                            }
                             <button onClick={() => this.handleChangeTab('nt2025')} className={this.state.title == 'nt2025' ? "button1" : "button"}><span>NanoTech 2025 Project</span></button>
                             <button onClick={() => this.handleChangeTab('2dt')} className={this.state.title == '2dt' ? "button1" : "button"}><span>Free Half-Day Workshops</span></button>
                             <button onClick={() => this.handleChangeTab('r-sem')} className={this.state.title == 'r-sem' ? "button1" : "button"}><span>Remote SEM</span></button>
