@@ -8,7 +8,144 @@ class Jobs extends Component {
         super(props);
         this.path = '/jobs';
         this.state = {
+            // \B: bold, \t: indent, \n: line break
             jobs: [
+                {
+                    "date": "Dec 06",
+                    "title": "Engineering Associate – Nanopore",
+                    "company": "Iridia, Inc.",
+                    "has_url": true,
+                    "description": "https://www.linkedin.com/jobs/view/2816515167/",
+                },
+                {
+                    "date": "Nov 22",
+                    "title": "Advanced Packaging and Integration Scientist",
+                    "company": "HRL Laboratories, LLC",
+                    "has_url": true,
+                    "description": "https://www.hrl.com/current-openings/2019/05/07/scientist-vi-advanced-packaging-and-integration-scientist",
+                },
+                {
+                    "date": "Nov 22",
+                    "title": "Scalable Optical Material and Devices Scientist",
+                    "company": "HRL Laboratories, LLC",
+                    "has_url": true,
+                    "description": "https://www.hrl.com/current-openings/2021/10/18/scientist-iv-scalable-optical-material-and-devices",
+                },
+                {
+                    "date": "Nov 22",
+                    "title": "Multifunctional Materials and Structures Scientist",
+                    "company": "HRL Laboratories, LLC",
+                    "has_url": true,
+                    "description": "https://www.hrl.com/current-openings/2021/09/02/scientist-iv-multifunctional-materials-and-structures",
+                },
+                {
+                    "date": "Nov 22",
+                    "title": "Research Chemist",
+                    "company": "HRL Laboratories, LLC",
+                    "has_url": true,
+                    "description": "https://www.hrl.com/current-openings/2021/10/08/research-chemist",
+                },
+                {
+                    "date": "Nov 22",
+                    "title": "Micromagnetic Modeling Scientist",
+                    "company": "HRL Laboratories, LLC",
+                    "has_url": true,
+                    "description": "https://www.hrl.com/current-openings/2021/09/24/micromagnetic-modeling-scientist-iv",
+                },
+                {
+                    "date": "Nov 22",
+                    "title": "Process Engineer",
+                    "company": "HRL Laboratories, LLC",
+                    "has_url": true,
+                    "description": "https://www.hrl.com/current-openings/2021/11/17/process-engineer",
+                },
+                {
+                    "date": "Nov 22",
+                    "title": "Electron Microscopist",
+                    "company": "HRL Laboratories, LLC",
+                    "has_url": true,
+                    "description": "https://www.hrl.com/current-openings/2021/10/22/engineer-iv-ee",
+                },
+                {
+                    "date": "Nov 22",
+                    "title": "Postdoctoral Researcher",
+                    "company": "General Atomics",
+                    "has_url": false,
+                    "expanded": false,
+                    "description": "General Atomics (GA) is one of the world’s leading resources for high-technology systems development ranging from the nuclear fusion to remotely piloted aircraft, airborne sensors, and advanced electric, electronic, wireless and laser technologies. \n" +
+                        "We have two exciting postdoctoral research opportunities for a Thin Film Deposition Scientist within our Inertial Fusion Technology (IFT) group. In these positions, the scientists participate in the development, fabrication, characterization, and analysis of novel materials required for: 1) laser-driven fusion research, 2) biomedical applications, and 3) solid-state hydrogen storage and quantum technologies. \n" +
+                        "The ideal candidate should be able to conduct research in a multidisciplinary team under general supervision with limited review. And it is going to be responsible for determining and developing effective approaches for resolving a wide range of nanofabrication, photolithography, and sputtering deposition coating challenges, as well as to employing these techniques to build complex samples with minimum defects. \n\n" +
+                        "\B DUTIES AND RESPONSIBILITIES: \n" +
+                        "• Develop sputtering processes to create graded composition films and multilayers including composition optimization, stress optimization, and contamination control. \n" +
+                        "• Perform characterization of coating defects, composition, film stress, and substrate roughness by using SEM, Optical Microscopy, AFM, and Ellipsometry. \n" +
+                        "• Understand and master nanofabrication and photolithography techniques. \n" +
+                        "• Pursue research projects under the direction of senior staff and management. Work with and provide support to the wider IFT team and National Laboratory collaborators in the above topic areas. \n" +
+                        "• Perform equipment maintenance, repair, and upgrade and maintain safe, clean, and organized coating laboratories. \n" +
+                        "• Document findings, communicate results to scientific staff and make technical presentations as required. \n" +
+                        "• Publish in recognized scientific journals and present work at conferences. \n\n" +
+                        "\BREQUIREMENTS \n" +
+                        "• Ph.D. recently received or close to be received in Physical Sciences in areas such as Chemistry, Physics, Material Science, Chemical Engineering, or Nano Engineering.  \n" +
+                        "• Understand and apply general scientific principles and be willing to learn and explore new scientific approaches. \n" +
+                        "• Prior hands-on experience in one or more of these: \n" +
+                        "- Vacuum coating equipment - This includes but is not limited to sputtering, electron-beam deposition, thermal evaporation, atomic layer deposition. \n" +
+                        "- Photolithography and nanofabrication techniques. \n" +
+                        "- Prior experience in a cleanroom environment. \n" +
+                        "• Software experience with LabVIEW, and/or Solid Work can be helpful. \n" +
+                        "• Must possess the ability to: \n" +
+                        "- Communicate comfortably in English \n" +
+                        "- Strong communication, computer, presentation, and interpersonal skills are required to enable an effective interface with other departments and/or professionals \n" +
+                        "- Ability to provide leadership and guidance to less experienced professionals. \n\n" +
+                        "The appointment is renewable on a yearly basis based upon the performance of the candidate. \n",
+                    "POC": "Dr. Carlos Monton",
+                    "email": "carlos.monton@ga.com"
+                },
+                {
+                    "date": "Nov 08",
+                    "title": "Biophysics Scientist",
+                    "company": "Avery Digital Data, Inc.",
+                    "has_url": false,
+                    "expanded": false,
+                    "description": "\BCompany Description\n" +
+                        "Avery is a fast-paced start-up developing a semiconductor-based Synthetic Biology" +
+                        "platform to power the Bio Revolution. Avery’s leadership includes pioneers in SynBio" +
+                        "and biochips, with unmatched experience in developing high impact technologies and" +
+                        "companies. Join the team that will synthesize biology’s future." +
+                        "\BJob Description\n" +
+                        "We are seeking a Scientist to join our research and development group. The individual" +
+                        "will drive the development of a proprietary technology for the assembly and" +
+                        "manipulation of DNA. The Scientist is a critical part of the team developing methods to" +
+                        "interface biochemistry with electronics. The ideal candidate can thrive in a fast paced," +
+                        "dynamic environment, as part of a team of highly skilled, focused, and motivated people" +
+                        "who believe in changing the world by creating truly disruptive technology.\n" +
+                        "\BMajor Responsibilities\n" +
+                        "• Lead development of on-chip biophysics for DNA manipulation\n" +
+                        "• Contribute to chip conceptual design and development efforts\n" +
+                        "• Interface with multi-disciplinary scientists, engineers, and developers\n" +
+                        "• Design, perform, analyze, and interpret experiments\n" +
+                        "• Generate proof-of-concept and milestone data\n" +
+                        "• Develop intellectual property\n" +
+                        "• Prepare presentation and papers\n" +
+                        "• Write grant and contract proposals\n" +
+                        "• Maintain an organized, clean, safe, and functional lab environment\n" +
+                        "\BPreferred Skills & Attributes\n" +
+                        "• Experience with electrophoresis and dielectrophoresis\n" +
+                        "• Experience with chip-based biophysics, electrochemistry, and digital microfluidics\n" +
+                        "• Experience with Multiphysics modelling of electrochemical systems, such as with\n" +
+                        "COMSOL or similar modelling platforms\n" +
+                        "• Experience in synthetic biology\n" +
+                        "• Experience with DNA assembly methods\n" +
+                        "• Excellent oral and written communication skills\n" +
+                        "• Independent, organized, reliable\n" +
+                        "• Solution-oriented, positive attitude, highly motivated" +
+                        "\BQualifications\n" +
+                        "• A Ph.D. or equivalent in bioengineering, biophysics, physics, chemistry, " +
+                        "biochemistry, electrochemistry or similar disciplines, with at least 2 years of post-" +
+                        "doctoral experience in industry or academia.\n" +
+                        "• Authorized to work in the U.S. for any employer\n" +
+                        "• The position is located in the San Diego, CA area",
+                    "POC": "Ryan de Ridder",
+                    "email": "ryan.deridder@avery.tech"
+                },
                 {
                     "date": "Oct 30",
                     "title": "Senior Protein Biochemist",
@@ -142,9 +279,23 @@ class Jobs extends Component {
                     <div className="row">
                         <div className="col-sm-3 sidebar"></div>
                         <div className="col-sm-7">
-                            <p className="title" style={{fontSize: "30px"}}><b>SDNI - Nano3 Job Postings</b></p>
+                            <p className="title" style={{fontSize: "30px"}}><b>SDNI Job Bulletin Board</b></p>
                             <p><b className="programs-span">DISCLAIMER:</b> This job posting section is intended to be a service to our institutional users and individuals seeking jobs to include, without limitation, students and postdocs. Please be aware that the posting of an employment opportunity on this webpage does not constitute an endorsement of such employment opportunity by UC San Diego, the Qualcomm Institute, Nano3, or the San Diego Nanotechnology Infrastructure.</p>
-                            <table>
+                            <p>For Job Opportunities with UCSD, including all SDNI facilities (e.g. Nano3), please search postings at:&nbsp;
+                                <a href="https://employment.ucsd.edu/" className="bold-blue">Careers at UC San Diego</a></p><br/>
+                            <p><b className="programs-span">Institutional users: To post a job, please proceed as follows:</b><br/>
+                                    Send an email to Yves Theriault at <a href={"mailto:ytheriault@ucsd.edu"} className="bold-blue">ytheriault@ucsd.edu</a> with the following info:<br/>
+                                    1. A compete Job Title<br/>
+                                    2. Complete name of your Company (include Inc., LLC and the like if any)<br/>
+                                3. Provide <span className="bold-blue">ONE</span> of the following:<br/>
+                                &emsp;1. A link to your own website for applicant to apply directly with you; <span className="bold-blue">OR</span><br/>
+                                &emsp;2. A job description in the core of your email AND the name of the contact person <span className="bold-blue">AND</span> contact person’s email address where applicant can send their resumes; <span className="bold-blue">OR</span><br/>
+                                &emsp;3. An email attachment containing the job description <span className="bold-blue">AND</span> the name of the contact person <span className="bold-blue">AND</span> contact person’s email address where applicant can send their resumes<br/>
+                                <br/>
+                                <b className="programs-span">The deadline for submitting a Job Opportunity is 6 pm on Thursday of the preceding week for Monday postings.
+                                    Posting a job on our billboard is free of charge and we are happy to bring this valuable tool to our users.</b></p><br/>
+
+                                    <table>
                                 <tbody>
                                 {
                                     this.state.jobs.map((job, index) =>
@@ -172,8 +323,8 @@ class Jobs extends Component {
                                                     <br/><br style={{display: job.expanded ? "block" : "none"}}/>
 
                                                     {job.description.split("\n").map((item, idx) => (
-                                                        item.startsWith("•") ?
-                                                            <p style={{display: job.expanded ? "block" : "none", fontWeight: item.startsWith("\B") ? "bold" : "normal" }} className="job-description">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{item.startsWith("\B") ?item.substring(1) : item}</p> :
+                                                        item.startsWith("•") || item.startsWith("-")?
+                                                            <p style={{display: job.expanded ? "block" : "none", fontWeight: item.startsWith("\B") ? "bold" : "normal" }} className="job-description">&emsp;{item.startsWith("\B") ?item.substring(1) : item}</p> :
                                                             <p style={{display: job.expanded ? "block" : "none", fontWeight: item.startsWith("\B") ? "bold" : "normal"}} className="job-description">{item.startsWith("\B") ? item.substring(1) : item}&nbsp;</p>
                                                     ))}
                                                     {/*<p style={{display: job.expanded ? "block" : "none"}} className="job-description">{job.description}</p>*/}

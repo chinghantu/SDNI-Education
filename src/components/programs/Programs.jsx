@@ -170,16 +170,15 @@ const REU = (
     <div>
         <span><p className="title"><b>Research Education for Undergrads (REU)</b></p></span>
         <p>
-            <b className="programs-span">2021 – SDNI Research Education for Undergrads (REU)</b>
+            <b className="programs-span">2022 – SDNI Research Education for Undergrads (REU)</b>
             <br /><br />
-            <b className="programs-span">Applications are closed</b>
+            The goal of this program is to provide undergrads with research experience in the field of nanotechnology as well as professional development through programmatic activities which will enrich their experiential learning and better prepare them for graduate school. Please take note that each selected participant will be assigned to a faculty mentor involved with nanotechnology research, and specific research area will depend on faculty’s availability. Participation in all weekly programmatic activities is essential to successfully complete the program. At the end of the program, REU students will have the opportunity to present their research project outcomes at the NNCI Annual REU convocation as well as the UCSD Summer Conference.
             <br /><br />
-            This program acts as a catalyst for the “The California NanoTech 2025 Project”, which ultimately aims to integrate nanotechnology contents with the current school and college science curricula/programs across California. Please take note that each participant will be matched with an appropriate SDNI professor-mentor for the entire 10 weeks of the program. All professor-mentor will be faculty involved in nanotechnology research. Specific nanotechnology research areas will depend on faculty’s availability. Participation in the weekly seminars and social activities is mandatory for successful completion of the program.
-					<br /><br /><br />
-					<b className="programs-span">2022 – SDNI Research Education for Undergrads (REU)</b>
+            Application start November 8, 2021. SDNI will accept 6 candidates to its REU program in 2022.
+
             <br /><br />
-            <b className="programs-span">Applications will reopen in October 2021 – Please visit us later</b>
-            <br /><br /><br /><br /><br />
+            <b className="programs-span">To apply, please click on the following link:&nbsp;</b>
+            <a href="https://sdni.reumanager.co/" target="_blank">SDNI REU 2022</a>
         </p>
     </div>
 )

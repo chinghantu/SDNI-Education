@@ -916,3 +916,8 @@ td {
     background-color: midnightblue;
     text-decoration: none;
 }
+
+.bold-blue {
+    font-weight: bold;
+    color: #3b74ec;
+}
