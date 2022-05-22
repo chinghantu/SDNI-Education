@@ -921,3 +921,13 @@ td {
     font-weight: bold;
     color: #3b74ec;
 }
+
+.center-banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide-bg {
+    background-image: url("assets/Image/homeBackground1.png");
+}
