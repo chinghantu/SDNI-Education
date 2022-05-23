@@ -7,6 +7,13 @@ import InternationalBlue from '../../assets/Image/InternationalBlue.png'
 const CAL_NEWS = {
     '2022': [
         {
+            "date": "May 17",
+            "name": "New silicon nanowires can really take the heat",
+            "place": "Lawrence Berkeley National Laboratory",
+            "description": "Newly developed silicon nanowires conduct heat 150% more efficiently paving the way for faster processing of microelectronics",
+            "link": "https://newscenter.lbl.gov/2022/05/17/silicon-nanowires-take-the-heat/"
+        },
+        {
             "date": "Mar 15",
             "name": "UCLA Materials Scientists Lead Global Team in Finding Solutions to Biggest Hurdle for Solar Cell Technology",
             "place": "UCLA",
@@ -1081,6 +1088,41 @@ const CAL_NEWS = {
 }
 const US_NEWS = {
     '2022': [
+        {
+            "date": "May 18",
+            "name": "Researchers magnify hidden biological structures with MAGNIFIERS",
+            "place": "Carnegie Mellon University",
+            "description": "A handy alternative to fluorescence imaging, the MAGNIFIERS technique combines high resolution stimulated Raman scattering microscopy and expansion microscopy to image biomolecules",
+            "link": "https://www.cmu.edu/bio/news/2022/0518_magnifiers.html"
+        },
+        {
+            "date": "May 17",
+            "name": "Algorithms empower metalens design",
+            "place": "Harvard University",
+            "description": "Artificial intelligence algorithms are employed to design new metasurface materials that achieve the desired function of a metalens through geometrical design",
+            "link": "https://www.seas.harvard.edu/news/2022/05/algorithms-empower-metalens-design"
+        },
+        {
+            "date": "May 16",
+            "name": "Nanobiotics: New machine learning model predicts how nanoparticles interact with proteins",
+            "place": "University of Michigan",
+            "description": "At University of Michigan, a machine learning model that predicts nanoparticle and protein interactions expedite drug discovery process to disrupt infections",
+            "link": "https://news.umich.edu/nanobiotics-model-predicts-how-nanoparticles-interact-with-proteins/"
+        },
+        {
+            "date": "May 16",
+            "name": "Perception-based nanosensor platform could advance detection of ovarian cancer",
+            "place": "Lehigh University",
+            "description": "Machine learning methods utilize carbon nanotubes to detect biomarkers of ovarian cancer, leading to high specificity biosensing",
+            "link": "https://engineering.lehigh.edu/news/article/perception-based-nanosensor-platform-could-advance-detection-ovarian-cancer"
+        },
+        {
+            "date": "May 16",
+            "name": "Shaping the future of light through reconfigurable metasurfaces",
+            "place": "Georgia Institute of Technology",
+            "description": "Tunable metasurfaces are developed using laser irradiation at different wavelengths in order to determine the properties of reflected light",
+            "link": "https://coe.gatech.edu/news/2022/05/shaping-future-light-through-reconfigurable-metasurfaces"
+        },
         {
             "date": "Mar 31",
             "name": "Graphene gets enhanced by flashing",
@@ -8121,6 +8163,132 @@ const US_NEWS = {
 }
 const GLOBAL_NEWS = {
     '2022': [
+        {
+            "date": "May 19",
+            "name": "A Möbius strip constructed solely of carbon atoms",
+            "place": "Nagoya University",
+            "description": "A structurally uniform carbon nanobelt is developed for functionally and topologically complex nanomaterials",
+            "link": "https://www.global.hokudai.ac.jp/blog/a-moebius-band-constructed-solely-by-carbon-atoms/"
+        },
+        {
+            "date": "May 19",
+            "name": "Generating ultra-violet lasers with near-infrared light through ‘domino upconversion’ of nanoparticles",
+            "place": "City University of Hong Kong",
+            "description": "A new method for achieving photon upconversion is realized through the creation of a doughnut-shaped microresonator",
+            "link": "https://www.cityu.edu.hk/research/stories/2022/05/17/generating-ultra-violet-lasers-near-infrared-light-through-domino-upconversion-nanoparticles"
+        },
+        {
+            "date": "May 18",
+            "name": "Synthesis of two-dimensional holey graphyne",
+            "place": "Institute for Basic Science",
+            "description": "Holey graphyne is synthesized in a single crystalline layer to produce specifically sized punctures in the graphene structure",
+            "link": "https://www.ibs.re.kr/cop/bbs/BBSMSTR_000000000738/selectBoardArticle.do?nttId=21308&pageIndex=1&searchCnd=&searchWrd="
+        },
+        {
+            "date": "May 18",
+            "name": "Using proteomics to understand the risk of marine nanotoxicology",
+            "place": "University of Padova",
+            "description": "Scientists discover that increases in reactive oxygen species generated by nanoparticles could cause protein damage to metabolism and cytoskeleton proteins",
+            "link": "https://www.mdpi.com/journal/jmse/special_issues/marine_invertebrates_molecules_organism"
+        },
+        {
+            "date": "May 18",
+            "name": "Tunable and scalable fabrication of artificial cell membrane",
+            "place": "Korea Institute of Science and Technology",
+            "description": "An artificial cell membrane maintains structure for over 50 days, enabling scientists to control the size and shape of such artificial cell membranes ",
+            "link": "https://bsi.kist.re.kr/dt_team/kim-tae-song/"
+        },
+        {
+            "date": "May 18",
+            "name": "Reliable diagnostics at the tip of your finger",
+            "place": "Institute for Basic Science",
+            "description": "Diagnostic biosensors are developed with unprecedented sensitivity and resistance to protein fouling using nanoporous substrates",
+            "link": "https://www.ibs.re.kr/cop/bbs/BBSMSTR_000000000738/selectBoardArticle.do?nttId=21306&pageIndex=1&searchCnd=&searchWrd="
+        },
+        {
+            "date": "May 17",
+            "name": "Scientists develop nanomachines that use mechanical molecular movements to kill cells",
+            "place": "Korea Institute of Science and Technology",
+            "description": "A synthetic nanomachine can fold itself when exposed to a cancer cell membrane in order to induce cell organelle destruction",
+            "link": "http://www.businesskorea.co.kr/news/articleView.html?idxno=89372#:~:text=The%20Korea%20Institute%20of%20Science,in%20a%20certain%20cellular%20environment."
+        },
+        {
+            "date": "May 17",
+            "name": "Researchers develop nanobots that can assist in accurate root canal treatments",
+            "place": "Indian Institute of Science",
+            "description": "Using a magnetic field, nanorobots are used to destroy bacterial colonies to increase the efficiency of root canal procedures",
+            "link": "https://iisc.ac.in/events/tiny-bots-that-can-deep-clean-teeth/"
+        },
+        {
+            "date": "May 17",
+            "name": "The way of water: Making advanced electronics with H2O",
+            "place": "Monash University",
+            "description": "Different types of perovskite crystals are synthesized depending on the concentration ratio of water to solvent during perovskite growth",
+            "link": "https://www.monash.edu/engineering/about/news/articles/2022/the-way-of-water-making-advanced-electronics-with-ho"
+        },
+        {
+            "date": "May 17",
+            "name": "Major infrared breakthrough could lead to solar power at night",
+            "place": "UNSW Sydney",
+            "description": "Using power from body heat, future technologies can harvest the energy to eliminate the need for device powered batteries",
+            "link": "https://newsroom.unsw.edu.au/news/science-tech/night-time-solar-technology-can-now-deliver-power-dark"
+        },
+        {
+            "date": "May 17",
+            "name": "Magnetic nanoparticles in biological vehicles individually characterized for the first time",
+            "place": "Helmholtz-Zentrum Berlin für Materialien und Energie",
+            "description": "Individual magnetic nanoparticles are tracked and imaged in biological structures to induce a magnetic field to destroy cancer cells ",
+            "link": "https://www.helmholtz-berlin.de/pubbin/news_seite?nid=23730&sprache=en&seitenid=1"
+        },
+        {
+            "date": "May 16",
+            "name": "Fluorine-based nanostructures successfully filter salt from water",
+            "place": "University of Tokyo",
+            "description": "Scientists develop fluorous nanotubes as a next generation desalination membrane that require less energy to operate",
+            "link": "https://www.u-tokyo.ac.jp/focus/en/press/z0508_00213.html"
+        },
+        {
+            "date": "May 16",
+            "name": "Researchers develop a test that uses a cell phone to simply and quickly detect gluten in food",
+            "place": "Universitat Politècnica de València",
+            "description": "Scientists create a color changing diagnostic that allows customers to quickly identify the presence of gluten in foods",
+            "link": "https://valenciaplaza.com/upv-desarrolla-test-detectar-gluten-alimentos-movil"
+        },
+        {
+            "date": "May 16",
+            "name": "Multisensory hybrid material as smart electronic skin",
+            "place": "Graz University of Technology",
+            "description": "A “smart skin” is capable of sensing temperature, pressure, and humidity in real time through the production of electronic signals",
+            "link": "https://www.tugraz.at/en/tu-graz/services/news-stories/planet-research/singleview/article/elektronische-haut-physikerin-der-tu-graz-entwickelt-multisensorisches-hybridmaterial0/"
+        },
+        {
+            "date": "May 16",
+            "name": "Quantum one-way street in topological insulator nanowires",
+            "place": "University of Cologne",
+            "description": "Quantum one-way streets for electron traveling is exhibited in a topological insulator that is 100 times thinner than a singular human hair",
+            "link": "https://www.unibas.ch/en/News-Events/News/Uni-Research/Quantum-one-way-street-in-topological-insulator-nanowires.html"
+        },
+        {
+            "date": "May 13",
+            "name": "Carbon nanotube/graphene membrane makes bubbles to clear biofouling",
+            "place": "Korea Advanced Institute of Science and Technology",
+            "description": "Through the creation of bubbles from graphene composites, microorganisms are removed from water through an efficient filtration process",
+            "link": 'https://chem.kaist.ac.kr/research/menu4.php?idx=16&pmode=view'
+        },
+        {
+            "date": "May 13",
+            "name": "New MRI nanotechnology can potentially enable precise targeting of high-grade brain tumors",
+            "place": "University of South Australia",
+            "description": "Cancer therapy is improving due to silicon nanoparticle therapeutics that can deliver drugs to tumor cells with high precision and high resolution MRI detection",
+            "link": "https://giving.unisa.edu.au/news/how-nanotechnology-is-achieving-big-results-for-health-and-medicine/"
+        },
+        {
+            "date": "May 13",
+            "name": "Development of high-durability single-atomic catalyst using industrial humidifier ",
+            "place": "Korea Institute of Science and Technology",
+            "description": "Cobalt catalysts exhibit 40% better fuel cell performance than existing materials for applications in environmental catalysts and water electrolysis",
+            "link": "http://echeme.kr/?ckattempt=1"
+        },
         {
             "date": "Mar 30",
             "name": "Programmed Assembly of Wafer-Scale Atomically Thin Crystals",
